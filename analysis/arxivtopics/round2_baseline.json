@@ -1,0 +1,13 @@
+{
+ "auc": 0.8163,
+ "nmi": 0.3514,
+ "conf_peak_over_mean": 0.8751,
+ "sign_info": 0.4676,
+ "f1": 0.4913,
+ "sign_agreement": 0.8526,
+ "diversity": 0.794,
+ "angle_info": 0.7105,
+ "stability": 0.9991,
+ "sign_stability": 0.7809,
+ "checks_passed": "27/27"
+}

@@ -1,0 +1,8 @@
+# The model of record (arxiv_fit.py) and the harness need only these two:
+numpy
+pandas
+# The comparison and competition scripts additionally use:
+scipy           # eight_nonneg.py (bounded least squares)
+torch           # the superseded gradient model + the e2e/embedding experiments
+# Regenerating the ephemeris (build_ephemeris.py) needs:
+# skyfield

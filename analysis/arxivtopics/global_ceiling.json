@@ -1,0 +1,64 @@
+{
+ "wall": "1996",
+ "baseline_auc": 0.7990256347449605,
+ "spectrum": [
+  0.5852,
+  0.295,
+  0.0991,
+  0.0156,
+  0.0032,
+  0.0011,
+  0.0007
+ ],
+ "effective_rank": 2.27,
+ "leading_direction": {
+  "mars": -0.001,
+  "jupiter": -0.002,
+  "saturn": 0.011,
+  "uranus": -0.279,
+  "neptune": 0.871,
+  "pluto": -0.405,
+  "node": -0.008
+ },
+ "distinct_sign_patterns": 78,
+ "top_patterns": [
+  [
+   "--+-++-",
+   15
+  ],
+  [
+   "++--+-+",
+   14
+  ],
+  [
+   "+++-+--",
+   12
+  ],
+  [
+   "-+--+-+",
+   8
+  ],
+  [
+   "-++-+--",
+   8
+  ],
+  [
+   "+-+-++-",
+   8
+  ]
+ ],
+ "pooled_shape": {
+  "mars": 0.0105,
+  "jupiter": 0.0149,
+  "saturn": 0.051,
+  "uranus": 0.2184,
+  "neptune": 0.3867,
+  "pluto": 0.2945,
+  "node": 0.0239
+ },
+ "ceilings": {
+  "free magnitudes (baseline)": 0.799,
+  "POOLED magnitudes, own signs": 0.6871,
+  "POOLED magnitudes AND pooled signs": 0.1589
+ }
+}

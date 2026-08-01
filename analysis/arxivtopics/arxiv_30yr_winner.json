@@ -1,0 +1,162 @@
+{
+ "winner": "A det=relu1",
+ "cfg": {
+  "det": "relu1"
+ },
+ "median30": 0.6639008085721512,
+ "league": [
+  [
+   "A det=relu1",
+   0.6639008085721512,
+   {
+    "det": "relu1"
+   }
+  ],
+  [
+   "A det=relu1_5",
+   0.6446368311590898,
+   {
+    "det": "relu1_5"
+   }
+  ],
+  [
+   "C  -chiron",
+   0.6414154629181925,
+   {
+    "bodies": [
+     "mars",
+     "jupiter",
+     "saturn",
+     "uranus",
+     "neptune",
+     "pluto",
+     "node"
+    ]
+   }
+  ],
+  [
+   "E space=log1p",
+   0.6366040378054928,
+   {
+    "space": "log1p"
+   }
+  ],
+  [
+   "B roster=all11",
+   0.6339698291809419,
+   {
+    "bodies": [
+     "sun",
+     "mercury",
+     "venus",
+     "mars",
+     "jupiter",
+     "saturn",
+     "uranus",
+     "neptune",
+     "pluto",
+     "node",
+     "chiron"
+    ]
+   }
+  ],
+  [
+   "B roster=slow6",
+   0.6109639282991483,
+   {
+    "bodies": [
+     "saturn",
+     "uranus",
+     "neptune",
+     "pluto",
+     "node",
+     "chiron"
+    ]
+   }
+  ],
+  [
+   "C  -jupiter",
+   0.6052132851006949,
+   {
+    "bodies": [
+     "mars",
+     "saturn",
+     "uranus",
+     "neptune",
+     "pluto",
+     "node",
+     "chiron"
+    ]
+   }
+  ],
+  [
+   "C  -uranus",
+   0.5990466919636541,
+   {
+    "bodies": [
+     "mars",
+     "jupiter",
+     "saturn",
+     "neptune",
+     "pluto",
+     "node",
+     "chiron"
+    ]
+   }
+  ],
+  [
+   "B roster=no-mars7",
+   0.5918226281873504,
+   {
+    "bodies": [
+     "jupiter",
+     "saturn",
+     "uranus",
+     "neptune",
+     "pluto",
+     "node",
+     "chiron"
+    ]
+   }
+  ],
+  [
+   "C  -mars",
+   0.5918226281873504,
+   {
+    "bodies": [
+     "jupiter",
+     "saturn",
+     "uranus",
+     "neptune",
+     "pluto",
+     "node",
+     "chiron"
+    ]
+   }
+  ],
+  [
+   "B roster=+sun9",
+   0.5676037355542759,
+   {
+    "bodies": [
+     "sun",
+     "mars",
+     "jupiter",
+     "saturn",
+     "uranus",
+     "neptune",
+     "pluto",
+     "node",
+     "chiron"
+    ]
+   }
+  ],
+  [
+   "A det=relu2",
+   0.5669456418438146,
+   {
+    "det": "relu2"
+   }
+  ]
+ ]
+}

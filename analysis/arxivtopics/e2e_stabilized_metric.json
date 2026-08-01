@@ -1,0 +1,12 @@
+{
+ "stabilised_auc": 0.6039,
+ "spread": 0.0235,
+ "per_seed": [
+  0.6202,
+  0.5966,
+  0.6039
+ ],
+ "control_auc": 0.6201,
+ "lead": 0.0162,
+ "separates": false
+}

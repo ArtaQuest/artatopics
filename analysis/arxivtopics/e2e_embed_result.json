@@ -1,0 +1,27 @@
+{
+ "best_cfg": {
+  "dim": "64",
+  "decoder": "mlp",
+  "width": "64",
+  "depth": "2",
+  "head": "physical",
+  "emb_init": "random",
+  "emb_norm": "none",
+  "dropout": "0.15",
+  "wd": "0.0",
+  "lr": "0.005",
+  "steps": "16000",
+  "kpow": "2.0",
+  "wexp": "0.75",
+  "lam_h": "0.03",
+  "anchor_k": "5",
+  "hidden": "32"
+ },
+ "inner": 0.9073,
+ "outer_med": 0.7971,
+ "diag": {
+  "phase_spread_deg": 86.29541778564453,
+  "emb_eff_rank": 38.991905212402344,
+  "amp_spread": 0.07486139982938766
+ }
+}

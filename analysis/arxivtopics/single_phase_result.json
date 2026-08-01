@@ -1,0 +1,40 @@
+{
+ "sota": {
+  "auc": 0.8174,
+  "skill": 0.5448,
+  "pct": 72.9,
+  "nmi": 0.4595,
+  "f1": 0.5888,
+  "per_topic_bits": 1.921,
+  "across_bits": 3.568,
+  "conf": 0.8769,
+  "div": 0.9991,
+  "agree": 0.9482,
+  "params": 3765,
+  "stability": 0.9999,
+  "sign_repro": 0.8008,
+  "f1_spread": [
+   0.5853,
+   0.5895
+  ]
+ },
+ "single": {
+  "auc": 0.7418,
+  "skill": 0.5617,
+  "pct": 73.7,
+  "nmi": 0.4593,
+  "f1": 0.5641,
+  "per_topic_bits": 1.927,
+  "across_bits": 3.574,
+  "conf": 0.8817,
+  "div": 0.9983,
+  "agree": 0.9203,
+  "params": 2266,
+  "stability": 0.9802,
+  "sign_repro": 0.3904,
+  "f1_spread": [
+   0.5573,
+   0.5673
+  ]
+ }
+}

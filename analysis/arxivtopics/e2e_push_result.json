@@ -1,0 +1,33 @@
+{
+ "cfg": {
+  "dim": "64",
+  "decoder": "mlp",
+  "width": "64",
+  "depth": "2",
+  "head": "physical",
+  "emb_init": "random",
+  "emb_norm": "none",
+  "dropout": "0.15",
+  "wd": "0.0",
+  "lr": "0.005",
+  "steps": "16000",
+  "kpow": "2.0",
+  "wexp": "0.75",
+  "lam_h": "0.03",
+  "anchor_k": "5",
+  "hidden": "32"
+ },
+ "inner": 0.9073,
+ "ens_size": 1,
+ "outer_ens": {
+  "auc": 0.8173,
+  "skill": 0.5578,
+  "pct": 76.1,
+  "n_topics": 251
+ },
+ "outer_singles": [
+  0.8173,
+  0.7781,
+  0.7971
+ ]
+}
