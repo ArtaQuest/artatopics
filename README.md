@@ -99,8 +99,8 @@ publishing pipeline. They are included because they are part of the campaign's r
   origins, losing at all twelve; giving every body its own free continuous phase overfits by −0.0145.
   One continuous tuning plus seven binary flips is the measured optimum.
 - **The anchor is the model.** The single largest lever found in the whole campaign: the headline is
-  +0.7990 with the horizon anchor and +0.6287 without it. Architecture mattered far less than
-  pinning the extrapolation.
+  +0.7990 with the horizon anchor and +0.6287 without it (`anchor_off.py`, one switch flipped,
+  everything else identical). Architecture mattered far less than pinning the extrapolation.
 - **Persistence is the honest bar.** Carry-forward scores +0.8511 over twelve origins — better than
   several models this campaign produced along the way. Every result here is reported against it.
 - **The atlas has a three-dimensional shape.** The 251 gauge-fixed arrow vectors carry 97.9% of their
