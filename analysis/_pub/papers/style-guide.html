@@ -1,0 +1,342 @@
+<!doctype html><html lang=en><head><meta charset=utf-8>
+<title>Author guide & style — Journal of Seasonality</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="How to submit to Journal of Seasonality: a LaTeX manuscript plus open code and data, reviewed entirely by AI that runs your code and checks it reproduces.">
+<link rel="canonical" href="https://artaquest.org/papers/style-guide.html">
+<style>
+:root{--gold:#E8B923;--blue:#2352E8;--ink:#16181d;--grey:#5b6066;--line:#e6e7ea}
+*{box-sizing:border-box}
+body{max-width:780px;margin:0 auto;padding:0 1.2rem 4rem;font:16px/1.65 Georgia,'Times New Roman',serif;color:var(--ink)}
+header.masthead{border-bottom:3px solid var(--gold);margin:2rem 0 1.6rem;padding-bottom:1rem}
+.eyebrow{font:600 12px/1.4 system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--blue)}
+h1{font:800 2rem/1.12 system-ui,sans-serif;margin:.3rem 0 0}
+h2{font:700 1.22rem/1.25 system-ui,sans-serif;color:var(--blue);margin:2.1rem 0 .4rem;scroll-margin-top:1rem}
+h3{font:700 1rem/1.3 system-ui,sans-serif;margin:1.2rem 0 .2rem}
+a{color:var(--blue)}a:hover{text-decoration:underline}
+code{background:#f3f4f6;padding:.1em .4em;border-radius:4px;font:.88em ui-monospace,Menlo,monospace}
+.lede{font-size:1.08rem;color:#33363b}
+.btn{display:inline-block;background:var(--gold);color:var(--ink);font:700 15px system-ui,sans-serif;
+text-decoration:none;padding:.65rem 1.1rem;border-radius:10px;margin:.5rem 0}
+.btn.alt{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
+ul,ol{padding-left:1.25rem}li{margin:.28rem 0}
+.card{border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:10px;padding:.9rem 1.15rem;margin:1rem 0;background:#fafbfc}
+.card.gold{border-left-color:var(--gold)}
+.toc{font:14px/1.7 system-ui,sans-serif;color:var(--grey);columns:2;margin:.5rem 0 0}
+table{border-collapse:collapse;width:100%;margin:.6rem 0;font-size:.95rem}
+th,td{text-align:left;padding:.5rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 13px system-ui,sans-serif;color:var(--grey);text-transform:uppercase;letter-spacing:.04em}
+.chk li{list-style:none;margin-left:-1.1rem}.chk li::before{content:"☐ ";color:var(--blue);font-weight:700}
+footer{margin-top:2.6rem;border-top:1px solid var(--line);padding-top:1rem;font:14px system-ui,sans-serif;color:var(--grey)}
+.k{color:var(--gold);font-weight:700}
+</style></head><body>
+<header class="masthead">
+  <div class="eyebrow">Journal of Seasonality</div>
+  <h1>Author guide &amp; style</h1>
+</header>
+<p class="lede">Journal of Seasonality runs a <b>fully automated, end-to-end AI review process</b> — there is no
+human peer review. Your submission is reviewed <em>by running it</em>: the reviewer compiles your
+manuscript, clones your code, fetches your open data, executes it, and checks that your results actually
+reproduce — across as many rounds of feedback as it takes. <b>Only work that reproduces is accepted.</b></p>
+
+<nav class="toc">
+  <a href="#submit">1. What you submit</a><br>
+  <a href="#template">2. The LaTeX template</a><br>
+  <a href="#structure">3. Manuscript structure</a><br>
+  <a href="#formatting">4. Formatting conventions</a><br>
+  <a href="#maths">5. Mathematics</a><br>
+  <a href="#figures">6. Visualisation</a><br>
+  <a href="#referencing">7. Referencing &amp; cross-references</a><br>
+  <a href="#repro">8. Reproducibility</a><br>
+  <a href="#review">9. How review works</a><br>
+  <a href="#rejected">10. What gets rejected</a><br>
+  <a href="#checklist">11. Checklist</a>
+</nav>
+
+<h2 id="submit">1. What you submit</h2>
+<p>Three public URLs — open data <b>and</b> open code are mandatory; nothing is reviewed on description alone:</p>
+<table>
+  <tr><th>Artefact</th><th>What</th></tr>
+  <tr><td><b>Manuscript</b></td><td>A <b>zipped LaTeX project</b> that compiles to a PDF — an Overleaf export or any TeX project. Our class <code>artaquest.cls</code> is recommended, not required.</td></tr>
+  <tr><td><b>Code</b></td><td>A public git repository (ideal) or a downloadable archive that runs.</td></tr>
+  <tr><td><b>Data</b></td><td>A public, downloadable URL for your open data.</td></tr>
+</table>
+
+<h2 id="template">2. The LaTeX template</h2>
+<p>The template is a complete, compiling exemplar built on our document class
+<code>artaquest.cls</code> — a Times-like, single-column (two-column optional) journal class with a
+brand-styled masthead, structured title block, numbered clickable references and <code>cleveref</code>
+cross-references. It uses only common CTAN packages and is self-contained: <code>tectonic main.tex</code>
+builds it with no TeX install. The bundled <code>main.tex</code> doubles as a worked example — read it,
+then replace its content with yours.</p>
+<a class="btn" href="https://artaquest.org/papers/artaquest-latex-template.zip">⬇ Download the template (.zip)</a>
+<div class="card">
+  <b>Locally:</b> <code>tectonic main.tex</code> (one binary, fetches packages) — or
+  <code>latexmk -pdf main.tex</code> with a TeX&nbsp;Live install.<br>
+  <b>On Overleaf:</b> New Project → <i>Upload Project</i> → upload the <code>.zip</code> → <i>Recompile</i>.
+  When you're ready, Menu → <i>Download Source</i> gives you the <code>.zip</code> you submit.
+  Keep <code>artaquest.cls</code> in the project root.
+</div>
+<div class="card gold">
+  <b>Class options:</b> <code>\documentclass[11pt]{artaquest}</code> (single column, default) ·
+  <code>[11pt,review]</code> adds line numbers + double spacing for drafting ·
+  <code>[11pt,twocolumn]</code> sets a two-column body. Any <code>article</code> option
+  (<code>a4paper</code>, <code>letterpaper</code>, <code>12pt</code>…) is passed through.
+</div>
+
+<h2 id="structure">3. Manuscript structure</h2>
+<p>A short, honest paper. The usual arc, adapt as needed:</p>
+<ul>
+  <li><b>Title</b> — a clear, specific statement of the result (no trailing full stop).</li>
+  <li><b>Authors, affiliations, ORCID</b> — <code>\author{A\affmark{1}\orcid{0000-…} \and B\affmark{2}}</code>, <code>\affiliation{\affmark{1}… \affmark{2}…}</code>.</li>
+  <li><b>Abstract</b> — what you did, what you found, and the headline numbers that should reproduce; <code>\keywords{…}</code> after it.</li>
+  <li><b>Introduction · Data · Methods · Results · Discussion</b> — with the limitations and a short reproducibility note stated honestly.</li>
+  <li><b>Declarations</b> — <code>\declarations</code> prints your Data/Code availability; then author contributions, competing interests, funding.</li>
+</ul>
+
+<h2 id="formatting">4. Formatting conventions</h2>
+<p>The class wires these up for you — use the commands and they come out in house style:</p>
+<ul>
+  <li><b>Title block</b> — <code>\author{A\affmark{1}\orcid{0000-…} \and B\affmark{2}}</code>, <code>\affiliation{\affmark{1}… \affmark{2}…}</code>, <code>\keywords{…}</code>, optional <code>\runningtitle{…}</code> for the header. <code>\maketitle</code> prints the masthead, a bold gold rule, the large title, the authors (each <code>\orcid{…}</code> renders a small gold “iD” badge linked to ORCID) and the date.</li>
+  <li><b>Abstract</b> — <code>\begin{abstract}…\end{abstract}</code> sets a roman, slightly-smaller justified lead block between two thin gold rules (roman, not italic — it reads more comfortably over a long abstract), with a blue small-caps “Abstract” run-in head, and prints your <code>\keywords</code> beneath it. Bold a few run-in cues (<code>\textbf{Method:}</code>, <code>\textbf{Headline:}</code>) to structure a longer abstract.</li>
+  <li><b>Headings</b> — sentence case, no trailing full stop, numbered in brand blue. <code>\paragraph{…}</code> for run-in subpoints.</li>
+  <li><b>Figures</b> — <code>\includegraphics</code> in a <code>figure</code>; caption below; <code>subcaption</code> for sub-figures. Write normal LaTeX figures for the PDF, but <b>the data behind every figure must be regenerated by your code</b> — see <a href="#figures">Figures &amp; visualisation</a>.</li>
+  <li><b>Tables</b> — <code>booktabs</code> rules; <b>no vertical lines</b>; caption above; align numbers with a <code>siunitx</code> <code>S</code> column.</li>
+  <li><b>Maths</b> — display equations with <code>equation</code> and a <code>\label</code>; define symbols on first use.</li>
+  <li><b>Cross-references</b> — <code>cleveref</code>: <code>\cref{eq:decomp}</code> → “Equation&nbsp;1”, <code>\cref{tab:…}</code>, <code>\cref{fig:…}</code>, all clickable in the PDF and in the web reader. Label everything you reference — see <a href="#referencing">§6</a>.</li>
+  <li><b>Numbers &amp; units</b> — <code>siunitx</code>: <code>\num{521}</code>, <code>\SI{7}{\day}</code>, <code>\SI{63}{\percent}</code>. Consistent significant figures.</li>
+  <li><b>Code</b> — brand-styled <code>lstlisting</code> for the one command that reproduces your results.</li>
+  <li><b>Citations</b> — numeric <code>natbib</code>: <code>\citep{key}</code> → <code>[3]</code>, <code>\citet{key}</code> → “Harris et al. [3]”. Clickable, with DOIs as links in the reference list — see <a href="#referencing">§6</a>.</li>
+  <li><b>End-matter</b> — <code>\declarations</code> (prints Data/Code availability) then <code>\authorcontributions{}</code>, <code>\competinginterests{}</code>, <code>\funding{}</code>, <code>\acknowledgements{}</code>.</li>
+  <li><b>Drafting</b> — <code>\documentclass[11pt,review]{artaquest}</code> numbers lines and double-spaces while you work.</li>
+  <li><b>Spelling &amp; voice</b> — British spelling; plain, precise prose; no hype.</li>
+</ul>
+
+<h2 id="maths">5. Mathematics</h2>
+<div class="card gold">
+  <b>State every model and metric as a typeset equation.</b> If you report a number, give the reader the
+  expression that produces it — the reviewer recomputes exactly what your equation says, not what your
+  prose implies. The class is maths-first: it loads <code>amsmath</code>, <code>amssymb</code>,
+  <code>mathtools</code> and <code>amsthm</code> for you, so you never <code>\usepackage</code> them.
+</div>
+<h3>Equations</h3>
+<ul>
+  <li><b>Number what you reference.</b> Use <code>equation</code> with a <code>\label{eq:…}</code>;
+    displays are right-numbered as <code>(1)</code>. Reference with <code>\cref{eq:strength}</code> →
+    “Equation&nbsp;2”. Don’t number throwaway displays you never cite.</li>
+  <li><b>Multi-line maths:</b> use <code>align</code> (one <code>&amp;</code> alignment point, one number
+    per line) for systems of equations or a definition followed by its expansion.
+    <code>\allowdisplaybreaks</code> is on, so a long derivation breaks across a page cleanly.</li>
+  <li><b>Inline vs display:</b> short relations stay inline (<code>$F_S \in [0,1]$</code>); anything you
+    name, derive, or point a number at goes on its own numbered line.</li>
+  <li><b>Define every symbol on first use,</b> and keep notation consistent throughout.</li>
+</ul>
+<h3>House maths macros</h3>
+<p>Use these so notation is consistent and upright where it should be (an operator or metric is a name,
+  not a product of letters):</p>
+<table>
+  <tr><th>You write</th><th>You get / meaning</th></tr>
+  <tr><td><code>\abs{x}</code>, <code>\norm{v}</code></td><td>auto-sizing |·| and ‖·‖ (star form <code>\abs*{…}</code> forces single size); also <code>\set</code>, <code>\ceil</code>, <code>\floor</code></td></tr>
+  <tr><td><code>\E</code>, <code>\Var</code>, <code>\Cov</code>, <code>\Corr</code></td><td>expectation 𝔼, variance, covariance, correlation — upright</td></tr>
+  <tr><td><code>\argmin</code>, <code>\argmax</code></td><td>upright, with limits set underneath in display (e.g. <code>\argmin_{\theta}</code>)</td></tr>
+  <tr><td><code>\RMSE</code>, <code>\MAE</code>, <code>\MAPE</code>, <code>\Rsq</code></td><td>upright metric names — never let a metric render as italic variables</td></tr>
+  <tr><td><code>\vect{x}</code>, <code>\mat{A}</code>, <code>\mat{A}\T</code></td><td>vector (bold), matrix (bold upright), transpose</td></tr>
+  <tr><td><code>\R</code>, <code>\N</code>, <code>\Z</code>, <code>\dd</code></td><td>number sets ℝ ℕ ℤ; an upright differential <code>\dd x</code></td></tr>
+  <tr><td><code>\tr</code>, <code>\diag</code>, <code>\sign</code></td><td>trace, diagonal, sign — upright operators</td></tr>
+</table>
+<h3>Theorem-like environments</h3>
+<p>Brand-styled, shared-counter, numbered within the section (a blue run-in head for results, gold for
+  definitions). Reference them with <code>cleveref</code> just like equations.</p>
+<ul>
+  <li><b>Results:</b> <code>theorem</code>, <code>lemma</code>, <code>proposition</code>,
+    <code>corollary</code> (italic body). <b>Definitions &amp; notes:</b> <code>definition</code>,
+    <code>remark</code>, <code>assumption</code> (upright body).</li>
+  <li><b>Proofs:</b> <code>\begin{proof}…\end{proof}</code> closes with a gold&nbsp;∎.</li>
+  <li>Label and cross-reference: <code>\begin{definition}\label{def:strength}…</code> →
+    <code>\cref{def:strength}</code> gives “Definition&nbsp;3.1”.</li>
+</ul>
+
+<h2 id="figures">6. Visualisation</h2>
+<div class="card gold">
+  <b>Read this before you make a single figure.</b> In the published web reader, your figures are not
+  the image files you compiled. The reader renders each figure as <b>the journal's own interactive
+  chart, generated from your reproduced data</b> when the reviewer runs your code. So a figure is only
+  publishable if a clean machine can regenerate the data behind it by running your code.
+</div>
+<p>Two surfaces, one source of truth:</p>
+<ul>
+  <li><b>In the PDF</b> — keep using ordinary LaTeX figures: <code>\includegraphics</code> inside a
+    <code>figure</code> (or draw inline, as the exemplar does), with the <code>\caption</code> below and
+    <code>subcaption</code> for panels. This is what compiles and what a reader downloads.</li>
+  <li><b>In the web reader</b> — the journal re-plots your figures as native, interactive charts (pan,
+    hover, read-off) built <em>from the data your code emits</em>. Pre-made or uploaded image files are
+    <b>not</b> shown on the web; the reader uses the data, not your raster.</li>
+</ul>
+<p>What this means for how you work:</p>
+<ul>
+  <li><b>Every figure must be reproducible from the code.</b> The reviewer regenerates each one by
+    running your pipeline. <span class="k">A figure that cannot be regenerated by running the code is
+    sent back</span> — a screenshot, a hand-drawn diagram, or a plot whose data isn't produced by the
+    released code will not pass.</li>
+  <li><b>Emit the data, not just the picture.</b> Have your code write the series behind each figure to a
+    plain, open format (CSV/JSON) as it runs, alongside the rendered <code>.pdf</code>/<code>.png</code>
+    you put in the manuscript. The web chart is built from that data.</li>
+  <li><b>Make the figure deterministic.</b> Same code + same open data → same figure, every time (seed any
+    randomness; pin versions). A figure that changes run-to-run cannot be reproduced or re-plotted.</li>
+  <li><b>Caption what the data shows, not how the raster looks.</b> Axes, units, and the quantity plotted
+    should be legible from the data alone, since the web reader redraws it.</li>
+  <li><b>Schematics</b> (a method diagram with no underlying data) are fine as figures in the PDF; they
+    simply aren't re-plotted on the web. Anything that presents a <em>result</em>, though, must come from
+    the code.</li>
+</ul>
+
+<h3>The <span class="k">aq</span> house style for figures</h3>
+<p>The class loads <code>tikz</code> + <code>pgfplots</code> and defines a reusable axis style. Apply
+  <code>[aq]</code> to every axis and your figure inherits the journal’s look — a light grid, tidy
+  legend, sensible default size, no chartjunk:</p>
+<div class="card">
+<code>\begin{tikzpicture}</code><br>
+<code>&nbsp;&nbsp;\begin{axis}[aq, xlabel={Week of year}, ylabel={Seasonal $S_t$}, legend pos=north west]</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;\addplot[aq emphasis] {…};&nbsp;&nbsp;&nbsp;&nbsp;% the exemplar / median / "answer" curve</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;\addplot[aq warm, dashed] {…};&nbsp;% a secondary series, in gold</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;\addplot[aq muted] {…};&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;% a muted, dashed comparison</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;\addplot[aq rule, samples=2] {0};&nbsp;% a reference line (baseline / threshold)</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;\legend{…, …, …}</code><br>
+<code>&nbsp;&nbsp;\end{axis}</code><br>
+<code>\end{tikzpicture}</code>
+</div>
+<ul>
+  <li><b>Named brand colours:</b> <code>aqgold</code> / <code>aqblue</code> (+ <code>aqgoldlight</code>,
+    <code>aqbluelight</code>, <code>aqgreydark</code>). Two hues only — <span class="k">never a third
+    accent</span>; greys and tints are derived from the two.</li>
+  <li><b>Per-plot styles</b> you apply to an <code>\addplot</code>: <code>aq emphasis</code> (the median /
+    exemplar / “answer” curve — heavy blue), <code>aq warm</code> (a gold secondary), <code>aq muted</code>
+    (a faint dashed comparison), <code>aq rule</code> (a dashed reference line), and <code>aq band</code>
+    (a translucent confidence band — load <code>\usepgfplotslibrary{fillbetween}</code>, as the exemplar
+    does).</li>
+</ul>
+<div class="card gold">
+  <b>The colour-blind rule: colour is never the only channel.</b> The <code>[aq]</code> cycle list gives
+  every series a distinct <b>colour <em>and</em> line dash <em>and</em> marker</b>. So your figure stays
+  legible printed in greyscale, photocopied, or read by someone with colour-vision deficiency — and on
+  projectors that mangle hue. If you override the cycle, keep all three channels varying. Never
+  distinguish two lines by colour alone.
+</div>
+<h3>Choosing the right chart</h3>
+<ul>
+  <li><b>Faithfully show <em>all</em> your data.</b> Prefer charts that reveal the full distribution over
+    ones that hide it. A bar of means conceals spread; <span class="k">show the points</span>.</li>
+  <li><b>Small distributions → a 1-D dot / strip plot.</b> For a handful of values per group (say
+    <em>n</em> ≲ 30), plot every observation as a dot along one axis (a strip / jitter plot or a
+    Tufte-style dot plot) rather than a bar or a box that erases the individual data. A box plot is for
+    larger samples; for small ones the dots <em>are</em> the summary.</li>
+  <li><b>Time series → lines</b> (use <code>aq emphasis</code> for the headline series, <code>aq muted</code>
+    for comparisons). <b>Distributions → histograms / dot plots / ECDFs.</b> <b>Relationships → scatter</b>
+    (let the reader see the cloud, not just a fitted line). <b>Comparisons of a few quantities → a dot
+    plot,</b> not a 3-D pie.</li>
+  <li><b>Reference lines carry meaning.</b> Mark a baseline, a threshold, a target, or a null with an
+    <code>aq rule</code> line and say in the caption what it is — a reader should never have to guess what
+    “the dashed line” means.</li>
+  <li><b>No chartjunk.</b> No 3-D, no gradient fills, no needless gridlines or drop shadows, no dual
+    y-axes unless genuinely unavoidable. Start a count/magnitude y-axis at zero unless you flag the
+    truncation.</li>
+</ul>
+<h3>Self-contained captions</h3>
+<ul>
+  <li><b>Caption what the data shows, with units.</b> State the quantity plotted, the axes and their
+    <b>units</b>, what each series is, and what any reference line marks — so the figure reads on its own.
+    Because the web reader redraws the chart from your data, caption the <em>data</em>, not the raster.</li>
+  <li>The class styles captions for you: a bold small-caps “<span class="k">Figure&nbsp;N.</span>” run-in
+    head, hanging indent, justified. Put the <code>\caption</code> <em>below</em> the figure (and
+    <em>above</em> a table). No trailing full stop is fine; a self-contained sentence is better.</li>
+</ul>
+
+<h2 id="referencing">7. Referencing &amp; cross-references</h2>
+<p>Two kinds of links, both clickable in the PDF <em>and</em> in the web reader. Get both right and your
+paper threads together cleanly.</p>
+<h3>Citing the literature (numbered)</h3>
+<ul>
+  <li><b>Cite numerically with <code>natbib</code>:</b> <code>\citep{key}</code> → <code>[3]</code> for a
+    parenthetical citation, <code>\citet{key}</code> → “Harris et al. [3]” when the authors are the subject
+    of your sentence. Group several: <code>\citep{a,b,c}</code> → <code>[1–3]</code>.</li>
+  <li><b>Every entry in <code>references.bib</code> must be real and verifiable</b>, and carry a DOI where
+    one exists: add a <code>doi = {10.…}</code> field. The class provides <code>\doi{…}</code>, so the DOI
+    renders as a clickable <code>doi:…</code> link in the reference list. The reviewer checks citations —
+    invented or unverifiable references are grounds for rejection.</li>
+  <li><b>Build the bibliography</b> with <code>\bibliography{references}</code> at the end; the numbered,
+    DOI-linked reference list is produced for you. Replace the bundled well-known entries with your own.</li>
+</ul>
+<h3>Cross-referencing your own figures, tables and equations</h3>
+<ul>
+  <li><b>Label everything you point at:</b> <code>\label{fig:decomp}</code>, <code>\label{tab:summary}</code>,
+    <code>\label{eq:strength}</code> (a <code>fig:</code>/<code>tab:</code>/<code>eq:</code> prefix keeps them
+    tidy).</li>
+  <li><b>Reference with <code>\cref</code>:</b> <code>\cref{fig:decomp}</code> → “Figure&nbsp;1”,
+    <code>\cref{tab:summary}</code> → “Table&nbsp;1”, <code>\cref{eq:strength}</code> → “Equation&nbsp;2”.
+    <code>cleveref</code> supplies the word for you — never hard-code “Figure 1”, or the numbers drift.
+    Use <code>\Cref{…}</code> at the start of a sentence.</li>
+  <li><b>These become clickable cross-links in the reader</b> — a reader (and the reviewer) can jump
+    straight from the prose to the figure, table or equation it names.</li>
+</ul>
+
+<h2 id="repro">8. Reproducibility — the thing that matters most</h2>
+<div class="card gold">
+  <b>The test we apply:</b> a clean machine, given your code and your open data, reproduces the numbers and
+  figures in your abstract. Make that one command.
+</div>
+<ul>
+  <li>One command or notebook regenerates every figure and number from the open data.</li>
+  <li>Pin dependencies (<code>requirements.txt</code>, <code>environment.yml</code>, lockfile) and say how to run it in a README.</li>
+  <li>The numbers in your abstract must <em>follow from running your code</em> — never hard-coded, mocked, or pre-baked.</li>
+  <li>Data &amp; Code availability statements point at the exact public URLs you submit.</li>
+</ul>
+
+<h2 id="review">9. How review works</h2>
+<p>Each round, the reviewer (ArtaScience — Claude at maximum effort, in a sandbox) compiles your LaTeX,
+reads the manuscript, runs your code on your open data, and compares the outputs to your claims. It returns:</p>
+<table>
+  <tr><th>Field</th><th>Meaning</th></tr>
+  <tr><td><b>reproduced</b></td><td>yes/no — <span class="k">a paper that does not reproduce cannot be accepted</span>.</td></tr>
+  <tr><td><b>score</b></td><td>0–100 overall assessment.</td></tr>
+  <tr><td><b>verdict</b></td><td><b>accept</b> · <b>revise</b> (address the report and resubmit — a fresh round is reviewed) · <b>reject</b>.</td></tr>
+  <tr><td><b>report</b></td><td>exactly what was run, what reproduced, what did not, and how to fix it — published verbatim.</td></tr>
+</table>
+<p>On acceptance your manuscript is assigned a permanent <b>DOI</b> (Zenodo/DataCite). Every submission and
+every round of feedback is public.</p>
+
+<h2 id="rejected">10. What gets rejected — and the most common reasons for revision</h2>
+<p><b>Rejected outright:</b></p>
+<ul>
+  <li>Results that don't reproduce, or that are hard-coded/mocked rather than computed.</li>
+  <li>A figure whose data the code does not regenerate — a screenshot, an uploaded image, or a plot the reviewer cannot reproduce (the web reader re-plots figures from your data; see <a href="#figures">§5</a>).</li>
+  <li>No open code, or no open data — or a manuscript that isn't a compiling LaTeX project.</li>
+  <li>Invented or unverifiable citations, DOIs, or URLs.</li>
+  <li>Causal claims unsupported by the design; hype in place of evidence.</li>
+</ul>
+<p><b>Sent back for revision</b> (these are what the reviewer most often catches — fix them before you submit):</p>
+<ul>
+  <li><b>Over-claiming reproducibility.</b> Don't say the script “reproduces every number” if it only computes some. State exactly what it regenerates; ship code for anything else you call reproducible.</li>
+  <li><b>Resting a claim on data you didn't publish.</b> Every quantitative claim must be computable from the <i>open</i> data you submit. If a section needs a private/derived dataset, publish it or scope the claim honestly.</li>
+  <li><b>A number that doesn't reconcile.</b> The reviewer recomputes your headline figures independently. If a stated bound/threshold doesn't match what the open data gives, correct it.</li>
+  <li><b>Unpinned dependencies.</b> Pin versions so the run is deterministic; note the environment in your README.</li>
+</ul>
+
+<h2 id="checklist">11. Pre-submission checklist</h2>
+<ul class="chk">
+  <li>The manuscript compiles to a PDF with no errors.</li>
+  <li>Abstract states the headline result and the numbers that should reproduce.</li>
+  <li>Data + Code availability point at the exact public URLs you submit.</li>
+  <li>One command/notebook regenerates every figure and number from the open data.</li>
+  <li>Every figure's underlying data is emitted by the code (CSV/JSON), so the web reader can re-plot it.</li>
+  <li>Every model and metric is stated as a typeset, numbered equation; symbols are defined on first use.</li>
+  <li>Every figure distinguishes its series by colour <em>and</em> dash <em>and</em> marker (the <code>[aq]</code> style does this); captions state axes, units, and what each reference line marks.</li>
+  <li>Every figure, table and equation you reference is labelled and cited with <code>\cref</code>; every citation carries a real DOI where one exists.</li>
+  <li>Dependencies are pinned and the run steps are documented.</li>
+  <li>Every citation, DOI, and URL is real.</li>
+</ul>
+
+<p style="margin-top:1.6rem">
+  <a class="btn" href="https://artaquest.org/research/?submit=1">→ Submit your manuscript</a>
+  <a class="btn alt" href="https://artaquest.org/research/">Journal of Seasonality</a>
+</p>
+<footer>ArtaQuest Foundation · open access (CC&nbsp;BY&nbsp;4.0) · an open journal with a fully automated, AI-run review process.</footer>
+</body></html>

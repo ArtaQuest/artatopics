@@ -1,0 +1,19 @@
+{
+ "pooled_n": 1355,
+ "pooled_agree_pct": 13.2103,
+ "pooled_perm_z": 5.2986,
+ "pooled_cluster_agree_pct": 13.1129,
+ "pooled_rawpeak_agree_pct": 21.6236,
+ "pooled_rawpeak_perm_z": 13.0248,
+ "pooled_mean_signed_offset_deg": -20.3324,
+ "pooled_mean_train_r2": 0.7304,
+ "cross_same_sign_pct": 40.1747,
+ "ImageTopics_agree_pct": 13.2353,
+ "ImageTopics_rawpeak_agree_pct": 19.1176,
+ "NewsTopics_agree_pct": 14.0496,
+ "NewsTopics_rawpeak_agree_pct": 23.8017,
+ "ShopTopics_agree_pct": 16.0338,
+ "ShopTopics_rawpeak_agree_pct": 21.519,
+ "YouTubeTopics_agree_pct": 9.3851,
+ "YouTubeTopics_rawpeak_agree_pct": 19.0939
+}

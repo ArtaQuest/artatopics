@@ -1,0 +1,5 @@
+arm,auc,acc_h1,acc_mean,acc_h24
+SIMPLE(k=0.0),0.5824,0.5658,0.582,0.5787
+ref_sq_snaive_AR,0.5801,0.5945,0.5804,0.5774
+ref_sq_climatology,0.5801,0.5694,0.5794,0.5588
+SIMPLE_majority,0.5859,0.5744,0.5855,0.5796

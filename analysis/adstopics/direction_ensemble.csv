@@ -1,0 +1,6 @@
+arm,auc,acc_h1,acc_mean,acc_h24
+memory_majority,0.5938,0.5545,0.5927,0.5812
+memory_val-pick,0.5923,0.5705,0.5918,0.5906
+ref_snaive,0.5916,0.5577,0.5909,0.5906
+ref_climatology,0.5761,0.5481,0.5751,0.5562
+ref_always_rise,0.4963,0.5321,0.4951,0.4031

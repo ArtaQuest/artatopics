@@ -1,0 +1,113 @@
+{
+  "engine": "kerykeion (sidereal Lahiri) + swisseph; a-priori intensity model",
+  "ground_truth": "GDELT 1.0 global daily aggregates, entire history",
+  "overlap_span": [
+    "1979-01-01",
+    "2026-07-05"
+  ],
+  "primary": {
+    "measure": "material-conflict share (q4/total)",
+    "gcol": "material_share",
+    "n_days": 17353,
+    "span": [
+      "1979-01-01",
+      "2026-07-05"
+    ],
+    "spearman_levels": 0.05482501299507962,
+    "spearman_detrended": 0.01784506403494762,
+    "perm_p_detrended": 0.386122775444911,
+    "auc_top_decile": 0.5147414462379853,
+    "auc_perm_p": 0.3173413293353323,
+    "precision_at_k": 0.11578341013824885,
+    "base_rate": 0.100040338846309,
+    "k": 1736,
+    "leadlag_best": {
+      "lag_days": 60,
+      "corr": 0.027080908046953577
+    }
+  },
+  "other_measures": {
+    "conflict_share": {
+      "measure": "conflict_share",
+      "gcol": "conflict_share",
+      "n_days": 17353,
+      "span": [
+        "1979-01-01",
+        "2026-07-05"
+      ],
+      "spearman_levels": 0.05272620796969716,
+      "spearman_detrended": 0.018723015257307428,
+      "perm_p_detrended": 0.3785242951409718,
+      "auc_top_decile": 0.5068060284653761,
+      "auc_perm_p": 0.6516741629185407,
+      "precision_at_k": 0.10023041474654378,
+      "base_rate": 0.100040338846309,
+      "k": 1736,
+      "leadlag_best": {
+        "lag_days": 60,
+        "corr": 0.026213730411833003
+      }
+    },
+    "neg_goldstein": {
+      "measure": "neg_goldstein",
+      "gcol": "neg_goldstein",
+      "n_days": 17353,
+      "span": [
+        "1979-01-01",
+        "2026-07-05"
+      ],
+      "spearman_levels": 0.048840696399477995,
+      "spearman_detrended": 0.013474046923897573,
+      "perm_p_detrended": 0.5212957408518296,
+      "auc_top_decile": 0.5078520940048494,
+      "auc_perm_p": 0.6031984007996002,
+      "precision_at_k": 0.10311059907834101,
+      "base_rate": 0.100040338846309,
+      "k": 1736,
+      "leadlag_best": {
+        "lag_days": 60,
+        "corr": 0.024950292758986362
+      }
+    },
+    "neg_tone": {
+      "measure": "neg_tone",
+      "gcol": "neg_tone",
+      "n_days": 17353,
+      "span": [
+        "1979-01-01",
+        "2026-07-05"
+      ],
+      "spearman_levels": 0.03234104967693731,
+      "spearman_detrended": 0.012031721249604992,
+      "perm_p_detrended": 0.5882823435312937,
+      "auc_top_decile": 0.5196149829634432,
+      "auc_perm_p": 0.19140429785107446,
+      "precision_at_k": 0.10887096774193548,
+      "base_rate": 0.100040338846309,
+      "k": 1736,
+      "leadlag_best": {
+        "lag_days": 7,
+        "corr": 0.02783117646705916
+      }
+    }
+  },
+  "barbault_annual": {
+    "n_years": 48,
+    "spearman": 0.09172818063395571,
+    "perm_p": 0.5256948610277944
+  },
+  "split_stability": {
+    "1979-2012": {
+      "spearman_detrended": 0.016632339891086177,
+      "perm_p": 0.41111777644471104,
+      "auc": 0.5115650424864611,
+      "n_days": 12419
+    },
+    "2013-now": {
+      "spearman_detrended": 0.02480898084199959,
+      "perm_p": 0.5190961807638472,
+      "auc": 0.5253328227012437,
+      "n_days": 4934
+    }
+  }
+}

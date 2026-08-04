@@ -87,7 +87,10 @@ every script runs verbatim.
 | `analysis/arxivtopics/build_ephemeris.py` | regenerates the ephemeris CSVs (Skyfield, sidereal Lahiri) |
 | `analysis/citations/` | the yearly citation matrices (OpenAlex, CC0) the campaign trains on |
 | `analysis/arxivtopics/*.json` | the committed result of every experiment above, exactly as its script wrote it |
-| `analysis/adstopics/astro_phasor2.py` | a two-constant import shim replacing a monorepo module — see its docstring |
+| `analysis/adstopics/` | the ancestor campaign: quarterly phasor receivers, aspect weights, the direction papers — `astro_phasor2.py` here is the real module the record model imports (it replaced the two-constant shim the first import carried) |
+| `analysis/astro1200/` · `analysis/data_monthly_*/` | the Mythos1200 topic atlas and its monthly collection runs |
+| `analysis/artaastro/` | the world-events competition line |
+| `analysis/*.py` · `analysis/_*.json` | the root campaign the rest grew from: topic collection, period tuning, house/sign taxonomies, the ayanamsa table, the weekly fits |
 
 Two scripts are deliberately site-coupled and will not run here: `arxiv_export.py` writes the fitted
 atlas into the ArtaQuest web checkout, and `build_kaggle_nb.py` targets the platform's Kaggle
@@ -146,7 +149,9 @@ citations rail — the same dataset published as
 DE441, sidereal Lahiri) and committed so nothing here depends on a network call.
 
 Imported from the ArtaQuest monorepo; development history and the operating ledger of the campaign
-remain there.
+remain there. Since 2026-08-04 this repository carries the platform's **entire topics/astrology
+research family** — the monorepo and the site repo keep only platform code and the two
+platform-tied study dirs (reading-experiment, density-law).
 
 ## Licence
 

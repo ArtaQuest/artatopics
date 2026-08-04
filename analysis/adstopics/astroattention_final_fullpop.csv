@@ -1,0 +1,10 @@
+arm,auc,acc_h1,acc_mean,acc_h24
+AA_cal+memory,0.5933,0.5711,0.5928,0.5906
+abl_no-centre+mem,0.5907,0.5687,0.5903,0.593
+AA_calendar,0.5426,0.5091,0.5426,0.5763
+AA_sky+memory,0.586,0.5802,0.5863,0.6087
+ref_pooled,0.5902,0.5677,0.5898,0.5902
+META_aa+pooled+snaive,0.5987,0.5826,0.5984,0.5976
+ref_snaive,0.5833,0.586,0.5834,0.5869
+ref_climatology,0.5714,0.5677,0.5711,0.5586
+ref_always_rise,0.5016,0.5245,0.5007,0.4321

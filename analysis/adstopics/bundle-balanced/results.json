@@ -1,0 +1,39 @@
+{
+ "persistence_AR": 0.9194,
+ "seasonal_naive_AR": 0.9106,
+ "base_rate": 0.7165,
+ "label_climatology": 0.7145,
+ "memory_majority": 0.7286,
+ "pooled_logistic_AR": 0.8908,
+ "ENCDECB_pure": 0.8568,
+ "ENCDECB_mem": 0.8956,
+ "direct_pooled": 0.9193,
+ "CHAMPION_selected5": 0.9183,
+ "ceiling_O3": 0.9635,
+ "cross_year_O2": 0.927,
+ "tau": 19.0,
+ "topics": 3021,
+ "test_high_pct": 0.5313,
+ "ci95": {
+  "CHAMPION_selected5": {
+   "lo": 0.9118,
+   "hi": 0.9248,
+   "se": 0.00338
+  },
+  "persistence_AR": {
+   "lo": 0.9124,
+   "hi": 0.9262,
+   "se": 0.00353
+  },
+  "seasonal_naive_AR": {
+   "lo": 0.905,
+   "hi": 0.9169,
+   "se": 0.00305
+  },
+  "direct_pooled": {
+   "lo": 0.9134,
+   "hi": 0.9256,
+   "se": 0.00314
+  }
+ }
+}

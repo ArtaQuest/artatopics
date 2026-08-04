@@ -1,0 +1,226 @@
+{
+ "n_topics": 191,
+ "arms": [
+  {
+   "arm": "spec w=const f=const",
+   "median_val": 0.10746899606625016,
+   "median_test": -1.5023786496385552,
+   "clamped_mean_test": 1.7373763505543898,
+   "frac_test_pos": 0.06806282722513089
+  },
+  {
+   "arm": "spec w=const f=normal0.25",
+   "median_val": 0.09869959238419523,
+   "median_test": -1.7264591397308378,
+   "clamped_mean_test": 1.2170215954419972,
+   "frac_test_pos": 0.06282722513089005
+  },
+  {
+   "arm": "spec w=const f=normal0.75",
+   "median_val": 0.10356269127753603,
+   "median_test": -1.7764432483588308,
+   "clamped_mean_test": 1.0813951747940915,
+   "frac_test_pos": 0.05759162303664921
+  },
+  {
+   "arm": "spec w=const f=uniform",
+   "median_val": 0.0943040038267533,
+   "median_test": -1.8573152121674026,
+   "clamped_mean_test": 0.7368373683956325,
+   "frac_test_pos": 0.05759162303664921
+  },
+  {
+   "arm": "spec w=normal0.05 f=const",
+   "median_val": 0.09744409286086975,
+   "median_test": -1.8857113874523619,
+   "clamped_mean_test": 1.9691848468083897,
+   "frac_test_pos": 0.07329842931937172
+  },
+  {
+   "arm": "spec w=normal0.05 f=normal0.25",
+   "median_val": 0.1212922746923405,
+   "median_test": -1.5175429878165558,
+   "clamped_mean_test": 2.260159245935837,
+   "frac_test_pos": 0.08900523560209424
+  },
+  {
+   "arm": "spec w=normal0.05 f=normal0.75",
+   "median_val": 0.1417197528417813,
+   "median_test": -1.9568808476113668,
+   "clamped_mean_test": 1.8585127367753351,
+   "frac_test_pos": 0.07853403141361257
+  },
+  {
+   "arm": "spec w=normal0.05 f=uniform",
+   "median_val": 0.1072015163072445,
+   "median_test": -2.1790206471464884,
+   "clamped_mean_test": 1.1340894905946153,
+   "frac_test_pos": 0.06806282722513089
+  },
+  {
+   "arm": "spec w=normal0.2 f=const",
+   "median_val": 0.07356232017045117,
+   "median_test": -1.4794756146860437,
+   "clamped_mean_test": 1.1537249425509197,
+   "frac_test_pos": 0.05759162303664921
+  },
+  {
+   "arm": "spec w=normal0.2 f=normal0.25",
+   "median_val": 0.11223488032472606,
+   "median_test": -2.2945998720032064,
+   "clamped_mean_test": 1.1272944896368906,
+   "frac_test_pos": 0.06282722513089005
+  },
+  {
+   "arm": "spec w=normal0.2 f=normal0.75",
+   "median_val": 0.1269988845293485,
+   "median_test": -1.9468465989693815,
+   "clamped_mean_test": 1.9243480038705973,
+   "frac_test_pos": 0.07329842931937172
+  },
+  {
+   "arm": "spec w=normal0.2 f=uniform",
+   "median_val": 0.09301345119126969,
+   "median_test": -2.410769638408812,
+   "clamped_mean_test": 0.9149615486374996,
+   "frac_test_pos": 0.04712041884816754
+  },
+  {
+   "arm": "spec w=normal0.5 f=const",
+   "median_val": 0.10664207008238802,
+   "median_test": -1.492395386644151,
+   "clamped_mean_test": 1.376711690847237,
+   "frac_test_pos": 0.06806282722513089
+  },
+  {
+   "arm": "spec w=normal0.5 f=normal0.25",
+   "median_val": 0.1214732736705102,
+   "median_test": -1.4804746823973791,
+   "clamped_mean_test": 0.7389724713825079,
+   "frac_test_pos": 0.04712041884816754
+  },
+  {
+   "arm": "spec w=normal0.5 f=normal0.75",
+   "median_val": 0.14804585223890177,
+   "median_test": -2.0556801159075104,
+   "clamped_mean_test": 0.7160535277830816,
+   "frac_test_pos": 0.04712041884816754
+  },
+  {
+   "arm": "spec w=normal0.5 f=uniform",
+   "median_val": 0.06372199509503162,
+   "median_test": -2.1518127120776263,
+   "clamped_mean_test": 0.7317939950388999,
+   "frac_test_pos": 0.06282722513089005
+  },
+  {
+   "arm": "spec+intercept",
+   "median_val": 0.10787116316720313,
+   "median_test": -1.7654387237066618,
+   "clamped_mean_test": 0.6605197978103957,
+   "frac_test_pos": 0.04712041884816754
+  },
+  {
+   "arm": "spec+trend",
+   "median_val": 0.08029645272805519,
+   "median_test": -2.2559918922122804,
+   "clamped_mean_test": 2.9228642023958415,
+   "frac_test_pos": 0.1256544502617801
+  },
+  {
+   "arm": "spec+trend+wd3e-3",
+   "median_val": -0.16558361538932642,
+   "median_test": -3.0706878438202496,
+   "clamped_mean_test": 0.6272569884214464,
+   "frac_test_pos": 0.07329842931937172
+  },
+  {
+   "arm": "spec+trend+wd3e-2",
+   "median_val": -0.1707695907761555,
+   "median_test": -2.9542704055219318,
+   "clamped_mean_test": 0.641958407627101,
+   "frac_test_pos": 0.06806282722513089
+  },
+  {
+   "arm": "spec+recency-loss",
+   "median_val": 0.1114853989738509,
+   "median_test": -1.6253282143807306,
+   "clamped_mean_test": 1.4482145156903448,
+   "frac_test_pos": 0.08376963350785341
+  },
+  {
+   "arm": "spec+intercept+recency",
+   "median_val": 0.1083665735404099,
+   "median_test": -1.8157116529292532,
+   "clamped_mean_test": 1.5501388048169424,
+   "frac_test_pos": 0.06806282722513089
+  },
+  {
+   "arm": "spec+int+trend+recency",
+   "median_val": 0.10666200029420914,
+   "median_test": -1.75703463754459,
+   "clamped_mean_test": 1.4224261680397947,
+   "frac_test_pos": 0.08376963350785341
+  },
+  {
+   "arm": "level-only",
+   "median_val": null,
+   "median_test": -0.7490307328605201,
+   "clamped_mean_test": 0.0,
+   "frac_test_pos": 0.0
+  },
+  {
+   "arm": "nowcast+harmonic",
+   "median_val": null,
+   "median_test": -0.9355526554981362,
+   "clamped_mean_test": 1.4582156332429521,
+   "frac_test_pos": 0.09424083769633508
+  },
+  {
+   "arm": "nowcast+sinc",
+   "median_val": -0.3738032538570364,
+   "median_test": -0.8872601940790545,
+   "clamped_mean_test": 2.2050901843576503,
+   "frac_test_pos": 0.09424083769633508
+  },
+  {
+   "arm": "prune 12->8",
+   "median_val": 0.1390473416071346,
+   "median_test": -1.2841274301659333,
+   "clamped_mean_test": 2.0355650834793586,
+   "frac_test_pos": 0.07329842931937172
+  },
+  {
+   "arm": "prune 12->6",
+   "median_val": 0.15899661881572502,
+   "median_test": -1.1343158891531742,
+   "clamped_mean_test": 0.927600710011582,
+   "frac_test_pos": 0.041884816753926704
+  },
+  {
+   "arm": "prune 12->4",
+   "median_val": 0.15434731589461625,
+   "median_test": -1.3522526105421502,
+   "clamped_mean_test": 0.9566324650154983,
+   "frac_test_pos": 0.06282722513089005
+  },
+  {
+   "arm": "prune 12->2",
+   "median_val": 0.04951558041684112,
+   "median_test": -1.6632532065996357,
+   "clamped_mean_test": 0.9777716287475526,
+   "frac_test_pos": 0.05235602094240838
+  },
+  {
+   "arm": "prune 12->8->4",
+   "median_val": 0.16639424086589372,
+   "median_test": -1.2881911417998104,
+   "clamped_mean_test": 1.0581591052398258,
+   "frac_test_pos": 0.05235602094240838
+  }
+ ],
+ "harmonic_ref": {
+  "mean_test": -25.86085872270164,
+  "median_test": -5.077840788225635
+ }
+}

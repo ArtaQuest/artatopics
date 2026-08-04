@@ -1,0 +1,5 @@
+arm,auc,acc_h1,acc_mean,acc_h24
+GDPHASE,0.5847,0.5854,0.5847,0.5822
+GDPHASE_majority,0.5895,0.5854,0.5893,0.5822
+ref_sq_snaive_AR,0.5801,0.5945,0.5804,0.5774
+ref_sq_climatology,0.5801,0.5694,0.5794,0.5588

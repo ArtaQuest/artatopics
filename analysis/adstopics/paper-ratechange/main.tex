@@ -1,0 +1,227 @@
+%% Journal of Seasonality — the balanced RATE-CHANGE direction benchmark. Successor to the accepted
+%% level study (Zenodo 10.5281/zenodo.21441511): that study classified the LEVEL and was dominated by
+%% level-persistence (0.9182); this one classifies the CHANGE, the honest hard question.
+\documentclass[11pt]{artaquest}
+\input{numbers}
+
+\title{Will search go higher? A balanced benchmark for the direction of the monthly rate of change in YouTube search across the advertising taxonomy}
+\runningtitle{A balanced rate-change benchmark}
+
+\author{Arash Ashrafnejad\affmark{1}}
+\affiliation{\affmark{1}ArtaQuest Foundation}
+\keywords{seasonality; rate of change; YouTube search; Google Trends; balanced classification; mean reversion; time walls; reproducibility}
+
+\dataavailability{The open dataset --- \texttt{adstopics-ratechange-dataset.zip} (Zenodo DOI
+  \texttt{10.5281/zenodo.21443089}): the Google Ads verticals taxonomy, the \nTopics{} audit-clean
+  topics with every topic's worldwide monthly YouTube-search series (\winStart{}--\winEnd{}), the
+  rate-change direction labels, the per-topic peak-growth atlas, the full ladder, the live champion's
+  predictions, and the protocol source (\texttt{src/ratechange.py}) --- is registered as a platform
+  research artifact and served at its declared URL (verified HTTP 200).}
+\codeavailability{The registered bundle's contract entrypoint
+  (\texttt{reproduce.py <dataset.zip>}) deterministically regenerates the ceilings, the references,
+  the direct model and the champion --- to four decimals on CPU (seed 7) --- writes them to
+  \texttt{results.json} (machine-compared to \texttt{expected.json}), machine-compares the champion's
+  predictions to the dataset's \texttt{platform\_predictions.json} (0 of 72{,}504 cells differ), and
+  regenerates Figs.~\ref{fig:acc}--\ref{fig:dist}. The full ladder incl. the encoder--decoder is in
+  \texttt{src/ratechange.py}; \texttt{--selftest} verifies the protocol on a planted seasonal rule.}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+In plain words: for each of three thousand everyday topics we watch how the world's monthly YouTube
+searches \emph{change} --- not how high they sit, but whether next month goes up or down --- and we
+ask, over two hidden years, can that be predicted? A companion study asked the easier question (is
+next month high or low against a fixed bar) and scored $\levelAUC$ --- but almost all of that was
+just \emph{levels barely move month to month}. Here we ask the honest, hard question about the
+\emph{change}, and the answer is humbling: nothing we build clears about $0.60$, a coin scores
+$0.50$, and the ceiling any model of this kind could reach is $\ceilOthree$.
+
+Formally, we take the monthly rate of change $r_{i,t}=(y_{i,t}-y_{i,t-1})/\max(y_{i,t-1},1)$ of each
+topic's worldwide search interest and classify its \emph{direction}. A month with no change at all
+is a fat atom ($\flatPct\%$ of all month-pairs) --- so no threshold can balance the raw series; we
+therefore exclude the flat months as \emph{ties}, and among the months that moved the two classes are
+balanced (test $\testHigh\%$ higher), coin $=0.5$. The protocol is walls-first (train / 24-month
+validation for selection only / an untouched 24-month autoregressive test), and two oracle bounds are
+measured before any model runs: a per-(topic,\,month) majority oracle caps prediction at $\ceilOthree$,
+and cross-year label agreement --- the series-only frontier --- is $\ceilOtwo$.
+
+We reconsidered the model space from scratch in a tournament of seven families, adversarially verified
+against holdout leakage. The result is a clean, humbling ladder (tie-excluded horizon-AUC):
+persistence $\accPersist$ --- \emph{below the coin}, because month-to-month direction \textbf{mean-reverts};
+base rate $\accBase$; memory-majority $\accMajority$; a phase encoder--decoder $\accEncPure$/$\accEncMem$
+(it \emph{loses} here); a pooled logistic $\accPooled$; seasonal-naive $\accSnaive$; a direct
+multi-horizon model $\accDirect$; monthly climatology $\accClim$; and the champion, a \textbf{refined
+seasonal climatology} of the direction, $\accChampion$ (95\% CI $[\champLo,\champHi]$). The champion
+genuinely beats simple memory (disjoint bootstrap intervals) but only \emph{reaches} the cross-year
+frontier $\ceilOtwo$; a cross-section k-NN that borrows across topics ties it at $\accKNN$, and every
+nonlinear or momentum model we tried either ties memory or overfits. The honest headline: the
+direction of the rate of change in search is \textbf{memory- and seasonality-bound} --- seasonality
+carries what little is predictable (persistence is worse than a coin), and the $\accChampion\!\to\!\ceilOthree$
+gap is the room for signal that lives \emph{outside} the series. Every number regenerates from the
+registered dataset; the champion's predictions are live on the platform's topic pages and as the
+reference of a fully public challenge.
+\end{abstract}
+
+\section{Why the change, not the level}
+
+A companion study\,\footnote{``High or low'', Journal of Seasonality, Zenodo
+\texttt{10.5281/zenodo.21441511}.} asked whether next month's search interest would sit high or low
+against one global bar, and reported $\levelAUC$ accuracy against a $0.9635$ ceiling. That number is
+real but not deep: interest \emph{levels} are strongly persistent, so ``high or low'' is answered
+almost entirely by carrying this month's state forward. The scientifically honest question is about
+the \emph{change}: given how a topic's search has been moving, will next month move
+\textbf{significantly higher} or not? This paper asks exactly that, on the same open vocabulary.
+
+The target is the monthly rate of change --- shift, subtract, divide:
+\begin{equation}
+r_{i,t} \;=\; \frac{y_{i,t}-y_{i,t-1}}{\max(y_{i,t-1},\,1)},
+\qquad
+L_{i,t} \;=\; \operatorname{sign}(r_{i,t}) \;\in\; \{+1,\,-1,\,0\},
+\label{eq:label}
+\end{equation}
+where the denominator is floored at $1$ (Trends values are integers on $0$--$100$). The label is the
+\emph{direction} of that change. Two facts shape the whole study. First, $r_{i,t}=0$ exactly whenever a
+month is unchanged, and that happens for $\flatPct\%$ of all month-pairs --- a fat atom that no scalar
+threshold can split, so the mean of $r$ (dragged to $+0.66$ by tiny-denominator spikes) leaves a
+degenerate $96/4$ set and even the median ($0$) leaves $32/68$. We therefore treat the flat months as
+\textbf{ties} (the journal's accepted tie-handling): they enter no fit, no selection, no score and no
+ceiling. Among the $\scoredCells$ months that actually moved, the classes are balanced --- test window
+$\testHigh\%$ higher --- and a coin scores $0.5$. Second, and unlike the level task, the change is
+close to a martingale: this is a genuinely hard forecasting problem, and we report it as one.
+
+\section{Protocol and ceilings}
+
+The vocabulary is the complete advertising taxonomy Google publishes~\cite{googleads2024verticals},
+split into lowercase topics; after the audit gates \nTopics{} remain, each a \nMonths{}-month worldwide
+monthly series over \winStart{}--\winEnd{}. The walls are walls-first: everything before the last 48
+months trains; months $-48..-25$ are validation (selection and early-stopping only); the final 24
+months are the test window, touched once, and every prediction is \emph{autoregressive} --- the model
+feeds on its own calls, never the answers. Ties are excluded per month, so the scored test set is the
+$\scoredCells$ moved cells; the $\tieCells$ flat cells are set aside.
+
+Two bounds are measured before any model runs (Fig.~\ref{fig:acc}). The per-(topic,\,month) majority
+oracle --- knowing which direction each topic takes most often in each calendar month across the two
+test years --- caps every in-protocol predictor at $\mathrm{O_3}=\ceilOthree$. Cross-year agreement,
+the fraction of moved cells whose direction repeats one year later, is $\mathrm{O_2}=\ceilOtwo$: this
+is the \emph{series-only frontier}, what perfect exploitation of a topic's own yearly rhythm would
+score. The gap between them ($\ceilOtwo$ to $\ceilOthree$) is precisely the headroom that requires
+information beyond the series itself.
+
+\section{The tournament: reconsidering the model space}
+
+Because the champion of the level task (a per-topic selector) has no reason to transfer, we
+reconsidered the model space from scratch: seven families, each fit and selected on validation only,
+then scored once on the untouched test window, and the top candidates adversarially audited for
+holdout leakage (a post-wall label scramble must leave a model's test predictions unchanged; the
+champion passes bit-identically). Table~\ref{tab:board} is the full ladder.
+
+\begin{table}[t]
+\centering
+\begin{tabular}{lcc}
+\hline
+\textbf{model} & \textbf{ACC (tie-excluded horizon-AUC)} & \textbf{kind} \\
+\hline
+per-(topic,\,month) oracle & \ceilOthree & ceiling \\
+cross-year frontier ($\mathrm{O_2}$) & \ceilOtwo & ceiling \\
+\hline
+\textbf{champion: refined seasonal climatology} & \textbf{\accChampion} & winner \\
+cross-section k-NN & \accKNN & reconsidered \\
+label climatology & \accClim & reference \\
+direct pooled (multi-horizon) & \accDirect & learned \\
+seasonal naive (tiled) & \accSnaive & reference \\
+encoder--decoder (memory) & \accEncMem & learned \\
+pooled logistic (AR) & \accPooled & learned \\
+per-topic selector & \accSelector & learned \\
+encoder--decoder (pure phase) & \accEncPure & learned \\
+memory majority & \accMajority & reference \\
+base rate & \accBase & reference \\
+coin & 0.5000 & floor \\
+persistence & \accPersist & reference \\
+\hline
+\end{tabular}
+\caption{The rate-change direction ladder over the \scoredCells{} moved test cells. Every row except
+the two reconsidered families and the encoder--decoder is regenerated by \texttt{reproduce.py} from
+the dataset (CPU, seed 7, 4-decimal contract); the encoder--decoder and the full ladder are in
+\texttt{src/ratechange.py}.}
+\label{tab:board}
+\end{table}
+
+Three findings stand out. \textbf{(1) Persistence is below the coin} ($\accPersist$): carrying this
+month's direction forward is \emph{worse} than guessing, because monthly search direction
+mean-reverts~\cite{gardner1985damped} --- a rise is more often followed by a fall than another rise.
+Every model that beats the coin does so through \emph{seasonality}, not momentum. \textbf{(2) The
+phase encoder--decoder loses} ($\accEncPure$/$\accEncMem$), and the per-topic selector that won the
+level task scores only $\accSelector$: sophistication does not transfer to a near-martingale target.
+\textbf{(3) The champion is the simplest honest refinement of memory}: a per-(topic, month-of-year)
+climatology of the direction, recency-weighted (decay $0.8$), shrunk toward the topic base rate
+(pseudocount $k=1$), with a seasonality-strength gate that falls weakly-seasonal topics back to the
+global monthly pattern; all three knobs selected on validation. It scores $\accChampion$ (95\% CI
+$[\champLo,\champHi]$), genuinely clearing the simple-climatology reference $\accClim$ with disjoint
+bootstrap intervals, and its per-topic peak-growth months (Fig.~\ref{fig:dist}) recover the obvious
+calendar --- most topics rise fastest in January.
+
+\section{What the ceiling says}
+
+The champion \emph{reaches} the cross-year frontier ($\accChampion$ vs $\mathrm{O_2}=\ceilOtwo$) but
+does not exceed it, and sits far below the $\mathrm{O_3}=\ceilOthree$ oracle. A cross-section k-NN
+that borrows direction from correlated topics ($\accKNN$) is the only model that measurably beats
+within-topic climatology, and it too merely ties the frontier. The reading is unambiguous and worth
+stating plainly: \textbf{the direction of the monthly rate of change in search is memory- and
+seasonality-bound}. A topic's own history --- chiefly its seasonal calendar --- is essentially all the
+signal a series-only model can extract, and that signal tops out around $0.60$. The $0.23$ of headroom
+to the oracle ceiling is real but lives \emph{outside} the series: to predict whether search will jump
+next month beyond what its own seasonal rhythm implies, a model needs exogenous information (events,
+prices, releases, cross-domain demand) the series does not carry. This is the honest frontier the
+level task's inflated $\levelAUC$ concealed, and recovering it is this paper's contribution.
+
+\section{Reproduction contract}
+
+\texttt{reproduce.py <adstopics-ratechange-dataset.zip>} rebuilds the bench from the zip alone --- the
+clean window, the rate change, the median-zero threshold, the tie mask --- and regenerates the
+ceilings, the references, the direct model and the champion, comparing every number to the registered
+\texttt{expected.json} at four decimals (CPU-canonical, seed 7). It writes \texttt{results.json},
+machine-compares the champion against the shipped \texttt{platform\_predictions.json} (0 of 72{,}504
+cells differ), and \texttt{--fig1/2/3} regenerate the manuscript's figures; \texttt{--selftest}
+plants a per-topic seasonal rule and verifies the protocol recovers it. The champion's 24-month run is
+simultaneously this paper's headline, the per-topic chart on the platform's live topic pages, and the
+reference entry of a fully public challenge --- all displaying the same $\accChampion$.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\linewidth]{figs/accuracy.png}
+\caption{Accuracy by horizon over the 24 held-out months (moved cells only): the champion, persistence
+(below the coin --- direction mean-reverts), the coin, the cross-year frontier ($\ceilOtwo$) and the
+per-(topic,\,month) ceiling ($\ceilOthree$). Machine-generated by \texttt{reproduce.py --fig1}.}
+\label{fig:acc}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\linewidth]{figs/scoreboard.png}
+\caption{The full ladder as horizontal bars from the coin ($0.5$); the champion in gold, the cross-year
+frontier marked. Nothing clears $\sim\!0.60$. Machine-generated by \texttt{reproduce.py --fig2}.}
+\label{fig:board}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\linewidth]{figs/distributions.png}
+\caption{Left: per-topic test accuracy over moved months --- centred near $0.5$ with a seasonal tail.
+Right: the topic peak-growth month the champion recovers --- most topics rise fastest in January.
+Machine-generated by \texttt{reproduce.py --fig3}.}
+\label{fig:dist}
+\end{figure}
+
+\section{Relation to the level study}
+
+The two studies bracket what interior models can know about this vocabulary. The level task
+(``high or low'') is nearly deterministic ($\levelAUC$) because levels persist; the change task (this
+paper) is nearly a martingale ($\accChampion$, coin $0.5$, frontier $\ceilOtwo$) because directions
+mean-revert and only the seasonal calendar carries signal. Neither number is the ``accuracy of
+predicting search''; together they say that \emph{where} search sits is easy and \emph{which way it
+moves next} is hard, and that closing the change gap needs data beyond the series.
+
+\bibliography{references}
+
+\end{document}

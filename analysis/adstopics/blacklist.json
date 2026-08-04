@@ -1,0 +1,6 @@
+{
+ "excluded_topics": [
+  "c++"
+ ],
+ "reason": "slug collision with 'c' (one cache file cannot hold both)"
+}

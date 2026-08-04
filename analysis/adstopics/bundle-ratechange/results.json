@@ -1,0 +1,17 @@
+{
+ "persistence": 0.4948,
+ "seasonal_naive": 0.5778,
+ "base_rate": 0.504,
+ "label_climatology": 0.5815,
+ "memory_majority": 0.5381,
+ "direct_pooled": 0.5793,
+ "CHAMPION_seasonal": 0.5999,
+ "ceiling_o3": 0.8322,
+ "cross_year_o2": 0.5947,
+ "champion_ci": [
+  0.5948,
+  0.6052
+ ],
+ "flat_atom_pct": 0.3482,
+ "topics": 3021
+}

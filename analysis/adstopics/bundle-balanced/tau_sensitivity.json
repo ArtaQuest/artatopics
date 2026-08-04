@@ -1,0 +1,10 @@
+{
+ "persistence_AR": 0.9194,
+ "seasonal_naive_AR": 0.9109,
+ "base_rate": 0.7173,
+ "label_climatology": 0.7153,
+ "memory_majority": 0.7291,
+ "pooled_logistic_AR": 0.8919,
+ "direct_pooled": 0.9208,
+ "selected4_tau18": 0.918
+}

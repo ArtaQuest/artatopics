@@ -1,0 +1,7940 @@
+{
+"big-five": {
+"nouns": [
+"personality",
+"psychology",
+"trait",
+"temperament"
+],
+"adjectives": [
+"psychological",
+"behavioural",
+"emotional",
+"social"
+]
+},
+"enneagram-instinct": {
+"nouns": [
+"enneagram",
+"instinct",
+"subtype",
+"survival"
+],
+"adjectives": [
+"instinctual",
+"motivational",
+"behavioural",
+"innate"
+]
+},
+"introvert-extrovert": {
+"nouns": [
+"introversion",
+"extraversion",
+"personality",
+"spectrum"
+],
+"adjectives": [
+"introverted",
+"extroverted",
+"social",
+"temperamental"
+]
+},
+"multiple-intelligences": {
+"nouns": [
+"intelligence",
+"Gardner",
+"capacity",
+"strength"
+],
+"adjectives": [
+"cognitive",
+"intellectual",
+"creative",
+"independent"
+]
+},
+"tropical-rising-sign": {
+"nouns": [
+"ascendant",
+"zodiac",
+"astrology",
+"horoscope"
+],
+"adjectives": [
+"astrological",
+"natal",
+"celestial",
+"western"
+]
+},
+"angel-numbers": {
+"nouns": [
+"numerology",
+"synchronicity",
+"sequence",
+"symbol"
+],
+"adjectives": [
+"spiritual",
+"symbolic",
+"mystical",
+"repeating"
+]
+},
+"tropical-saturn-sign": {
+"nouns": [
+"saturn",
+"zodiac",
+"astrology",
+"discipline"
+],
+"adjectives": [
+"astrological",
+"karmic",
+"natal",
+"western"
+]
+},
+"sidereal-neptune-sign": {
+"nouns": [
+"neptune",
+"astrology",
+"vedic",
+"zodiac"
+],
+"adjectives": [
+"sidereal",
+"astrological",
+"spiritual",
+"dreamy"
+]
+},
+"pokemon-type": {
+"nouns": [
+"pokemon",
+"type",
+"element",
+"archetype"
+],
+"adjectives": [
+"elemental",
+"playful",
+"fictional",
+"gaming"
+]
+},
+"media-trust": {
+"nouns": [
+"media",
+"news",
+"journalism",
+"credibility"
+],
+"adjectives": [
+"critical",
+"analytical",
+"sceptical",
+"informational"
+]
+},
+"personal-values": {
+"nouns": [
+"values",
+"ethics",
+"principle",
+"schwartz"
+],
+"adjectives": [
+"moral",
+"cultural",
+"personal",
+"motivational"
+]
+},
+"outness": {
+"nouns": [
+"orientation",
+"identity",
+"disclosure",
+"openness"
+],
+"adjectives": [
+"personal",
+"social",
+"private",
+"authentic"
+]
+},
+"faith-role": {
+"nouns": [
+"faith",
+"belief",
+"religion",
+"spirituality"
+],
+"adjectives": [
+"spiritual",
+"religious",
+"personal",
+"meaningful"
+]
+},
+"hindu-tradition": {
+"nouns": [
+"hinduism",
+"tradition",
+"devotion",
+"sect"
+],
+"adjectives": [
+"devotional",
+"vedic",
+"spiritual",
+"religious"
+]
+},
+"writing-system": {
+"nouns": [
+"script",
+"alphabet",
+"literacy",
+"language"
+],
+"adjectives": [
+"linguistic",
+"alphabetic",
+"written",
+"cultural"
+]
+},
+"history-engagement": {
+"nouns": [
+"history",
+"heritage",
+"archive",
+"exploration"
+],
+"adjectives": [
+"historical",
+"cultural",
+"archival",
+"educational"
+]
+},
+"zimbardo-time-perspective": {
+"nouns": [
+"psychology",
+"perspective",
+"time",
+"orientation"
+],
+"adjectives": [
+"temporal",
+"psychological",
+"hedonistic",
+"future-oriented"
+]
+},
+"love-styles": {
+"nouns": [
+"love",
+"romance",
+"attachment",
+"style"
+],
+"adjectives": [
+"romantic",
+"emotional",
+"passionate",
+"relational"
+]
+},
+"caregiving-role": {
+"nouns": [
+"caregiving",
+"caregiver",
+"dependant",
+"responsibility"
+],
+"adjectives": [
+"nurturing",
+"familial",
+"supportive",
+"caring"
+]
+},
+"sleep-needs": {
+"nouns": [
+"sleep",
+"insomnia",
+"ritual",
+"rest"
+],
+"adjectives": [
+"restorative",
+"nocturnal",
+"relaxing",
+"therapeutic"
+]
+},
+"caffeine-use": {
+"nouns": [
+"caffeine",
+"coffee",
+"stimulant",
+"energy"
+],
+"adjectives": [
+"stimulating",
+"dietary",
+"habitual",
+"daily"
+]
+},
+"team-sport-fan": {
+"nouns": [
+"sport",
+"team",
+"fan",
+"athlete"
+],
+"adjectives": [
+"athletic",
+"competitive",
+"spectator",
+"recreational"
+]
+},
+"seasonal-color": {
+"nouns": [
+"colour",
+"palette",
+"season",
+"complexion"
+],
+"adjectives": [
+"tonal",
+"warm",
+"cool",
+"chromatic"
+]
+},
+"story-medium": {
+"nouns": [
+"storytelling",
+"narrative",
+"medium",
+"fiction"
+],
+"adjectives": [
+"literary",
+"visual",
+"cinematic",
+"creative"
+]
+},
+"taste-sensitivity": {
+"nouns": [
+"supertaster",
+"palate",
+"bitterness",
+"perception"
+],
+"adjectives": [
+"sensory",
+"genetic",
+"gustatory",
+"sensitive"
+]
+},
+"scientific-field": {
+"nouns": [
+"science",
+"research",
+"field",
+"discipline"
+],
+"adjectives": [
+"scientific",
+"empirical",
+"academic",
+"analytical"
+]
+},
+"area-of-law": {
+"nouns": [
+"law",
+"justice",
+"regulation",
+"legislation"
+],
+"adjectives": [
+"legal",
+"judicial",
+"regulatory",
+"professional"
+]
+},
+"gaming-platform": {
+"nouns": [
+"gaming",
+"console",
+"platform",
+"hardware"
+],
+"adjectives": [
+"digital",
+"interactive",
+"electronic",
+"competitive"
+]
+},
+"body-modifications": {
+"nouns": [
+"tattoo",
+"piercing",
+"modification",
+"body-art"
+],
+"adjectives": [
+"aesthetic",
+"artistic",
+"permanent",
+"decorative"
+]
+},
+"zero-sum-belief": {
+"nouns": [
+"competition",
+"mindset",
+"cooperation",
+"scarcity"
+],
+"adjectives": [
+"competitive",
+"collaborative",
+"economic",
+"ideological"
+]
+},
+"ethics-position": {
+"nouns": [
+"ethics",
+"morality",
+"ideology",
+"principle"
+],
+"adjectives": [
+"moral",
+"ethical",
+"idealistic",
+"relativistic"
+]
+},
+"idea-openness": {
+"nouns": [
+"openness",
+"contrarianism",
+"heterodoxy",
+"curiosity"
+],
+"adjectives": [
+"open-minded",
+"unconventional",
+"intellectual",
+"sceptical"
+]
+},
+"meaning-stance": {
+"nouns": [
+"meaning",
+"existentialism",
+"philosophy",
+"purpose"
+],
+"adjectives": [
+"existential",
+"philosophical",
+"nihilistic",
+"spiritual"
+]
+},
+"spiritual-practice": {
+"nouns": [
+"meditation",
+"prayer",
+"spirituality",
+"ritual"
+],
+"adjectives": [
+"contemplative",
+"spiritual",
+"mindful",
+"devotional"
+]
+},
+"scene-participation": {
+"nouns": [
+"community",
+"participation",
+"role",
+"scene"
+],
+"adjectives": [
+"social",
+"participatory",
+"communal",
+"active"
+]
+},
+"animal-group": {
+"nouns": [
+"wildlife",
+"animal",
+"zoology",
+"nature"
+],
+"adjectives": [
+"zoological",
+"natural",
+"wild",
+"ecological"
+]
+},
+"food-meaning": {
+"nouns": [
+"food",
+"culture",
+"nutrition",
+"ritual"
+],
+"adjectives": [
+"cultural",
+"culinary",
+"social",
+"nourishing"
+]
+},
+"leisure-motivation": {
+"nouns": [
+"leisure",
+"motivation",
+"hobby",
+"recreation"
+],
+"adjectives": [
+"recreational",
+"intrinsic",
+"social",
+"motivational"
+]
+},
+"motivation-to-lead": {
+"nouns": [
+"leadership",
+"motivation",
+"ambition",
+"authority"
+],
+"adjectives": [
+"motivational",
+"affective",
+"social",
+"normative"
+]
+},
+"humanity-identification": {
+"nouns": [
+"humanity",
+"empathy",
+"identity",
+"solidarity"
+],
+"adjectives": [
+"humanistic",
+"global",
+"empathetic",
+"universal"
+]
+},
+"social-dominance-orientation": {
+"nouns": [
+"hierarchy",
+"dominance",
+"inequality",
+"prejudice"
+],
+"adjectives": [
+"hierarchical",
+"authoritarian",
+"ideological",
+"political"
+]
+},
+"hexaco": {
+"nouns": [
+"personality",
+"honesty",
+"humility",
+"trait"
+],
+"adjectives": [
+"psychological",
+"dimensional",
+"lexical",
+"behavioural"
+]
+},
+"disc": {
+"nouns": [
+"behaviour",
+"assessment",
+"dominance",
+"personality"
+],
+"adjectives": [
+"behavioural",
+"motivational",
+"workplace",
+"interpersonal"
+]
+},
+"birth-order": {
+"nouns": [
+"sibling",
+"personality",
+"psychology",
+"family"
+],
+"adjectives": [
+"ordinal",
+"developmental",
+"familial",
+"social"
+]
+},
+"field-of-study": {
+"nouns": [
+"discipline",
+"faculty",
+"major",
+"degree"
+],
+"adjectives": [
+"academic",
+"scholarly",
+"intellectual",
+"university"
+]
+},
+"chinese-zodiac": {
+"nouns": [
+"zodiac",
+"animal",
+"cycle",
+"horoscope"
+],
+"adjectives": [
+"lunar",
+"traditional",
+"cultural",
+"astrological"
+]
+},
+"tarot-suit": {
+"nouns": [
+"tarot",
+"suit",
+"archetype",
+"divination"
+],
+"adjectives": [
+"mystical",
+"symbolic",
+"intuitive",
+"elemental"
+]
+},
+"tropical-uranus-sign": {
+"nouns": [
+"uranus",
+"astrology",
+"zodiac",
+"planet"
+],
+"adjectives": [
+"western",
+"astrological",
+"generational",
+"natal"
+]
+},
+"sidereal-pluto-sign": {
+"nouns": [
+"pluto",
+"astrology",
+"transformation",
+"sign"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"astrological",
+"karmic"
+]
+},
+"greek-god-archetype": {
+"nouns": [
+"archetype",
+"mythology",
+"deity",
+"pantheon"
+],
+"adjectives": [
+"mythological",
+"archetypal",
+"classical",
+"symbolic"
+]
+},
+"content-discovery": {
+"nouns": [
+"discovery",
+"algorithm",
+"recommendation",
+"media"
+],
+"adjectives": [
+"digital",
+"algorithmic",
+"social",
+"exploratory"
+]
+},
+"thomas-chess-temperament": {
+"nouns": [
+"temperament",
+"personality",
+"reactivity",
+"psychology"
+],
+"adjectives": [
+"innate",
+"developmental",
+"behavioural",
+"emotional"
+]
+},
+"klein-grid": {
+"nouns": [
+"sexuality",
+"orientation",
+"attraction",
+"identity"
+],
+"adjectives": [
+"sexual",
+"multidimensional",
+"psychological",
+"fluid"
+]
+},
+"interfaith-view": {
+"nouns": [
+"religion",
+"pluralism",
+"tolerance",
+"belief"
+],
+"adjectives": [
+"interfaith",
+"theological",
+"pluralistic",
+"comparative"
+]
+},
+"eastern-paths": {
+"nouns": [
+"dharma",
+"spirituality",
+"religion",
+"philosophy"
+],
+"adjectives": [
+"eastern",
+"dharmic",
+"contemplative",
+"devotional"
+]
+},
+"accent-identity": {
+"nouns": [
+"accent",
+"dialect",
+"speech",
+"pronunciation"
+],
+"adjectives": [
+"linguistic",
+"regional",
+"phonetic",
+"cultural"
+]
+},
+"honour-face-dignity": {
+"nouns": [
+"honour",
+"dignity",
+"reputation",
+"respect"
+],
+"adjectives": [
+"cultural",
+"moral",
+"social",
+"cross-cultural"
+]
+},
+"political-orientation": {
+"nouns": [
+"politics",
+"ideology",
+"conservatism",
+"liberalism"
+],
+"adjectives": [
+"political",
+"ideological",
+"partisan",
+"economic"
+]
+},
+"apology-language": {
+"nouns": [
+"apology",
+"forgiveness",
+"reconciliation",
+"communication"
+],
+"adjectives": [
+"relational",
+"emotional",
+"interpersonal",
+"restorative"
+]
+},
+"parenting-values": {
+"nouns": [
+"parenting",
+"child",
+"nurture",
+"upbringing"
+],
+"adjectives": [
+"parental",
+"developmental",
+"familial",
+"moral"
+]
+},
+"dream-style": {
+"nouns": [
+"dream",
+"sleep",
+"consciousness",
+"subconscious"
+],
+"adjectives": [
+"nocturnal",
+"psychological",
+"lucid",
+"vivid"
+]
+},
+"substance-motives": {
+"nouns": [
+"substance",
+"motivation",
+"alcohol",
+"addiction"
+],
+"adjectives": [
+"psychological",
+"social",
+"recreational",
+"habitual"
+]
+},
+"social-class": {
+"nouns": [
+"class",
+"inequality",
+"status",
+"mobility"
+],
+"adjectives": [
+"socioeconomic",
+"structural",
+"cultural",
+"sociological"
+]
+},
+"style-aesthetic": {
+"nouns": [
+"fashion",
+"aesthetic",
+"style",
+"wardrobe"
+],
+"adjectives": [
+"personal",
+"visual",
+"sartorial",
+"eclectic"
+]
+},
+"narrative-transportation": {
+"nouns": [
+"narrative",
+"immersion",
+"storytelling",
+"absorption"
+],
+"adjectives": [
+"immersive",
+"emotional",
+"psychological",
+"imaginative"
+]
+},
+"blood-group": {
+"nouns": [
+"blood",
+"antigen",
+"genetics",
+"transfusion"
+],
+"adjectives": [
+"biological",
+"genetic",
+"medical",
+"inherited"
+]
+},
+"science-field-work": {
+"nouns": [
+"science",
+"research",
+"field",
+"discipline"
+],
+"adjectives": [
+"scientific",
+"empirical",
+"experimental",
+"natural"
+]
+},
+"rights-priority": {
+"nouns": [
+"rights",
+"freedom",
+"justice",
+"liberty"
+],
+"adjectives": [
+"constitutional",
+"political",
+"fundamental",
+"civil"
+]
+},
+"keyboard-layout": {
+"nouns": [
+"keyboard",
+"layout",
+"typing",
+"ergonomics"
+],
+"adjectives": [
+"mechanical",
+"ergonomic",
+"digital",
+"alternative"
+]
+},
+"shopping-style": {
+"nouns": [
+"shopping",
+"consumer",
+"spending",
+"purchasing"
+],
+"adjectives": [
+"impulsive",
+"frugal",
+"deliberate",
+"strategic"
+]
+},
+"risk-tolerance": {
+"nouns": [
+"risk",
+"investment",
+"finance",
+"volatility"
+],
+"adjectives": [
+"financial",
+"conservative",
+"speculative",
+"cautious"
+]
+},
+"ethical-framework": {
+"nouns": [
+"ethics",
+"morality",
+"virtue",
+"philosophy"
+],
+"adjectives": [
+"moral",
+"philosophical",
+"normative",
+"applied"
+]
+},
+"theory-of-truth": {
+"nouns": [
+"truth",
+"epistemology",
+"philosophy",
+"knowledge"
+],
+"adjectives": [
+"philosophical",
+"epistemological",
+"metaphysical",
+"pragmatic"
+]
+},
+"mlq-meaning": {
+"nouns": [
+"meaning",
+"purpose",
+"wellbeing",
+"fulfilment"
+],
+"adjectives": [
+"existential",
+"psychological",
+"intrinsic",
+"subjective"
+]
+},
+"connection-source": {
+"nouns": [
+"connection",
+"belonging",
+"community",
+"spirituality"
+],
+"adjectives": [
+"transcendent",
+"emotional",
+"spiritual",
+"relational"
+]
+},
+"taste-mainstreamness": {
+"nouns": [
+"taste",
+"culture",
+"niche",
+"preference"
+],
+"adjectives": [
+"mainstream",
+"subcultural",
+"eclectic",
+"alternative"
+]
+},
+"animals-in-life": {
+"nouns": [
+"pet",
+"animal",
+"companion",
+"wildlife"
+],
+"adjectives": [
+"domestic",
+"natural",
+"companion",
+"wild"
+]
+},
+"food-neophobia": {
+"nouns": [
+"food",
+"neophobia",
+"cuisine",
+"appetite"
+],
+"adjectives": [
+"dietary",
+"adventurous",
+"psychological",
+"sensory"
+]
+},
+"self-control": {
+"nouns": [
+"self-control",
+"willpower",
+"discipline",
+"impulse"
+],
+"adjectives": [
+"psychological",
+"behavioural",
+"cognitive",
+"emotional"
+]
+},
+"political-efficacy": {
+"nouns": [
+"efficacy",
+"participation",
+"democracy",
+"citizenship"
+],
+"adjectives": [
+"political",
+"civic",
+"democratic",
+"institutional"
+]
+},
+"crime-theory": {
+"nouns": [
+"crime",
+"criminology",
+"deviance",
+"law"
+],
+"adjectives": [
+"criminological",
+"sociological",
+"psychological",
+"structural"
+]
+},
+"welfare-regimes": {
+"nouns": [
+"welfare",
+"redistribution",
+"policy",
+"inequality"
+],
+"adjectives": [
+"social",
+"political",
+"redistributive",
+"universal"
+]
+},
+"eysenck-pen": {
+"nouns": [
+"personality",
+"psychoticism",
+"extraversion",
+"neuroticism"
+],
+"adjectives": [
+"biological",
+"temperamental",
+"dimensional",
+"inherited"
+]
+},
+"type-ab": {
+"nouns": [
+"personality",
+"stress",
+"behaviour",
+"typology"
+],
+"adjectives": [
+"competitive",
+"impatient",
+"driven",
+"anxious"
+]
+},
+"chronotype": {
+"nouns": [
+"chronotype",
+"circadian",
+"sleep",
+"rhythm"
+],
+"adjectives": [
+"nocturnal",
+"biological",
+"diurnal",
+"genetic"
+]
+},
+"honey-mumford": {
+"nouns": [
+"learning",
+"style",
+"preference",
+"cycle"
+],
+"adjectives": [
+"reflective",
+"pragmatic",
+"active",
+"theoretical"
+]
+},
+"chinese-element": {
+"nouns": [
+"element",
+"cosmology",
+"temperament",
+"calendar"
+],
+"adjectives": [
+"classical",
+"elemental",
+"ancient",
+"symbolic"
+]
+},
+"birthstone": {
+"nouns": [
+"birthstone",
+"gemstone",
+"gem",
+"mineral"
+],
+"adjectives": [
+"precious",
+"traditional",
+"symbolic",
+"natural"
+]
+},
+"tropical-neptune-sign": {
+"nouns": [
+"neptune",
+"zodiac",
+"astrology",
+"spirituality"
+],
+"adjectives": [
+"mystical",
+"dreamy",
+"intuitive",
+"imaginative"
+]
+},
+"sidereal-midheaven-sign": {
+"nouns": [
+"midheaven",
+"vedic",
+"career",
+"astrology"
+],
+"adjectives": [
+"sidereal",
+"natal",
+"celestial",
+"professional"
+]
+},
+"movie-genre": {
+"nouns": [
+"film",
+"genre",
+"cinema",
+"taste"
+],
+"adjectives": [
+"cinematic",
+"dramatic",
+"narrative",
+"visual"
+]
+},
+"parasocial-bonds": {
+"nouns": [
+"parasocial",
+"celebrity",
+"attachment",
+"fandom"
+],
+"adjectives": [
+"emotional",
+"mediated",
+"one-sided",
+"digital"
+]
+},
+"hsp": {
+"nouns": [
+"sensitivity",
+"empathy",
+"emotion",
+"perception"
+],
+"adjectives": [
+"sensitive",
+"empathic",
+"perceptive",
+"reactive"
+]
+},
+"race-ethnicity-us": {
+"nouns": [
+"race",
+"ethnicity",
+"identity",
+"ancestry"
+],
+"adjectives": [
+"racial",
+"ethnic",
+"cultural",
+"demographic"
+]
+},
+"science-faith": {
+"nouns": [
+"science",
+"faith",
+"religion",
+"belief"
+],
+"adjectives": [
+"scientific",
+"spiritual",
+"rational",
+"theological"
+]
+},
+"dharmic-path": {
+"nouns": [
+"dharma",
+"meditation",
+"spirituality",
+"practice"
+],
+"adjectives": [
+"spiritual",
+"meditative",
+"contemplative",
+"devotional"
+]
+},
+"multilingualism": {
+"nouns": [
+"language",
+"bilingualism",
+"fluency",
+"multilingualism"
+],
+"adjectives": [
+"bilingual",
+"multilingual",
+"linguistic",
+"verbal"
+]
+},
+"disability-status": {
+"nouns": [
+"disability",
+"accessibility",
+"impairment",
+"condition"
+],
+"adjectives": [
+"physical",
+"cognitive",
+"sensory",
+"chronic"
+]
+},
+"political-compass": {
+"nouns": [
+"politics",
+"ideology",
+"liberty",
+"authority"
+],
+"adjectives": [
+"libertarian",
+"authoritarian",
+"political",
+"economic"
+]
+},
+"falling-in-love": {
+"nouns": [
+"love",
+"attraction",
+"romance",
+"attachment"
+],
+"adjectives": [
+"romantic",
+"passionate",
+"emotional",
+"intimate"
+]
+},
+"schooling-choice": {
+"nouns": [
+"education",
+"curriculum",
+"pedagogy",
+"schooling"
+],
+"adjectives": [
+"alternative",
+"traditional",
+"progressive",
+"holistic"
+]
+},
+"sleep-duration": {
+"nouns": [
+"sleep",
+"rest",
+"duration",
+"health"
+],
+"adjectives": [
+"biological",
+"optimal",
+"restorative",
+"natural"
+]
+},
+"mental-health-experience": {
+"nouns": [
+"anxiety",
+"depression",
+"wellbeing",
+"therapy"
+],
+"adjectives": [
+"psychological",
+"clinical",
+"emotional",
+"therapeutic"
+]
+},
+"life-stage": {
+"nouns": [
+"adulthood",
+"development",
+"transition",
+"milestone"
+],
+"adjectives": [
+"developmental",
+"generational",
+"formative",
+"transitional"
+]
+},
+"fashion-approach": {
+"nouns": [
+"fashion",
+"wardrobe",
+"style",
+"clothing"
+],
+"adjectives": [
+"minimalist",
+"sustainable",
+"aesthetic",
+"personal"
+]
+},
+"art-movement": {
+"nouns": [
+"art",
+"movement",
+"aesthetics",
+"painting"
+],
+"adjectives": [
+"abstract",
+"impressionist",
+"contemporary",
+"expressive"
+]
+},
+"eye-color": {
+"nouns": [
+"eye",
+"colour",
+"pigment",
+"genetics"
+],
+"adjectives": [
+"genetic",
+"inherited",
+"physical",
+"visible"
+]
+},
+"physics-interest": {
+"nouns": [
+"physics",
+"quantum",
+"cosmology",
+"mechanics"
+],
+"adjectives": [
+"theoretical",
+"quantum",
+"experimental",
+"astrophysical"
+]
+},
+"rule-relationship": {
+"nouns": [
+"authority",
+"conformity",
+"autonomy",
+"compliance"
+],
+"adjectives": [
+"rebellious",
+"compliant",
+"independent",
+"principled"
+]
+},
+"ai-tool-use": {
+"nouns": [
+"ai",
+"automation",
+"productivity",
+"technology"
+],
+"adjectives": [
+"artificial",
+"digital",
+"generative",
+"intelligent"
+]
+},
+"traveller-type": {
+"nouns": [
+"travel",
+"adventure",
+"tourism",
+"exploration"
+],
+"adjectives": [
+"adventurous",
+"cultural",
+"nomadic",
+"immersive"
+]
+},
+"financial-archetype": {
+"nouns": [
+"money",
+"finance",
+"savings",
+"investment"
+],
+"adjectives": [
+"financial",
+"behavioural",
+"frugal",
+"impulsive"
+]
+},
+"moral-foundations": {
+"nouns": [
+"morality",
+"fairness",
+"loyalty",
+"ethics"
+],
+"adjectives": [
+"moral",
+"ethical",
+"intuitive",
+"principled"
+]
+},
+"intellectual-humility": {
+"nouns": [
+"humility",
+"belief",
+"certainty",
+"reasoning"
+],
+"adjectives": [
+"humble",
+"open-minded",
+"reflective",
+"intellectual"
+]
+},
+"death-attitude": {
+"nouns": [
+"death",
+"mortality",
+"acceptance",
+"fear"
+],
+"adjectives": [
+"existential",
+"philosophical",
+"stoic",
+"contemplative"
+]
+},
+"spiritual-outlook": {
+"nouns": [
+"spirituality",
+"religion",
+"belief",
+"transcendence"
+],
+"adjectives": [
+"spiritual",
+"religious",
+"secular",
+"metaphysical"
+]
+},
+"photography-genre": {
+"nouns": [
+"photography",
+"portrait",
+"composition",
+"genre"
+],
+"adjectives": [
+"photographic",
+"documentary",
+"artistic",
+"visual"
+]
+},
+"wildlife-dream-sighting": {
+"nouns": [
+"wildlife",
+"animal",
+"nature",
+"species"
+],
+"adjectives": [
+"wild",
+"exotic",
+"rare",
+"endangered"
+]
+},
+"bicultural-identity-integration": {
+"nouns": [
+"biculturalism",
+"identity",
+"culture",
+"integration"
+],
+"adjectives": [
+"bicultural",
+"multicultural",
+"diasporic",
+"hybrid"
+]
+},
+"emotion-regulation": {
+"nouns": [
+"emotion",
+"reappraisal",
+"suppression",
+"regulation"
+],
+"adjectives": [
+"emotional",
+"cognitive",
+"adaptive",
+"expressive"
+]
+},
+"friendship-functions": {
+"nouns": [
+"friendship",
+"support",
+"companionship",
+"trust"
+],
+"adjectives": [
+"social",
+"emotional",
+"reciprocal",
+"intimate"
+]
+},
+"postmaterialism": {
+"nouns": [
+"values",
+"materialism",
+"freedom",
+"society"
+],
+"adjectives": [
+"postmaterialist",
+"materialist",
+"progressive",
+"cultural"
+]
+},
+"competitiveness": {
+"nouns": [
+"competition",
+"rivalry",
+"achievement",
+"ambition"
+],
+"adjectives": [
+"competitive",
+"driven",
+"ambitious",
+"achievement-oriented"
+]
+},
+"cattell-16pf": {
+"nouns": [
+"personality",
+"trait",
+"factor",
+"psychology"
+],
+"adjectives": [
+"psychological",
+"behavioural",
+"analytical",
+"dimensional"
+]
+},
+"true-colors": {
+"nouns": [
+"temperament",
+"personality",
+"colour",
+"type"
+],
+"adjectives": [
+"spontaneous",
+"organised",
+"compassionate",
+"analytical"
+]
+},
+"vark-learning-style": {
+"nouns": [
+"learning",
+"preference",
+"modality",
+"style"
+],
+"adjectives": [
+"visual",
+"auditory",
+"kinaesthetic",
+"sensory"
+]
+},
+"kolb-learning": {
+"nouns": [
+"learning",
+"experience",
+"reflection",
+"cycle"
+],
+"adjectives": [
+"experiential",
+"reflective",
+"abstract",
+"concrete"
+]
+},
+"bazi-day-master": {
+"nouns": [
+"element",
+"astrology",
+"destiny",
+"pillar"
+],
+"adjectives": [
+"elemental",
+"Chinese",
+"astrological",
+"metaphysical"
+]
+},
+"numerology-expression": {
+"nouns": [
+"numerology",
+"destiny",
+"name",
+"number"
+],
+"adjectives": [
+"numerological",
+"symbolic",
+"mystical",
+"karmic"
+]
+},
+"tropical-pluto-sign": {
+"nouns": [
+"pluto",
+"zodiac",
+"astrology",
+"transformation"
+],
+"adjectives": [
+"generational",
+"transformative",
+"astrological",
+"planetary"
+]
+},
+"tropical-north-node-sign": {
+"nouns": [
+"node",
+"zodiac",
+"astrology",
+"karma"
+],
+"adjectives": [
+"karmic",
+"astrological",
+"lunar",
+"evolutionary"
+]
+},
+"norse-archetype": {
+"nouns": [
+"archetype",
+"mythology",
+"god",
+"saga"
+],
+"adjectives": [
+"mythological",
+"archetypal",
+"legendary",
+"heroic"
+]
+},
+"left-right-brain": {
+"nouns": [
+"brain",
+"hemisphere",
+"laterality",
+"neuroscience"
+],
+"adjectives": [
+"logical",
+"creative",
+"analytical",
+"cognitive"
+]
+},
+"sensation-seeking": {
+"nouns": [
+"sensation",
+"risk",
+"novelty",
+"thrill"
+],
+"adjectives": [
+"adventurous",
+"impulsive",
+"daring",
+"biological"
+]
+},
+"ethnicity-uk": {
+"nouns": [
+"ethnicity",
+"identity",
+"census",
+"heritage"
+],
+"adjectives": [
+"ethnic",
+"cultural",
+"demographic",
+"multicultural"
+]
+},
+"god-image": {
+"nouns": [
+"god",
+"religion",
+"belief",
+"theology"
+],
+"adjectives": [
+"theological",
+"religious",
+"divine",
+"spiritual"
+]
+},
+"meditation-style": {
+"nouns": [
+"meditation",
+"mindfulness",
+"technique",
+"practice"
+],
+"adjectives": [
+"mindful",
+"contemplative",
+"spiritual",
+"focused"
+]
+},
+"communication-style": {
+"nouns": [
+"communication",
+"assertiveness",
+"conflict",
+"dialogue"
+],
+"adjectives": [
+"assertive",
+"passive",
+"verbal",
+"interpersonal"
+]
+},
+"access-needs": {
+"nouns": [
+"accessibility",
+"disability",
+"inclusion",
+"neurodiversity"
+],
+"adjectives": [
+"accessible",
+"inclusive",
+"assistive",
+"adaptive"
+]
+},
+"political-spectrum": {
+"nouns": [
+"politics",
+"ideology",
+"spectrum",
+"values"
+],
+"adjectives": [
+"political",
+"liberal",
+"conservative",
+"ideological"
+]
+},
+"attraction-traits": {
+"nouns": [
+"attraction",
+"trait",
+"partner",
+"personality"
+],
+"adjectives": [
+"romantic",
+"physical",
+"emotional",
+"interpersonal"
+]
+},
+"caregiving-style": {
+"nouns": [
+"caregiving",
+"attachment",
+"sensitivity",
+"empathy"
+],
+"adjectives": [
+"responsive",
+"nurturing",
+"compassionate",
+"secure"
+]
+},
+"bedtime-procrastination": {
+"nouns": [
+"sleep",
+"procrastination",
+"bedtime",
+"habit"
+],
+"adjectives": [
+"nocturnal",
+"behavioural",
+"chronic",
+"habitual"
+]
+},
+"wellbeing-support": {
+"nouns": [
+"wellbeing",
+"health",
+"resilience",
+"self-care"
+],
+"adjectives": [
+"mental",
+"emotional",
+"psychological",
+"holistic"
+]
+},
+"social-mobility": {
+"nouns": [
+"mobility",
+"class",
+"income",
+"inequality"
+],
+"adjectives": [
+"socioeconomic",
+"generational",
+"structural",
+"upward"
+]
+},
+"appearance-effort": {
+"nouns": [
+"appearance",
+"grooming",
+"style",
+"image"
+],
+"adjectives": [
+"aesthetic",
+"deliberate",
+"personal",
+"expressive"
+]
+},
+"dance-style": {
+"nouns": [
+"dance",
+"movement",
+"rhythm",
+"choreography"
+],
+"adjectives": [
+"rhythmic",
+"expressive",
+"cultural",
+"physical"
+]
+},
+"handedness": {
+"nouns": [
+"handedness",
+"laterality",
+"dominance",
+"genetics"
+],
+"adjectives": [
+"dominant",
+"neurological",
+"genetic",
+"lateral"
+]
+},
+"favourite-science-topic": {
+"nouns": [
+"science",
+"biology",
+"physics",
+"research"
+],
+"adjectives": [
+"scientific",
+"empirical",
+"natural",
+"analytical"
+]
+},
+"justice-sensitivity": {
+"nouns": [
+"justice",
+"fairness",
+"inequality",
+"morality"
+],
+"adjectives": [
+"moral",
+"ethical",
+"social",
+"empathic"
+]
+},
+"cat-vs-dog": {
+"nouns": [
+"pet",
+"animal",
+"companion",
+"personality"
+],
+"adjectives": [
+"independent",
+"loyal",
+"domestic",
+"affectionate"
+]
+},
+"continents-visited": {
+"nouns": [
+"travel",
+"continent",
+"geography",
+"exploration"
+],
+"adjectives": [
+"global",
+"international",
+"adventurous",
+"geographic"
+]
+},
+"work-orientation": {
+"nouns": [
+"career",
+"employment",
+"livelihood",
+"vocation"
+],
+"adjectives": [
+"entrepreneurial",
+"vocational",
+"professional",
+"independent"
+]
+},
+"moral-source": {
+"nouns": [
+"morality",
+"ethics",
+"conscience",
+"philosophy"
+],
+"adjectives": [
+"moral",
+"ethical",
+"philosophical",
+"religious"
+]
+},
+"need-for-cognition": {
+"nouns": [
+"cognition",
+"thinking",
+"intellect",
+"curiosity"
+],
+"adjectives": [
+"intellectual",
+"analytical",
+"cognitive",
+"reflective"
+]
+},
+"math-affinity": {
+"nouns": [
+"mathematics",
+"algebra",
+"geometry",
+"calculus"
+],
+"adjectives": [
+"mathematical",
+"abstract",
+"logical",
+"numerical"
+]
+},
+"spiritual-experiences": {
+"nouns": [
+"spirituality",
+"mysticism",
+"transcendence",
+"consciousness"
+],
+"adjectives": [
+"spiritual",
+"mystical",
+"transcendent",
+"profound"
+]
+},
+"art-engagement": {
+"nouns": [
+"art",
+"creativity",
+"aesthetics",
+"gallery"
+],
+"adjectives": [
+"artistic",
+"visual",
+"aesthetic",
+"expressive"
+]
+},
+"animal-attitudes": {
+"nouns": [
+"animal",
+"wildlife",
+"conservation",
+"ecology"
+],
+"adjectives": [
+"ecological",
+"affectionate",
+"ethical",
+"compassionate"
+]
+},
+"stages-of-change": {
+"nouns": [
+"habit",
+"behaviour",
+"motivation",
+"change"
+],
+"adjectives": [
+"behavioural",
+"motivational",
+"psychological",
+"habitual"
+]
+},
+"empathy-iri": {
+"nouns": [
+"empathy",
+"perspective",
+"compassion",
+"emotion"
+],
+"adjectives": [
+"empathic",
+"cognitive",
+"emotional",
+"affective"
+]
+},
+"volunteer-functions": {
+"nouns": [
+"volunteering",
+"motivation",
+"altruism",
+"community"
+],
+"adjectives": [
+"altruistic",
+"prosocial",
+"civic",
+"selfless"
+]
+},
+"interests-rights-power": {
+"nouns": [
+"negotiation",
+"dispute",
+"conflict",
+"mediation"
+],
+"adjectives": [
+"collaborative",
+"adversarial",
+"legal",
+"interest-based"
+]
+},
+"investor-type": {
+"nouns": [
+"investor",
+"risk",
+"finance",
+"behaviour"
+],
+"adjectives": [
+"behavioural",
+"risk-averse",
+"financial",
+"speculative"
+]
+},
+"dark-triad": {
+"nouns": [
+"narcissism",
+"psychopathy",
+"manipulation",
+"personality"
+],
+"adjectives": [
+"manipulative",
+"narcissistic",
+"antisocial",
+"subclinical"
+]
+},
+"insights-discovery": {
+"nouns": [
+"personality",
+"temperament",
+"archetype",
+"workplace"
+],
+"adjectives": [
+"psychological",
+"behavioural",
+"interpersonal",
+"analytical"
+]
+},
+"holland-riasec": {
+"nouns": [
+"career",
+"interest",
+"personality",
+"vocation"
+],
+"adjectives": [
+"vocational",
+"occupational",
+"investigative",
+"enterprising"
+]
+},
+"study-style": {
+"nouns": [
+"memory",
+"retention",
+"concentration",
+"habit"
+],
+"adjectives": [
+"effective",
+"active",
+"deliberate",
+"focused"
+]
+},
+"vedic-nakshatra": {
+"nouns": [
+"nakshatra",
+"astrology",
+"moon",
+"zodiac"
+],
+"adjectives": [
+"vedic",
+"lunar",
+"astrological",
+"natal"
+]
+},
+"chakra": {
+"nouns": [
+"chakra",
+"energy",
+"yoga",
+"meditation"
+],
+"adjectives": [
+"yogic",
+"spiritual",
+"energetic",
+"holistic"
+]
+},
+"tropical-midheaven-sign": {
+"nouns": [
+"midheaven",
+"astrology",
+"career",
+"zodiac"
+],
+"adjectives": [
+"astrological",
+"natal",
+"tropical",
+"western"
+]
+},
+"tropical-chiron-sign": {
+"nouns": [
+"chiron",
+"healing",
+"wound",
+"astrology"
+],
+"adjectives": [
+"astrological",
+"natal",
+"therapeutic",
+"western"
+]
+},
+"chess-piece": {
+"nouns": [
+"chess",
+"strategy",
+"personality",
+"game"
+],
+"adjectives": [
+"strategic",
+"tactical",
+"competitive",
+"playful"
+]
+},
+"mindset": {
+"nouns": [
+"mindset",
+"growth",
+"psychology",
+"belief"
+],
+"adjectives": [
+"psychological",
+"motivational",
+"cognitive",
+"developmental"
+]
+},
+"gender-identity": {
+"nouns": [
+"gender",
+"identity",
+"expression",
+"sexuality"
+],
+"adjectives": [
+"personal",
+"nonbinary",
+"transgender",
+"inclusive"
+]
+},
+"ancestry-region": {
+"nouns": [
+"ancestry",
+"heritage",
+"ethnicity",
+"origin"
+],
+"adjectives": [
+"ancestral",
+"cultural",
+"ethnic",
+"regional"
+]
+},
+"post-critical-belief": {
+"nouns": [
+"belief",
+"religion",
+"interpretation",
+"spirituality"
+],
+"adjectives": [
+"religious",
+"symbolic",
+"literal",
+"transcendent"
+]
+},
+"jewish-movement": {
+"nouns": [
+"judaism",
+"movement",
+"tradition",
+"denomination"
+],
+"adjectives": [
+"jewish",
+"orthodox",
+"religious",
+"observant"
+]
+},
+"historical-era-affinity": {
+"nouns": [
+"history",
+"era",
+"civilisation",
+"period"
+],
+"adjectives": [
+"historical",
+"ancient",
+"medieval",
+"classical"
+]
+},
+"disability-visibility": {
+"nouns": [
+"disability",
+"condition",
+"visibility",
+"accessibility"
+],
+"adjectives": [
+"visible",
+"invisible",
+"chronic",
+"physical"
+]
+},
+"governance-preference": {
+"nouns": [
+"government",
+"democracy",
+"politics",
+"society"
+],
+"adjectives": [
+"political",
+"democratic",
+"civic",
+"constitutional"
+]
+},
+"triangular-love": {
+"nouns": [
+"love",
+"intimacy",
+"commitment",
+"relationship"
+],
+"adjectives": [
+"romantic",
+"passionate",
+"emotional",
+"psychological"
+]
+},
+"education-level": {
+"nouns": [
+"education",
+"degree",
+"qualification",
+"schooling"
+],
+"adjectives": [
+"formal",
+"academic",
+"doctoral",
+"undergraduate"
+]
+},
+"medical-field": {
+"nouns": [
+"medicine",
+"healthcare",
+"specialty",
+"nursing"
+],
+"adjectives": [
+"clinical",
+"medical",
+"surgical",
+"therapeutic"
+]
+},
+"stress-response": {
+"nouns": [
+"stress",
+"anxiety",
+"coping",
+"reaction"
+],
+"adjectives": [
+"psychological",
+"instinctive",
+"emotional",
+"behavioural"
+]
+},
+"subjective-social-status": {
+"nouns": [
+"status",
+"class",
+"hierarchy",
+"inequality"
+],
+"adjectives": [
+"social",
+"subjective",
+"perceived",
+"socioeconomic"
+]
+},
+"need-for-uniqueness": {
+"nouns": [
+"individuality",
+"uniqueness",
+"identity",
+"originality"
+],
+"adjectives": [
+"distinctive",
+"original",
+"nonconformist",
+"independent"
+]
+},
+"dancefloor-persona": {
+"nouns": [
+"dance",
+"music",
+"movement",
+"personality"
+],
+"adjectives": [
+"social",
+"expressive",
+"rhythmic",
+"spontaneous"
+]
+},
+"hair-type": {
+"nouns": [
+"hair",
+"texture",
+"curl",
+"genetics"
+],
+"adjectives": [
+"natural",
+"curly",
+"coily",
+"straight"
+]
+},
+"science-engagement": {
+"nouns": [
+"science",
+"experiment",
+"research",
+"curiosity"
+],
+"adjectives": [
+"scientific",
+"empirical",
+"exploratory",
+"analytical"
+]
+},
+"phone-platform": {
+"nouns": [
+"smartphone",
+"platform",
+"technology",
+"ecosystem"
+],
+"adjectives": [
+"digital",
+"mobile",
+"technological",
+"everyday"
+]
+},
+"beach-vs-mountains": {
+"nouns": [
+"travel",
+"landscape",
+"holiday",
+"nature"
+],
+"adjectives": [
+"outdoor",
+"coastal",
+"scenic",
+"adventurous"
+]
+},
+"city-vs-nature": {
+"nouns": [
+"city",
+"nature",
+"lifestyle",
+"environment"
+],
+"adjectives": [
+"urban",
+"rural",
+"natural",
+"outdoor"
+]
+},
+"work-life-balance": {
+"nouns": [
+"balance",
+"wellbeing",
+"productivity",
+"lifestyle"
+],
+"adjectives": [
+"flexible",
+"sustainable",
+"professional",
+"healthy"
+]
+},
+"moral-circle": {
+"nouns": [
+"morality",
+"ethics",
+"compassion",
+"altruism"
+],
+"adjectives": [
+"moral",
+"ethical",
+"empathetic",
+"inclusive"
+]
+},
+"epistemic-curiosity": {
+"nouns": [
+"curiosity",
+"knowledge",
+"exploration",
+"cognition"
+],
+"adjectives": [
+"intellectual",
+"inquisitive",
+"exploratory",
+"analytical"
+]
+},
+"math-relationship": {
+"nouns": [
+"mathematics",
+"numeracy",
+"anxiety",
+"reasoning"
+],
+"adjectives": [
+"mathematical",
+"numerical",
+"analytical",
+"logical"
+]
+},
+"daily-spiritual-experiences": {
+"nouns": [
+"spirituality",
+"mindfulness",
+"awe",
+"transcendence"
+],
+"adjectives": [
+"spiritual",
+"contemplative",
+"sacred",
+"everyday"
+]
+},
+"art-meaning": {
+"nouns": [
+"art",
+"creativity",
+"expression",
+"aesthetics"
+],
+"adjectives": [
+"artistic",
+"creative",
+"aesthetic",
+"expressive"
+]
+},
+"landscape-affinity": {
+"nouns": [
+"landscape",
+"nature",
+"terrain",
+"environment"
+],
+"adjectives": [
+"natural",
+"scenic",
+"outdoor",
+"geographical"
+]
+},
+"parent-peer-attachment": {
+"nouns": [
+"attachment",
+"bonding",
+"relationship",
+"security"
+],
+"adjectives": [
+"emotional",
+"familial",
+"interpersonal",
+"social"
+]
+},
+"proactive-personality": {
+"nouns": [
+"initiative",
+"personality",
+"agency",
+"leadership"
+],
+"adjectives": [
+"proactive",
+"assertive",
+"motivated",
+"driven"
+]
+},
+"investment-model": {
+"nouns": [
+"commitment",
+"relationship",
+"satisfaction",
+"investment"
+],
+"adjectives": [
+"romantic",
+"relational",
+"psychological",
+"emotional"
+]
+},
+"psychological-contract": {
+"nouns": [
+"contract",
+"obligation",
+"workplace",
+"employment"
+],
+"adjectives": [
+"psychological",
+"implicit",
+"organisational",
+"occupational"
+]
+},
+"organisational-culture": {
+"nouns": [
+"culture",
+"organisation",
+"values",
+"management"
+],
+"adjectives": [
+"organisational",
+"corporate",
+"collaborative",
+"hierarchical"
+]
+},
+"light-triad": {
+"nouns": [
+"altruism",
+"personality",
+"empathy",
+"virtue"
+],
+"adjectives": [
+"benevolent",
+"compassionate",
+"prosocial",
+"humane"
+]
+},
+"hartman-color-code": {
+"nouns": [
+"motive",
+"personality",
+"temperament",
+"colour"
+],
+"adjectives": [
+"motivational",
+"behavioural",
+"psychological",
+"driven"
+]
+},
+"via-strengths": {
+"nouns": [
+"strength",
+"character",
+"virtue",
+"classification"
+],
+"adjectives": [
+"positive",
+"psychological",
+"moral",
+"personal"
+]
+},
+"achievement-goals": {
+"nouns": [
+"motivation",
+"achievement",
+"performance",
+"orientation"
+],
+"adjectives": [
+"mastery",
+"competitive",
+"academic",
+"goal-oriented"
+]
+},
+"mayan-zodiac": {
+"nouns": [
+"calendar",
+"astrology",
+"zodiac",
+"nahual"
+],
+"adjectives": [
+"sacred",
+"ancient",
+"spiritual",
+"astrological"
+]
+},
+"palmistry": {
+"nouns": [
+"palm",
+"chiromancy",
+"hand",
+"divination"
+],
+"adjectives": [
+"elemental",
+"traditional",
+"mystical",
+"symbolic"
+]
+},
+"sidereal-sun-sign": {
+"nouns": [
+"astrology",
+"zodiac",
+"sign",
+"horoscope"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"natal",
+"astrological"
+]
+},
+"sidereal-rahu-sign": {
+"nouns": [
+"rahu",
+"astrology",
+"node",
+"graha"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"karmic",
+"astrological"
+]
+},
+"chess-style": {
+"nouns": [
+"chess",
+"strategy",
+"style",
+"opening"
+],
+"adjectives": [
+"tactical",
+"positional",
+"aggressive",
+"defensive"
+]
+},
+"optimist-pessimist": {
+"nouns": [
+"optimism",
+"pessimism",
+"outlook",
+"mindset"
+],
+"adjectives": [
+"positive",
+"hopeful",
+"resilient",
+"psychological"
+]
+},
+"sex-assigned-at-birth": {
+"nouns": [
+"sex",
+"biology",
+"anatomy",
+"gender"
+],
+"adjectives": [
+"biological",
+"clinical",
+"anatomical",
+"genetic"
+]
+},
+"heritage-connection": {
+"nouns": [
+"heritage",
+"culture",
+"ancestry",
+"identity"
+],
+"adjectives": [
+"cultural",
+"ancestral",
+"ethnic",
+"traditional"
+]
+},
+"religiosity": {
+"nouns": [
+"religion",
+"spirituality",
+"faith",
+"belief"
+],
+"adjectives": [
+"religious",
+"devout",
+"spiritual",
+"secular"
+]
+},
+"scripture-relationship": {
+"nouns": [
+"scripture",
+"text",
+"religion",
+"interpretation"
+],
+"adjectives": [
+"literal",
+"sacred",
+"theological",
+"devotional"
+]
+},
+"writing-identity": {
+"nouns": [
+"writing",
+"style",
+"author",
+"voice"
+],
+"adjectives": [
+"creative",
+"literary",
+"expressive",
+"narrative"
+]
+},
+"disability-model": {
+"nouns": [
+"disability",
+"inclusion",
+"accessibility",
+"model"
+],
+"adjectives": [
+"medical",
+"social",
+"inclusive",
+"adaptive"
+]
+},
+"political-ideology": {
+"nouns": [
+"ideology",
+"politics",
+"conservatism",
+"liberalism"
+],
+"adjectives": [
+"political",
+"progressive",
+"conservative",
+"ideological"
+]
+},
+"flirting-style": {
+"nouns": [
+"flirting",
+"romance",
+"attraction",
+"courtship"
+],
+"adjectives": [
+"playful",
+"sincere",
+"physical",
+"traditional"
+]
+},
+"diet": {
+"nouns": [
+"diet",
+"nutrition",
+"veganism",
+"food"
+],
+"adjectives": [
+"vegan",
+"ethical",
+"omnivorous",
+"dietary"
+]
+},
+"medical-specialty": {
+"nouns": [
+"medicine",
+"specialty",
+"health",
+"science"
+],
+"adjectives": [
+"medical",
+"clinical",
+"surgical",
+"biomedical"
+]
+},
+"coping-style": {
+"nouns": [
+"coping",
+"resilience",
+"stress",
+"wellbeing"
+],
+"adjectives": [
+"adaptive",
+"emotional",
+"psychological",
+"behavioural"
+]
+},
+"social-comparison": {
+"nouns": [
+"comparison",
+"self-esteem",
+"psychology",
+"status"
+],
+"adjectives": [
+"social",
+"comparative",
+"upward",
+"competitive"
+]
+},
+"music-genre": {
+"nouns": [
+"music",
+"genre",
+"taste",
+"rhythm"
+],
+"adjectives": [
+"musical",
+"cultural",
+"acoustic",
+"rhythmic"
+]
+},
+"dance-role": {
+"nouns": [
+"dance",
+"partner",
+"role",
+"movement"
+],
+"adjectives": [
+"leading",
+"following",
+"physical",
+"social"
+]
+},
+"lactose-tolerance": {
+"nouns": [
+"lactose",
+"genetics",
+"digestion",
+"enzyme"
+],
+"adjectives": [
+"genetic",
+"digestive",
+"biological",
+"ancestral"
+]
+},
+"science-curiosity": {
+"nouns": [
+"curiosity",
+"science",
+"inquiry",
+"disposition"
+],
+"adjectives": [
+"scientific",
+"intellectual",
+"inquisitive",
+"empirical"
+]
+},
+"social-platform": {
+"nouns": [
+"platform",
+"media",
+"network",
+"app"
+],
+"adjectives": [
+"social",
+"digital",
+"online",
+"interactive"
+]
+},
+"homebody-explorer": {
+"nouns": [
+"travel",
+"adventure",
+"leisure",
+"lifestyle"
+],
+"adjectives": [
+"adventurous",
+"exploratory",
+"introverted",
+"nomadic"
+]
+},
+"dream-destination": {
+"nouns": [
+"travel",
+"destination",
+"wanderlust",
+"tourism"
+],
+"adjectives": [
+"exotic",
+"cultural",
+"international",
+"adventurous"
+]
+},
+"work-meaning-orientation": {
+"nouns": [
+"vocation",
+"career",
+"calling",
+"meaning"
+],
+"adjectives": [
+"purposeful",
+"intrinsic",
+"occupational",
+"motivational"
+]
+},
+"moral-objectivity": {
+"nouns": [
+"morality",
+"ethics",
+"relativism",
+"philosophy"
+],
+"adjectives": [
+"objective",
+"moral",
+"philosophical",
+"ethical"
+]
+},
+"metaphysical-view": {
+"nouns": [
+"reality",
+"metaphysics",
+"consciousness",
+"philosophy"
+],
+"adjectives": [
+"metaphysical",
+"philosophical",
+"materialist",
+"idealist"
+]
+},
+"puzzle-love": {
+"nouns": [
+"puzzle",
+"logic",
+"problem",
+"game"
+],
+"adjectives": [
+"logical",
+"analytical",
+"cognitive",
+"mathematical"
+]
+},
+"spiritual-transcendence": {
+"nouns": [
+"transcendence",
+"spirituality",
+"meaning",
+"connectedness"
+],
+"adjectives": [
+"spiritual",
+"sacred",
+"transcendent",
+"universal"
+]
+},
+"aesthetic-responsiveness": {
+"nouns": [
+"aesthetics",
+"beauty",
+"art",
+"emotion"
+],
+"adjectives": [
+"aesthetic",
+"artistic",
+"sensory",
+"emotional"
+]
+},
+"outdoor-pursuits": {
+"nouns": [
+"outdoor",
+"adventure",
+"nature",
+"activity"
+],
+"adjectives": [
+"adventurous",
+"physical",
+"recreational",
+"natural"
+]
+},
+"dance-motivation-inventory": {
+"nouns": [
+"motivation",
+"dance",
+"salsa",
+"psychology"
+],
+"adjectives": [
+"social",
+"expressive",
+"rhythmic",
+"physical"
+]
+},
+"perfectionism": {
+"nouns": [
+"perfectionism",
+"standards",
+"psychology",
+"self-criticism"
+],
+"adjectives": [
+"adaptive",
+"maladaptive",
+"exacting",
+"neurotic"
+]
+},
+"authenticity": {
+"nouns": [
+"authenticity",
+"identity",
+"self-awareness",
+"integrity"
+],
+"adjectives": [
+"authentic",
+"genuine",
+"self-aware",
+"humanistic"
+]
+},
+"organisational-commitment": {
+"nouns": [
+"commitment",
+"retention",
+"loyalty",
+"organisation"
+],
+"adjectives": [
+"affective",
+"normative",
+"occupational",
+"motivational"
+]
+},
+"populist-attitudes": {
+"nouns": [
+"populism",
+"elite",
+"democracy",
+"politics"
+],
+"adjectives": [
+"populist",
+"anti-establishment",
+"political",
+"ideological"
+]
+},
+"cloninger-tci": {
+"nouns": [
+"temperament",
+"personality",
+"psychiatry",
+"character"
+],
+"adjectives": [
+"neurobiological",
+"heritable",
+"dimensional",
+"psychometric"
+]
+},
+"favourite-colour": {
+"nouns": [
+"colour",
+"preference",
+"psychology",
+"symbolism"
+],
+"adjectives": [
+"visual",
+"emotional",
+"personal",
+"cultural"
+]
+},
+"clifton-strengths": {
+"nouns": [
+"strengths",
+"talent",
+"assessment",
+"gallup"
+],
+"adjectives": [
+"personal",
+"professional",
+"behavioural",
+"developmental"
+]
+},
+"attachment-style": {
+"nouns": [
+"attachment",
+"relationship",
+"anxiety",
+"intimacy"
+],
+"adjectives": [
+"secure",
+"avoidant",
+"anxious",
+"relational"
+]
+},
+"celtic-tree-zodiac": {
+"nouns": [
+"zodiac",
+"tree",
+"astrology",
+"mythology"
+],
+"adjectives": [
+"celtic",
+"lunar",
+"spiritual",
+"symbolic"
+]
+},
+"human-design": {
+"nouns": [
+"archetype",
+"energy",
+"chart",
+"type"
+],
+"adjectives": [
+"astrological",
+"spiritual",
+"intuitive",
+"holistic"
+]
+},
+"sidereal-moon-sign": {
+"nouns": [
+"moon",
+"astrology",
+"zodiac",
+"instinct"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"lunar",
+"emotional"
+]
+},
+"sidereal-chiron-sign": {
+"nouns": [
+"chiron",
+"wound",
+"healing",
+"astrology"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"spiritual",
+"transformative"
+]
+},
+"harry-potter-character": {
+"nouns": [
+"character",
+"fiction",
+"personality",
+"hogwarts"
+],
+"adjectives": [
+"fictional",
+"magical",
+"literary",
+"imaginative"
+]
+},
+"grit": {
+"nouns": [
+"perseverance",
+"resilience",
+"passion",
+"motivation"
+],
+"adjectives": [
+"persistent",
+"determined",
+"tenacious",
+"disciplined"
+]
+},
+"pronouns": {
+"nouns": [
+"pronoun",
+"gender",
+"identity",
+"language"
+],
+"adjectives": [
+"personal",
+"inclusive",
+"linguistic",
+"social"
+]
+},
+"heritage-expression": {
+"nouns": [
+"heritage",
+"culture",
+"tradition",
+"identity"
+],
+"adjectives": [
+"cultural",
+"ancestral",
+"traditional",
+"ethnic"
+]
+},
+"religious-observances": {
+"nouns": [
+"observance",
+"ritual",
+"practice",
+"religion"
+],
+"adjectives": [
+"religious",
+"spiritual",
+"devotional",
+"daily"
+]
+},
+"other-abrahamic": {
+"nouns": [
+"faith",
+"religion",
+"tradition",
+"theology"
+],
+"adjectives": [
+"abrahamic",
+"monotheistic",
+"religious",
+"spiritual"
+]
+},
+"humour-style": {
+"nouns": [
+"humour",
+"comedy",
+"wit",
+"personality"
+],
+"adjectives": [
+"playful",
+"satirical",
+"self-deprecating",
+"deadpan"
+]
+},
+"disability-language": {
+"nouns": [
+"disability",
+"language",
+"identity",
+"terminology"
+],
+"adjectives": [
+"inclusive",
+"respectful",
+"accessible",
+"person-centred"
+]
+},
+"civic-engagement": {
+"nouns": [
+"citizenship",
+"participation",
+"politics",
+"democracy"
+],
+"adjectives": [
+"civic",
+"political",
+"activist",
+"social"
+]
+},
+"parenting-style": {
+"nouns": [
+"parenting",
+"child",
+"discipline",
+"warmth"
+],
+"adjectives": [
+"authoritative",
+"authoritarian",
+"permissive",
+"nurturing"
+]
+},
+"cooking-identity": {
+"nouns": [
+"cooking",
+"kitchen",
+"food",
+"cuisine"
+],
+"adjectives": [
+"culinary",
+"creative",
+"domestic",
+"social"
+]
+},
+"health-approach": {
+"nouns": [
+"health",
+"medicine",
+"wellness",
+"prevention"
+],
+"adjectives": [
+"holistic",
+"preventive",
+"conventional",
+"integrative"
+]
+},
+"perma-flourishing": {
+"nouns": [
+"wellbeing",
+"flourishing",
+"happiness",
+"psychology"
+],
+"adjectives": [
+"positive",
+"meaningful",
+"emotional",
+"psychological"
+]
+},
+"causes-supported": {
+"nouns": [
+"charity",
+"activism",
+"cause",
+"advocacy"
+],
+"adjectives": [
+"philanthropic",
+"social",
+"humanitarian",
+"charitable"
+]
+},
+"instrument-played": {
+"nouns": [
+"instrument",
+"music",
+"musician",
+"performance"
+],
+"adjectives": [
+"musical",
+"acoustic",
+"instrumental",
+"classical"
+]
+},
+"dance-setting": {
+"nouns": [
+"dance",
+"movement",
+"venue",
+"music"
+],
+"adjectives": [
+"social",
+"rhythmic",
+"expressive",
+"cultural"
+]
+},
+"twin-status": {
+"nouns": [
+"twin",
+"sibling",
+"birth",
+"genetics"
+],
+"adjectives": [
+"identical",
+"fraternal",
+"hereditary",
+"biological"
+]
+},
+"climate-stance": {
+"nouns": [
+"climate",
+"environment",
+"sustainability",
+"ecology"
+],
+"adjectives": [
+"environmental",
+"ecological",
+"political",
+"scientific"
+]
+},
+"ai-stance": {
+"nouns": [
+"AI",
+"technology",
+"automation",
+"future"
+],
+"adjectives": [
+"technological",
+"ethical",
+"digital",
+"philosophical"
+]
+},
+"planner-spontaneous": {
+"nouns": [
+"planning",
+"spontaneity",
+"decision",
+"personality"
+],
+"adjectives": [
+"organised",
+"impulsive",
+"structured",
+"flexible"
+]
+},
+"continents-lived": {
+"nouns": [
+"continent",
+"migration",
+"residency",
+"geography"
+],
+"adjectives": [
+"global",
+"international",
+"multicultural",
+"nomadic"
+]
+},
+"income-bracket": {
+"nouns": [
+"income",
+"wealth",
+"earnings",
+"household"
+],
+"adjectives": [
+"financial",
+"economic",
+"socioeconomic",
+"material"
+]
+},
+"social-value-orientation": {
+"nouns": [
+"cooperation",
+"altruism",
+"competition",
+"fairness"
+],
+"adjectives": [
+"prosocial",
+"cooperative",
+"individualistic",
+"competitive"
+]
+},
+"simulation-stance": {
+"nouns": [
+"simulation",
+"reality",
+"consciousness",
+"philosophy"
+],
+"adjectives": [
+"philosophical",
+"metaphysical",
+"speculative",
+"theoretical"
+]
+},
+"maths-nature": {
+"nouns": [
+"mathematics",
+"philosophy",
+"logic",
+"epistemology"
+],
+"adjectives": [
+"mathematical",
+"philosophical",
+"abstract",
+"ontological"
+]
+},
+"faith-raised-in": {
+"nouns": [
+"religion",
+"faith",
+"upbringing",
+"tradition"
+],
+"adjectives": [
+"religious",
+"spiritual",
+"cultural",
+"formative"
+]
+},
+"animal-affinity": {
+"nouns": [
+"animal",
+"kinship",
+"nature",
+"totem"
+],
+"adjectives": [
+"instinctive",
+"natural",
+"symbolic",
+"primal"
+]
+},
+"natural-wonder": {
+"nouns": [
+"nature",
+"wonder",
+"phenomenon",
+"landscape"
+],
+"adjectives": [
+"natural",
+"geological",
+"atmospheric",
+"awe-inspiring"
+]
+},
+"triguna": {
+"nouns": [
+"guna",
+"philosophy",
+"temperament",
+"yoga"
+],
+"adjectives": [
+"vedic",
+"spiritual",
+"yogic",
+"philosophical"
+]
+},
+"need-for-closure": {
+"nouns": [
+"ambiguity",
+"certainty",
+"cognition",
+"psychology"
+],
+"adjectives": [
+"cognitive",
+"psychological",
+"decisional",
+"epistemic"
+]
+},
+"materialism": {
+"nouns": [
+"materialism",
+"possession",
+"consumption",
+"values"
+],
+"adjectives": [
+"materialistic",
+"consumerist",
+"acquisitive",
+"extrinsic"
+]
+},
+"social-dominance": {
+"nouns": [
+"hierarchy",
+"equality",
+"dominance",
+"prejudice"
+],
+"adjectives": [
+"authoritarian",
+"hierarchical",
+"egalitarian",
+"ideological"
+]
+},
+"tax-posture": {
+"nouns": [
+"taxation",
+"compliance",
+"authority",
+"motivation"
+],
+"adjectives": [
+"fiscal",
+"civic",
+"motivational",
+"institutional"
+]
+},
+"fisher-temperament": {
+"nouns": [
+"temperament",
+"dopamine",
+"neuroscience",
+"personality"
+],
+"adjectives": [
+"neurochemical",
+"biological",
+"behavioural",
+"exploratory"
+]
+},
+"aura-colour": {
+"nouns": [
+"aura",
+"energy",
+"colour",
+"spirituality"
+],
+"adjectives": [
+"spiritual",
+"psychic",
+"energetic",
+"intuitive"
+]
+},
+"belbin": {
+"nouns": [
+"teamwork",
+"role",
+"behaviour",
+"management"
+],
+"adjectives": [
+"collaborative",
+"organisational",
+"behavioural",
+"interpersonal"
+]
+},
+"trust-pace": {
+"nouns": [
+"trust",
+"vulnerability",
+"attachment",
+"openness"
+],
+"adjectives": [
+"emotional",
+"interpersonal",
+"relational",
+"social"
+]
+},
+"astronomy-interest": {
+"nouns": [
+"astronomy",
+"cosmos",
+"universe",
+"space"
+],
+"adjectives": [
+"astronomical",
+"cosmic",
+"celestial",
+"scientific"
+]
+},
+"blood-type": {
+"nouns": [
+"bloodtype",
+"personality",
+"temperament",
+"genetics"
+],
+"adjectives": [
+"psychological",
+"biological",
+"cultural",
+"inherited"
+]
+},
+"sidereal-rising-sign": {
+"nouns": [
+"ascendant",
+"astrology",
+"zodiac",
+"horoscope"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"astrological",
+"natal"
+]
+},
+"sidereal-ketu-sign": {
+"nouns": [
+"ketu",
+"astrology",
+"node",
+"karma"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"astrological",
+"spiritual"
+]
+},
+"lotr-character": {
+"nouns": [
+"character",
+"archetype",
+"fantasy",
+"fellowship"
+],
+"adjectives": [
+"fictional",
+"heroic",
+"mythic",
+"legendary"
+]
+},
+"main-character-energy": {
+"nouns": [
+"protagonist",
+"archetype",
+"identity",
+"narrative"
+],
+"adjectives": [
+"charismatic",
+"bold",
+"self-aware",
+"expressive"
+]
+},
+"gender-expression": {
+"nouns": [
+"gender",
+"expression",
+"identity",
+"presentation"
+],
+"adjectives": [
+"social",
+"cultural",
+"nonbinary",
+"fluid"
+]
+},
+"ethnic-identity-status": {
+"nouns": [
+"ethnicity",
+"identity",
+"heritage",
+"culture"
+],
+"adjectives": [
+"ethnic",
+"cultural",
+"multicultural",
+"ancestral"
+]
+},
+"devotion-modes": {
+"nouns": [
+"devotion",
+"faith",
+"spirituality",
+"prayer"
+],
+"adjectives": [
+"spiritual",
+"religious",
+"devotional",
+"contemplative"
+]
+},
+"languages": {
+"nouns": [
+"language",
+"bilingualism",
+"linguistics",
+"fluency"
+],
+"adjectives": [
+"multilingual",
+"linguistic",
+"spoken",
+"native"
+]
+},
+"listening-style": {
+"nouns": [
+"listening",
+"communication",
+"empathy",
+"attention"
+],
+"adjectives": [
+"active",
+"empathetic",
+"attentive",
+"reflective"
+]
+},
+"wg-short-set": {
+"nouns": [
+"disability",
+"functioning",
+"accessibility",
+"health"
+],
+"adjectives": [
+"functional",
+"cognitive",
+"physical",
+"sensory"
+]
+},
+"relationship-status": {
+"nouns": [
+"relationship",
+"marriage",
+"partnership",
+"commitment"
+],
+"adjectives": [
+"romantic",
+"marital",
+"civil",
+"social"
+]
+},
+"friendship-style": {
+"nouns": [
+"friendship",
+"connection",
+"loyalty",
+"intimacy"
+],
+"adjectives": [
+"social",
+"supportive",
+"intimate",
+"relational"
+]
+},
+"coffee-tea": {
+"nouns": [
+"coffee",
+"tea",
+"caffeine",
+"ritual"
+],
+"adjectives": [
+"warm",
+"aromatic",
+"cultural",
+"daily"
+]
+},
+"health-engagement": {
+"nouns": [
+"health",
+"illness",
+"wellbeing",
+"self-care"
+],
+"adjectives": [
+"medical",
+"proactive",
+"preventive",
+"holistic"
+]
+},
+"self-compassion": {
+"nouns": [
+"compassion",
+"mindfulness",
+"kindness",
+"wellbeing"
+],
+"adjectives": [
+"self-critical",
+"emotional",
+"mindful",
+"psychological"
+]
+},
+"urban-rural": {
+"nouns": [
+"city",
+"countryside",
+"community",
+"environment"
+],
+"adjectives": [
+"urban",
+"rural",
+"residential",
+"geographic"
+]
+},
+"music-consumption": {
+"nouns": [
+"music",
+"playlist",
+"streaming",
+"listening"
+],
+"adjectives": [
+"musical",
+"auditory",
+"habitual",
+"immersive"
+]
+},
+"dance-motivation": {
+"nouns": [
+"dance",
+"movement",
+"expression",
+"motivation"
+],
+"adjectives": [
+"physical",
+"expressive",
+"rhythmic",
+"emotional"
+]
+},
+"genetic-quirks": {
+"nouns": [
+"genetics",
+"trait",
+"inheritance",
+"biology"
+],
+"adjectives": [
+"inherited",
+"genetic",
+"biological",
+"heritable"
+]
+},
+"climate-zone-lived": {
+"nouns": [
+"climate",
+"weather",
+"season",
+"geography"
+],
+"adjectives": [
+"tropical",
+"temperate",
+"seasonal",
+"environmental"
+]
+},
+"os-preference": {
+"nouns": [
+"software",
+"platform",
+"technology",
+"computer"
+],
+"adjectives": [
+"digital",
+"technical",
+"computational",
+"open-source"
+]
+},
+"tidiness": {
+"nouns": [
+"tidiness",
+"organisation",
+"clutter",
+"space"
+],
+"adjectives": [
+"orderly",
+"organised",
+"domestic",
+"minimal"
+]
+},
+"hemisphere": {
+"nouns": [
+"hemisphere",
+"geography",
+"latitude",
+"season"
+],
+"adjectives": [
+"northern",
+"southern",
+"geographic",
+"global"
+]
+},
+"debt-attitude": {
+"nouns": [
+"debt",
+"finance",
+"credit",
+"money"
+],
+"adjectives": [
+"financial",
+"fiscal",
+"cautious",
+"pragmatic"
+]
+},
+"free-will-stance": {
+"nouns": [
+"philosophy",
+"determinism",
+"consciousness",
+"choice"
+],
+"adjectives": [
+"philosophical",
+"metaphysical",
+"existential",
+"rational"
+]
+},
+"consciousness-view": {
+"nouns": [
+"consciousness",
+"philosophy",
+"mind",
+"perception"
+],
+"adjectives": [
+"philosophical",
+"cognitive",
+"metaphysical",
+"subjective"
+]
+},
+"math-anxiety": {
+"nouns": [
+"mathematics",
+"anxiety",
+"numeracy",
+"education"
+],
+"adjectives": [
+"mathematical",
+"academic",
+"cognitive",
+"psychological"
+]
+},
+"upbringing-religiosity": {
+"nouns": [
+"religion",
+"upbringing",
+"faith",
+"childhood"
+],
+"adjectives": [
+"religious",
+"cultural",
+"spiritual",
+"familial"
+]
+},
+"season-affinity": {
+"nouns": [
+"season",
+"weather",
+"nature",
+"climate"
+],
+"adjectives": [
+"seasonal",
+"natural",
+"atmospheric",
+"wintry"
+]
+},
+"nature-sounds": {
+"nouns": [
+"nature",
+"sound",
+"environment",
+"wildlife"
+],
+"adjectives": [
+"natural",
+"acoustic",
+"calming",
+"outdoor"
+]
+},
+"language-dominance": {
+"nouns": [
+"language",
+"dominance",
+"bilingualism",
+"cognition"
+],
+"adjectives": [
+"linguistic",
+"dominant",
+"native",
+"cognitive"
+]
+},
+"emotional-intelligence": {
+"nouns": [
+"intelligence",
+"emotion",
+"empathy",
+"psychology"
+],
+"adjectives": [
+"emotional",
+"social",
+"psychological",
+"interpersonal"
+]
+},
+"maximisation": {
+"nouns": [
+"decision",
+"choice",
+"satisfaction",
+"psychology"
+],
+"adjectives": [
+"rational",
+"cognitive",
+"behavioural",
+"perfectionist"
+]
+},
+"legal-obedience": {
+"nouns": [
+"law",
+"compliance",
+"authority",
+"psychology"
+],
+"adjectives": [
+"legal",
+"moral",
+"social",
+"normative"
+]
+},
+"mbti": {
+"nouns": [
+"personality",
+"type",
+"temperament",
+"introversion"
+],
+"adjectives": [
+"psychological",
+"behavioural",
+"cognitive",
+"analytical"
+]
+},
+"spiral-dynamics": {
+"nouns": [
+"values",
+"worldview",
+"consciousness",
+"development"
+],
+"adjectives": [
+"developmental",
+"cultural",
+"evolutionary",
+"systemic"
+]
+},
+"thomas-kilmann": {
+"nouns": [
+"conflict",
+"style",
+"negotiation",
+"assertiveness"
+],
+"adjectives": [
+"assertive",
+"cooperative",
+"competitive",
+"collaborative"
+]
+},
+"conflict-response": {
+"nouns": [
+"conflict",
+"argument",
+"communication",
+"emotion"
+],
+"adjectives": [
+"emotional",
+"defensive",
+"reactive",
+"avoidant"
+]
+},
+"cosmic-wonder": {
+"nouns": [
+"cosmos",
+"astronomy",
+"galaxy",
+"universe"
+],
+"adjectives": [
+"celestial",
+"astronomical",
+"cosmic",
+"stellar"
+]
+},
+"ayurveda-dosha": {
+"nouns": [
+"dosha",
+"ayurveda",
+"constitution",
+"prakriti"
+],
+"adjectives": [
+"holistic",
+"elemental",
+"traditional",
+"herbal"
+]
+},
+"sidereal-mercury-sign": {
+"nouns": [
+"mercury",
+"astrology",
+"zodiac",
+"sign"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"astrological",
+"communicative"
+]
+},
+"hogwarts-house": {
+"nouns": [
+"hogwarts",
+"house",
+"wizard",
+"sorting"
+],
+"adjectives": [
+"fictional",
+"magical",
+"brave",
+"loyal"
+]
+},
+"rick-and-morty-character": {
+"nouns": [
+"character",
+"comedy",
+"cartoon",
+"multiverse"
+],
+"adjectives": [
+"animated",
+"satirical",
+"cynical",
+"eccentric"
+]
+},
+"inner-experience": {
+"nouns": [
+"thought",
+"consciousness",
+"imagery",
+"cognition"
+],
+"adjectives": [
+"introspective",
+"mental",
+"internal",
+"visual"
+]
+},
+"gender-salience": {
+"nouns": [
+"gender",
+"identity",
+"expression",
+"self"
+],
+"adjectives": [
+"social",
+"personal",
+"cultural",
+"gendered"
+]
+},
+"nationality": {
+"nouns": [
+"nationality",
+"citizenship",
+"country",
+"identity"
+],
+"adjectives": [
+"national",
+"civic",
+"political",
+"cultural"
+]
+},
+"devotion-intentions": {
+"nouns": [
+"prayer",
+"faith",
+"devotion",
+"ritual"
+],
+"adjectives": [
+"spiritual",
+"religious",
+"devotional",
+"contemplative"
+]
+},
+"mythology-tradition": {
+"nouns": [
+"mythology",
+"folklore",
+"pantheon",
+"legend"
+],
+"adjectives": [
+"mythological",
+"ancient",
+"sacred",
+"traditional"
+]
+},
+"self-monitoring": {
+"nouns": [
+"impression",
+"behaviour",
+"awareness",
+"adaptation"
+],
+"adjectives": [
+"adaptive",
+"social",
+"perceptive",
+"observant"
+]
+},
+"neurodivergence": {
+"nouns": [
+"neurodiversity",
+"brain",
+"autism",
+"cognition"
+],
+"adjectives": [
+"neurological",
+"cognitive",
+"atypical",
+"neurodivergent"
+]
+},
+"relationship-values": {
+"nouns": [
+"trust",
+"commitment",
+"intimacy",
+"communication"
+],
+"adjectives": [
+"emotional",
+"loyal",
+"intimate",
+"relational"
+]
+},
+"friend-group-role": {
+"nouns": [
+"friendship",
+"group",
+"role",
+"dynamic"
+],
+"adjectives": [
+"social",
+"loyal",
+"supportive",
+"interpersonal"
+]
+},
+"sweet-vs-savoury": {
+"nouns": [
+"taste",
+"snack",
+"flavour",
+"craving"
+],
+"adjectives": [
+"sweet",
+"savoury",
+"sensory",
+"culinary"
+]
+},
+"ageing-attitude": {
+"nouns": [
+"ageing",
+"longevity",
+"health",
+"mindset"
+],
+"adjectives": [
+"positive",
+"mindful",
+"healthy",
+"proactive"
+]
+},
+"fitness-identity": {
+"nouns": [
+"fitness",
+"exercise",
+"training",
+"sport"
+],
+"adjectives": [
+"athletic",
+"physical",
+"active",
+"disciplined"
+]
+},
+"belonging": {
+"nouns": [
+"community",
+"belonging",
+"identity",
+"connection"
+],
+"adjectives": [
+"communal",
+"social",
+"inclusive",
+"cultural"
+]
+},
+"music-functions": {
+"nouns": [
+"music",
+"emotion",
+"mood",
+"motivation"
+],
+"adjectives": [
+"emotional",
+"motivational",
+"relaxing",
+"nostalgic"
+]
+},
+"architecture-style": {
+"nouns": [
+"architecture",
+"design",
+"building",
+"style"
+],
+"adjectives": [
+"aesthetic",
+"structural",
+"modern",
+"classical"
+]
+},
+"dominant-eye": {
+"nouns": [
+"eye",
+"vision",
+"dominance",
+"perception"
+],
+"adjectives": [
+"ocular",
+"visual",
+"dominant",
+"perceptual"
+]
+},
+"element-affinity": {
+"nouns": [
+"element",
+"fire",
+"nature",
+"symbol"
+],
+"adjectives": [
+"elemental",
+"natural",
+"primal",
+"symbolic"
+]
+},
+"dev-role": {
+"nouns": [
+"developer",
+"software",
+"engineering",
+"programming"
+],
+"adjectives": [
+"technical",
+"digital",
+"logical",
+"creative"
+]
+},
+"minimalist-maximalist": {
+"nouns": [
+"minimalism",
+"design",
+"aesthetic",
+"style"
+],
+"adjectives": [
+"minimalist",
+"decorative",
+"simple",
+"bold"
+]
+},
+"spender-saver": {
+"nouns": [
+"money",
+"spending",
+"saving",
+"finance"
+],
+"adjectives": [
+"frugal",
+"impulsive",
+"thrifty",
+"disciplined"
+]
+},
+"money-attitudes": {
+"nouns": [
+"money",
+"wealth",
+"finance",
+"attitude"
+],
+"adjectives": [
+"financial",
+"psychological",
+"anxious",
+"materialistic"
+]
+},
+"fate-belief": {
+"nouns": [
+"fate",
+"destiny",
+"determinism",
+"freewill"
+],
+"adjectives": [
+"philosophical",
+"fatalistic",
+"spiritual",
+"deterministic"
+]
+},
+"nature-of-time": {
+"nouns": [
+"time",
+"perception",
+"philosophy",
+"consciousness"
+],
+"adjectives": [
+"temporal",
+"philosophical",
+"relative",
+"subjective"
+]
+},
+"math-thinking-style": {
+"nouns": [
+"mathematics",
+"reasoning",
+"logic",
+"visualisation"
+],
+"adjectives": [
+"analytical",
+"visual",
+"logical",
+"spatial"
+]
+},
+"faith-trajectory": {
+"nouns": [
+"faith",
+"belief",
+"religion",
+"spirituality"
+],
+"adjectives": [
+"spiritual",
+"religious",
+"personal",
+"evolving"
+]
+},
+"weather-preference": {
+"nouns": [
+"weather",
+"climate",
+"season",
+"sunshine"
+],
+"adjectives": [
+"sunny",
+"stormy",
+"seasonal",
+"atmospheric"
+]
+},
+"nature-meaning": {
+"nouns": [
+"nature",
+"wilderness",
+"outdoors",
+"environment"
+],
+"adjectives": [
+"restorative",
+"natural",
+"peaceful",
+"grounding"
+]
+},
+"burmese-zodiac": {
+"nouns": [
+"zodiac",
+"astrology",
+"animal",
+"tradition"
+],
+"adjectives": [
+"traditional",
+"astrological",
+"cultural",
+"symbolic"
+]
+},
+"mindfulness": {
+"nouns": [
+"mindfulness",
+"meditation",
+"awareness",
+"attention"
+],
+"adjectives": [
+"mindful",
+"meditative",
+"contemplative",
+"present"
+]
+},
+"passion-type": {
+"nouns": [
+"passion",
+"obsession",
+"motivation",
+"engagement"
+],
+"adjectives": [
+"passionate",
+"intrinsic",
+"obsessive",
+"harmonious"
+]
+},
+"right-wing-authoritarianism": {
+"nouns": [
+"authority",
+"tradition",
+"conformity",
+"hierarchy"
+],
+"adjectives": [
+"authoritarian",
+"conservative",
+"conventional",
+"obedient"
+]
+},
+"jung-functions": {
+"nouns": [
+"cognition",
+"typology",
+"intuition",
+"perception"
+],
+"adjectives": [
+"cognitive",
+"psychological",
+"introverted",
+"extraverted"
+]
+},
+"jung-archetypes": {
+"nouns": [
+"archetype",
+"unconscious",
+"mythology",
+"symbolism"
+],
+"adjectives": [
+"archetypal",
+"collective",
+"universal",
+"psychological"
+]
+},
+"leadership-style": {
+"nouns": [
+"leadership",
+"management",
+"authority",
+"team"
+],
+"adjectives": [
+"transformational",
+"democratic",
+"authoritative",
+"collaborative"
+]
+},
+"security-needs": {
+"nouns": [
+"attachment",
+"security",
+"relationship",
+"trust"
+],
+"adjectives": [
+"emotional",
+"relational",
+"anxious",
+"avoidant"
+]
+},
+"stargazing-practice": {
+"nouns": [
+"astronomy",
+"telescope",
+"constellation",
+"observation"
+],
+"adjectives": [
+"astronomical",
+"nocturnal",
+"celestial",
+"amateur"
+]
+},
+"tcm-five-elements": {
+"nouns": [
+"constitution",
+"element",
+"temperament",
+"meridian"
+],
+"adjectives": [
+"elemental",
+"holistic",
+"traditional",
+"energetic"
+]
+},
+"sidereal-venus-sign": {
+"nouns": [
+"venus",
+"astrology",
+"zodiac",
+"chart"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"astrological",
+"natal"
+]
+},
+"dnd-alignment": {
+"nouns": [
+"alignment",
+"morality",
+"character",
+"ethics"
+],
+"adjectives": [
+"lawful",
+"chaotic",
+"moral",
+"fictional"
+]
+},
+"marvel-archetype": {
+"nouns": [
+"superhero",
+"avenger",
+"character",
+"archetype"
+],
+"adjectives": [
+"heroic",
+"fictional",
+"iconic",
+"cinematic"
+]
+},
+"self-esteem": {
+"nouns": [
+"self-esteem",
+"confidence",
+"worth",
+"identity"
+],
+"adjectives": [
+"psychological",
+"emotional",
+"personal",
+"positive"
+]
+},
+"gender-role-orientation": {
+"nouns": [
+"gender",
+"trait",
+"masculinity",
+"femininity"
+],
+"adjectives": [
+"assertive",
+"expressive",
+"androgynous",
+"instrumental"
+]
+},
+"homeland-ties": {
+"nouns": [
+"homeland",
+"diaspora",
+"identity",
+"migration"
+],
+"adjectives": [
+"cultural",
+"national",
+"immigrant",
+"rooted"
+]
+},
+"religious-struggles": {
+"nouns": [
+"faith",
+"doubt",
+"spirituality",
+"religion"
+],
+"adjectives": [
+"spiritual",
+"existential",
+"moral",
+"religious"
+]
+},
+"mythical-creature": {
+"nouns": [
+"mythology",
+"creature",
+"legend",
+"folklore"
+],
+"adjectives": [
+"mythological",
+"legendary",
+"fantastical",
+"symbolic"
+]
+},
+"texting-style": {
+"nouns": [
+"communication",
+"messaging",
+"texting",
+"conversation"
+],
+"adjectives": [
+"digital",
+"informal",
+"expressive",
+"responsive"
+]
+},
+"generation": {
+"nouns": [
+"generation",
+"cohort",
+"millennial",
+"boomer"
+],
+"adjectives": [
+"generational",
+"demographic",
+"cultural",
+"historical"
+]
+},
+"relationship-intent": {
+"nouns": [
+"relationship",
+"commitment",
+"partnership",
+"dating"
+],
+"adjectives": [
+"romantic",
+"intentional",
+"casual",
+"serious"
+]
+},
+"socialising-style": {
+"nouns": [
+"socialising",
+"introversion",
+"extroversion",
+"interaction"
+],
+"adjectives": [
+"social",
+"interpersonal",
+"extroverted",
+"introverted"
+]
+},
+"spice-tolerance": {
+"nouns": [
+"spice",
+"capsaicin",
+"heat",
+"flavour"
+],
+"adjectives": [
+"spicy",
+"culinary",
+"fiery",
+"mild"
+]
+},
+"health-locus-of-control": {
+"nouns": [
+"health",
+"control",
+"wellbeing",
+"agency"
+],
+"adjectives": [
+"internal",
+"external",
+"psychological",
+"behavioural"
+]
+},
+"favourite-sport": {
+"nouns": [
+"sport",
+"athletics",
+"fandom",
+"competition"
+],
+"adjectives": [
+"athletic",
+"competitive",
+"recreational",
+"physical"
+]
+},
+"local-rootedness": {
+"nouns": [
+"community",
+"neighbourhood",
+"belonging",
+"residency"
+],
+"adjectives": [
+"local",
+"rooted",
+"settled",
+"transient"
+]
+},
+"music-era": {
+"nouns": [
+"music",
+"era",
+"decade",
+"genre"
+],
+"adjectives": [
+"classic",
+"vintage",
+"nostalgic",
+"contemporary"
+]
+},
+"interior-style": {
+"nouns": [
+"design",
+"decor",
+"aesthetic",
+"interior"
+],
+"adjectives": [
+"minimalist",
+"modern",
+"bohemian",
+"industrial"
+]
+},
+"sex-position-preference": {
+"nouns": [
+"intimacy",
+"sexuality",
+"preference",
+"pleasure"
+],
+"adjectives": [
+"sexual",
+"physical",
+"intimate",
+"personal"
+]
+},
+"green-habits": {
+"nouns": [
+"sustainability",
+"environment",
+"recycling",
+"habit"
+],
+"adjectives": [
+"sustainable",
+"ecological",
+"environmental",
+"conscious"
+]
+},
+"programming-paradigm": {
+"nouns": [
+"programming",
+"paradigm",
+"code",
+"software"
+],
+"adjectives": [
+"functional",
+"declarative",
+"imperative",
+"object-oriented"
+]
+},
+"morning-routine": {
+"nouns": [
+"routine",
+"morning",
+"ritual",
+"habit"
+],
+"adjectives": [
+"productive",
+"daily",
+"mindful",
+"structured"
+]
+},
+"crypto-stance": {
+"nouns": [
+"cryptocurrency",
+"blockchain",
+"bitcoin",
+"investment"
+],
+"adjectives": [
+"financial",
+"decentralised",
+"speculative",
+"digital"
+]
+},
+"philosophy-school": {
+"nouns": [
+"philosophy",
+"ethics",
+"stoicism",
+"existentialism"
+],
+"adjectives": [
+"philosophical",
+"rational",
+"metaphysical",
+"ethical"
+]
+},
+"locus-of-control": {
+"nouns": [
+"control",
+"agency",
+"autonomy",
+"psychology"
+],
+"adjectives": [
+"internal",
+"external",
+"psychological",
+"personal"
+]
+},
+"multiverse-belief": {
+"nouns": [
+"multiverse",
+"cosmology",
+"universe",
+"physics"
+],
+"adjectives": [
+"theoretical",
+"scientific",
+"quantum",
+"cosmic"
+]
+},
+"family-structure": {
+"nouns": [
+"family",
+"household",
+"upbringing",
+"structure"
+],
+"adjectives": [
+"nuclear",
+"traditional",
+"blended",
+"multigenerational"
+]
+},
+"rites-of-passage": {
+"nouns": [
+"ritual",
+"ceremony",
+"tradition",
+"initiation"
+],
+"adjectives": [
+"cultural",
+"religious",
+"ceremonial",
+"symbolic"
+]
+},
+"time-of-day": {
+"nouns": [
+"chronotype",
+"morning",
+"evening",
+"rhythm"
+],
+"adjectives": [
+"circadian",
+"nocturnal",
+"diurnal",
+"personal"
+]
+},
+"nature-pathways": {
+"nouns": [
+"nature",
+"environment",
+"wellbeing",
+"contact"
+],
+"adjectives": [
+"ecological",
+"outdoor",
+"restorative",
+"natural"
+]
+},
+"luscher-color-test": {
+"nouns": [
+"colour",
+"psychology",
+"preference",
+"personality"
+],
+"adjectives": [
+"psychological",
+"projective",
+"diagnostic",
+"chromatic"
+]
+},
+"gaming-motivation": {
+"nouns": [
+"gaming",
+"motivation",
+"player",
+"recreation"
+],
+"adjectives": [
+"competitive",
+"social",
+"escapist",
+"recreational"
+]
+},
+"sense-of-coherence": {
+"nouns": [
+"resilience",
+"coherence",
+"wellbeing",
+"salutogenesis"
+],
+"adjectives": [
+"psychological",
+"meaningful",
+"manageable",
+"comprehensible"
+]
+},
+"national-attitudes": {
+"nouns": [
+"patriotism",
+"nationalism",
+"internationalism",
+"identity"
+],
+"adjectives": [
+"national",
+"civic",
+"political",
+"cosmopolitan"
+]
+},
+"socionics": {
+"nouns": [
+"personality",
+"typology",
+"temperament",
+"psychology"
+],
+"adjectives": [
+"psychological",
+"analytical",
+"cognitive",
+"interpersonal"
+]
+},
+"pcm": {
+"nouns": [
+"communication",
+"personality",
+"motivation",
+"behaviour"
+],
+"adjectives": [
+"interpersonal",
+"motivational",
+"behavioural",
+"psychological"
+]
+},
+"decision-style": {
+"nouns": [
+"decision",
+"reasoning",
+"judgement",
+"choice"
+],
+"adjectives": [
+"rational",
+"intuitive",
+"analytical",
+"cognitive"
+]
+},
+"ecr-attachment": {
+"nouns": [
+"attachment",
+"anxiety",
+"avoidance",
+"relationship"
+],
+"adjectives": [
+"anxious",
+"avoidant",
+"emotional",
+"relational"
+]
+},
+"extraterrestrial-life": {
+"nouns": [
+"life",
+"universe",
+"alien",
+"space"
+],
+"adjectives": [
+"extraterrestrial",
+"cosmic",
+"scientific",
+"astronomical"
+]
+},
+"tropical-mars-sign": {
+"nouns": [
+"mars",
+"astrology",
+"zodiac",
+"sign"
+],
+"adjectives": [
+"astrological",
+"energetic",
+"assertive",
+"natal"
+]
+},
+"sidereal-mars-sign": {
+"nouns": [
+"mars",
+"astrology",
+"zodiac",
+"vedic"
+],
+"adjectives": [
+"astrological",
+"sidereal",
+"natal",
+"vedic"
+]
+},
+"avatar-nation": {
+"nouns": [
+"element",
+"nation",
+"identity",
+"avatar"
+],
+"adjectives": [
+"elemental",
+"fictional",
+"cultural",
+"spiritual"
+]
+},
+"gamer-type": {
+"nouns": [
+"player",
+"gamer",
+"motivation",
+"achievement"
+],
+"adjectives": [
+"competitive",
+"social",
+"exploratory",
+"strategic"
+]
+},
+"moral-development": {
+"nouns": [
+"morality",
+"ethics",
+"reasoning",
+"justice"
+],
+"adjectives": [
+"moral",
+"ethical",
+"developmental",
+"philosophical"
+]
+},
+"sexual-orientation": {
+"nouns": [
+"orientation",
+"attraction",
+"sexuality",
+"identity"
+],
+"adjectives": [
+"romantic",
+"sexual",
+"emotional",
+"diverse"
+]
+},
+"citizenship-status": {
+"nouns": [
+"citizenship",
+"nationality",
+"passport",
+"immigration"
+],
+"adjectives": [
+"national",
+"legal",
+"civic",
+"dual"
+]
+},
+"religious-orientation": {
+"nouns": [
+"religion",
+"faith",
+"spirituality",
+"belief"
+],
+"adjectives": [
+"religious",
+"spiritual",
+"intrinsic",
+"extrinsic"
+]
+},
+"egyptian-archetype": {
+"nouns": [
+"archetype",
+"deity",
+"mythology",
+"egypt"
+],
+"adjectives": [
+"mythological",
+"ancient",
+"symbolic",
+"divine"
+]
+},
+"humour-styles": {
+"nouns": [
+"humour",
+"comedy",
+"wit",
+"laughter"
+],
+"adjectives": [
+"affiliative",
+"aggressive",
+"social",
+"adaptive"
+]
+},
+"cultural-decade": {
+"nouns": [
+"decade",
+"culture",
+"nostalgia",
+"era"
+],
+"adjectives": [
+"nostalgic",
+"cultural",
+"generational",
+"retro"
+]
+},
+"relationship-strengths": {
+"nouns": [
+"relationship",
+"strength",
+"empathy",
+"trust"
+],
+"adjectives": [
+"loyal",
+"empathetic",
+"supportive",
+"communicative"
+]
+},
+"friendship-circle": {
+"nouns": [
+"friendship",
+"circle",
+"community",
+"bond"
+],
+"adjectives": [
+"close",
+"social",
+"intimate",
+"loyal"
+]
+},
+"dietary-restriction": {
+"nouns": [
+"diet",
+"nutrition",
+"food",
+"allergy"
+],
+"adjectives": [
+"vegan",
+"vegetarian",
+"dietary",
+"nutritional"
+]
+},
+"fitness-routine": {
+"nouns": [
+"fitness",
+"exercise",
+"workout",
+"training"
+],
+"adjectives": [
+"active",
+"physical",
+"athletic",
+"aerobic"
+]
+},
+"football-position": {
+"nouns": [
+"football",
+"position",
+"soccer",
+"midfielder"
+],
+"adjectives": [
+"attacking",
+"defensive",
+"tactical",
+"technical"
+]
+},
+"neighbourliness": {
+"nouns": [
+"neighbour",
+"community",
+"connection",
+"locality"
+],
+"adjectives": [
+"social",
+"friendly",
+"communal",
+"local"
+]
+},
+"music-preference-factors": {
+"nouns": [
+"music",
+"genre",
+"taste",
+"preference"
+],
+"adjectives": [
+"melodic",
+"rhythmic",
+"energetic",
+"emotional"
+]
+},
+"design-values": {
+"nouns": [
+"design",
+"aesthetics",
+"function",
+"usability"
+],
+"adjectives": [
+"functional",
+"minimalist",
+"aesthetic",
+"innovative"
+]
+},
+"intimacy-role": {
+"nouns": [
+"intimacy",
+"role",
+"sexuality",
+"dynamic"
+],
+"adjectives": [
+"dominant",
+"submissive",
+"intimate",
+"relational"
+]
+},
+"environmental-worldview": {
+"nouns": [
+"environment",
+"nature",
+"ecology",
+"sustainability"
+],
+"adjectives": [
+"ecological",
+"environmental",
+"sustainable",
+"ethical"
+]
+},
+"text-editor": {
+"nouns": [
+"editor",
+"code",
+"developer",
+"tool"
+],
+"adjectives": [
+"lightweight",
+"extensible",
+"efficient",
+"open-source"
+]
+},
+"productivity-style": {
+"nouns": [
+"productivity",
+"workflow",
+"focus",
+"organisation"
+],
+"adjectives": [
+"organised",
+"systematic",
+"focused",
+"disciplined"
+]
+},
+"economic-school": {
+"nouns": [
+"economics",
+"market",
+"policy",
+"theory"
+],
+"adjectives": [
+"keynesian",
+"neoliberal",
+"monetary",
+"fiscal"
+]
+},
+"human-nature": {
+"nouns": [
+"human",
+"nature",
+"philosophy",
+"morality"
+],
+"adjectives": [
+"altruistic",
+"rational",
+"philosophical",
+"social"
+]
+},
+"karma-belief": {
+"nouns": [
+"karma",
+"justice",
+"belief",
+"spirituality"
+],
+"adjectives": [
+"cosmic",
+"spiritual",
+"philosophical",
+"moral"
+]
+},
+"paranormal-belief": {
+"nouns": [
+"paranormal",
+"supernatural",
+"ghost",
+"scepticism"
+],
+"adjectives": [
+"supernatural",
+"psychic",
+"mystical",
+"sceptical"
+]
+},
+"family-role": {
+"nouns": [
+"family",
+"role",
+"dynamics",
+"identity"
+],
+"adjectives": [
+"nurturing",
+"protective",
+"familial",
+"supportive"
+]
+},
+"religious-education": {
+"nouns": [
+"religion",
+"education",
+"upbringing",
+"faith"
+],
+"adjectives": [
+"religious",
+"secular",
+"traditional",
+"cultural"
+]
+},
+"seasonal-rhythm": {
+"nouns": [
+"season",
+"mood",
+"energy",
+"rhythm"
+],
+"adjectives": [
+"seasonal",
+"cyclical",
+"affective",
+"emotional"
+]
+},
+"cuisine-love": {
+"nouns": [
+"cuisine",
+"food",
+"culture",
+"flavour"
+],
+"adjectives": [
+"culinary",
+"global",
+"authentic",
+"diverse"
+]
+},
+"universe-fate": {
+"nouns": [
+"universe",
+"cosmology",
+"entropy",
+"physics"
+],
+"adjectives": [
+"cosmological",
+"astronomical",
+"theoretical",
+"thermodynamic"
+]
+},
+"hope": {
+"nouns": [
+"hope",
+"agency",
+"motivation",
+"resilience"
+],
+"adjectives": [
+"optimistic",
+"agentic",
+"motivated",
+"purposeful"
+]
+},
+"reinforcement-sensitivity": {
+"nouns": [
+"reward",
+"punishment",
+"temperament",
+"anxiety"
+],
+"adjectives": [
+"sensitive",
+"inhibited",
+"reactive",
+"neurological"
+]
+},
+"generalised-trust": {
+"nouns": [
+"trust",
+"cooperation",
+"society",
+"honesty"
+],
+"adjectives": [
+"trusting",
+"cooperative",
+"social",
+"civic"
+]
+},
+"keirsey": {
+"nouns": [
+"temperament",
+"personality",
+"archetype",
+"trait"
+],
+"adjectives": [
+"psychological",
+"behavioural",
+"analytical",
+"idealistic"
+]
+},
+"attitudinal-psyche": {
+"nouns": [
+"personality",
+"psyche",
+"typology",
+"attitude"
+],
+"adjectives": [
+"emotional",
+"logical",
+"cognitive",
+"attitudinal"
+]
+},
+"followership-style": {
+"nouns": [
+"followership",
+"leadership",
+"role",
+"behaviour"
+],
+"adjectives": [
+"passive",
+"active",
+"critical",
+"organizational"
+]
+},
+"love-languages": {
+"nouns": [
+"love",
+"affection",
+"relationship",
+"communication"
+],
+"adjectives": [
+"emotional",
+"romantic",
+"physical",
+"verbal"
+]
+},
+"cosmic-perspective": {
+"nouns": [
+"cosmos",
+"universe",
+"awe",
+"perspective"
+],
+"adjectives": [
+"cosmic",
+"existential",
+"philosophical",
+"transcendent"
+]
+},
+"tropical-venus-sign": {
+"nouns": [
+"venus",
+"astrology",
+"zodiac",
+"love"
+],
+"adjectives": [
+"romantic",
+"aesthetic",
+"sensual",
+"western"
+]
+},
+"sidereal-jupiter-sign": {
+"nouns": [
+"jupiter",
+"astrology",
+"vedic",
+"fortune"
+],
+"adjectives": [
+"sidereal",
+"expansive",
+"spiritual",
+"philosophical"
+]
+},
+"star-wars-path": {
+"nouns": [
+"jedi",
+"force",
+"archetype",
+"alignment"
+],
+"adjectives": [
+"heroic",
+"moral",
+"dark",
+"fictional"
+]
+},
+"media-diet": {
+"nouns": [
+"news",
+"media",
+"journalism",
+"information"
+],
+"adjectives": [
+"digital",
+"mainstream",
+"social",
+"independent"
+]
+},
+"mcclelland-needs": {
+"nouns": [
+"motivation",
+"achievement",
+"affiliation",
+"power"
+],
+"adjectives": [
+"psychological",
+"intrinsic",
+"driven",
+"social"
+]
+},
+"kinsey-scale": {
+"nouns": [
+"sexuality",
+"orientation",
+"spectrum",
+"identity"
+],
+"adjectives": [
+"sexual",
+"heterosexual",
+"homosexual",
+"bisexual"
+]
+},
+"national-identity": {
+"nouns": [
+"nationality",
+"patriotism",
+"identity",
+"belonging"
+],
+"adjectives": [
+"national",
+"cultural",
+"civic",
+"collective"
+]
+},
+"christian-denomination": {
+"nouns": [
+"christianity",
+"denomination",
+"faith",
+"tradition"
+],
+"adjectives": [
+"protestant",
+"catholic",
+"orthodox",
+"theological"
+]
+},
+"myth-meaning": {
+"nouns": [
+"myth",
+"legend",
+"symbolism",
+"narrative"
+],
+"adjectives": [
+"symbolic",
+"mythological",
+"cultural",
+"archetypal"
+]
+},
+"individualism-collectivism": {
+"nouns": [
+"individualism",
+"collectivism",
+"culture",
+"autonomy"
+],
+"adjectives": [
+"cultural",
+"independent",
+"communal",
+"social"
+]
+},
+"formative-event": {
+"nouns": [
+"generation",
+"event",
+"history",
+"era"
+],
+"adjectives": [
+"generational",
+"historical",
+"collective",
+"formative"
+]
+},
+"relationship-privacy": {
+"nouns": [
+"privacy",
+"relationship",
+"disclosure",
+"boundary"
+],
+"adjectives": [
+"private",
+"public",
+"intimate",
+"personal"
+]
+},
+"making-friends": {
+"nouns": [
+"friendship",
+"socialising",
+"connection",
+"bond"
+],
+"adjectives": [
+"social",
+"outgoing",
+"interpersonal",
+"genuine"
+]
+},
+"coffee-order": {
+"nouns": [
+"coffee",
+"espresso",
+"caffeine",
+"beverage"
+],
+"adjectives": [
+"strong",
+"black",
+"artisan",
+"bitter"
+]
+},
+"drinking-pattern": {
+"nouns": [
+"alcohol",
+"drinking",
+"sobriety",
+"habit"
+],
+"adjectives": [
+"social",
+"sober",
+"moderate",
+"recreational"
+]
+},
+"footballer-archetype": {
+"nouns": [
+"footballer",
+"playmaker",
+"striker",
+"archetype"
+],
+"adjectives": [
+"technical",
+"creative",
+"tactical",
+"attacking"
+]
+},
+"sense-of-community": {
+"nouns": [
+"community",
+"belonging",
+"membership",
+"cohesion"
+],
+"adjectives": [
+"communal",
+"inclusive",
+"supportive",
+"collective"
+]
+},
+"book-genre": {
+"nouns": [
+"fiction",
+"genre",
+"literature",
+"narrative"
+],
+"adjectives": [
+"literary",
+"historical",
+"romantic",
+"speculative"
+]
+},
+"graphic-style": {
+"nouns": [
+"design",
+"typography",
+"aesthetics",
+"illustration"
+],
+"adjectives": [
+"minimalist",
+"bold",
+"geometric",
+"typographic"
+]
+},
+"libido": {
+"nouns": [
+"libido",
+"desire",
+"sexuality",
+"drive"
+],
+"adjectives": [
+"sexual",
+"hormonal",
+"psychological",
+"biological"
+]
+},
+"nature-connectedness": {
+"nouns": [
+"nature",
+"environment",
+"ecology",
+"wilderness"
+],
+"adjectives": [
+"ecological",
+"natural",
+"environmental",
+"biophilic"
+]
+},
+"tech-adoption": {
+"nouns": [
+"technology",
+"innovation",
+"adoption",
+"diffusion"
+],
+"adjectives": [
+"innovative",
+"early",
+"mainstream",
+"digital"
+]
+},
+"punctuality": {
+"nouns": [
+"punctuality",
+"time",
+"schedule",
+"reliability"
+],
+"adjectives": [
+"punctual",
+"organised",
+"disciplined",
+"precise"
+]
+},
+"economic-system": {
+"nouns": [
+"capitalism",
+"socialism",
+"economy",
+"market"
+],
+"adjectives": [
+"economic",
+"capitalist",
+"socialist",
+"political"
+]
+},
+"mind-body": {
+"nouns": [
+"consciousness",
+"dualism",
+"mind",
+"body"
+],
+"adjectives": [
+"philosophical",
+"mental",
+"physical",
+"holistic"
+]
+},
+"belief-in-luck": {
+"nouns": [
+"luck",
+"chance",
+"fate",
+"fortune"
+],
+"adjectives": [
+"superstitious",
+"random",
+"fatalistic",
+"optimistic"
+]
+},
+"theism-stance": {
+"nouns": [
+"god",
+"theism",
+"atheism",
+"belief"
+],
+"adjectives": [
+"religious",
+"secular",
+"agnostic",
+"philosophical"
+]
+},
+"family-ties": {
+"nouns": [
+"family",
+"kinship",
+"bond",
+"belonging"
+],
+"adjectives": [
+"familial",
+"supportive",
+"domestic",
+"personal"
+]
+},
+"subculture": {
+"nouns": [
+"subculture",
+"scene",
+"identity",
+"tribe"
+],
+"adjectives": [
+"alternative",
+"niche",
+"countercultural",
+"cultural"
+]
+},
+"festive-favourite": {
+"nouns": [
+"season",
+"festival",
+"celebration",
+"tradition"
+],
+"adjectives": [
+"festive",
+"seasonal",
+"celebratory",
+"annual"
+]
+},
+"food-exploration": {
+"nouns": [
+"food",
+"cuisine",
+"gastronomy",
+"flavour"
+],
+"adjectives": [
+"culinary",
+"adventurous",
+"cultural",
+"authentic"
+]
+},
+"religious-authority": {
+"nouns": [
+"scripture",
+"authority",
+"tradition",
+"conscience"
+],
+"adjectives": [
+"theological",
+"scriptural",
+"communal",
+"orthodox"
+]
+},
+"travel-motivation": {
+"nouns": [
+"travel",
+"adventure",
+"tourism",
+"exploration"
+],
+"adjectives": [
+"adventurous",
+"cultural",
+"recreational",
+"experiential"
+]
+},
+"fad-plus": {
+"nouns": [
+"freewill",
+"determinism",
+"agency",
+"fatalism"
+],
+"adjectives": [
+"philosophical",
+"psychological",
+"moral",
+"deterministic"
+]
+},
+"domain-risk-taking": {
+"nouns": [
+"risk",
+"decision",
+"domain",
+"tolerance"
+],
+"adjectives": [
+"financial",
+"social",
+"recreational",
+"calculated"
+]
+},
+"four-temperaments": {
+"nouns": [
+"temperament",
+"humour",
+"personality",
+"disposition"
+],
+"adjectives": [
+"classical",
+"sanguine",
+"melancholic",
+"phlegmatic"
+]
+},
+"objective-personality": {
+"nouns": [
+"personality",
+"archetype",
+"typology",
+"psychology"
+],
+"adjectives": [
+"dominant",
+"cognitive",
+"behavioural",
+"objective"
+]
+},
+"career-anchor": {
+"nouns": [
+"career",
+"anchor",
+"motivation",
+"value"
+],
+"adjectives": [
+"vocational",
+"professional",
+"intrinsic",
+"entrepreneurial"
+]
+},
+"tropical-sun-sign": {
+"nouns": [
+"zodiac",
+"astrology",
+"horoscope",
+"sign"
+],
+"adjectives": [
+"western",
+"solar",
+"tropical",
+"astrological"
+]
+},
+"numerology-life-path": {
+"nouns": [
+"numerology",
+"number",
+"birthdate",
+"destiny"
+],
+"adjectives": [
+"esoteric",
+"mystical",
+"pythagorean",
+"metaphysical"
+]
+},
+"tropical-mercury-sign": {
+"nouns": [
+"mercury",
+"communication",
+"astrology",
+"intellect"
+],
+"adjectives": [
+"western",
+"tropical",
+"astrological",
+"communicative"
+]
+},
+"sidereal-saturn-sign": {
+"nouns": [
+"saturn",
+"karma",
+"discipline",
+"astrology"
+],
+"adjectives": [
+"vedic",
+"sidereal",
+"karmic",
+"disciplined"
+]
+},
+"got-house": {
+"nouns": [
+"house",
+"allegiance",
+"fandom",
+"fantasy"
+],
+"adjectives": [
+"fictional",
+"medieval",
+"political",
+"epic"
+]
+},
+"media-format": {
+"nouns": [
+"media",
+"format",
+"podcast",
+"consumption"
+],
+"adjectives": [
+"digital",
+"visual",
+"auditory",
+"interactive"
+]
+},
+"risk-appetite": {
+"nouns": [
+"risk",
+"tolerance",
+"appetite",
+"decision"
+],
+"adjectives": [
+"adventurous",
+"cautious",
+"bold",
+"speculative"
+]
+},
+"romantic-orientation": {
+"nouns": [
+"orientation",
+"attraction",
+"romance",
+"identity"
+],
+"adjectives": [
+"romantic",
+"emotional",
+"asexual",
+"aromantic"
+]
+},
+"acculturation-strategy": {
+"nouns": [
+"acculturation",
+"integration",
+"heritage",
+"identity"
+],
+"adjectives": [
+"multicultural",
+"bicultural",
+"adaptive",
+"diasporic"
+]
+},
+"islamic-branch": {
+"nouns": [
+"islam",
+"tradition",
+"theology",
+"sect"
+],
+"adjectives": [
+"sunni",
+"shia",
+"religious",
+"theological"
+]
+},
+"language-family": {
+"nouns": [
+"language",
+"linguistics",
+"family",
+"dialect"
+],
+"adjectives": [
+"linguistic",
+"ancestral",
+"native",
+"phonetic"
+]
+},
+"tradition-stance": {
+"nouns": [
+"tradition",
+"progress",
+"heritage",
+"conservatism"
+],
+"adjectives": [
+"conservative",
+"progressive",
+"traditional",
+"reformist"
+]
+},
+"felt-age": {
+"nouns": [
+"age",
+"identity",
+"maturity",
+"mindset"
+],
+"adjectives": [
+"youthful",
+"subjective",
+"psychological",
+"internal"
+]
+},
+"romantic-beliefs": {
+"nouns": [
+"romance",
+"love",
+"idealism",
+"soulmate"
+],
+"adjectives": [
+"idealistic",
+"romantic",
+"realistic",
+"passionate"
+]
+},
+"need-to-belong": {
+"nouns": [
+"belonging",
+"acceptance",
+"inclusion",
+"affiliation"
+],
+"adjectives": [
+"social",
+"emotional",
+"relational",
+"communal"
+]
+},
+"somatotype": {
+"nouns": [
+"somatotype",
+"physique",
+"body",
+"build"
+],
+"adjectives": [
+"muscular",
+"lean",
+"athletic",
+"constitutional"
+]
+},
+"smoking-status": {
+"nouns": [
+"smoking",
+"nicotine",
+"tobacco",
+"vaping"
+],
+"adjectives": [
+"addictive",
+"respiratory",
+"habitual",
+"chronic"
+]
+},
+"basketball-position": {
+"nouns": [
+"basketball",
+"position",
+"guard",
+"forward"
+],
+"adjectives": [
+"athletic",
+"defensive",
+"offensive",
+"agile"
+]
+},
+"aesthetic": {
+"nouns": [
+"aesthetic",
+"style",
+"mood",
+"subculture"
+],
+"adjectives": [
+"visual",
+"minimalist",
+"vintage",
+"expressive"
+]
+},
+"story-taste": {
+"nouns": [
+"narrative",
+"genre",
+"plot",
+"character"
+],
+"adjectives": [
+"dramatic",
+"emotional",
+"suspenseful",
+"literary"
+]
+},
+"design-sensibility": {
+"nouns": [
+"design",
+"typography",
+"composition",
+"aesthetics"
+],
+"adjectives": [
+"visual",
+"minimalist",
+"elegant",
+"functional"
+]
+},
+"kink-bdsm-role": {
+"nouns": [
+"kink",
+"dynamic",
+"role",
+"consent"
+],
+"adjectives": [
+"dominant",
+"submissive",
+"consensual",
+"intimate"
+]
+},
+"legal-philosophy": {
+"nouns": [
+"jurisprudence",
+"law",
+"justice",
+"morality"
+],
+"adjectives": [
+"legal",
+"philosophical",
+"natural",
+"positivist"
+]
+},
+"browser-choice": {
+"nouns": [
+"browser",
+"privacy",
+"software",
+"security"
+],
+"adjectives": [
+"digital",
+"open-source",
+"secure",
+"lightweight"
+]
+},
+"procrastinator-type": {
+"nouns": [
+"procrastination",
+"avoidance",
+"delay",
+"perfectionism"
+],
+"adjectives": [
+"anxious",
+"impulsive",
+"avoidant",
+"perfectionist"
+]
+},
+"globalisation-stance": {
+"nouns": [
+"globalisation",
+"trade",
+"economy",
+"protectionism"
+],
+"adjectives": [
+"economic",
+"international",
+"free",
+"protectionist"
+]
+},
+"beauty-objectivity": {
+"nouns": [
+"beauty",
+"aesthetics",
+"perception",
+"standard"
+],
+"adjectives": [
+"objective",
+"subjective",
+"universal",
+"philosophical"
+]
+},
+"just-world": {
+"nouns": [
+"justice",
+"fairness",
+"belief",
+"merit"
+],
+"adjectives": [
+"moral",
+"karmic",
+"meritocratic",
+"idealistic"
+]
+},
+"view-of-death": {
+"nouns": [
+"death",
+"afterlife",
+"mortality",
+"consciousness"
+],
+"adjectives": [
+"existential",
+"spiritual",
+"philosophical",
+"mortal"
+]
+},
+"family-traditions": {
+"nouns": [
+"tradition",
+"ritual",
+"heritage",
+"custom"
+],
+"adjectives": [
+"cultural",
+"generational",
+"festive",
+"ancestral"
+]
+},
+"online-tribe": {
+"nouns": [
+"community",
+"forum",
+"fandom",
+"subculture"
+],
+"adjectives": [
+"online",
+"digital",
+"niche",
+"virtual"
+]
+},
+"seasonality": {
+"nouns": [
+"seasonality",
+"mood",
+"daylight",
+"rhythm"
+],
+"adjectives": [
+"seasonal",
+"cyclical",
+"circadian",
+"affective"
+]
+},
+"flavour-palate": {
+"nouns": [
+"flavour",
+"taste",
+"palate",
+"cuisine"
+],
+"adjectives": [
+"sweet",
+"spicy",
+"savoury",
+"bitter"
+]
+},
+"faith-autonomy": {
+"nouns": [
+"faith",
+"autonomy",
+"belief",
+"upbringing"
+],
+"adjectives": [
+"religious",
+"spiritual",
+"independent",
+"questioning"
+]
+},
+"forgiveness": {
+"nouns": [
+"forgiveness",
+"resentment",
+"compassion",
+"reconciliation"
+],
+"adjectives": [
+"emotional",
+"psychological",
+"therapeutic",
+"empathetic"
+]
+},
+"resilience": {
+"nouns": [
+"resilience",
+"adversity",
+"coping",
+"recovery"
+],
+"adjectives": [
+"psychological",
+"adaptive",
+"emotional",
+"persistent"
+]
+},
+"intercultural-conflict-style": {
+"nouns": [
+"conflict",
+"communication",
+"directness",
+"negotiation"
+],
+"adjectives": [
+"intercultural",
+"assertive",
+"diplomatic",
+"indirect"
+]
+},
+"enneagram": {
+"nouns": [
+"enneagram",
+"personality",
+"type",
+"motivation"
+],
+"adjectives": [
+"psychological",
+"motivational",
+"emotional",
+"spiritual"
+]
+},
+"four-tendencies": {
+"nouns": [
+"tendency",
+"habit",
+"expectation",
+"framework"
+],
+"adjectives": [
+"behavioural",
+"motivational",
+"responsive",
+"inner"
+]
+},
+"work-environment": {
+"nouns": [
+"workspace",
+"environment",
+"productivity",
+"focus"
+],
+"adjectives": [
+"productive",
+"remote",
+"collaborative",
+"comfortable"
+]
+},
+"tropical-moon-sign": {
+"nouns": [
+"moon",
+"zodiac",
+"astrology",
+"emotion"
+],
+"adjectives": [
+"lunar",
+"emotional",
+"astrological",
+"natal"
+]
+},
+"tarot-birth-card": {
+"nouns": [
+"tarot",
+"arcana",
+"birthdate",
+"symbolism"
+],
+"adjectives": [
+"divinatory",
+"symbolic",
+"mystical",
+"archetypal"
+]
+},
+"tropical-jupiter-sign": {
+"nouns": [
+"jupiter",
+"zodiac",
+"astrology",
+"fortune"
+],
+"adjectives": [
+"astrological",
+"natal",
+"expansive",
+"fortunate"
+]
+},
+"sidereal-uranus-sign": {
+"nouns": [
+"uranus",
+"vedic",
+"astrology",
+"sign"
+],
+"adjectives": [
+"sidereal",
+"astrological",
+"natal",
+"revolutionary"
+]
+},
+"dnd-class": {
+"nouns": [
+"dungeon",
+"character",
+"class",
+"roleplaying"
+],
+"adjectives": [
+"fantasy",
+"tabletop",
+"heroic",
+"adventurous"
+]
+},
+"news-engagement": {
+"nouns": [
+"news",
+"media",
+"journalism",
+"awareness"
+],
+"adjectives": [
+"informed",
+"political",
+"daily",
+"critical"
+]
+},
+"regulatory-focus": {
+"nouns": [
+"motivation",
+"promotion",
+"prevention",
+"psychology"
+],
+"adjectives": [
+"motivational",
+"regulatory",
+"behavioural",
+"cautious"
+]
+},
+"orientation-fluidity": {
+"nouns": [
+"orientation",
+"sexuality",
+"fluidity",
+"identity"
+],
+"adjectives": [
+"sexual",
+"fluid",
+"personal",
+"evolving"
+]
+},
+"religion-worldview": {
+"nouns": [
+"religion",
+"spirituality",
+"worldview",
+"faith"
+],
+"adjectives": [
+"religious",
+"spiritual",
+"secular",
+"philosophical"
+]
+},
+"buddhist-tradition": {
+"nouns": [
+"buddhism",
+"tradition",
+"dharma",
+"meditation"
+],
+"adjectives": [
+"buddhist",
+"contemplative",
+"meditative",
+"spiritual"
+]
+},
+"mother-tongue-bond": {
+"nouns": [
+"language",
+"heritage",
+"fluency",
+"identity"
+],
+"adjectives": [
+"linguistic",
+"native",
+"cultural",
+"bilingual"
+]
+},
+"view-of-history": {
+"nouns": [
+"history",
+"causation",
+"historiography",
+"change"
+],
+"adjectives": [
+"historical",
+"cyclical",
+"progressive",
+"political"
+]
+},
+"time-perspective": {
+"nouns": [
+"time",
+"future",
+"past",
+"perspective"
+],
+"adjectives": [
+"temporal",
+"present",
+"nostalgic",
+"psychological"
+]
+},
+"relationship-structure": {
+"nouns": [
+"relationship",
+"commitment",
+"partnership",
+"structure"
+],
+"adjectives": [
+"romantic",
+"monogamous",
+"polyamorous",
+"intimate"
+]
+},
+"parenthood-status": {
+"nouns": [
+"parenthood",
+"children",
+"family",
+"parenting"
+],
+"adjectives": [
+"parental",
+"familial",
+"maternal",
+"personal"
+]
+},
+"sleep-position": {
+"nouns": [
+"sleep",
+"position",
+"posture",
+"comfort"
+],
+"adjectives": [
+"nocturnal",
+"physical",
+"habitual",
+"restful"
+]
+},
+"recreational-substances": {
+"nouns": [
+"substance",
+"drug",
+"alcohol",
+"recreation"
+],
+"adjectives": [
+"recreational",
+"social",
+"casual",
+"moderate"
+]
+},
+"martial-art": {
+"nouns": [
+"martial",
+"combat",
+"discipline",
+"training"
+],
+"adjectives": [
+"physical",
+"traditional",
+"competitive",
+"disciplined"
+]
+},
+"kibbe-body-type": {
+"nouns": [
+"body",
+"type",
+"proportion",
+"silhouette"
+],
+"adjectives": [
+"angular",
+"soft",
+"dramatic",
+"feminine"
+]
+},
+"story-habits": {
+"nouns": [
+"story",
+"fiction",
+"narrative",
+"genre"
+],
+"adjectives": [
+"narrative",
+"literary",
+"visual",
+"immersive"
+]
+},
+"aesthetic-centrality": {
+"nouns": [
+"aesthetic",
+"beauty",
+"design",
+"taste"
+],
+"adjectives": [
+"aesthetic",
+"visual",
+"artistic",
+"sensory"
+]
+},
+"sociosexuality": {
+"nouns": [
+"sexuality",
+"intimacy",
+"orientation",
+"commitment"
+],
+"adjectives": [
+"sexual",
+"relational",
+"casual",
+"selective"
+]
+},
+"justice-orientation": {
+"nouns": [
+"justice",
+"punishment",
+"morality",
+"ethics"
+],
+"adjectives": [
+"moral",
+"retributive",
+"restorative",
+"ethical"
+]
+},
+"engineering-branch": {
+"nouns": [
+"engineering",
+"technology",
+"mechanics",
+"field"
+],
+"adjectives": [
+"technical",
+"mechanical",
+"applied",
+"structural"
+]
+},
+"outdoorsy-level": {
+"nouns": [
+"outdoors",
+"nature",
+"adventure",
+"wilderness"
+],
+"adjectives": [
+"outdoor",
+"adventurous",
+"physical",
+"natural"
+]
+},
+"economic-priority": {
+"nouns": [
+"economy",
+"growth",
+"equality",
+"policy"
+],
+"adjectives": [
+"economic",
+"social",
+"fiscal",
+"progressive"
+]
+},
+"philosophy-interest": {
+"nouns": [
+"philosophy",
+"ethics",
+"metaphysics",
+"meaning"
+],
+"adjectives": [
+"philosophical",
+"existential",
+"rational",
+"intellectual"
+]
+},
+"epistemology-stance": {
+"nouns": [
+"knowledge",
+"truth",
+"evidence",
+"belief"
+],
+"adjectives": [
+"empirical",
+"rational",
+"scientific",
+"critical"
+]
+},
+"life-meaning": {
+"nouns": [
+"meaning",
+"purpose",
+"values",
+"fulfilment"
+],
+"adjectives": [
+"existential",
+"meaningful",
+"purposeful",
+"personal"
+]
+},
+"parental-bonding": {
+"nouns": [
+"bonding",
+"attachment",
+"parenting",
+"childhood"
+],
+"adjectives": [
+"parental",
+"emotional",
+"nurturing",
+"developmental"
+]
+},
+"internet-aesthetic": {
+"nouns": [
+"aesthetic",
+"style",
+"subculture",
+"identity"
+],
+"adjectives": [
+"visual",
+"cultural",
+"digital",
+"trendy"
+]
+},
+"green-thumb": {
+"nouns": [
+"gardening",
+"plants",
+"horticulture",
+"nature"
+],
+"adjectives": [
+"botanical",
+"organic",
+"outdoor",
+"seasonal"
+]
+},
+"favourite-meal": {
+"nouns": [
+"meal",
+"food",
+"cuisine",
+"dining"
+],
+"adjectives": [
+"culinary",
+"cultural",
+"comforting",
+"celebratory"
+]
+},
+"family-circumplex": {
+"nouns": [
+"family",
+"cohesion",
+"flexibility",
+"dynamics"
+],
+"adjectives": [
+"familial",
+"relational",
+"emotional",
+"systemic"
+]
+},
+"gratitude": {
+"nouns": [
+"gratitude",
+"thankfulness",
+"appreciation",
+"wellbeing"
+],
+"adjectives": [
+"grateful",
+"positive",
+"mindful",
+"psychological"
+]
+},
+"communal-exchange": {
+"nouns": [
+"reciprocity",
+"relationship",
+"exchange",
+"community"
+],
+"adjectives": [
+"communal",
+"social",
+"relational",
+"cooperative"
+]
+},
+"poverty-attributions": {
+"nouns": [
+"poverty",
+"inequality",
+"attribution",
+"sociology"
+],
+"adjectives": [
+"structural",
+"social",
+"economic",
+"political"
+]
+}
+}

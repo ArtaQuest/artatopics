@@ -1,0 +1,10 @@
+{
+ "topics": 1959,
+ "test_months": 24,
+ "auc_model": 0.5085,
+ "auc_snaive": 0.5875,
+ "auc_always_rise": 0.5022,
+ "mean_acc_model": 0.5084,
+ "acc_h1": 0.489,
+ "acc_h24": 0.5213
+}

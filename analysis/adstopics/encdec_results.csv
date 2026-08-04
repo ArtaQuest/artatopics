@@ -1,0 +1,6 @@
+arm,auc,acc_h1,acc_mean,acc_h24
+ENCDEC_pure,0.5388,0.5406,0.5388,0.5358
+ENCDEC_mem,0.5939,0.5886,0.5937,0.5902
+ENCDEC_mem_anchor,0.5934,0.5863,0.5931,0.5871
+ref_sq_snaive_AR,0.5801,0.5945,0.5804,0.5774
+ref_sq_climatology,0.5801,0.5694,0.5794,0.5588

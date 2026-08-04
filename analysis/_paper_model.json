@@ -1,0 +1,4574 @@
+{
+"machine-learning": {
+"paperR2": 0.9883
+},
+"deep-learning": {
+"paperR2": 0.9946
+},
+"artificial-intelligence": {
+"paperR2": 0.9683
+},
+"data-science": {
+"paperR2": 0.9889
+},
+"data-analysis": {
+"paperR2": 0.8592
+},
+"data-engineering": {
+"paperR2": 0.9563
+},
+"data-visualization": {
+"paperR2": 0.967
+},
+"big-data": {
+"paperR2": 0.978
+},
+"prompt-engineering": {
+"paperR2": 0.9925
+},
+"generative-ai": {
+"paperR2": 0.995
+},
+"chatgpt": {
+"paperR2": 0.9934
+},
+"neural-networks": {
+"paperR2": 0.9452
+},
+"computer-vision": {
+"paperR2": 0.9575
+},
+"nlp": {
+"paperR2": 0.9713
+},
+"reinforcement-learning": {
+"paperR2": 0.9507
+},
+"mlops": {
+"paperR2": 0.9912
+},
+"tensorflow": {
+"paperR2": 0.9921
+},
+"pytorch": {
+"paperR2": 0.9954
+},
+"pandas": {
+"paperR2": 0.9869
+},
+"numpy": {
+"paperR2": 0.9805
+},
+"statistics": {
+"paperR2": 0.938
+},
+"probability": {
+"paperR2": 0.7586
+},
+"linear-algebra": {
+"paperR2": 0.815
+},
+"calculus": {
+"paperR2": 0.7586
+},
+"econometrics": {
+"paperR2": 0.9491
+},
+"time-series": {
+"paperR2": 0.7814
+},
+"forecasting": {
+"paperR2": 0.9369
+},
+"predictive-analytics": {
+"paperR2": 0.9756
+},
+"business-intelligence": {
+"paperR2": 0.8505
+},
+"tableau": {
+"paperR2": 0.7667
+},
+"power-bi": {
+"paperR2": 0.9923
+},
+"excel": {
+"paperR2": 0.7526
+},
+"google-sheets": {
+"paperR2": 0.992
+},
+"data-mining": {
+"paperR2": 0.9622
+},
+"etl": {
+"paperR2": 0.8597
+},
+"data-warehouse": {
+"paperR2": 0.9759
+},
+"snowflake": {
+"paperR2": 0.756
+},
+"databricks": {
+"paperR2": 0.9923
+},
+"apache-spark": {
+"paperR2": 0.9911
+},
+"hadoop": {
+"paperR2": 0.99
+},
+"kafka": {
+"paperR2": 0.9022
+},
+"airflow": {
+"paperR2": 0.9863
+},
+"data-modeling": {
+"paperR2": 0.9507
+},
+"ab-testing": {
+"paperR2": 0.9755
+},
+"google-analytics": {
+"paperR2": 0.9753
+},
+"r-programming": {
+"paperR2": 0.9628
+},
+"matlab": {
+"paperR2": 0.8116
+},
+"sas": {
+"paperR2": 0.8648
+},
+"julia": {
+"paperR2": 0.369
+},
+"web-analytics": {
+"paperR2": 0.9589
+},
+"python": {
+"paperR2": 0.9887
+},
+"javascript": {
+"paperR2": 0.9898
+},
+"typescript": {
+"paperR2": 0.9946
+},
+"java": {
+"paperR2": 0.9954
+},
+"sql": {
+"paperR2": 0.9835
+},
+"nosql": {
+"paperR2": 0.9729
+},
+"html": {
+"paperR2": 0.9949
+},
+"css": {
+"paperR2": 0.9823
+},
+"tailwind": {
+"paperR2": 0.9898
+},
+"bootstrap": {
+"paperR2": 0.9936
+},
+"react": {
+"paperR2": 0.995
+},
+"angular": {
+"paperR2": 0.9841
+},
+"vue": {
+"paperR2": 0.7119
+},
+"svelte": {
+"paperR2": 0.8504
+},
+"nextjs": {
+"paperR2": 0.9966
+},
+"nodejs": {
+"paperR2": 0.9943
+},
+"express": {
+"paperR2": 0.7843
+},
+"django": {
+"paperR2": -1.1196
+},
+"flask": {
+"paperR2": 0.9679
+},
+"fastapi": {
+"paperR2": 0.9926
+},
+"laravel": {
+"paperR2": 0.9958
+},
+"spring-boot": {
+"paperR2": 0.9939
+},
+"dotnet": {
+"paperR2": 0.9881
+},
+"graphql": {
+"paperR2": 0.9916
+},
+"rest-api": {
+"paperR2": 0.987
+},
+"regex": {
+"paperR2": 0.858
+},
+"git": {
+"paperR2": 0.9879
+},
+"github": {
+"paperR2": 0.9929
+},
+"gitlab": {
+"paperR2": 0.9911
+},
+"bash": {
+"paperR2": 0.7416
+},
+"powershell": {
+"paperR2": 0.9841
+},
+"linux": {
+"paperR2": 0.9937
+},
+"ubuntu": {
+"paperR2": 0.972
+},
+"kotlin": {
+"paperR2": 0.9787
+},
+"swift": {
+"paperR2": 0.8004
+},
+"golang": {
+"paperR2": 0.988
+},
+"rust": {
+"paperR2": 0.8758
+},
+"php": {
+"paperR2": 0.9945
+},
+"ruby": {
+"paperR2": 0.1097
+},
+"c-programming": {
+"paperR2": 0.9585
+},
+"web-development": {
+"paperR2": 0.9765
+},
+"frontend": {
+"paperR2": 0.9851
+},
+"backend": {
+"paperR2": 0.9889
+},
+"full-stack": {
+"paperR2": 0.9922
+},
+"responsive-design": {
+"paperR2": 0.9917
+},
+"wordpress": {
+"paperR2": 0.9676
+},
+"shopify": {
+"paperR2": 0.9868
+},
+"webflow": {
+"paperR2": 0.9956
+},
+"microservices": {
+"paperR2": 0.9881
+},
+"web-scraping": {
+"paperR2": 0.9748
+},
+"algorithms": {
+"paperR2": 0.9736
+},
+"data-structures": {
+"paperR2": 0.9167
+},
+"oop": {
+"paperR2": 0.837
+},
+"functional-programming": {
+"paperR2": 0.8672
+},
+"debugging": {
+"paperR2": 0.9882
+},
+"code-review": {
+"paperR2": 0.78
+},
+"unit-testing": {
+"paperR2": 0.7676
+},
+"refactoring": {
+"paperR2": 0.9579
+},
+"design-patterns": {
+"paperR2": 0.9789
+},
+"low-code": {
+"paperR2": 0.9695
+},
+"no-code": {
+"paperR2": 0.9882
+},
+"flutter": {
+"paperR2": 0.9933
+},
+"react-native": {
+"paperR2": 0.9964
+},
+"android-development": {
+"paperR2": 0.9889
+},
+"ios-development": {
+"paperR2": 0.9848
+},
+"game-development": {
+"paperR2": 0.8407
+},
+"selenium": {
+"paperR2": 0.9652
+},
+"software-testing": {
+"paperR2": 0.9892
+},
+"qa-testing": {
+"paperR2": 0.8684
+},
+"test-automation": {
+"paperR2": 0.6352
+},
+"api-testing": {
+"paperR2": 0.9769
+},
+"mobile-development": {
+"paperR2": 0.9245
+},
+"cloud-computing": {
+"paperR2": 0.9863
+},
+"aws": {
+"paperR2": 0.9906
+},
+"azure": {
+"paperR2": 0.9892
+},
+"google-cloud": {
+"paperR2": 0.9897
+},
+"devops": {
+"paperR2": 0.9835
+},
+"docker": {
+"paperR2": 0.9915
+},
+"kubernetes": {
+"paperR2": 0.9894
+},
+"terraform": {
+"paperR2": 0.9913
+},
+"ansible": {
+"paperR2": 0.9907
+},
+"jenkins": {
+"paperR2": 0.3725
+},
+"ci-cd": {
+"paperR2": 0.9781
+},
+"serverless": {
+"paperR2": 0.9904
+},
+"cloud-security": {
+"paperR2": 0.9844
+},
+"computer-networking": {
+"paperR2": 0.9832
+},
+"dns": {
+"paperR2": 0.9742
+},
+"vpn": {
+"paperR2": 0.9499
+},
+"firewall": {
+"paperR2": 0.997
+},
+"sysadmin": {
+"paperR2": 0.5649
+},
+"it-support": {
+"paperR2": 0.9687
+},
+"help-desk": {
+"paperR2": 0.9038
+},
+"troubleshooting": {
+"paperR2": 0.9911
+},
+"windows-server": {
+"paperR2": 0.9927
+},
+"active-directory": {
+"paperR2": 0.9869
+},
+"virtualization": {
+"paperR2": 0.9769
+},
+"vmware": {
+"paperR2": 0.9794
+},
+"site-reliability": {
+"paperR2": 0.9531
+},
+"observability": {
+"paperR2": 0.9413
+},
+"monitoring": {
+"paperR2": 0.9111
+},
+"grafana": {
+"paperR2": 0.9909
+},
+"disaster-recovery": {
+"paperR2": 0.9748
+},
+"data-backup": {
+"paperR2": 0.9158
+},
+"postgresql": {
+"paperR2": 0.9743
+},
+"mysql": {
+"paperR2": 0.9963
+},
+"mongodb": {
+"paperR2": 0.9903
+},
+"redis": {
+"paperR2": 0.9903
+},
+"elasticsearch": {
+"paperR2": 0.9941
+},
+"sqlite": {
+"paperR2": 0.962
+},
+"cybersecurity": {
+"paperR2": 0.983
+},
+"ethical-hacking": {
+"paperR2": 0.8306
+},
+"penetration-testing": {
+"paperR2": 0.9024
+},
+"network-security": {
+"paperR2": 0.9749
+},
+"information-security": {
+"paperR2": 0.971
+},
+"cryptography": {
+"paperR2": 0.9853
+},
+"encryption": {
+"paperR2": 0.9744
+},
+"malware-analysis": {
+"paperR2": 0.9773
+},
+"digital-forensics": {
+"paperR2": 0.9409
+},
+"incident-response": {
+"paperR2": 0.9428
+},
+"kali-linux": {
+"paperR2": 0.9899
+},
+"osint": {
+"paperR2": 0.989
+},
+"bug-bounty": {
+"paperR2": 0.9862
+},
+"blockchain": {
+"paperR2": 0.9912
+},
+"solidity": {
+"paperR2": 0.9877
+},
+"web3": {
+"paperR2": 0.9931
+},
+"smart-contracts": {
+"paperR2": 0.9468
+},
+"reverse-engineering": {
+"paperR2": 0.9739
+},
+"graphic-design": {
+"paperR2": 0.9192
+},
+"ui-design": {
+"paperR2": 0.9823
+},
+"ux-design": {
+"paperR2": 0.993
+},
+"ux-research": {
+"paperR2": 0.9711
+},
+"product-design": {
+"paperR2": 0.8566
+},
+"interaction-design": {
+"paperR2": 0.7801
+},
+"design-thinking": {
+"paperR2": 0.9705
+},
+"figma": {
+"paperR2": 0.9953
+},
+"photoshop": {
+"paperR2": 0.9923
+},
+"illustrator": {
+"paperR2": 0.8919
+},
+"indesign": {
+"paperR2": 0.9042
+},
+"canva": {
+"paperR2": 0.9785
+},
+"typography": {
+"paperR2": 0.8631
+},
+"color-theory": {
+"paperR2": 0.9086
+},
+"logo-design": {
+"paperR2": 0.9473
+},
+"illustration": {
+"paperR2": 0.8787
+},
+"digital-art": {
+"paperR2": 0.9729
+},
+"drawing": {
+"paperR2": 0.9729
+},
+"sketching": {
+"paperR2": 0.8151
+},
+"painting": {
+"paperR2": 0.9315
+},
+"watercolor": {
+"paperR2": 0.974
+},
+"calligraphy": {
+"paperR2": 0.9715
+},
+"animation": {
+"paperR2": 0.9787
+},
+"motion-graphics": {
+"paperR2": 0.7141
+},
+"after-effects": {
+"paperR2": 0.8979
+},
+"premiere-pro": {
+"paperR2": 0.9873
+},
+"final-cut": {
+"paperR2": 0.9398
+},
+"davinci-resolve": {
+"paperR2": 0.9972
+},
+"video-editing": {
+"paperR2": 0.7858
+},
+"videography": {
+"paperR2": 0.8994
+},
+"photography": {
+"paperR2": 0.9819
+},
+"photo-editing": {
+"paperR2": 0.9709
+},
+"lightroom": {
+"paperR2": 0.9759
+},
+"3d-modeling": {
+"paperR2": 0.9649
+},
+"blender": {
+"paperR2": 0.9525
+},
+"maya": {
+"paperR2": 0.4732
+},
+"unity": {
+"paperR2": 0.9629
+},
+"unreal-engine": {
+"paperR2": 0.906
+},
+"game-design": {
+"paperR2": 0.915
+},
+"character-design": {
+"paperR2": 0.8781
+},
+"concept-art": {
+"paperR2": 0.8445
+},
+"storyboarding": {
+"paperR2": 0.8739
+},
+"interior-design": {
+"paperR2": 0.9204
+},
+"fashion-design": {
+"paperR2": 0.9529
+},
+"web-design": {
+"paperR2": 0.9652
+},
+"digital-marketing": {
+"paperR2": 0.9886
+},
+"seo": {
+"paperR2": 0.9882
+},
+"sem": {
+"paperR2": 0.9869
+},
+"content-marketing": {
+"paperR2": 0.986
+},
+"email-marketing": {
+"paperR2": 0.8905
+},
+"social-media": {
+"paperR2": 0.9855
+},
+"google-ads": {
+"paperR2": 0.9888
+},
+"facebook-ads": {
+"paperR2": 0.9852
+},
+"instagram-marketing": {
+"paperR2": 0.9793
+},
+"influencer-marketing": {
+"paperR2": 0.9828
+},
+"affiliate-marketing": {
+"paperR2": 0.9824
+},
+"growth-hacking": {
+"paperR2": 0.9795
+},
+"copywriting": {
+"paperR2": 0.9687
+},
+"content-writing": {
+"paperR2": 0.9794
+},
+"technical-writing": {
+"paperR2": 0.9554
+},
+"creative-writing": {
+"paperR2": 0.7487
+},
+"blogging": {
+"paperR2": 0.9289
+},
+"ghostwriting": {
+"paperR2": 0.2123
+},
+"editing": {
+"paperR2": 0.9218
+},
+"proofreading": {
+"paperR2": 0.7998
+},
+"journalism": {
+"paperR2": 0.9587
+},
+"storytelling": {
+"paperR2": 0.8776
+},
+"content-strategy": {
+"paperR2": 0.943
+},
+"keyword-research": {
+"paperR2": 0.9387
+},
+"link-building": {
+"paperR2": 0.9119
+},
+"ppc": {
+"paperR2": 0.9878
+},
+"marketing-automation": {
+"paperR2": 0.9565
+},
+"hubspot": {
+"paperR2": 0.9899
+},
+"mailchimp": {
+"paperR2": 0.9883
+},
+"public-relations": {
+"paperR2": 0.9671
+},
+"market-research": {
+"paperR2": 0.9431
+},
+"podcasting": {
+"paperR2": 0.9219
+},
+"video-marketing": {
+"paperR2": 0.8746
+},
+"community-management": {
+"paperR2": 0.756
+},
+"branding": {
+"paperR2": 0.9077
+},
+"brand-strategy": {
+"paperR2": 0.6826
+},
+"conversion-optimization": {
+"paperR2": 0.9654
+},
+"project-management": {
+"paperR2": 0.9296
+},
+"product-management": {
+"paperR2": 0.9682
+},
+"agile": {
+"paperR2": 0.9478
+},
+"scrum": {
+"paperR2": 0.9421
+},
+"kanban": {
+"paperR2": 0.8326
+},
+"jira": {
+"paperR2": 0.9874
+},
+"notion": {
+"paperR2": 0.9797
+},
+"airtable": {
+"paperR2": 0.9929
+},
+"zapier": {
+"paperR2": 0.9865
+},
+"automation": {
+"paperR2": 0.904
+},
+"business-analysis": {
+"paperR2": 0.8339
+},
+"business-strategy": {
+"paperR2": 0.8475
+},
+"entrepreneurship": {
+"paperR2": 0.8241
+},
+"business-development": {
+"paperR2": 0.8407
+},
+"sales": {
+"paperR2": 0.9283
+},
+"negotiation": {
+"paperR2": 0.8262
+},
+"cold-calling": {
+"paperR2": 0.7307
+},
+"lead-generation": {
+"paperR2": 0.9773
+},
+"crm": {
+"paperR2": 0.8051
+},
+"salesforce": {
+"paperR2": 0.989
+},
+"customer-service": {
+"paperR2": 0.9894
+},
+"customer-success": {
+"paperR2": 0.9821
+},
+"account-management": {
+"paperR2": 0.6748
+},
+"operations-management": {
+"paperR2": 0.7927
+},
+"supply-chain": {
+"paperR2": 0.8919
+},
+"logistics": {
+"paperR2": 0.9036
+},
+"procurement": {
+"paperR2": 0.7451
+},
+"inventory-management": {
+"paperR2": 0.9238
+},
+"six-sigma": {
+"paperR2": 0.9789
+},
+"process-improvement": {
+"paperR2": 0.8644
+},
+"quality-assurance": {
+"paperR2": 0.9624
+},
+"quality-control": {
+"paperR2": 0.849
+},
+"risk-management": {
+"paperR2": 0.9569
+},
+"compliance": {
+"paperR2": 0.8281
+},
+"auditing": {
+"paperR2": 0.939
+},
+"accounting": {
+"paperR2": 0.8566
+},
+"bookkeeping": {
+"paperR2": 0.7831
+},
+"quickbooks": {
+"paperR2": 0.7894
+},
+"payroll": {
+"paperR2": 0.591
+},
+"tax-preparation": {
+"paperR2": 0.8029
+},
+"financial-modeling": {
+"paperR2": 0.6779
+},
+"financial-analysis": {
+"paperR2": 0.8292
+},
+"financial-planning": {
+"paperR2": 0.9553
+},
+"corporate-finance": {
+"paperR2": 0.93
+},
+"budgeting": {
+"paperR2": 0.882
+},
+"investing": {
+"paperR2": 0.9724
+},
+"stock-trading": {
+"paperR2": 0.8077
+},
+"options-trading": {
+"paperR2": 0.9086
+},
+"forex-trading": {
+"paperR2": 0.9568
+},
+"cryptocurrency": {
+"paperR2": 0.9299
+},
+"bitcoin": {
+"paperR2": 0.8585
+},
+"real-estate": {
+"paperR2": 0.988
+},
+"property-management": {
+"paperR2": 0.7252
+},
+"insurance": {
+"paperR2": 0.8274
+},
+"fundraising": {
+"paperR2": 0.8929
+},
+"grant-writing": {
+"paperR2": 0.9792
+},
+"consulting": {
+"paperR2": 0.975
+},
+"strategic-planning": {
+"paperR2": 0.9535
+},
+"powerpoint": {
+"paperR2": 0.737
+},
+"microsoft-office": {
+"paperR2": 0.9797
+},
+"leadership": {
+"paperR2": 0.7437
+},
+"management": {
+"paperR2": 0.9573
+},
+"communication": {
+"paperR2": 0.8997
+},
+"public-speaking": {
+"paperR2": 0.7238
+},
+"presentation": {
+"paperR2": 0.8191
+},
+"emotional-intelligence": {
+"paperR2": 0.85
+},
+"critical-thinking": {
+"paperR2": 0.7959
+},
+"problem-solving": {
+"paperR2": 0.684
+},
+"decision-making": {
+"paperR2": 0.7638
+},
+"time-management": {
+"paperR2": 0.8166
+},
+"conflict-resolution": {
+"paperR2": 0.8972
+},
+"team-building": {
+"paperR2": 0.852
+},
+"teamwork": {
+"paperR2": 0.6425
+},
+"adaptability": {
+"paperR2": 0.9464
+},
+"creativity": {
+"paperR2": 0.7608
+},
+"resilience": {
+"paperR2": 0.9702
+},
+"mindfulness": {
+"paperR2": 0.9814
+},
+"meditation": {
+"paperR2": 0.9523
+},
+"stress-management": {
+"paperR2": 0.9533
+},
+"active-listening": {
+"paperR2": 0.8134
+},
+"mentoring": {
+"paperR2": 0.8802
+},
+"coaching": {
+"paperR2": 0.8346
+},
+"life-coaching": {
+"paperR2": 0.9238
+},
+"teaching": {
+"paperR2": 0.9424
+},
+"tutoring": {
+"paperR2": 0.7084
+},
+"instructional-design": {
+"paperR2": 0.92
+},
+"curriculum-development": {
+"paperR2": 0.8614
+},
+"elearning": {
+"paperR2": 0.8709
+},
+"lesson-planning": {
+"paperR2": 0.5685
+},
+"classroom-management": {
+"paperR2": 0.9049
+},
+"child-development": {
+"paperR2": 0.8254
+},
+"special-education": {
+"paperR2": 0.8931
+},
+"sign-language": {
+"paperR2": 0.4185
+},
+"academic-writing": {
+"paperR2": 0.8602
+},
+"essay-writing": {
+"paperR2": 0.7836
+},
+"research-methods": {
+"paperR2": 0.6848
+},
+"study-skills": {
+"paperR2": 0.8795
+},
+"english": {
+"paperR2": 0.9947
+},
+"spanish": {
+"paperR2": 0.8177
+},
+"french": {
+"paperR2": 0.6549
+},
+"german": {
+"paperR2": 0.9161
+},
+"chinese": {
+"paperR2": 0.6256
+},
+"japanese": {
+"paperR2": 0.927
+},
+"korean": {
+"paperR2": 0.9826
+},
+"arabic": {
+"paperR2": 0.9616
+},
+"portuguese": {
+"paperR2": 0.7366
+},
+"italian": {
+"paperR2": 0.821
+},
+"russian": {
+"paperR2": 0.7752
+},
+"hindi": {
+"paperR2": 0.9944
+},
+"translation": {
+"paperR2": 0.9836
+},
+"nursing": {
+"paperR2": 0.751
+},
+"first-aid": {
+"paperR2": 0.703
+},
+"cpr": {
+"paperR2": 0.5708
+},
+"phlebotomy": {
+"paperR2": 0.8666
+},
+"medical-coding": {
+"paperR2": 0.8201
+},
+"medical-billing": {
+"paperR2": 0.8409
+},
+"patient-care": {
+"paperR2": 0.9076
+},
+"caregiving": {
+"paperR2": 0.8532
+},
+"pharmacy": {
+"paperR2": 0.9653
+},
+"physiotherapy": {
+"paperR2": 0.9231
+},
+"occupational-therapy": {
+"paperR2": 0.7164
+},
+"speech-therapy": {
+"paperR2": 0.8092
+},
+"massage-therapy": {
+"paperR2": 0.9407
+},
+"acupuncture": {
+"paperR2": 0.6953
+},
+"nutrition": {
+"paperR2": 0.5518
+},
+"meal-planning": {
+"paperR2": 0.5797
+},
+"personal-training": {
+"paperR2": 0.935
+},
+"fitness": {
+"paperR2": 0.4902
+},
+"yoga": {
+"paperR2": 0.9119
+},
+"pilates": {
+"paperR2": 0.5006
+},
+"crossfit": {
+"paperR2": 0.9281
+},
+"weightlifting": {
+"paperR2": 0.7196
+},
+"running": {
+"paperR2": 0.9472
+},
+"swimming": {
+"paperR2": 0.3698
+},
+"martial-arts": {
+"paperR2": 0.9725
+},
+"boxing": {
+"paperR2": 0.2493
+},
+"self-defense": {
+"paperR2": 0.4831
+},
+"dance": {
+"paperR2": 0.9469
+},
+"counseling": {
+"paperR2": 0.7701
+},
+"psychotherapy": {
+"paperR2": 0.964
+},
+"herbalism": {
+"paperR2": 0.9755
+},
+"welding": {
+"paperR2": 0.7539
+},
+"machining": {
+"paperR2": 0.9389
+},
+"cnc": {
+"paperR2": 0.7234
+},
+"3d-printing": {
+"paperR2": 0.97
+},
+"carpentry": {
+"paperR2": 0.7325
+},
+"woodworking": {
+"paperR2": 0.9908
+},
+"furniture-making": {
+"paperR2": 0.9542
+},
+"plumbing": {
+"paperR2": 0.7018
+},
+"electrical-wiring": {
+"paperR2": 0.9724
+},
+"hvac": {
+"paperR2": 0.9201
+},
+"refrigeration": {
+"paperR2": 0.9083
+},
+"masonry": {
+"paperR2": 0.8488
+},
+"tiling": {
+"paperR2": 0.8384
+},
+"roofing": {
+"paperR2": 0.8867
+},
+"drywall": {
+"paperR2": 0.9279
+},
+"flooring": {
+"paperR2": 0.7575
+},
+"landscaping": {
+"paperR2": 0.902
+},
+"gardening": {
+"paperR2": 0.9543
+},
+"horticulture": {
+"paperR2": 0.9494
+},
+"farming": {
+"paperR2": 0.9443
+},
+"agriculture": {
+"paperR2": 0.8552
+},
+"hydroponics": {
+"paperR2": 0.8749
+},
+"beekeeping": {
+"paperR2": 0.8374
+},
+"auto-repair": {
+"paperR2": 0.8862
+},
+"car-detailing": {
+"paperR2": 0.9445
+},
+"engine-repair": {
+"paperR2": 0.8426
+},
+"motorcycle-repair": {
+"paperR2": 0.9087
+},
+"locksmithing": {
+"paperR2": 0.9161
+},
+"appliance-repair": {
+"paperR2": 0.9664
+},
+"phone-repair": {
+"paperR2": 0.984
+},
+"computer-repair": {
+"paperR2": 0.9088
+},
+"soldering": {
+"paperR2": 0.9374
+},
+"electronics": {
+"paperR2": 0.9946
+},
+"arduino": {
+"paperR2": 0.9921
+},
+"raspberry-pi": {
+"paperR2": 0.9876
+},
+"robotics": {
+"paperR2": 0.984
+},
+"drone-pilot": {
+"paperR2": 0.9865
+},
+"embedded-systems": {
+"paperR2": 0.9801
+},
+"plc-programming": {
+"paperR2": 0.833
+},
+"cad": {
+"paperR2": 0.9652
+},
+"autocad": {
+"paperR2": 0.9547
+},
+"solidworks": {
+"paperR2": 0.6606
+},
+"revit": {
+"paperR2": 0.9713
+},
+"sketchup": {
+"paperR2": 0.9651
+},
+"bim": {
+"paperR2": 0.971
+},
+"gis": {
+"paperR2": 0.9001
+},
+"surveying": {
+"paperR2": 0.8626
+},
+"forklift": {
+"paperR2": 0.8716
+},
+"truck-driving": {
+"paperR2": 0.856
+},
+"defensive-driving": {
+"paperR2": 0.9492
+},
+"sewing": {
+"paperR2": 0.937
+},
+"tailoring": {
+"paperR2": 0.9298
+},
+"knitting": {
+"paperR2": 0.9772
+},
+"crocheting": {
+"paperR2": 0.8403
+},
+"embroidery": {
+"paperR2": 0.9109
+},
+"leatherworking": {
+"paperR2": 0.964
+},
+"jewelry-making": {
+"paperR2": 0.9588
+},
+"pottery": {
+"paperR2": 0.939
+},
+"blacksmithing": {
+"paperR2": 0.8694
+},
+"cooking": {
+"paperR2": 0.8126
+},
+"baking": {
+"paperR2": 0.9491
+},
+"pastry": {
+"paperR2": 0.6803
+},
+"grilling": {
+"paperR2": 0.9499
+},
+"fermentation": {
+"paperR2": 0.7512
+},
+"canning": {
+"paperR2": 0.9027
+},
+"cake-decorating": {
+"paperR2": 0.9398
+},
+"bartending": {
+"paperR2": 0.9415
+},
+"mixology": {
+"paperR2": 0.8966
+},
+"barista": {
+"paperR2": 0.9748
+},
+"wine-tasting": {
+"paperR2": 0.8842
+},
+"food-safety": {
+"paperR2": 0.5354
+},
+"catering": {
+"paperR2": 0.8223
+},
+"restaurant-management": {
+"paperR2": 0.8911
+},
+"hospitality": {
+"paperR2": 0.7701
+},
+"housekeeping": {
+"paperR2": 0.6103
+},
+"event-planning": {
+"paperR2": 0.9255
+},
+"wedding-planning": {
+"paperR2": 0.9567
+},
+"music-production": {
+"paperR2": 0.9479
+},
+"music-theory": {
+"paperR2": 0.9425
+},
+"songwriting": {
+"paperR2": 0.9628
+},
+"guitar": {
+"paperR2": 0.9889
+},
+"piano": {
+"paperR2": 0.8128
+},
+"violin": {
+"paperR2": 0.8982
+},
+"drums": {
+"paperR2": 0.9917
+},
+"bass-guitar": {
+"paperR2": 0.9781
+},
+"ukulele": {
+"paperR2": 0.9676
+},
+"singing": {
+"paperR2": 0.5186
+},
+"djing": {
+"paperR2": 0.8883
+},
+"ableton": {
+"paperR2": 0.8075
+},
+"fl-studio": {
+"paperR2": 0.9501
+},
+"logic-pro": {
+"paperR2": 0.7971
+},
+"audio-engineering": {
+"paperR2": 0.9691
+},
+"sound-design": {
+"paperR2": 0.9514
+},
+"audio-mixing": {
+"paperR2": 0.9874
+},
+"mastering": {
+"paperR2": 0.8362
+},
+"acting": {
+"paperR2": 0.7703
+},
+"screenwriting": {
+"paperR2": 0.9731
+},
+"filmmaking": {
+"paperR2": 0.4242
+},
+"chess": {
+"paperR2": 0.9679
+},
+"poker": {
+"paperR2": 0.9862
+},
+"democracy": {
+"paperR2": 0.7001
+},
+"development": {
+"paperR2": 0.9466
+},
+"constitution": {
+"paperR2": 0.781
+},
+"awareness": {
+"paperR2": 0.7496
+},
+"destiny": {
+"paperR2": 0.6384
+},
+"ethics": {
+"paperR2": 0.8327
+},
+"psychology": {
+"paperR2": 0.8781
+},
+"adventure": {
+"paperR2": 0.7985
+},
+"religion": {
+"paperR2": 0.876
+},
+"art": {
+"paperR2": 0.9779
+},
+"science": {
+"paperR2": 0.8721
+},
+"energy": {
+"paperR2": 0.7
+},
+"spectrum": {
+"paperR2": 0.9755
+},
+"romance": {
+"paperR2": 0.8789
+},
+"outdoor": {
+"paperR2": 0.9302
+},
+"movement": {
+"paperR2": 0.7979
+},
+"cuisine": {
+"paperR2": 0.9231
+},
+"football": {
+"paperR2": 0.902
+},
+"soccer": {
+"paperR2": 0.795
+},
+"basketball": {
+"paperR2": 0.6989
+},
+"nba": {
+"paperR2": 0.7431
+},
+"nfl": {
+"paperR2": 0.5092
+},
+"world-cup": {
+"paperR2": 0.3464
+},
+"olympics": {
+"paperR2": 0.2918
+},
+"tennis": {
+"paperR2": 0.5725
+},
+"cricket": {
+"paperR2": 0.5293
+},
+"baseball": {
+"paperR2": 0.9092
+},
+"golf": {
+"paperR2": 0.9278
+},
+"boxing-t": {
+"paperR2": 0.2612
+},
+"mma": {
+"paperR2": 0.9212
+},
+"ufc": {
+"paperR2": 0.6602
+},
+"formula-1": {
+"paperR2": 0.4166
+},
+"premier-league": {
+"paperR2": 0.3705
+},
+"champions-league": {
+"paperR2": 0.3283
+},
+"super-bowl": {
+"paperR2": 0.5986
+},
+"marathon": {
+"paperR2": 0.7148
+},
+"gym": {
+"paperR2": 0.9073
+},
+"yoga-t": {
+"paperR2": 0.844
+},
+"workout": {
+"paperR2": 0.8901
+},
+"bodybuilding": {
+"paperR2": 0.9858
+},
+"swimming-t": {
+"paperR2": 0.7762
+},
+"cycling": {
+"paperR2": 0.7185
+},
+"skiing": {
+"paperR2": 0.9407
+},
+"surfing": {
+"paperR2": 0.9426
+},
+"wrestling": {
+"paperR2": 0.9596
+},
+"hockey": {
+"paperR2": 0.433
+},
+"rugby": {
+"paperR2": 0.602
+},
+"badminton": {
+"paperR2": 0.3477
+},
+"table-tennis": {
+"paperR2": 0.8905
+},
+"volleyball": {
+"paperR2": 0.1651
+},
+"athletics": {
+"paperR2": 0.8583
+},
+"nhl": {
+"paperR2": 0.7195
+},
+"mlb": {
+"paperR2": 0.7566
+},
+"nba-scores": {
+"paperR2": 0.7343
+},
+"messi": {
+"paperR2": 0.7708
+},
+"ronaldo": {
+"paperR2": 0.396
+},
+"lebron-james": {
+"paperR2": 0.2985
+},
+"serena-williams": {
+"paperR2": 0.106
+},
+"tiger-woods": {
+"paperR2": 0.6631
+},
+"michael-jordan": {
+"paperR2": 0.3192
+},
+"usain-bolt": {
+"paperR2": -0.2927
+},
+"roger-federer": {
+"paperR2": 0.2602
+},
+"nadal": {
+"paperR2": -0.4308
+},
+"djokovic": {
+"paperR2": 0.32
+},
+"mbappe": {
+"paperR2": 0.3142
+},
+"neymar": {
+"paperR2": 0.7316
+},
+"la-liga": {
+"paperR2": 0.7523
+},
+"serie-a": {
+"paperR2": 0.6846
+},
+"bundesliga": {
+"paperR2": 0.5565
+},
+"europa-league": {
+"paperR2": 0.5246
+},
+"fifa": {
+"paperR2": -0.2692
+},
+"wimbledon": {
+"paperR2": 0.4609
+},
+"us-open": {
+"paperR2": -0.039
+},
+"masters": {
+"paperR2": 0.3459
+},
+"crossfit-t": {
+"paperR2": 0.9385
+},
+"pilates-t": {
+"paperR2": 0.7566
+},
+"hiit": {
+"paperR2": 0.9917
+},
+"cardio": {
+"paperR2": 0.8071
+},
+"running-t": {
+"paperR2": 0.9371
+},
+"weightlifting-t": {
+"paperR2": 0.6292
+},
+"deadlift": {
+"paperR2": 0.98
+},
+"squat": {
+"paperR2": 0.9824
+},
+"bench-press": {
+"paperR2": 0.9074
+},
+"ironman": {
+"paperR2": 0.8137
+},
+"triathlon": {
+"paperR2": 0.9311
+},
+"karate": {
+"paperR2": 0.8881
+},
+"judo": {
+"paperR2": 0.6109
+},
+"taekwondo": {
+"paperR2": 0.237
+},
+"fencing": {
+"paperR2": 0.822
+},
+"archery": {
+"paperR2": 0.0892
+},
+"rowing": {
+"paperR2": 0.7804
+},
+"sprinting": {
+"paperR2": 0.5534
+},
+"gymnastics": {
+"paperR2": 0.3114
+},
+"figure-skating": {
+"paperR2": -0.1961
+},
+"snowboarding": {
+"paperR2": 0.9605
+},
+"skateboarding": {
+"paperR2": 0.9179
+},
+"motogp": {
+"paperR2": 0.5417
+},
+"nascar": {
+"paperR2": 0.6376
+},
+"darts": {
+"paperR2": 0.5993
+},
+"snooker": {
+"paperR2": 0.3896
+},
+"swimming-pool": {
+"paperR2": 0.914
+},
+"dumbbell": {
+"paperR2": 0.9722
+},
+"finance": {
+"paperR2": 0.686
+},
+"stock-market": {
+"paperR2": 0.5325
+},
+"bitcoin-t": {
+"paperR2": 0.9606
+},
+"cryptocurrency-t": {
+"paperR2": 0.4549
+},
+"ethereum": {
+"paperR2": 0.8494
+},
+"inflation": {
+"paperR2": 0.966
+},
+"interest-rates": {
+"paperR2": 0.87
+},
+"mortgage": {
+"paperR2": 0.9532
+},
+"recession": {
+"paperR2": 0.8316
+},
+"stocks": {
+"paperR2": 0.7736
+},
+"forex": {
+"paperR2": 0.8991
+},
+"gold-price": {
+"paperR2": 0.8579
+},
+"nasdaq": {
+"paperR2": 0.9176
+},
+"dow-jones": {
+"paperR2": 0.9268
+},
+"sp-500": {
+"paperR2": 0.8184
+},
+"index-funds": {
+"paperR2": 0.8277
+},
+"etf": {
+"paperR2": 0.9451
+},
+"dividend": {
+"paperR2": 0.9606
+},
+"roth-ira": {
+"paperR2": 0.8703
+},
+"credit-score": {
+"paperR2": 0.9571
+},
+"compound-interest": {
+"paperR2": 0.9661
+},
+"day-trading": {
+"paperR2": 0.7924
+},
+"options-trading-t": {
+"paperR2": 0.9141
+},
+"real-estate-t": {
+"paperR2": 0.9825
+},
+"hedge-fund": {
+"paperR2": 0.8616
+},
+"bonds": {
+"paperR2": 0.8885
+},
+"gdp": {
+"paperR2": 0.7667
+},
+"federal-reserve": {
+"paperR2": 0.8884
+},
+"tax-return": {
+"paperR2": 0.7622
+},
+"personal-finance": {
+"paperR2": 0.0871
+},
+"budgeting-t": {
+"paperR2": 0.8053
+},
+"mutual-funds": {
+"paperR2": 0.9545
+},
+"stock-price": {
+"paperR2": 0.9604
+},
+"crypto": {
+"paperR2": 0.9539
+},
+"dogecoin": {
+"paperR2": 0.5454
+},
+"nft": {
+"paperR2": 0.8776
+},
+"stock-exchange": {
+"paperR2": 0.9781
+},
+"nyse": {
+"paperR2": 0.8354
+},
+"ipo": {
+"paperR2": 0.5715
+},
+"capital-gains": {
+"paperR2": 0.8855
+},
+"mortgage-rates": {
+"paperR2": 0.719
+},
+"refinance": {
+"paperR2": 0.827
+},
+"home-loan": {
+"paperR2": 0.9176
+},
+"car-loan": {
+"paperR2": 0.961
+},
+"student-loans": {
+"paperR2": 0.6952
+},
+"debt-consolidation": {
+"paperR2": 0.9669
+},
+"credit-card": {
+"paperR2": 0.9606
+},
+"debit-card": {
+"paperR2": 0.987
+},
+"net-worth": {
+"paperR2": 0.9881
+},
+"savings-account": {
+"paperR2": 0.9724
+},
+"high-yield": {
+"paperR2": 0.9702
+},
+"money-market": {
+"paperR2": 0.5041
+},
+"treasury-bonds": {
+"paperR2": 0.8652
+},
+"municipal-bonds": {
+"paperR2": 0.9246
+},
+"yield-curve": {
+"paperR2": 0.8183
+},
+"stock-broker": {
+"paperR2": 0.9106
+},
+"robinhood": {
+"paperR2": 0.8073
+},
+"coinbase": {
+"paperR2": 0.8813
+},
+"trading": {
+"paperR2": 0.916
+},
+"investing-t": {
+"paperR2": 0.986
+},
+"portfolio": {
+"paperR2": 0.8257
+},
+"asset-allocation": {
+"paperR2": 0.9496
+},
+"retirement": {
+"paperR2": 0.8477
+},
+"pension": {
+"paperR2": 0.6934
+},
+"annuity": {
+"paperR2": 0.8584
+},
+"social-security": {
+"paperR2": 0.7338
+},
+"estate-planning": {
+"paperR2": 0.9122
+},
+"life-insurance": {
+"paperR2": 0.8921
+},
+"health-insurance": {
+"paperR2": 0.8047
+},
+"exchange-rate": {
+"paperR2": 0.836
+},
+"currency": {
+"paperR2": 0.9544
+},
+"dollar": {
+"paperR2": 0.9736
+},
+"euro": {
+"paperR2": 0.3049
+},
+"inflation-rate": {
+"paperR2": 0.9386
+},
+"unemployment": {
+"paperR2": 0.9737
+},
+"stimulus": {
+"paperR2": 0.3009
+},
+"bull-market": {
+"paperR2": 0.8932
+},
+"bear-market": {
+"paperR2": 0.446
+},
+"market-crash": {
+"paperR2": 0.541
+},
+"penny-stocks": {
+"paperR2": 0.7419
+},
+"blue-chip": {
+"paperR2": 0.8396
+},
+"stock-split": {
+"paperR2": 0.741
+},
+"short-selling": {
+"paperR2": 0.7496
+},
+"margin-trading": {
+"paperR2": 0.9185
+},
+"futures": {
+"paperR2": 0.7169
+},
+"biology": {
+"paperR2": 0.4533
+},
+"chemistry": {
+"paperR2": 0.8382
+},
+"physics": {
+"paperR2": 0.8047
+},
+"astronomy": {
+"paperR2": 0.9615
+},
+"dna": {
+"paperR2": 0.8743
+},
+"gravity": {
+"paperR2": 0.7177
+},
+"black-hole": {
+"paperR2": -0.0422
+},
+"atom": {
+"paperR2": 0.5791
+},
+"evolution": {
+"paperR2": 0.9188
+},
+"photosynthesis": {
+"paperR2": 0.7923
+},
+"periodic-table": {
+"paperR2": 0.8056
+},
+"big-bang": {
+"paperR2": 0.9835
+},
+"solar-system": {
+"paperR2": 0.7968
+},
+"quantum-physics": {
+"paperR2": 0.6527
+},
+"relativity": {
+"paperR2": 0.8399
+},
+"electricity": {
+"paperR2": 0.9163
+},
+"magnetism": {
+"paperR2": 0.8909
+},
+"cell": {
+"paperR2": 0.9439
+},
+"genetics": {
+"paperR2": 0.9679
+},
+"vaccine": {
+"paperR2": 0.9516
+},
+"virus": {
+"paperR2": 0.4867
+},
+"bacteria": {
+"paperR2": 0.7685
+},
+"ecosystem": {
+"paperR2": 0.8833
+},
+"global-warming": {
+"paperR2": 0.9693
+},
+"earthquake": {
+"paperR2": 0.0921
+},
+"volcano": {
+"paperR2": 0.5987
+},
+"chemical-reaction": {
+"paperR2": 0.7766
+},
+"mass": {
+"paperR2": 0.6229
+},
+"light": {
+"paperR2": 0.8904
+},
+"sound": {
+"paperR2": 0.967
+},
+"climate-change": {
+"paperR2": 0.1258
+},
+"molecule": {
+"paperR2": 0.8199
+},
+"electron": {
+"paperR2": 0.8402
+},
+"proton": {
+"paperR2": 0.7897
+},
+"neutron": {
+"paperR2": 0.8243
+},
+"nucleus": {
+"paperR2": 0.7118
+},
+"mitosis": {
+"paperR2": 0.7801
+},
+"meiosis": {
+"paperR2": 0.6234
+},
+"osmosis": {
+"paperR2": 0.7176
+},
+"diffusion": {
+"paperR2": 0.6793
+},
+"genome": {
+"paperR2": 0.9659
+},
+"chromosome": {
+"paperR2": 0.9064
+},
+"protein": {
+"paperR2": 0.9586
+},
+"enzyme": {
+"paperR2": 0.8509
+},
+"hormone": {
+"paperR2": 0.8845
+},
+"neuron": {
+"paperR2": 0.7204
+},
+"gene": {
+"paperR2": 0.2423
+},
+"rna": {
+"paperR2": 0.8085
+},
+"mutation": {
+"paperR2": 0.8243
+},
+"natural-selection": {
+"paperR2": 0.7623
+},
+"food-chain": {
+"paperR2": 0.5727
+},
+"photon": {
+"paperR2": 0.9823
+},
+"electromagnetism": {
+"paperR2": 0.9169
+},
+"thermodynamics": {
+"paperR2": 0.7797
+},
+"entropy": {
+"paperR2": 0.714
+},
+"force": {
+"paperR2": 0.8087
+},
+"acceleration": {
+"paperR2": 0.7273
+},
+"velocity": {
+"paperR2": 0.6843
+},
+"momentum": {
+"paperR2": 0.9072
+},
+"friction": {
+"paperR2": 0.8214
+},
+"density": {
+"paperR2": 0.7218
+},
+"pressure": {
+"paperR2": 0.9536
+},
+"temperature": {
+"paperR2": 0.9007
+},
+"heat": {
+"paperR2": 0.7896
+},
+"radiation": {
+"paperR2": 0.7469
+},
+"nuclear-fission": {
+"paperR2": 0.6162
+},
+"nuclear-fusion": {
+"paperR2": 0.145
+},
+"isotope": {
+"paperR2": 0.7525
+},
+"ion": {
+"paperR2": 0.7403
+},
+"acid": {
+"paperR2": 0.9213
+},
+"base": {
+"paperR2": 0.885
+},
+"ph": {
+"paperR2": 0.9344
+},
+"oxygen": {
+"paperR2": 0.7422
+},
+"hydrogen": {
+"paperR2": 0.807
+},
+"carbon": {
+"paperR2": 0.5262
+},
+"nitrogen": {
+"paperR2": 0.7135
+},
+"helium": {
+"paperR2": 0.7814
+},
+"element": {
+"paperR2": 0.6346
+},
+"compound": {
+"paperR2": 0.8835
+},
+"mixture": {
+"paperR2": 0.8712
+},
+"galaxy": {
+"paperR2": 0.9922
+},
+"star": {
+"paperR2": 0.6742
+},
+"planet": {
+"paperR2": 0.8704
+},
+"moon": {
+"paperR2": 0.4807
+},
+"comet": {
+"paperR2": 0.8738
+},
+"ancient-egypt": {
+"paperR2": 0.9207
+},
+"roman-empire": {
+"paperR2": 0.874
+},
+"ancient-greece": {
+"paperR2": 0.9302
+},
+"cold-war": {
+"paperR2": 0.7743
+},
+"hitler": {
+"paperR2": 0.9086
+},
+"napoleon": {
+"paperR2": 0.9086
+},
+"vikings": {
+"paperR2": 0.8056
+},
+"renaissance": {
+"paperR2": 0.9662
+},
+"civil-war": {
+"paperR2": 0.8275
+},
+"french-revolution": {
+"paperR2": 0.832
+},
+"american-revolution": {
+"paperR2": 0.8257
+},
+"holocaust": {
+"paperR2": 0.8972
+},
+"pearl-harbor": {
+"paperR2": 0.6046
+},
+"great-depression": {
+"paperR2": 0.8162
+},
+"slavery": {
+"paperR2": 0.8022
+},
+"middle-ages": {
+"paperR2": 0.9045
+},
+"pyramids": {
+"paperR2": 0.8926
+},
+"crusades": {
+"paperR2": 0.8874
+},
+"industrial-revolution": {
+"paperR2": 0.8631
+},
+"julius-caesar": {
+"paperR2": 0.8665
+},
+"cleopatra": {
+"paperR2": 0.7693
+},
+"berlin-wall": {
+"paperR2": 0.2725
+},
+"titanic": {
+"paperR2": -3.4094
+},
+"ancient-rome": {
+"paperR2": 0.9458
+},
+"mesopotamia": {
+"paperR2": 0.8538
+},
+"abraham-lincoln": {
+"paperR2": 0.757
+},
+"ottoman-empire": {
+"paperR2": 0.7413
+},
+"black-death": {
+"paperR2": 0.7595
+},
+"genghis-khan": {
+"paperR2": 0.8034
+},
+"the-alamo": {
+"paperR2": 0.5952
+},
+"d-day": {
+"paperR2": 0.2233
+},
+"mayan-civilization": {
+"paperR2": 0.751
+},
+"aztecs": {
+"paperR2": 0.8626
+},
+"incas": {
+"paperR2": 0.8549
+},
+"ancient-china": {
+"paperR2": 0.9029
+},
+"great-wall": {
+"paperR2": 0.7213
+},
+"samurai": {
+"paperR2": 0.7673
+},
+"feudalism": {
+"paperR2": 0.8804
+},
+"byzantine-empire": {
+"paperR2": 0.6731
+},
+"persian-empire": {
+"paperR2": 0.4711
+},
+"alexander-great": {
+"paperR2": 0.719
+},
+"spartans": {
+"paperR2": 0.6245
+},
+"trojan-war": {
+"paperR2": 0.4862
+},
+"greek-mythology": {
+"paperR2": 0.5798
+},
+"egyptian-gods": {
+"paperR2": 0.8889
+},
+"king-tut": {
+"paperR2": 0.9106
+},
+"mummies": {
+"paperR2": 0.8773
+},
+"stonehenge": {
+"paperR2": 0.8214
+},
+"machu-picchu": {
+"paperR2": 0.7574
+},
+"colosseum": {
+"paperR2": 0.8498
+},
+"spanish-inquisition": {
+"paperR2": 0.8569
+},
+"salem-witch": {
+"paperR2": 0.9001
+},
+"boston-tea": {
+"paperR2": 0.7029
+},
+"declaration-independence": {
+"paperR2": 0.5967
+},
+"george-washington": {
+"paperR2": 0.6969
+},
+"benjamin-franklin": {
+"paperR2": 0.8397
+},
+"thomas-jefferson": {
+"paperR2": 0.8249
+},
+"martin-luther": {
+"paperR2": 0.0428
+},
+"winston-churchill": {
+"paperR2": 0.3973
+},
+"joseph-stalin": {
+"paperR2": 0.8583
+},
+"mao-zedong": {
+"paperR2": 0.5702
+},
+"gandhi": {
+"paperR2": 0.5661
+},
+"nelson-mandela": {
+"paperR2": 0.219
+},
+"abraham": {
+"paperR2": 0.6767
+},
+"queen-victoria": {
+"paperR2": 0.5957
+},
+"henry-viii": {
+"paperR2": 0.7529
+},
+"marie-antoinette": {
+"paperR2": 0.7416
+},
+"joan-arc": {
+"paperR2": 0.9007
+},
+"christopher-columbus": {
+"paperR2": 0.6135
+},
+"magna-carta": {
+"paperR2": 0.5184
+},
+"hundred-years": {
+"paperR2": 0.9377
+},
+"war-1812": {
+"paperR2": 0.8754
+},
+"revolutionary-war": {
+"paperR2": 0.8908
+},
+"vietnam-war": {
+"paperR2": 0.8073
+},
+"korean-war": {
+"paperR2": 0.7743
+},
+"spanish-flu": {
+"paperR2": 0.666
+},
+"atomic-bomb": {
+"paperR2": 0.7403
+},
+"hiroshima": {
+"paperR2": 0.4906
+},
+"auschwitz": {
+"paperR2": 0.0512
+},
+"anne-frank": {
+"paperR2": 0.6715
+},
+"gettysburg": {
+"paperR2": 0.851
+},
+"emancipation-proclamation": {
+"paperR2": 0.6605
+},
+"underground-railroad": {
+"paperR2": 0.5259
+},
+"civil-rights": {
+"paperR2": 0.8679
+},
+"great-fire": {
+"paperR2": 0.5336
+},
+"painting-t": {
+"paperR2": 0.9195
+},
+"drawing-t": {
+"paperR2": 0.9827
+},
+"photography-t": {
+"paperR2": 0.9824
+},
+"music": {
+"paperR2": 0.9873
+},
+"guitar-t": {
+"paperR2": 0.9911
+},
+"piano-t": {
+"paperR2": 0.82
+},
+"anime": {
+"paperR2": 0.9805
+},
+"calligraphy-t": {
+"paperR2": 0.9815
+},
+"sculpture": {
+"paperR2": 0.9506
+},
+"watercolor-t": {
+"paperR2": 0.9818
+},
+"oil-painting": {
+"paperR2": 0.9637
+},
+"digital-art-t": {
+"paperR2": 0.9502
+},
+"graffiti": {
+"paperR2": 0.974
+},
+"tattoo": {
+"paperR2": 0.9449
+},
+"pottery-t": {
+"paperR2": 0.914
+},
+"origami": {
+"paperR2": 0.8083
+},
+"animation-t": {
+"paperR2": 0.9832
+},
+"graphic-design-t": {
+"paperR2": 0.9671
+},
+"sketching-t": {
+"paperR2": 0.784
+},
+"mona-lisa": {
+"paperR2": 0.8494
+},
+"van-gogh": {
+"paperR2": 0.5123
+},
+"picasso": {
+"paperR2": 0.8046
+},
+"ballet": {
+"paperR2": 0.9416
+},
+"opera": {
+"paperR2": 0.9783
+},
+"theatre": {
+"paperR2": 0.9873
+},
+"poetry": {
+"paperR2": 0.9495
+},
+"sheet-music": {
+"paperR2": 0.9766
+},
+"knitting-t": {
+"paperR2": 0.97
+},
+"crochet": {
+"paperR2": 0.9741
+},
+"illustration-t": {
+"paperR2": 0.9209
+},
+"violin-t": {
+"paperR2": 0.8869
+},
+"drums-t": {
+"paperR2": 0.9867
+},
+"singing-t": {
+"paperR2": 0.6098
+},
+"ukulele-t": {
+"paperR2": 0.9755
+},
+"saxophone": {
+"paperR2": 0.8778
+},
+"flute": {
+"paperR2": 0.722
+},
+"cello": {
+"paperR2": 0.7212
+},
+"trumpet": {
+"paperR2": 0.8893
+},
+"harmonica": {
+"paperR2": 0.9213
+},
+"guitar-chords": {
+"paperR2": 0.976
+},
+"karaoke": {
+"paperR2": 0.824
+},
+"rap": {
+"paperR2": 0.9826
+},
+"jazz": {
+"paperR2": 0.9601
+},
+"classical-music": {
+"paperR2": 0.9896
+},
+"hip-hop": {
+"paperR2": 0.9889
+},
+"dance-t": {
+"paperR2": 0.9393
+},
+"salsa": {
+"paperR2": 0.6111
+},
+"tango": {
+"paperR2": 0.9595
+},
+"breakdancing": {
+"paperR2": 0.9322
+},
+"embroidery-t": {
+"paperR2": 0.8905
+},
+"quilting": {
+"paperR2": 0.966
+},
+"woodworking-t": {
+"paperR2": 0.957
+},
+"pottery-wheel": {
+"paperR2": 0.7366
+},
+"ceramics": {
+"paperR2": 0.9443
+},
+"clay": {
+"paperR2": 0.7898
+},
+"scrapbooking": {
+"paperR2": 0.9919
+},
+"candle-making": {
+"paperR2": 0.9261
+},
+"soap-making": {
+"paperR2": 0.9131
+},
+"macrame": {
+"paperR2": 0.9809
+},
+"cross-stitch": {
+"paperR2": 0.9747
+},
+"acrylic-painting": {
+"paperR2": 0.9724
+},
+"portrait": {
+"paperR2": 0.7353
+},
+"landscape": {
+"paperR2": 0.9
+},
+"abstract-art": {
+"paperR2": 0.6065
+},
+"street-art": {
+"paperR2": 0.9069
+},
+"murals": {
+"paperR2": 0.9545
+},
+"canvas": {
+"paperR2": 0.8528
+},
+"acrylic": {
+"paperR2": 0.9829
+},
+"charcoal": {
+"paperR2": 0.9667
+},
+"pastel": {
+"paperR2": 0.9806
+},
+"ink": {
+"paperR2": 0.6012
+},
+"manga": {
+"paperR2": 0.9499
+},
+"cartoon": {
+"paperR2": 0.7613
+},
+"caricature": {
+"paperR2": 0.2397
+},
+"doodle": {
+"paperR2": 0.2108
+},
+"typography-t": {
+"paperR2": 0.8113
+},
+"logo-design-t": {
+"paperR2": 0.9615
+},
+"collage": {
+"paperR2": 0.909
+},
+"printmaking": {
+"paperR2": 0.8706
+},
+"screen-printing": {
+"paperR2": 0.9742
+},
+"photoshop-t": {
+"paperR2": 0.9911
+},
+"fashion-design-t": {
+"paperR2": 0.9676
+},
+"interior-design-t": {
+"paperR2": 0.914
+},
+"architecture": {
+"paperR2": 0.9718
+},
+"glass-blowing": {
+"paperR2": 0.7179
+},
+"diabetes": {
+"paperR2": 0.6822
+},
+"cancer": {
+"paperR2": 0.6144
+},
+"covid": {
+"paperR2": 0.9645
+},
+"weight-loss": {
+"paperR2": 0.7888
+},
+"nutrition-t": {
+"paperR2": 0.4644
+},
+"anxiety": {
+"paperR2": 0.977
+},
+"depression": {
+"paperR2": 0.7031
+},
+"blood-pressure": {
+"paperR2": 0.9796
+},
+"cholesterol": {
+"paperR2": 0.8996
+},
+"keto-diet": {
+"paperR2": 0.9851
+},
+"intermittent-fasting": {
+"paperR2": 0.948
+},
+"vitamin-d": {
+"paperR2": 0.9777
+},
+"mental-health": {
+"paperR2": 0.8624
+},
+"insomnia": {
+"paperR2": 0.8414
+},
+"headache": {
+"paperR2": 0.9794
+},
+"pregnancy": {
+"paperR2": 0.6126
+},
+"flu": {
+"paperR2": 0.7165
+},
+"allergies": {
+"paperR2": 0.8072
+},
+"asthma": {
+"paperR2": 0.508
+},
+"arthritis": {
+"paperR2": 0.9052
+},
+"meditation-t": {
+"paperR2": 0.9313
+},
+"calories": {
+"paperR2": 0.7755
+},
+"bmi": {
+"paperR2": 0.8276
+},
+"heart-disease": {
+"paperR2": 0.902
+},
+"stroke": {
+"paperR2": 0.8962
+},
+"immune-system": {
+"paperR2": 0.8666
+},
+"gut-health": {
+"paperR2": 0.9958
+},
+"covid-symptoms": {
+"paperR2": 0.8782
+},
+"migraine": {
+"paperR2": 0.9381
+},
+"hypertension": {
+"paperR2": 0.8683
+},
+"obesity": {
+"paperR2": 0.9188
+},
+"metabolism": {
+"paperR2": 0.5845
+},
+"probiotics": {
+"paperR2": 0.9681
+},
+"collagen": {
+"paperR2": 0.9892
+},
+"magnesium": {
+"paperR2": 0.9643
+},
+"omega-3": {
+"paperR2": 0.9546
+},
+"vitamin-c": {
+"paperR2": 0.9862
+},
+"vitamin-b12": {
+"paperR2": 0.97
+},
+"zinc": {
+"paperR2": 0.9512
+},
+"iron-deficiency": {
+"paperR2": 0.9672
+},
+"thyroid": {
+"paperR2": 0.7306
+},
+"hypothyroidism": {
+"paperR2": 0.8395
+},
+"pcos": {
+"paperR2": 0.989
+},
+"menopause": {
+"paperR2": 0.8245
+},
+"fibromyalgia": {
+"paperR2": 0.8373
+},
+"ibs": {
+"paperR2": 0.7213
+},
+"acid-reflux": {
+"paperR2": 0.9801
+},
+"constipation": {
+"paperR2": 0.9785
+},
+"dehydration": {
+"paperR2": 0.85
+},
+"food-poisoning": {
+"paperR2": 0.9475
+},
+"sore-throat": {
+"paperR2": 0.9655
+},
+"cough": {
+"paperR2": 0.9661
+},
+"fever": {
+"paperR2": 0.7745
+},
+"pneumonia": {
+"paperR2": 0.891
+},
+"bronchitis": {
+"paperR2": 0.9364
+},
+"sinus-infection": {
+"paperR2": 0.9591
+},
+"ear-infection": {
+"paperR2": 0.9735
+},
+"uti": {
+"paperR2": 0.9889
+},
+"kidney-stones": {
+"paperR2": 0.9032
+},
+"gallstones": {
+"paperR2": 0.9039
+},
+"hemorrhoids": {
+"paperR2": 0.9161
+},
+"eczema": {
+"paperR2": 0.972
+},
+"psoriasis": {
+"paperR2": 0.8424
+},
+"acne": {
+"paperR2": 0.9646
+},
+"shingles": {
+"paperR2": 0.7027
+},
+"chickenpox": {
+"paperR2": 0.9486
+},
+"measles": {
+"paperR2": 0.6619
+},
+"hiv": {
+"paperR2": 0.5243
+},
+"std": {
+"paperR2": 0.8185
+},
+"hepatitis": {
+"paperR2": 0.7385
+},
+"tuberculosis": {
+"paperR2": 0.8
+},
+"malaria": {
+"paperR2": 0.6887
+},
+"dengue": {
+"paperR2": 0.715
+},
+"alzheimers": {
+"paperR2": 0.9293
+},
+"dementia": {
+"paperR2": 0.9596
+},
+"parkinsons": {
+"paperR2": 0.9308
+},
+"epilepsy": {
+"paperR2": 0.8943
+},
+"seizures": {
+"paperR2": 0.7939
+},
+"adhd": {
+"paperR2": 0.9854
+},
+"autism": {
+"paperR2": 0.7706
+},
+"bipolar-disorder": {
+"paperR2": 0.7001
+},
+"ptsd": {
+"paperR2": 0.9643
+},
+"ocd": {
+"paperR2": 0.8608
+},
+"panic-attack": {
+"paperR2": 0.9788
+},
+"stress": {
+"paperR2": 0.7217
+},
+"divorce": {
+"paperR2": 0.7887
+},
+"custody": {
+"paperR2": 0.6216
+},
+"child-support": {
+"paperR2": 0.9061
+},
+"alimony": {
+"paperR2": 0.5822
+},
+"prenup": {
+"paperR2": 0.8296
+},
+"annulment": {
+"paperR2": 0.2484
+},
+"restraining-order": {
+"paperR2": 0.7452
+},
+"copyright": {
+"paperR2": 0.9682
+},
+"trademark": {
+"paperR2": 0.9476
+},
+"patent": {
+"paperR2": 0.9914
+},
+"intellectual-property": {
+"paperR2": 0.9755
+},
+"licensing": {
+"paperR2": 0.9718
+},
+"royalties": {
+"paperR2": 0.3966
+},
+"lawsuit": {
+"paperR2": 0.8393
+},
+"class-action": {
+"paperR2": 0.8506
+},
+"settlement": {
+"paperR2": 0.8259
+},
+"defamation": {
+"paperR2": 0.7682
+},
+"libel": {
+"paperR2": -3.7497
+},
+"slander": {
+"paperR2": 0.7946
+},
+"malpractice": {
+"paperR2": 0.936
+},
+"negligence": {
+"paperR2": 0.8497
+},
+"liability": {
+"paperR2": 0.8964
+},
+"damages": {
+"paperR2": 0.8389
+},
+"personal-injury": {
+"paperR2": 0.9564
+},
+"wrongful-death": {
+"paperR2": 0.9376
+},
+"bankruptcy": {
+"paperR2": 0.9608
+},
+"chapter-7": {
+"paperR2": 0.9484
+},
+"chapter-11": {
+"paperR2": 0.9424
+},
+"chapter-13": {
+"paperR2": 0.9069
+},
+"foreclosure": {
+"paperR2": 0.9758
+},
+"garnishment": {
+"paperR2": 0.7628
+},
+"lien": {
+"paperR2": 0.9863
+},
+"debt-collection": {
+"paperR2": 0.9619
+},
+"contract": {
+"paperR2": 0.6667
+},
+"breach": {
+"paperR2": 0.9241
+},
+"nda": {
+"paperR2": 0.2992
+},
+"non-compete": {
+"paperR2": 0.3793
+},
+"arbitration": {
+"paperR2": 0.8815
+},
+"mediation": {
+"paperR2": 0.918
+},
+"small-claims": {
+"paperR2": 0.9796
+},
+"litigation": {
+"paperR2": 0.9476
+},
+"subpoena": {
+"paperR2": 0.4608
+},
+"deposition": {
+"paperR2": 0.6587
+},
+"will": {
+"paperR2": 0.8801
+},
+"trust": {
+"paperR2": 0.9514
+},
+"probate": {
+"paperR2": 0.8487
+},
+"living-will": {
+"paperR2": 0.8053
+},
+"inheritance": {
+"paperR2": 0.6874
+},
+"executor": {
+"paperR2": 0.9942
+},
+"immigration": {
+"paperR2": 0.9338
+},
+"green-card": {
+"paperR2": 0.4903
+},
+"visa": {
+"paperR2": 0.9307
+},
+"citizenship": {
+"paperR2": 0.6494
+},
+"deportation": {
+"paperR2": 0.9597
+},
+"asylum": {
+"paperR2": 0.8152
+},
+"naturalization": {
+"paperR2": 0.9884
+},
+"eviction": {
+"paperR2": 0.4953
+},
+"lease-agreement": {
+"paperR2": 0.6861
+},
+"landlord-tenant": {
+"paperR2": 0.9587
+},
+"security-deposit": {
+"paperR2": 0.9464
+},
+"quitclaim-deed": {
+"paperR2": 0.9525
+},
+"easement": {
+"paperR2": 0.8505
+},
+"zoning": {
+"paperR2": 0.9079
+},
+"title": {
+"paperR2": 0.6893
+},
+"dui": {
+"paperR2": 0.6409
+},
+"dwi": {
+"paperR2": 0.6567
+},
+"felony": {
+"paperR2": 0.7003
+},
+"misdemeanor": {
+"paperR2": 0.8817
+},
+"expungement": {
+"paperR2": 0.7426
+},
+"parole": {
+"paperR2": 0.9785
+},
+"probation": {
+"paperR2": 0.8298
+},
+"bail": {
+"paperR2": 0.696
+},
+"plea-deal": {
+"paperR2": 0.7542
+},
+"arraignment": {
+"paperR2": 0.2997
+},
+"indictment": {
+"paperR2": 0.0768
+},
+"miranda-rights": {
+"paperR2": 0.4952
+},
+"criminal-law": {
+"paperR2": 0.8741
+},
+"civil-law": {
+"paperR2": 0.8995
+},
+"constitutional-law": {
+"paperR2": 0.7439
+},
+"human-rights": {
+"paperR2": 0.9324
+},
+"discrimination": {
+"paperR2": 0.869
+},
+"harassment": {
+"paperR2": 0.6957
+},
+"wrongful-termination": {
+"paperR2": 0.8461
+},
+"workers-compensation": {
+"paperR2": 0.9395
+},
+"overtime": {
+"paperR2": 0.4736
+},
+"solar-panel": {
+"paperR2": 0.9733
+},
+"electric-car": {
+"paperR2": 0.9622
+},
+"robotics-t": {
+"paperR2": 0.9724
+},
+"drone": {
+"paperR2": 0.93
+},
+"wind-turbine": {
+"paperR2": 0.8725
+},
+"electric-motor": {
+"paperR2": 0.9052
+},
+"circuit": {
+"paperR2": 0.9719
+},
+"arduino-t": {
+"paperR2": 0.985
+},
+"raspberry-pi-t": {
+"paperR2": 0.9386
+},
+"gear": {
+"paperR2": 0.897
+},
+"engine": {
+"paperR2": 0.9347
+},
+"hydraulics": {
+"paperR2": 0.9541
+},
+"welding-t": {
+"paperR2": 0.7239
+},
+"cad-t": {
+"paperR2": 0.9594
+},
+"battery": {
+"paperR2": 0.9498
+},
+"semiconductor": {
+"paperR2": 0.9876
+},
+"transistor": {
+"paperR2": 0.9348
+},
+"laser": {
+"paperR2": 0.8762
+},
+"nuclear-reactor": {
+"paperR2": 0.1006
+},
+"jet-engine": {
+"paperR2": 0.9779
+},
+"rocket": {
+"paperR2": 0.7688
+},
+"concrete": {
+"paperR2": 0.9162
+},
+"steel": {
+"paperR2": 0.6875
+},
+"hvac-t": {
+"paperR2": 0.8982
+},
+"plumbing-t": {
+"paperR2": 0.7212
+},
+"soldering-t": {
+"paperR2": 0.9558
+},
+"transformer": {
+"paperR2": 0.7691
+},
+"generator": {
+"paperR2": 0.9801
+},
+"solar-energy": {
+"paperR2": 0.7907
+},
+"heat-pump": {
+"paperR2": 0.8956
+},
+"inverter": {
+"paperR2": 0.9699
+},
+"capacitor": {
+"paperR2": 0.7558
+},
+"resistor": {
+"paperR2": 0.8432
+},
+"diode": {
+"paperR2": 0.9563
+},
+"microcontroller": {
+"paperR2": 0.9795
+},
+"sensor": {
+"paperR2": 0.9872
+},
+"servo": {
+"paperR2": 0.8478
+},
+"actuator": {
+"paperR2": 0.9441
+},
+"bearing": {
+"paperR2": 0.9504
+},
+"turbine": {
+"paperR2": 0.9194
+},
+"combustion-engine": {
+"paperR2": 0.9383
+},
+"piston": {
+"paperR2": 0.6554
+},
+"crankshaft": {
+"paperR2": 0.9383
+},
+"gearbox": {
+"paperR2": 0.9374
+},
+"pump": {
+"paperR2": 0.9649
+},
+"valve": {
+"paperR2": 0.875
+},
+"compressor": {
+"paperR2": 0.9649
+},
+"boiler": {
+"paperR2": 0.8572
+},
+"radiator": {
+"paperR2": 0.9303
+},
+"voltage": {
+"paperR2": 0.9527
+},
+"current": {
+"paperR2": 0.8167
+},
+"resistance": {
+"paperR2": 0.7808
+},
+"ohms-law": {
+"paperR2": 0.8872
+},
+"circuit-board": {
+"paperR2": 0.9145
+},
+"pcb": {
+"paperR2": 0.9344
+},
+"breadboard": {
+"paperR2": 0.8335
+},
+"led": {
+"paperR2": 0.9513
+},
+"relay": {
+"paperR2": 0.8028
+},
+"fuse": {
+"paperR2": 0.9565
+},
+"solar-cell": {
+"paperR2": 0.8988
+},
+"lithium-battery": {
+"paperR2": 0.9835
+},
+"fuel-cell": {
+"paperR2": 0.9727
+},
+"biofuel": {
+"paperR2": 0.9595
+},
+"geothermal": {
+"paperR2": 0.8699
+},
+"hydropower": {
+"paperR2": 0.7191
+},
+"power-grid": {
+"paperR2": 0.5341
+},
+"power-plant": {
+"paperR2": 0.641
+},
+"electric-grid": {
+"paperR2": 0.2502
+},
+"suspension-bridge": {
+"paperR2": 0.826
+},
+"truss": {
+"paperR2": 0.4674
+},
+"beam": {
+"paperR2": 0.8579
+},
+"foundation": {
+"paperR2": 0.9516
+},
+"rebar": {
+"paperR2": 0.9656
+},
+"cantilever": {
+"paperR2": 0.747
+},
+"tunnel": {
+"paperR2": 0.854
+},
+"pipeline": {
+"paperR2": 0.2593
+},
+"machining-t": {
+"paperR2": 0.9698
+},
+"cnc-t": {
+"paperR2": 0.7347
+},
+"laser-cutting": {
+"paperR2": 0.9732
+},
+"injection-molection": {
+"paperR2": -0.0196
+},
+"casting": {
+"paperR2": 0.874
+},
+"forging": {
+"paperR2": 0.9368
+},
+"extrusion": {
+"paperR2": 0.9368
+},
+"algebra": {
+"paperR2": 0.6998
+},
+"geometry": {
+"paperR2": 0.9147
+},
+"calculus-t": {
+"paperR2": 0.806
+},
+"trigonometry": {
+"paperR2": 0.8573
+},
+"statistics-t": {
+"paperR2": 0.8968
+},
+"fractions": {
+"paperR2": 0.496
+},
+"multiplication": {
+"paperR2": 0.8333
+},
+"division": {
+"paperR2": 0.6705
+},
+"percentage": {
+"paperR2": 0.9786
+},
+"equations": {
+"paperR2": 0.7433
+},
+"grammar": {
+"paperR2": 0.8072
+},
+"spelling": {
+"paperR2": 0.9083
+},
+"vocabulary": {
+"paperR2": 0.8072
+},
+"phonics": {
+"paperR2": 0.559
+},
+"essay": {
+"paperR2": 0.8657
+},
+"synonyms": {
+"paperR2": 0.9824
+},
+"antonyms": {
+"paperR2": 0.9086
+},
+"punctuation": {
+"paperR2": 0.989
+},
+"metaphor": {
+"paperR2": 0.6362
+},
+"homework": {
+"paperR2": 0.6357
+},
+"flashcards": {
+"paperR2": 0.7772
+},
+"quizlet": {
+"paperR2": 0.9486
+},
+"study-tips": {
+"paperR2": 0.897
+},
+"notes": {
+"paperR2": 0.9352
+},
+"revision": {
+"paperR2": 0.0757
+},
+"homeschool": {
+"paperR2": 0.7325
+},
+"tutoring-t": {
+"paperR2": 0.6661
+},
+"worksheets": {
+"paperR2": 0.7614
+},
+"study-guide": {
+"paperR2": 0.8122
+},
+"sat": {
+"paperR2": 0.5084
+},
+"act": {
+"paperR2": 0.8089
+},
+"gmat": {
+"paperR2": 0.9892
+},
+"lsat": {
+"paperR2": 0.919
+},
+"mcat": {
+"paperR2": 0.7004
+},
+"ielts": {
+"paperR2": 0.9881
+},
+"toefl": {
+"paperR2": 0.9736
+},
+"ap-exam": {
+"paperR2": 0.4902
+},
+"scholarship": {
+"paperR2": 0.9101
+},
+"university": {
+"paperR2": 0.9589
+},
+"college": {
+"paperR2": 0.9199
+},
+"admissions": {
+"paperR2": 0.6701
+},
+"financial-aid": {
+"paperR2": 0.5635
+},
+"fafsa": {
+"paperR2": 0.8588
+},
+"community-college": {
+"paperR2": 0.9547
+},
+"mba": {
+"paperR2": 0.8487
+},
+"phd": {
+"paperR2": 0.7687
+},
+"degree": {
+"paperR2": 0.9397
+},
+"diploma": {
+"paperR2": 0.7638
+},
+"transcript": {
+"paperR2": 0.3651
+},
+"thesis": {
+"paperR2": 0.7756
+},
+"dissertation": {
+"paperR2": 0.8307
+},
+"citation": {
+"paperR2": 0.721
+},
+"plagiarism": {
+"paperR2": 0.949
+},
+"bibliography": {
+"paperR2": 0.966
+},
+"apa-format": {
+"paperR2": 0.6639
+},
+"mla-format": {
+"paperR2": 0.658
+},
+"anatomy": {
+"paperR2": 0.8326
+},
+"history": {
+"paperR2": 0.9479
+},
+"geography": {
+"paperR2": 0.7754
+},
+"economics": {
+"paperR2": 0.8733
+},
+"philosophy": {
+"paperR2": 0.9565
+},
+"sociology": {
+"paperR2": 0.8228
+},
+"literature": {
+"paperR2": 0.9208
+},
+"shakespeare": {
+"paperR2": 0.9574
+},
+"spanish-t": {
+"paperR2": 0.8041
+},
+"french-t": {
+"paperR2": 0.4168
+},
+"language-learning": {
+"paperR2": 0.9157
+},
+"duolingo": {
+"paperR2": 0.9812
+},
+"online-courses": {
+"paperR2": 0.7388
+},
+"coursera": {
+"paperR2": 0.9902
+},
+"khan-academy": {
+"paperR2": 0.949
+},
+"udemy": {
+"paperR2": 0.9775
+},
+"edx": {
+"paperR2": 0.9569
+},
+"kindergarten": {
+"paperR2": 0.4982
+},
+"preschool": {
+"paperR2": 0.6118
+},
+"montessori": {
+"paperR2": 0.3654
+},
+"curriculum": {
+"paperR2": 0.833
+},
+"syllabus": {
+"paperR2": 0.9817
+},
+"lesson-plans": {
+"paperR2": 0.9252
+},
+"gpa-calculator": {
+"paperR2": 0.4808
+},
+"learning-styles": {
+"paperR2": 0.9064
+},
+"critical-thinking-t": {
+"paperR2": 0.7293
+},
+"marketing": {
+"paperR2": 0.9273
+},
+"digital-marketing-t": {
+"paperR2": 0.9866
+},
+"content-marketing-t": {
+"paperR2": 0.9901
+},
+"email-marketing-t": {
+"paperR2": 0.8398
+},
+"affiliate-marketing-t": {
+"paperR2": 0.9712
+},
+"seo-t": {
+"paperR2": 0.9889
+},
+"ppc-t": {
+"paperR2": 0.9558
+},
+"google-ads-t": {
+"paperR2": 0.9922
+},
+"facebook-ads-t": {
+"paperR2": 0.9834
+},
+"branding-t": {
+"paperR2": 0.8611
+},
+"advertising": {
+"paperR2": 0.9684
+},
+"market-research-t": {
+"paperR2": 0.9583
+},
+"copywriting-t": {
+"paperR2": 0.974
+},
+"lead-generation-t": {
+"paperR2": 0.9357
+},
+"sales-funnel": {
+"paperR2": 0.9163
+},
+"crm-t": {
+"paperR2": 0.885
+},
+"b2b": {
+"paperR2": 0.6379
+},
+"b2c": {
+"paperR2": 0.9184
+},
+"ecommerce": {
+"paperR2": 0.9729
+},
+"dropshipping": {
+"paperR2": 0.9851
+},
+"amazon-fba": {
+"paperR2": 0.993
+},
+"shopify-t": {
+"paperR2": 0.991
+},
+"startup": {
+"paperR2": 0.9776
+},
+"entrepreneurship-t": {
+"paperR2": 0.8538
+},
+"business-plan": {
+"paperR2": 0.9446
+},
+"small-business": {
+"paperR2": 0.9413
+},
+"side-hustle": {
+"paperR2": 0.9816
+},
+"passive-income": {
+"paperR2": 0.9707
+},
+"franchise": {
+"paperR2": 0.8719
+},
+"business-idea": {
+"paperR2": 0.8239
+},
+"side-business": {
+"paperR2": 0.909
+},
+"online-business": {
+"paperR2": 0.6954
+},
+"home-business": {
+"paperR2": 0.9563
+},
+"sole-proprietorship": {
+"paperR2": 0.945
+},
+"llc": {
+"paperR2": 0.8248
+},
+"incorporation": {
+"paperR2": 0.9794
+},
+"business-license": {
+"paperR2": 0.8012
+},
+"ein": {
+"paperR2": 0.9179
+},
+"management-t": {
+"paperR2": 0.9265
+},
+"leadership-t": {
+"paperR2": 0.7459
+},
+"project-management-t": {
+"paperR2": 0.8616
+},
+"operations-management-t": {
+"paperR2": 0.8412
+},
+"supply-chain-t": {
+"paperR2": 0.88
+},
+"logistics-t": {
+"paperR2": 0.9
+},
+"inventory-management-t": {
+"paperR2": 0.9071
+},
+"agile-t": {
+"paperR2": 0.9074
+},
+"scrum-t": {
+"paperR2": 0.9453
+},
+"kanban-t": {
+"paperR2": 0.8623
+},
+"six-sigma-t": {
+"paperR2": 0.9853
+},
+"change-management": {
+"paperR2": 0.9318
+},
+"risk-management-t": {
+"paperR2": 0.9526
+},
+"quality-control-t": {
+"paperR2": 0.8845
+},
+"sales-t": {
+"paperR2": 0.8972
+},
+"customer-service-t": {
+"paperR2": 0.9816
+},
+"networking": {
+"paperR2": 0.9915
+},
+"negotiation-t": {
+"paperR2": 0.7227
+},
+"cold-calling-t": {
+"paperR2": 0.6522
+},
+"upselling": {
+"paperR2": 0.9216
+},
+"crm-software": {
+"paperR2": 0.857
+},
+"accounting-t": {
+"paperR2": 0.8119
+},
+"bookkeeping-t": {
+"paperR2": 0.7867
+},
+"payroll-t": {
+"paperR2": 0.7551
+},
+"invoice": {
+"paperR2": 0.9637
+},
+"cash-flow": {
+"paperR2": 0.8701
+},
+"balance-sheet": {
+"paperR2": 0.7443
+},
+"profit-margin": {
+"paperR2": 0.8167
+},
+"revenue": {
+"paperR2": 0.8814
+},
+"roi": {
+"paperR2": 0.8141
+},
+"financial-planning-t": {
+"paperR2": 0.9607
+},
+"kpi": {
+"paperR2": 0.9417
+},
+"swot-analysis": {
+"paperR2": 0.6813
+},
+"business-strategy-t": {
+"paperR2": 0.8255
+},
+"competitive-analysis": {
+"paperR2": 0.8032
+},
+"market-analysis": {
+"paperR2": 0.8809
+},
+"business-model": {
+"paperR2": 0.576
+},
+"pricing-strategy": {
+"paperR2": 0.73
+},
+"value-proposition": {
+"paperR2": 0.8948
+},
+"commerce": {
+"paperR2": 0.9886
+},
+"retail": {
+"paperR2": 0.9761
+},
+"wholesale": {
+"paperR2": 0.9702
+},
+"trade": {
+"paperR2": 0.7989
+},
+"merchandising": {
+"paperR2": 0.3012
+},
+"pos": {
+"paperR2": 0.9818
+},
+"dropshipping-suppliers": {
+"paperR2": 0.9883
+},
+"technology": {
+"paperR2": 0.9505
+},
+"ai": {
+"paperR2": 0.9821
+},
+"chatgpt-t": {
+"paperR2": 0.9885
+},
+"iphone": {
+"paperR2": 0.9108
+},
+"android": {
+"paperR2": 0.9895
+},
+"python-t": {
+"paperR2": 0.982
+},
+"javascript-t": {
+"paperR2": 0.9945
+},
+"software": {
+"paperR2": 0.9955
+},
+"app": {
+"paperR2": 0.9955
+},
+"vpn-t": {
+"paperR2": 0.9623
+},
+"cloud-computing-t": {
+"paperR2": 0.979
+},
+"cybersecurity-t": {
+"paperR2": 0.9929
+},
+"machine-learning-t": {
+"paperR2": 0.9928
+},
+"blockchain-t": {
+"paperR2": 0.9696
+},
+"metaverse": {
+"paperR2": 0.9863
+},
+"wifi": {
+"paperR2": 0.9883
+},
+"bluetooth": {
+"paperR2": 0.7855
+},
+"operating-system": {
+"paperR2": 0.9813
+},
+"linux-t": {
+"paperR2": 0.9967
+},
+"windows": {
+"paperR2": 0.9798
+},
+"macbook": {
+"paperR2": 0.9283
+},
+"gpu": {
+"paperR2": 0.9861
+},
+"ssd": {
+"paperR2": 0.9886
+},
+"virtual-reality": {
+"paperR2": 0.9605
+},
+"smart-home": {
+"paperR2": 0.9844
+},
+"coding": {
+"paperR2": 0.9729
+},
+"html-t": {
+"paperR2": 0.9955
+},
+"database": {
+"paperR2": 0.9923
+},
+"api": {
+"paperR2": 0.9549
+},
+"laptop": {
+"paperR2": 0.9054
+},
+"smartphone": {
+"paperR2": 0.9468
+},
+"ipad": {
+"paperR2": 0.9786
+},
+"samsung": {
+"paperR2": 0.969
+},
+"google": {
+"paperR2": 0.9827
+},
+"microsoft": {
+"paperR2": 0.9821
+},
+"apple": {
+"paperR2": 0.7538
+},
+"chrome": {
+"paperR2": 0.9872
+},
+"firefox": {
+"paperR2": 0.9823
+},
+"browser": {
+"paperR2": 0.9481
+},
+"router": {
+"paperR2": 0.9822
+},
+"modem": {
+"paperR2": 0.9942
+},
+"processor": {
+"paperR2": 0.9778
+},
+"ram": {
+"paperR2": 0.9629
+},
+"hard-drive": {
+"paperR2": 0.9861
+},
+"usb": {
+"paperR2": 0.9753
+},
+"hdmi": {
+"paperR2": 0.8628
+},
+"ethernet": {
+"paperR2": 0.9924
+},
+"firewall-t": {
+"paperR2": 0.9895
+},
+"malware": {
+"paperR2": 0.9555
+},
+"antivirus": {
+"paperR2": 0.982
+},
+"encryption-t": {
+"paperR2": 0.9891
+},
+"hacking": {
+"paperR2": 0.993
+},
+"phishing": {
+"paperR2": 0.877
+},
+"data": {
+"paperR2": 0.9449
+},
+"algorithm": {
+"paperR2": 0.9797
+},
+"programming": {
+"paperR2": 0.9912
+},
+"java-t": {
+"paperR2": 0.9911
+},
+"css-t": {
+"paperR2": 0.9772
+},
+"sql-t": {
+"paperR2": 0.9833
+},
+"react-t": {
+"paperR2": 0.9935
+},
+"nodejs-t": {
+"paperR2": 0.9941
+},
+"github-t": {
+"paperR2": 0.9934
+},
+"docker-t": {
+"paperR2": 0.9931
+},
+"kubernetes-t": {
+"paperR2": 0.9901
+},
+"server": {
+"paperR2": 0.9932
+},
+"internet": {
+"paperR2": 0.9809
+},
+"wireless": {
+"paperR2": 0.9845
+},
+"hotspot": {
+"paperR2": 0.975
+},
+"streaming": {
+"paperR2": 0.9833
+},
+"download": {
+"paperR2": 0.975
+},
+"upload": {
+"paperR2": 0.9425
+},
+"email": {
+"paperR2": 0.7959
+},
+"password": {
+"paperR2": 0.9858
+},
+"backup": {
+"paperR2": 0.9686
+},
+"storage": {
+"paperR2": 0.9223
+},
+"megabyte": {
+"paperR2": 0.9837
+},
+"gigabyte": {
+"paperR2": 0.9878
+},
+"bandwidth": {
+"paperR2": 0.9962
+},
+"ethernet-cable": {
+"paperR2": 0.8735
+},
+"chatbot": {
+"paperR2": 0.9924
+},
+"neural-network": {
+"paperR2": 0.9498
+},
+"deep-learning-t": {
+"paperR2": 0.9868
+},
+"automation-t": {
+"paperR2": 0.9022
+},
+"microchip": {
+"paperR2": 0.9504
+},
+"keyboard": {
+"paperR2": 0.8648
+},
+"christianity": {
+"paperR2": 0.9309
+},
+"islam": {
+"paperR2": 0.8996
+},
+"buddhism": {
+"paperR2": 0.9603
+},
+"hinduism": {
+"paperR2": 0.8331
+},
+"judaism": {
+"paperR2": 0.8964
+},
+"catholic": {
+"paperR2": 0.9505
+},
+"bible": {
+"paperR2": 0.8034
+},
+"quran": {
+"paperR2": 0.6163
+},
+"prayer": {
+"paperR2": 0.8663
+},
+"mythology": {
+"paperR2": 0.9732
+},
+"astrology": {
+"paperR2": 0.9486
+},
+"horoscope": {
+"paperR2": 0.8886
+},
+"tarot": {
+"paperR2": 0.9671
+},
+"zodiac": {
+"paperR2": 0.8745
+},
+"food": {
+"paperR2": 0.9651
+},
+"recipes": {
+"paperR2": 0.9405
+},
+"cooking-t": {
+"paperR2": 0.8725
+},
+"sushi": {
+"paperR2": 0.9732
+},
+"pizza": {
+"paperR2": 0.9568
+},
+"vegan": {
+"paperR2": 0.9807
+},
+"vegetarian": {
+"paperR2": 0.8491
+},
+"ramen": {
+"paperR2": 0.9926
+},
+"tacos": {
+"paperR2": 0.9859
+},
+"bbq": {
+"paperR2": 0.9714
+},
+"dessert": {
+"paperR2": 0.8222
+},
+"coffee": {
+"paperR2": 0.9481
+},
+"wine": {
+"paperR2": 0.4989
+},
+"fashion": {
+"paperR2": 0.9071
+},
+"streetwear": {
+"paperR2": 0.9716
+},
+"makeup": {
+"paperR2": 0.8712
+},
+"skincare": {
+"paperR2": 0.9897
+},
+"nails": {
+"paperR2": 0.9475
+},
+"hairstyles": {
+"paperR2": 0.9597
+},
+"piercing": {
+"paperR2": 0.9219
+},
+"outfits": {
+"paperR2": 0.9681
+},
+"sneakers": {
+"paperR2": 0.9786
+},
+"jewelry": {
+"paperR2": 0.6688
+},
+"movies": {
+"paperR2": 0.8608
+},
+"netflix": {
+"paperR2": 0.964
+},
+"kdrama": {
+"paperR2": 0.9691
+},
+"bollywood": {
+"paperR2": 0.9528
+},
+"hollywood": {
+"paperR2": 0.8507
+},
+"cinema": {
+"paperR2": 0.8609
+},
+"documentary": {
+"paperR2": 0.9185
+},
+"kpop": {
+"paperR2": 0.9811
+},
+"hiphop": {
+"paperR2": 0.994
+},
+"concert": {
+"paperR2": 0.8664
+},
+"lyrics": {
+"paperR2": 0.995
+},
+"podcast": {
+"paperR2": 0.9829
+},
+"celebrity": {
+"paperR2": 0.9268
+},
+"meme": {
+"paperR2": 0.9957
+},
+"memes": {
+"paperR2": 0.9885
+},
+"tiktok": {
+"paperR2": 0.9832
+},
+"youtube": {
+"paperR2": 0.989
+},
+"gaming": {
+"paperR2": 0.9743
+},
+"festival": {
+"paperR2": 0.9652
+},
+"christmas": {
+"paperR2": 0.547
+},
+"halloween": {
+"paperR2": 0.6489
+},
+"ramadan": {
+"paperR2": 0.1995
+},
+"diwali": {
+"paperR2": 0.2818
+},
+"easter": {
+"paperR2": 0.5418
+},
+"thanksgiving": {
+"paperR2": 0.606
+},
+"hanukkah": {
+"paperR2": -0.0158
+},
+"carnival": {
+"paperR2": 0.5817
+},
+"wedding": {
+"paperR2": 0.7938
+},
+"funeral": {
+"paperR2": 0.9249
+},
+"birthday": {
+"paperR2": 0.962
+},
+"language": {
+"paperR2": 0.9335
+},
+"culture": {
+"paperR2": 0.8484
+},
+"museum": {
+"paperR2": 0.9505
+},
+"society": {
+"paperR2": 0.9892
+},
+"tradition": {
+"paperR2": 0.7895
+},
+"heritage": {
+"paperR2": 0.8694
+},
+"folklore": {
+"paperR2": 0.8833
+},
+"ritual": {
+"paperR2": 0.9119
+},
+"etiquette": {
+"paperR2": 0.9829
+},
+"gossip": {
+"paperR2": 0.9272
+},
+"fandom": {
+"paperR2": 0.9809
+}
+}

@@ -1,0 +1,260 @@
+{
+ "lunations": 223,
+ "unique_terms": 1545,
+ "top_pct": 0.2,
+ "n_selected": 309,
+ "selected": 309,
+ "n_ge_2": 529,
+ "head": [
+  [
+   "song",
+   43.942,
+   "Taurus"
+  ],
+  [
+   "minecraft",
+   26.906,
+   "Cancer"
+  ],
+  [
+   "music",
+   23.422,
+   "Taurus"
+  ],
+  [
+   "rihanna",
+   23.309,
+   "Capricorn"
+  ],
+  [
+   "songs",
+   22.561,
+   "Virgo"
+  ],
+  [
+   "justin bieber",
+   21.143,
+   "Leo"
+  ],
+  [
+   "eminem",
+   18.942,
+   "Leo"
+  ],
+  [
+   "movie",
+   17.888,
+   "Cancer"
+  ],
+  [
+   "beyonce",
+   14.587,
+   "Aries"
+  ],
+  [
+   "lil wayne",
+   13.471,
+   "Leo"
+  ],
+  [
+   "lady gaga",
+   11.933,
+   "Aries"
+  ],
+  [
+   "dj",
+   10.48,
+   "Taurus"
+  ],
+  [
+   "video",
+   10.444,
+   "Taurus"
+  ],
+  [
+   "katy perry",
+   9.812,
+   "Leo"
+  ],
+  [
+   "chris brown",
+   9.453,
+   "Leo"
+  ],
+  [
+   "funny",
+   9.206,
+   "Aries"
+  ],
+  [
+   "karaoke",
+   9.184,
+   "Sagittarius"
+  ],
+  [
+   "pitbull",
+   8.789,
+   "Leo"
+  ],
+  [
+   "musica",
+   8.713,
+   "Gemini"
+  ],
+  [
+   "one direction",
+   8.673,
+   "Pisces"
+  ],
+  [
+   "bruno mars",
+   8.646,
+   "Capricorn"
+  ],
+  [
+   "taylor swift",
+   8.363,
+   "Libra"
+  ],
+  [
+   "baby",
+   7.834,
+   "Gemini"
+  ],
+  [
+   "drake",
+   7.619,
+   "Libra"
+  ],
+  [
+   "nicki minaj",
+   7.561,
+   "Leo"
+  ],
+  [
+   "naruto",
+   7.502,
+   "Aries"
+  ],
+  [
+   "youtube",
+   7.457,
+   "Capricorn"
+  ],
+  [
+   "adele",
+   7.422,
+   "Leo"
+  ],
+  [
+   "shakira",
+   7.318,
+   "Leo"
+  ],
+  [
+   "sexy",
+   6.655,
+   "Aries"
+  ],
+  [
+   "movies",
+   6.601,
+   "Gemini"
+  ],
+  [
+   "pink",
+   6.323,
+   "Aries"
+  ],
+  [
+   "kiss",
+   6.17,
+   "Aries"
+  ],
+  [
+   "cartoon",
+   5.96,
+   "Cancer"
+  ],
+  [
+   "akon",
+   5.839,
+   "Aries"
+  ],
+  [
+   "david guetta",
+   5.78,
+   "Leo"
+  ],
+  [
+   "miley cyrus",
+   5.605,
+   "Libra"
+  ],
+  [
+   "michael jackson",
+   5.556,
+   "Virgo"
+  ],
+  [
+   "new song",
+   5.309,
+   "Virgo"
+  ],
+  [
+   "dance",
+   4.453,
+   "Leo"
+  ],
+  [
+   "britney spears",
+   4.372,
+   "Aries"
+  ],
+  [
+   "film",
+   4.036,
+   "Leo"
+  ],
+  [
+   "live",
+   4.009,
+   "Taurus"
+  ],
+  [
+   "tiktok",
+   3.892,
+   "Cancer"
+  ],
+  [
+   "bts",
+   3.888,
+   "Taurus"
+  ],
+  [
+   "wwe",
+   3.722,
+   "Cancer"
+  ],
+  [
+   "rap",
+   3.592,
+   "Sagittarius"
+  ],
+  [
+   "hindi movie",
+   3.529,
+   "Sagittarius"
+  ],
+  [
+   "asmr",
+   3.525,
+   "Cancer"
+  ],
+  [
+   "gta 5",
+   3.484,
+   "Libra"
+  ]
+ ]
+}

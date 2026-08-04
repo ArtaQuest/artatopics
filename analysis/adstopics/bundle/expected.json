@@ -1,0 +1,50 @@
+{
+ "auc_snaive": 0.5833,
+ "auc_climatology": 0.5714,
+ "auc_always_rise": 0.5016,
+ "auc_pooled": 0.5902,
+ "auc_memory_majority": 0.5918,
+ "auc_furnace": 0.5251,
+ "auc_furnace_vote": 0.5744,
+ "auc_astroattention": 0.5902,
+ "auc_meta": 0.5967,
+ "n_topics": 2625,
+ "ci95": {
+  "snaive": [
+   0.5787,
+   0.5873
+  ],
+  "climatology": [
+   0.5666,
+   0.5767
+  ],
+  "always_rise": [
+   0.4989,
+   0.5042
+  ],
+  "pooled": [
+   0.5855,
+   0.595
+  ],
+  "memory_majority": [
+   0.5864,
+   0.5965
+  ],
+  "furnace": [
+   0.5214,
+   0.5288
+  ],
+  "furnace_vote": [
+   0.57,
+   0.5797
+  ],
+  "astroattention": [
+   0.585,
+   0.5956
+  ],
+  "meta": [
+   0.5919,
+   0.602
+  ]
+ }
+}

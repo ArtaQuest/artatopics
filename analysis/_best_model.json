@@ -1,0 +1,10670 @@
+{
+"machine-learning": {
+"bestR2": 0.962,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.6234,
+"winR2": 0.9877
+},
+"deep-learning": {
+"bestR2": 0.9586,
+"periodBest": 168.0,
+"annualFrac": 0.0014,
+"trendFrac": 0.9249,
+"winR2": 0.9918
+},
+"artificial-intelligence": {
+"bestR2": 0.8844,
+"periodBest": 256.0,
+"annualFrac": 0.0025,
+"trendFrac": 0.3867,
+"winR2": 0.9822
+},
+"data-science": {
+"bestR2": 0.9794,
+"periodBest": 256.0,
+"annualFrac": 0.0001,
+"trendFrac": 0.6196,
+"winR2": 0.9945
+},
+"data-analysis": {
+"bestR2": 0.8241,
+"periodBest": 256.0,
+"annualFrac": 0.0266,
+"trendFrac": 0.148,
+"winR2": 0.8691
+},
+"data-engineering": {
+"bestR2": 0.9118,
+"periodBest": 256.0,
+"annualFrac": 0.0054,
+"trendFrac": 0.7078,
+"winR2": 0.9688
+},
+"data-visualization": {
+"bestR2": 0.9232,
+"periodBest": 256.0,
+"annualFrac": 0.0036,
+"trendFrac": 0.7787,
+"winR2": 0.9499
+},
+"big-data": {
+"bestR2": 0.9696,
+"periodBest": 192.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.5339,
+"winR2": 0.9931
+},
+"prompt-engineering": {
+"bestR2": 0.7955,
+"periodBest": 256.0,
+"annualFrac": 0.0076,
+"trendFrac": 1.0,
+"winR2": 0.9935
+},
+"generative-ai": {
+"bestR2": 0.848,
+"periodBest": 256.0,
+"annualFrac": 0.0015,
+"trendFrac": 1.0,
+"winR2": 0.9812
+},
+"chatgpt": {
+"bestR2": 0.7993,
+"periodBest": 256.0,
+"annualFrac": 0.0041,
+"trendFrac": 1.0,
+"winR2": 0.9972
+},
+"neural-networks": {
+"bestR2": 0.8511,
+"periodBest": 256.0,
+"annualFrac": 0.0114,
+"trendFrac": 1.0,
+"winR2": 0.9694
+},
+"computer-vision": {
+"bestR2": 0.8787,
+"periodBest": 256.0,
+"annualFrac": 0.0055,
+"trendFrac": 0.2606,
+"winR2": 0.9464
+},
+"nlp": {
+"bestR2": 0.9703,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 0.6575,
+"winR2": 0.9657
+},
+"reinforcement-learning": {
+"bestR2": 0.9261,
+"periodBest": 256.0,
+"annualFrac": 0.0048,
+"trendFrac": 0.5817,
+"winR2": 0.954
+},
+"mlops": {
+"bestR2": 0.975,
+"periodBest": 256.0,
+"annualFrac": 0.0009,
+"trendFrac": 1.0,
+"winR2": 0.9944
+},
+"tensorflow": {
+"bestR2": 0.9103,
+"periodBest": 208.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.3545,
+"winR2": 0.9859
+},
+"pytorch": {
+"bestR2": 0.9655,
+"periodBest": 228.0,
+"annualFrac": 0.0013,
+"trendFrac": 0.6976,
+"winR2": 0.9954
+},
+"pandas": {
+"bestR2": 0.9349,
+"periodBest": 256.0,
+"annualFrac": 0.003,
+"trendFrac": 0.2601,
+"winR2": 0.9837
+},
+"numpy": {
+"bestR2": 0.936,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 0.406,
+"winR2": 0.9725
+},
+"statistics": {
+"bestR2": 0.9067,
+"periodBest": 256.0,
+"annualFrac": 0.015,
+"trendFrac": 1.0,
+"winR2": 0.9515
+},
+"probability": {
+"bestR2": 0.6285,
+"periodBest": 256.0,
+"annualFrac": 0.2295,
+"trendFrac": 0.0002,
+"winR2": 0.82
+},
+"linear-algebra": {
+"bestR2": 0.582,
+"periodBest": 256.0,
+"annualFrac": 0.2749,
+"trendFrac": 0.8498,
+"winR2": 0.8182
+},
+"calculus": {
+"bestR2": 0.607,
+"periodBest": 6.0,
+"annualFrac": 0.09,
+"trendFrac": 0.5814,
+"winR2": 0.8267
+},
+"econometrics": {
+"bestR2": 0.9248,
+"periodBest": 256.0,
+"annualFrac": 0.0152,
+"trendFrac": 1.0,
+"winR2": 0.9666
+},
+"time-series": {
+"bestR2": 0.7695,
+"periodBest": 256.0,
+"annualFrac": 0.0314,
+"trendFrac": 0.3049,
+"winR2": 0.821
+},
+"forecasting": {
+"bestR2": 0.6281,
+"periodBest": 256.0,
+"annualFrac": 0.0294,
+"trendFrac": 0.6473,
+"winR2": 0.9483
+},
+"predictive-analytics": {
+"bestR2": 0.9665,
+"periodBest": 256.0,
+"annualFrac": 0.0008,
+"trendFrac": 0.8861,
+"winR2": 0.9793
+},
+"business-intelligence": {
+"bestR2": 0.8521,
+"periodBest": 256.0,
+"annualFrac": 0.0103,
+"trendFrac": 0.6938,
+"winR2": 0.9065
+},
+"tableau": {
+"bestR2": 0.8316,
+"periodBest": 200.0,
+"annualFrac": 0.0262,
+"trendFrac": 0.7286,
+"winR2": 0.7871
+},
+"power-bi": {
+"bestR2": 0.9854,
+"periodBest": 256.0,
+"annualFrac": 0.0008,
+"trendFrac": 0.7648,
+"winR2": 0.9865
+},
+"excel": {
+"bestR2": 0.6643,
+"periodBest": 152.0,
+"annualFrac": 0.0248,
+"trendFrac": 0.6228,
+"winR2": 0.8256
+},
+"google-sheets": {
+"bestR2": 0.9272,
+"periodBest": 256.0,
+"annualFrac": 0.0002,
+"trendFrac": 0.9739,
+"winR2": 0.9804
+},
+"data-mining": {
+"bestR2": 0.9402,
+"periodBest": 256.0,
+"annualFrac": 0.0066,
+"trendFrac": 1.0,
+"winR2": 0.9757
+},
+"etl": {
+"bestR2": 0.8476,
+"periodBest": 256.0,
+"annualFrac": 0.0266,
+"trendFrac": 0.1315,
+"winR2": 0.928
+},
+"data-warehouse": {
+"bestR2": 0.9427,
+"periodBest": 256.0,
+"annualFrac": 0.0016,
+"trendFrac": 1.0,
+"winR2": 0.9815
+},
+"snowflake": {
+"bestR2": 0.6997,
+"periodBest": 6.0,
+"annualFrac": 0.5426,
+"trendFrac": 0.1141,
+"winR2": 0.7511
+},
+"databricks": {
+"bestR2": 0.9667,
+"periodBest": 256.0,
+"annualFrac": 0.0012,
+"trendFrac": 1.0,
+"winR2": 0.9885
+},
+"apache-spark": {
+"bestR2": 0.9627,
+"periodBest": 184.0,
+"annualFrac": 0.0011,
+"trendFrac": 0.4763,
+"winR2": 0.9779
+},
+"hadoop": {
+"bestR2": 0.9813,
+"periodBest": 228.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.0495,
+"winR2": 0.9889
+},
+"kafka": {
+"bestR2": 0.6942,
+"periodBest": 256.0,
+"annualFrac": 0.0082,
+"trendFrac": 0.0113,
+"winR2": 0.867
+},
+"airflow": {
+"bestR2": 0.9695,
+"periodBest": 256.0,
+"annualFrac": 0.0057,
+"trendFrac": 0.6306,
+"winR2": 0.9837
+},
+"data-modeling": {
+"bestR2": 0.9009,
+"periodBest": 256.0,
+"annualFrac": 0.0027,
+"trendFrac": 0.9782,
+"winR2": 0.913
+},
+"ab-testing": {
+"bestR2": 0.9543,
+"periodBest": 164.0,
+"annualFrac": 0.0036,
+"trendFrac": 1.0,
+"winR2": 0.9807
+},
+"google-analytics": {
+"bestR2": 0.9491,
+"periodBest": 256.0,
+"annualFrac": 0.004,
+"trendFrac": 0.1476,
+"winR2": 0.9755
+},
+"r-programming": {
+"bestR2": 0.9293,
+"periodBest": 172.0,
+"annualFrac": 0.0013,
+"trendFrac": 0.7756,
+"winR2": 0.9582
+},
+"matlab": {
+"bestR2": 0.5481,
+"periodBest": 256.0,
+"annualFrac": 0.0873,
+"trendFrac": 0.1073,
+"winR2": 0.8402
+},
+"sas": {
+"bestR2": 0.8927,
+"periodBest": 228.0,
+"annualFrac": 0.0034,
+"trendFrac": 0.5857,
+"winR2": 0.8693
+},
+"julia": {
+"bestR2": 0.4718,
+"periodBest": 256.0,
+"annualFrac": 0.1071,
+"trendFrac": 1.0,
+"winR2": 0.6509
+},
+"web-analytics": {
+"bestR2": 0.8822,
+"periodBest": 256.0,
+"annualFrac": 0.0041,
+"trendFrac": 0.1968,
+"winR2": 0.9138
+},
+"python": {
+"bestR2": 0.938,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.3567,
+"winR2": 0.9845
+},
+"javascript": {
+"bestR2": 0.981,
+"periodBest": 256.0,
+"annualFrac": 0.0016,
+"trendFrac": 1.0,
+"winR2": 0.9932
+},
+"typescript": {
+"bestR2": 0.9295,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.5317,
+"winR2": 0.9897
+},
+"java": {
+"bestR2": 0.9872,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 1.0,
+"winR2": 0.9888
+},
+"sql": {
+"bestR2": 0.9791,
+"periodBest": 256.0,
+"annualFrac": 0.0022,
+"trendFrac": 1.0,
+"winR2": 0.9854
+},
+"nosql": {
+"bestR2": 0.9361,
+"periodBest": 232.0,
+"annualFrac": 0.0035,
+"trendFrac": 0.6018,
+"winR2": 0.956
+},
+"html": {
+"bestR2": 0.988,
+"periodBest": 256.0,
+"annualFrac": 0.0009,
+"trendFrac": 1.0,
+"winR2": 0.9914
+},
+"css": {
+"bestR2": 0.9447,
+"periodBest": 192.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.8741,
+"winR2": 0.982
+},
+"tailwind": {
+"bestR2": 0.9697,
+"periodBest": 256.0,
+"annualFrac": 0.0009,
+"trendFrac": 1.0,
+"winR2": 0.9977
+},
+"bootstrap": {
+"bestR2": 0.9689,
+"periodBest": 192.0,
+"annualFrac": 0.0008,
+"trendFrac": 0.3288,
+"winR2": 0.9914
+},
+"react": {
+"bestR2": 0.9579,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.4681,
+"winR2": 0.9938
+},
+"angular": {
+"bestR2": 0.9588,
+"periodBest": 216.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.3972,
+"winR2": 0.9835
+},
+"vue": {
+"bestR2": 0.5549,
+"periodBest": 256.0,
+"annualFrac": 0.0149,
+"trendFrac": 0.3801,
+"winR2": 0.8009
+},
+"svelte": {
+"bestR2": 0.9277,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9896
+},
+"nextjs": {
+"bestR2": 0.9505,
+"periodBest": 256.0,
+"annualFrac": 0.0,
+"trendFrac": 1.0,
+"winR2": 0.9964
+},
+"nodejs": {
+"bestR2": 0.9438,
+"periodBest": 200.0,
+"annualFrac": 0.001,
+"trendFrac": 0.7266,
+"winR2": 0.9949
+},
+"express": {
+"bestR2": 0.8583,
+"periodBest": 256.0,
+"annualFrac": 0.0201,
+"trendFrac": 1.0,
+"winR2": 0.9062
+},
+"django": {
+"bestR2": 0.29,
+"periodBest": 180.0,
+"annualFrac": 0.0511,
+"trendFrac": 0.4576,
+"winR2": 0.8488
+},
+"flask": {
+"bestR2": 0.8476,
+"periodBest": 184.0,
+"annualFrac": 0.0135,
+"trendFrac": 0.7991,
+"winR2": 0.9764
+},
+"fastapi": {
+"bestR2": 0.9782,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 1.0,
+"winR2": 0.9837
+},
+"laravel": {
+"bestR2": 0.9447,
+"periodBest": 164.0,
+"annualFrac": 0.0008,
+"trendFrac": 0.9441,
+"winR2": 0.9956
+},
+"spring-boot": {
+"bestR2": 0.9572,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.4077,
+"winR2": 0.9916
+},
+"dotnet": {
+"bestR2": 0.9773,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.6077,
+"winR2": 0.9908
+},
+"graphql": {
+"bestR2": 0.936,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.3979,
+"winR2": 0.9881
+},
+"rest-api": {
+"bestR2": 0.9633,
+"periodBest": 184.0,
+"annualFrac": 0.0016,
+"trendFrac": 0.8514,
+"winR2": 0.9911
+},
+"regex": {
+"bestR2": 0.5754,
+"periodBest": 140.0,
+"annualFrac": 0.0182,
+"trendFrac": 1.0,
+"winR2": 0.8919
+},
+"git": {
+"bestR2": 0.94,
+"periodBest": 200.0,
+"annualFrac": 0.0029,
+"trendFrac": 0.8653,
+"winR2": 0.9854
+},
+"github": {
+"bestR2": 0.9753,
+"periodBest": 256.0,
+"annualFrac": 0.0015,
+"trendFrac": 1.0,
+"winR2": 0.9948
+},
+"gitlab": {
+"bestR2": 0.966,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.7357,
+"winR2": 0.9738
+},
+"bash": {
+"bestR2": 0.483,
+"periodBest": 256.0,
+"annualFrac": 0.0633,
+"trendFrac": 0.6287,
+"winR2": 0.6927
+},
+"powershell": {
+"bestR2": 0.9745,
+"periodBest": 236.0,
+"annualFrac": 0.0008,
+"trendFrac": 0.6982,
+"winR2": 0.9849
+},
+"linux": {
+"bestR2": 0.9764,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9963
+},
+"ubuntu": {
+"bestR2": 0.9243,
+"periodBest": 256.0,
+"annualFrac": 0.0002,
+"trendFrac": 0.1811,
+"winR2": 0.9844
+},
+"kotlin": {
+"bestR2": 0.9374,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.4551,
+"winR2": 0.9866
+},
+"swift": {
+"bestR2": 0.666,
+"periodBest": 168.0,
+"annualFrac": 0.0207,
+"trendFrac": 0.3866,
+"winR2": 0.9201
+},
+"golang": {
+"bestR2": 0.9397,
+"periodBest": 220.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.714,
+"winR2": 0.9911
+},
+"rust": {
+"bestR2": 0.8873,
+"periodBest": 228.0,
+"annualFrac": 0.0191,
+"trendFrac": 0.771,
+"winR2": 0.9587
+},
+"php": {
+"bestR2": 0.9874,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 1.0,
+"winR2": 0.9885
+},
+"ruby": {
+"bestR2": 0.5071,
+"periodBest": 204.0,
+"annualFrac": 0.027,
+"trendFrac": 0.6169,
+"winR2": 0.5069
+},
+"c-programming": {
+"bestR2": 0.9264,
+"periodBest": 256.0,
+"annualFrac": 0.0053,
+"trendFrac": 1.0,
+"winR2": 0.9822
+},
+"web-development": {
+"bestR2": 0.8973,
+"periodBest": 256.0,
+"annualFrac": 0.0066,
+"trendFrac": 0.4054,
+"winR2": 0.9698
+},
+"frontend": {
+"bestR2": 0.9396,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.0204,
+"winR2": 0.9815
+},
+"backend": {
+"bestR2": 0.9514,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 1.0,
+"winR2": 0.9809
+},
+"full-stack": {
+"bestR2": 0.9164,
+"periodBest": 232.0,
+"annualFrac": 0.0011,
+"trendFrac": 0.87,
+"winR2": 0.9914
+},
+"responsive-design": {
+"bestR2": 0.9261,
+"periodBest": 172.0,
+"annualFrac": 0.0009,
+"trendFrac": 0.1302,
+"winR2": 0.9926
+},
+"wordpress": {
+"bestR2": 0.9356,
+"periodBest": 256.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.2045,
+"winR2": 0.9532
+},
+"shopify": {
+"bestR2": 0.9747,
+"periodBest": 256.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.8615,
+"winR2": 0.9941
+},
+"webflow": {
+"bestR2": 0.9647,
+"periodBest": 252.0,
+"annualFrac": 0.0009,
+"trendFrac": 1.0,
+"winR2": 0.9926
+},
+"microservices": {
+"bestR2": 0.9678,
+"periodBest": 180.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.8264,
+"winR2": 0.9884
+},
+"web-scraping": {
+"bestR2": 0.9459,
+"periodBest": 256.0,
+"annualFrac": 0.0024,
+"trendFrac": 0.8066,
+"winR2": 0.94
+},
+"algorithms": {
+"bestR2": 0.8782,
+"periodBest": 256.0,
+"annualFrac": 0.0098,
+"trendFrac": 1.0,
+"winR2": 0.9737
+},
+"data-structures": {
+"bestR2": 0.8325,
+"periodBest": 256.0,
+"annualFrac": 0.0102,
+"trendFrac": 1.0,
+"winR2": 0.952
+},
+"oop": {
+"bestR2": 0.3403,
+"periodBest": 256.0,
+"annualFrac": 0.0103,
+"trendFrac": 1.0,
+"winR2": 0.9158
+},
+"functional-programming": {
+"bestR2": 0.7057,
+"periodBest": 164.0,
+"annualFrac": 0.0033,
+"trendFrac": 0.1286,
+"winR2": 0.8693
+},
+"debugging": {
+"bestR2": 0.9235,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 1.0,
+"winR2": 0.9706
+},
+"code-review": {
+"bestR2": 0.4878,
+"periodBest": 188.0,
+"annualFrac": 0.0042,
+"trendFrac": 0.0055,
+"winR2": 0.2115
+},
+"unit-testing": {
+"bestR2": 0.6775,
+"periodBest": 244.0,
+"annualFrac": 0.0575,
+"trendFrac": 1.0,
+"winR2": 0.7944
+},
+"refactoring": {
+"bestR2": 0.9451,
+"periodBest": 256.0,
+"annualFrac": 0.0013,
+"trendFrac": 1.0,
+"winR2": 0.9408
+},
+"design-patterns": {
+"bestR2": 0.9589,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.965
+},
+"low-code": {
+"bestR2": 0.968,
+"periodBest": 256.0,
+"annualFrac": 0.002,
+"trendFrac": 1.0,
+"winR2": 0.9729
+},
+"no-code": {
+"bestR2": 0.958,
+"periodBest": 256.0,
+"annualFrac": 0.0036,
+"trendFrac": 1.0,
+"winR2": 0.9847
+},
+"flutter": {
+"bestR2": 0.9571,
+"periodBest": 220.0,
+"annualFrac": 0.0011,
+"trendFrac": 0.7722,
+"winR2": 0.9934
+},
+"react-native": {
+"bestR2": 0.9389,
+"periodBest": 180.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.8182,
+"winR2": 0.9876
+},
+"android-development": {
+"bestR2": 0.9725,
+"periodBest": 204.0,
+"annualFrac": 0.0002,
+"trendFrac": 0.0835,
+"winR2": 0.991
+},
+"ios-development": {
+"bestR2": 0.9325,
+"periodBest": 184.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.3713,
+"winR2": 0.9747
+},
+"game-development": {
+"bestR2": 0.8139,
+"periodBest": 256.0,
+"annualFrac": 0.0088,
+"trendFrac": 0.5833,
+"winR2": 0.8001
+},
+"selenium": {
+"bestR2": 0.91,
+"periodBest": 256.0,
+"annualFrac": 0.0021,
+"trendFrac": 0.3633,
+"winR2": 0.9627
+},
+"software-testing": {
+"bestR2": 0.9626,
+"periodBest": 256.0,
+"annualFrac": 0.0033,
+"trendFrac": 1.0,
+"winR2": 0.9865
+},
+"qa-testing": {
+"bestR2": 0.9006,
+"periodBest": 256.0,
+"annualFrac": 0.0173,
+"trendFrac": 0.7698,
+"winR2": 0.94
+},
+"test-automation": {
+"bestR2": 0.8146,
+"periodBest": 256.0,
+"annualFrac": 0.0277,
+"trendFrac": 0.1556,
+"winR2": 0.6728
+},
+"api-testing": {
+"bestR2": 0.9254,
+"periodBest": 232.0,
+"annualFrac": 0.0042,
+"trendFrac": 0.6836,
+"winR2": 0.9687
+},
+"mobile-development": {
+"bestR2": 0.7811,
+"periodBest": 172.0,
+"annualFrac": 0.0098,
+"trendFrac": 0.9805,
+"winR2": 0.8986
+},
+"cloud-computing": {
+"bestR2": 0.8702,
+"periodBest": 220.0,
+"annualFrac": 0.002,
+"trendFrac": 0.5007,
+"winR2": 0.9799
+},
+"aws": {
+"bestR2": 0.9677,
+"periodBest": 256.0,
+"annualFrac": 0.0009,
+"trendFrac": 0.7512,
+"winR2": 0.993
+},
+"azure": {
+"bestR2": 0.9839,
+"periodBest": 256.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.7817,
+"winR2": 0.993
+},
+"google-cloud": {
+"bestR2": 0.9584,
+"periodBest": 156.0,
+"annualFrac": 0.0009,
+"trendFrac": 1.0,
+"winR2": 0.9876
+},
+"devops": {
+"bestR2": 0.9808,
+"periodBest": 232.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.7128,
+"winR2": 0.9936
+},
+"docker": {
+"bestR2": 0.9649,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.8064,
+"winR2": 0.9914
+},
+"kubernetes": {
+"bestR2": 0.959,
+"periodBest": 212.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.7102,
+"winR2": 0.9938
+},
+"terraform": {
+"bestR2": 0.9596,
+"periodBest": 256.0,
+"annualFrac": 0.0014,
+"trendFrac": 0.8067,
+"winR2": 0.9939
+},
+"ansible": {
+"bestR2": 0.976,
+"periodBest": 164.0,
+"annualFrac": 0.001,
+"trendFrac": 0.9419,
+"winR2": 0.9922
+},
+"jenkins": {
+"bestR2": 0.2832,
+"periodBest": 256.0,
+"annualFrac": 0.0323,
+"trendFrac": 0.0735,
+"winR2": 0.6604
+},
+"ci-cd": {
+"bestR2": 0.9674,
+"periodBest": 240.0,
+"annualFrac": 0.0027,
+"trendFrac": 0.8366,
+"winR2": 0.9885
+},
+"serverless": {
+"bestR2": 0.9402,
+"periodBest": 224.0,
+"annualFrac": 0.0011,
+"trendFrac": 0.6347,
+"winR2": 0.9941
+},
+"cloud-security": {
+"bestR2": 0.9646,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.8321,
+"winR2": 0.9269
+},
+"computer-networking": {
+"bestR2": 0.9305,
+"periodBest": 256.0,
+"annualFrac": 0.0002,
+"trendFrac": 1.0,
+"winR2": 0.9815
+},
+"dns": {
+"bestR2": 0.9493,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 1.0,
+"winR2": 0.977
+},
+"vpn": {
+"bestR2": 0.8903,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.1659,
+"winR2": 0.9026
+},
+"firewall": {
+"bestR2": 0.9776,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9958
+},
+"sysadmin": {
+"bestR2": 0.6206,
+"periodBest": 256.0,
+"annualFrac": 0.1129,
+"trendFrac": 1.0,
+"winR2": 0.6047
+},
+"it-support": {
+"bestR2": 0.9413,
+"periodBest": 256.0,
+"annualFrac": 0.0054,
+"trendFrac": 1.0,
+"winR2": 0.9617
+},
+"help-desk": {
+"bestR2": 0.8545,
+"periodBest": 256.0,
+"annualFrac": 0.0073,
+"trendFrac": 1.0,
+"winR2": 0.8732
+},
+"troubleshooting": {
+"bestR2": 0.9532,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 1.0,
+"winR2": 0.9868
+},
+"windows-server": {
+"bestR2": 0.9604,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 1.0,
+"winR2": 0.9931
+},
+"active-directory": {
+"bestR2": 0.9819,
+"periodBest": 256.0,
+"annualFrac": 0.0013,
+"trendFrac": 1.0,
+"winR2": 0.9918
+},
+"virtualization": {
+"bestR2": 0.9109,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 0.6057,
+"winR2": 0.982
+},
+"vmware": {
+"bestR2": 0.9511,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.039,
+"winR2": 0.9802
+},
+"site-reliability": {
+"bestR2": 0.9332,
+"periodBest": 256.0,
+"annualFrac": 0.0036,
+"trendFrac": 0.8218,
+"winR2": 0.9433
+},
+"observability": {
+"bestR2": 0.9204,
+"periodBest": 256.0,
+"annualFrac": 0.0045,
+"trendFrac": 1.0,
+"winR2": 0.9498
+},
+"monitoring": {
+"bestR2": 0.8931,
+"periodBest": 256.0,
+"annualFrac": 0.0057,
+"trendFrac": 0.6139,
+"winR2": 0.9332
+},
+"grafana": {
+"bestR2": 0.9725,
+"periodBest": 256.0,
+"annualFrac": 0.0004,
+"trendFrac": 1.0,
+"winR2": 0.9943
+},
+"disaster-recovery": {
+"bestR2": 0.9519,
+"periodBest": 256.0,
+"annualFrac": 0.0018,
+"trendFrac": 1.0,
+"winR2": 0.9767
+},
+"data-backup": {
+"bestR2": 0.8692,
+"periodBest": 136.0,
+"annualFrac": 0.0061,
+"trendFrac": 0.4391,
+"winR2": 0.909
+},
+"postgresql": {
+"bestR2": 0.925,
+"periodBest": 256.0,
+"annualFrac": 0.0034,
+"trendFrac": 0.6713,
+"winR2": 0.9751
+},
+"mysql": {
+"bestR2": 0.9921,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 1.0,
+"winR2": 0.9953
+},
+"mongodb": {
+"bestR2": 0.9674,
+"periodBest": 228.0,
+"annualFrac": 0.0014,
+"trendFrac": 0.7072,
+"winR2": 0.9949
+},
+"redis": {
+"bestR2": 0.9637,
+"periodBest": 148.0,
+"annualFrac": 0.0023,
+"trendFrac": 1.0,
+"winR2": 0.9911
+},
+"elasticsearch": {
+"bestR2": 0.9649,
+"periodBest": 220.0,
+"annualFrac": 0.001,
+"trendFrac": 0.3008,
+"winR2": 0.9898
+},
+"sqlite": {
+"bestR2": 0.8991,
+"periodBest": 256.0,
+"annualFrac": 0.0064,
+"trendFrac": 0.108,
+"winR2": 0.9559
+},
+"cybersecurity": {
+"bestR2": 0.9581,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9854
+},
+"ethical-hacking": {
+"bestR2": 0.7978,
+"periodBest": 140.0,
+"annualFrac": 0.005,
+"trendFrac": 0.7015,
+"winR2": 0.9177
+},
+"penetration-testing": {
+"bestR2": 0.878,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 0.5881,
+"winR2": 0.8808
+},
+"network-security": {
+"bestR2": 0.9278,
+"periodBest": 256.0,
+"annualFrac": 0.0011,
+"trendFrac": 1.0,
+"winR2": 0.9885
+},
+"information-security": {
+"bestR2": 0.9052,
+"periodBest": 256.0,
+"annualFrac": 0.0033,
+"trendFrac": 0.8042,
+"winR2": 0.9626
+},
+"cryptography": {
+"bestR2": 0.9196,
+"periodBest": 256.0,
+"annualFrac": 0.0136,
+"trendFrac": 1.0,
+"winR2": 0.9817
+},
+"encryption": {
+"bestR2": 0.9578,
+"periodBest": 256.0,
+"annualFrac": 0.0031,
+"trendFrac": 1.0,
+"winR2": 0.9771
+},
+"malware-analysis": {
+"bestR2": 0.9574,
+"periodBest": 256.0,
+"annualFrac": 0.0027,
+"trendFrac": 1.0,
+"winR2": 0.9742
+},
+"digital-forensics": {
+"bestR2": 0.9385,
+"periodBest": 256.0,
+"annualFrac": 0.0017,
+"trendFrac": 1.0,
+"winR2": 0.9308
+},
+"incident-response": {
+"bestR2": 0.8991,
+"periodBest": 256.0,
+"annualFrac": 0.0078,
+"trendFrac": 0.6115,
+"winR2": 0.9482
+},
+"kali-linux": {
+"bestR2": 0.9676,
+"periodBest": 176.0,
+"annualFrac": 0.0002,
+"trendFrac": 0.62,
+"winR2": 0.9956
+},
+"osint": {
+"bestR2": 0.9393,
+"periodBest": 256.0,
+"annualFrac": 0.0004,
+"trendFrac": 1.0,
+"winR2": 0.9701
+},
+"bug-bounty": {
+"bestR2": 0.9738,
+"periodBest": 256.0,
+"annualFrac": 0.0008,
+"trendFrac": 0.9735,
+"winR2": 0.9783
+},
+"blockchain": {
+"bestR2": 0.8053,
+"periodBest": 156.0,
+"annualFrac": 0.0052,
+"trendFrac": 0.9506,
+"winR2": 0.9888
+},
+"solidity": {
+"bestR2": 0.6618,
+"periodBest": 256.0,
+"annualFrac": 0.0024,
+"trendFrac": 0.2194,
+"winR2": 0.9924
+},
+"web3": {
+"bestR2": 0.8451,
+"periodBest": 236.0,
+"annualFrac": 0.0022,
+"trendFrac": 0.9495,
+"winR2": 0.9872
+},
+"smart-contracts": {
+"bestR2": 0.7643,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.2928,
+"winR2": 0.9204
+},
+"reverse-engineering": {
+"bestR2": 0.9505,
+"periodBest": 256.0,
+"annualFrac": 0.0041,
+"trendFrac": 1.0,
+"winR2": 0.9784
+},
+"graphic-design": {
+"bestR2": 0.9246,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 1.0,
+"winR2": 0.9549
+},
+"ui-design": {
+"bestR2": 0.9672,
+"periodBest": 256.0,
+"annualFrac": 0.0015,
+"trendFrac": 1.0,
+"winR2": 0.9881
+},
+"ux-design": {
+"bestR2": 0.9604,
+"periodBest": 232.0,
+"annualFrac": 0.001,
+"trendFrac": 0.8241,
+"winR2": 0.9905
+},
+"ux-research": {
+"bestR2": 0.9249,
+"periodBest": 232.0,
+"annualFrac": 0.0015,
+"trendFrac": 0.8083,
+"winR2": 0.9693
+},
+"product-design": {
+"bestR2": 0.7889,
+"periodBest": 256.0,
+"annualFrac": 0.0158,
+"trendFrac": 0.2437,
+"winR2": 0.7793
+},
+"interaction-design": {
+"bestR2": 0.6758,
+"periodBest": 256.0,
+"annualFrac": 0.054,
+"trendFrac": 0.7974,
+"winR2": 0.5294
+},
+"design-thinking": {
+"bestR2": 0.9462,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 0.4545,
+"winR2": 0.9603
+},
+"figma": {
+"bestR2": 0.9724,
+"periodBest": 256.0,
+"annualFrac": 0.0004,
+"trendFrac": 1.0,
+"winR2": 0.9903
+},
+"photoshop": {
+"bestR2": 0.9846,
+"periodBest": 212.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.6187,
+"winR2": 0.9952
+},
+"illustrator": {
+"bestR2": 0.7917,
+"periodBest": 164.0,
+"annualFrac": 0.0086,
+"trendFrac": 0.9599,
+"winR2": 0.8916
+},
+"indesign": {
+"bestR2": 0.9027,
+"periodBest": 216.0,
+"annualFrac": 0.0093,
+"trendFrac": 0.2804,
+"winR2": 0.8899
+},
+"canva": {
+"bestR2": 0.9596,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.999
+},
+"typography": {
+"bestR2": 0.7401,
+"periodBest": 256.0,
+"annualFrac": 0.0735,
+"trendFrac": 0.1406,
+"winR2": 0.8622
+},
+"color-theory": {
+"bestR2": 0.7917,
+"periodBest": 256.0,
+"annualFrac": 0.0608,
+"trendFrac": 0.1205,
+"winR2": 0.8857
+},
+"logo-design": {
+"bestR2": 0.8201,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.3423,
+"winR2": 0.9229
+},
+"illustration": {
+"bestR2": 0.8238,
+"periodBest": 256.0,
+"annualFrac": 0.0506,
+"trendFrac": 0.2844,
+"winR2": 0.7826
+},
+"digital-art": {
+"bestR2": 0.9348,
+"periodBest": 256.0,
+"annualFrac": 0.0076,
+"trendFrac": 0.6517,
+"winR2": 0.9669
+},
+"drawing": {
+"bestR2": 0.9472,
+"periodBest": 236.0,
+"annualFrac": 0.0066,
+"trendFrac": 0.5763,
+"winR2": 0.9817
+},
+"sketching": {
+"bestR2": 0.7168,
+"periodBest": 256.0,
+"annualFrac": 0.0423,
+"trendFrac": 0.0334,
+"winR2": 0.7687
+},
+"painting": {
+"bestR2": 0.8451,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 0.2395,
+"winR2": 0.9117
+},
+"watercolor": {
+"bestR2": 0.9463,
+"periodBest": 180.0,
+"annualFrac": 0.0141,
+"trendFrac": 0.5425,
+"winR2": 0.9744
+},
+"calligraphy": {
+"bestR2": 0.9204,
+"periodBest": 256.0,
+"annualFrac": 0.0113,
+"trendFrac": 0.0232,
+"winR2": 0.9616
+},
+"animation": {
+"bestR2": 0.9555,
+"periodBest": 256.0,
+"annualFrac": 0.0043,
+"trendFrac": 0.7161,
+"winR2": 0.9659
+},
+"motion-graphics": {
+"bestR2": 0.618,
+"periodBest": 256.0,
+"annualFrac": 0.0171,
+"trendFrac": 0.1945,
+"winR2": 0.7796
+},
+"after-effects": {
+"bestR2": 0.8254,
+"periodBest": 256.0,
+"annualFrac": 0.0336,
+"trendFrac": 0.0164,
+"winR2": 0.8949
+},
+"premiere-pro": {
+"bestR2": 0.9425,
+"periodBest": 256.0,
+"annualFrac": 0.0033,
+"trendFrac": 0.2006,
+"winR2": 0.9819
+},
+"final-cut": {
+"bestR2": 0.952,
+"periodBest": 212.0,
+"annualFrac": 0.0015,
+"trendFrac": 0.55,
+"winR2": 0.9786
+},
+"davinci-resolve": {
+"bestR2": 0.9769,
+"periodBest": 256.0,
+"annualFrac": 0.0016,
+"trendFrac": 1.0,
+"winR2": 0.9966
+},
+"video-editing": {
+"bestR2": 0.7378,
+"periodBest": 256.0,
+"annualFrac": 0.0105,
+"trendFrac": 1.0,
+"winR2": 0.9442
+},
+"videography": {
+"bestR2": 0.8372,
+"periodBest": 256.0,
+"annualFrac": 0.008,
+"trendFrac": 0.6386,
+"winR2": 0.8971
+},
+"photography": {
+"bestR2": 0.9786,
+"periodBest": 180.0,
+"annualFrac": 0.0036,
+"trendFrac": 0.8971,
+"winR2": 0.9735
+},
+"photo-editing": {
+"bestR2": 0.918,
+"periodBest": 224.0,
+"annualFrac": 0.0008,
+"trendFrac": 0.1139,
+"winR2": 0.9458
+},
+"lightroom": {
+"bestR2": 0.9039,
+"periodBest": 256.0,
+"annualFrac": 0.0009,
+"trendFrac": 0.856,
+"winR2": 0.9157
+},
+"3d-modeling": {
+"bestR2": 0.9187,
+"periodBest": 256.0,
+"annualFrac": 0.0032,
+"trendFrac": 0.6571,
+"winR2": 0.9489
+},
+"blender": {
+"bestR2": 0.9114,
+"periodBest": 228.0,
+"annualFrac": 0.006,
+"trendFrac": 1.0,
+"winR2": 0.9552
+},
+"maya": {
+"bestR2": 0.5034,
+"periodBest": 160.0,
+"annualFrac": 0.0333,
+"trendFrac": 0.87,
+"winR2": 0.3364
+},
+"unity": {
+"bestR2": 0.8864,
+"periodBest": 204.0,
+"annualFrac": 0.0016,
+"trendFrac": 0.6181,
+"winR2": 0.989
+},
+"unreal-engine": {
+"bestR2": 0.8829,
+"periodBest": 244.0,
+"annualFrac": 0.0095,
+"trendFrac": 0.894,
+"winR2": 0.969
+},
+"game-design": {
+"bestR2": 0.9014,
+"periodBest": 256.0,
+"annualFrac": 0.0068,
+"trendFrac": 0.5821,
+"winR2": 0.9242
+},
+"character-design": {
+"bestR2": 0.7944,
+"periodBest": 256.0,
+"annualFrac": 0.0062,
+"trendFrac": 0.4231,
+"winR2": 0.913
+},
+"concept-art": {
+"bestR2": 0.6864,
+"periodBest": 136.0,
+"annualFrac": 0.0183,
+"trendFrac": 0.5414,
+"winR2": 0.8955
+},
+"storyboarding": {
+"bestR2": 0.8167,
+"periodBest": 256.0,
+"annualFrac": 0.0175,
+"trendFrac": 1.0,
+"winR2": 0.8963
+},
+"interior-design": {
+"bestR2": 0.8389,
+"periodBest": 256.0,
+"annualFrac": 0.0028,
+"trendFrac": 1.0,
+"winR2": 0.7328
+},
+"fashion-design": {
+"bestR2": 0.9576,
+"periodBest": 256.0,
+"annualFrac": 0.0011,
+"trendFrac": 1.0,
+"winR2": 0.9628
+},
+"web-design": {
+"bestR2": 0.9631,
+"periodBest": 256.0,
+"annualFrac": 0.0011,
+"trendFrac": 1.0,
+"winR2": 0.9943
+},
+"digital-marketing": {
+"bestR2": 0.9849,
+"periodBest": 256.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.6807,
+"winR2": 0.9939
+},
+"seo": {
+"bestR2": 0.9016,
+"periodBest": 212.0,
+"annualFrac": 0.0073,
+"trendFrac": 1.0,
+"winR2": 0.9813
+},
+"sem": {
+"bestR2": 0.9779,
+"periodBest": 216.0,
+"annualFrac": 0.0063,
+"trendFrac": 0.8998,
+"winR2": 0.9926
+},
+"content-marketing": {
+"bestR2": 0.9663,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 0.6928,
+"winR2": 0.9765
+},
+"email-marketing": {
+"bestR2": 0.7309,
+"periodBest": 256.0,
+"annualFrac": 0.0189,
+"trendFrac": 0.9099,
+"winR2": 0.9088
+},
+"social-media": {
+"bestR2": 0.9752,
+"periodBest": 256.0,
+"annualFrac": 0.0029,
+"trendFrac": 0.7464,
+"winR2": 0.983
+},
+"google-ads": {
+"bestR2": 0.9622,
+"periodBest": 212.0,
+"annualFrac": 0.001,
+"trendFrac": 0.8101,
+"winR2": 0.9918
+},
+"facebook-ads": {
+"bestR2": 0.9684,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.7344,
+"winR2": 0.9876
+},
+"instagram-marketing": {
+"bestR2": 0.9719,
+"periodBest": 256.0,
+"annualFrac": 0.0016,
+"trendFrac": 0.4081,
+"winR2": 0.9776
+},
+"influencer-marketing": {
+"bestR2": 0.9472,
+"periodBest": 256.0,
+"annualFrac": 0.0025,
+"trendFrac": 0.7428,
+"winR2": 0.9674
+},
+"affiliate-marketing": {
+"bestR2": 0.8755,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 0.532,
+"winR2": 0.9889
+},
+"growth-hacking": {
+"bestR2": 0.9699,
+"periodBest": 256.0,
+"annualFrac": 0.0001,
+"trendFrac": 0.1482,
+"winR2": 0.9806
+},
+"copywriting": {
+"bestR2": 0.9009,
+"periodBest": 220.0,
+"annualFrac": 0.0013,
+"trendFrac": 0.4017,
+"winR2": 0.965
+},
+"content-writing": {
+"bestR2": 0.9448,
+"periodBest": 216.0,
+"annualFrac": 0.0039,
+"trendFrac": 0.788,
+"winR2": 0.9872
+},
+"technical-writing": {
+"bestR2": 0.9403,
+"periodBest": 256.0,
+"annualFrac": 0.0,
+"trendFrac": 1.0,
+"winR2": 0.9555
+},
+"creative-writing": {
+"bestR2": 0.8895,
+"periodBest": 256.0,
+"annualFrac": 0.0172,
+"trendFrac": 1.0,
+"winR2": 0.8976
+},
+"blogging": {
+"bestR2": 0.8669,
+"periodBest": 176.0,
+"annualFrac": 0.0009,
+"trendFrac": 0.8862,
+"winR2": 0.8835
+},
+"ghostwriting": {
+"bestR2": 0.6014,
+"periodBest": 256.0,
+"annualFrac": 0.0194,
+"trendFrac": 1.0,
+"winR2": 0.2625
+},
+"editing": {
+"bestR2": 0.8845,
+"periodBest": 256.0,
+"annualFrac": 0.0025,
+"trendFrac": 0.9182,
+"winR2": 0.9264
+},
+"proofreading": {
+"bestR2": 0.8246,
+"periodBest": 256.0,
+"annualFrac": 0.0017,
+"trendFrac": 1.0,
+"winR2": 0.8714
+},
+"journalism": {
+"bestR2": 0.9266,
+"periodBest": 256.0,
+"annualFrac": 0.0101,
+"trendFrac": 1.0,
+"winR2": 0.9517
+},
+"storytelling": {
+"bestR2": 0.805,
+"periodBest": 256.0,
+"annualFrac": 0.0211,
+"trendFrac": 0.3018,
+"winR2": 0.8869
+},
+"content-strategy": {
+"bestR2": 0.8804,
+"periodBest": 256.0,
+"annualFrac": 0.0061,
+"trendFrac": 1.0,
+"winR2": 0.9149
+},
+"keyword-research": {
+"bestR2": 0.8975,
+"periodBest": 204.0,
+"annualFrac": 0.0049,
+"trendFrac": 0.9349,
+"winR2": 0.9597
+},
+"link-building": {
+"bestR2": 0.8102,
+"periodBest": 196.0,
+"annualFrac": 0.0218,
+"trendFrac": 0.9244,
+"winR2": 0.8195
+},
+"ppc": {
+"bestR2": 0.9664,
+"periodBest": 216.0,
+"annualFrac": 0.0008,
+"trendFrac": 0.5717,
+"winR2": 0.9814
+},
+"marketing-automation": {
+"bestR2": 0.8463,
+"periodBest": 256.0,
+"annualFrac": 0.004,
+"trendFrac": 0.8403,
+"winR2": 0.9375
+},
+"hubspot": {
+"bestR2": 0.9458,
+"periodBest": 256.0,
+"annualFrac": 0.002,
+"trendFrac": 1.0,
+"winR2": 0.9943
+},
+"mailchimp": {
+"bestR2": 0.9523,
+"periodBest": 228.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.2617,
+"winR2": 0.97
+},
+"public-relations": {
+"bestR2": 0.9619,
+"periodBest": 256.0,
+"annualFrac": 0.0026,
+"trendFrac": 1.0,
+"winR2": 0.9763
+},
+"market-research": {
+"bestR2": 0.9324,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 1.0,
+"winR2": 0.977
+},
+"podcasting": {
+"bestR2": 0.5456,
+"periodBest": 208.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.6386,
+"winR2": 0.9711
+},
+"video-marketing": {
+"bestR2": 0.6855,
+"periodBest": 184.0,
+"annualFrac": 0.0118,
+"trendFrac": 0.8096,
+"winR2": -0.8844
+},
+"community-management": {
+"bestR2": 0.8143,
+"periodBest": 256.0,
+"annualFrac": 0.0329,
+"trendFrac": 0.2312,
+"winR2": 0.8824
+},
+"branding": {
+"bestR2": 0.7169,
+"periodBest": 256.0,
+"annualFrac": 0.0295,
+"trendFrac": 0.252,
+"winR2": 0.8517
+},
+"brand-strategy": {
+"bestR2": 0.7056,
+"periodBest": 256.0,
+"annualFrac": 0.0317,
+"trendFrac": 0.2098,
+"winR2": 0.6488
+},
+"conversion-optimization": {
+"bestR2": 0.8342,
+"periodBest": 172.0,
+"annualFrac": 0.0037,
+"trendFrac": 1.0,
+"winR2": 0.9691
+},
+"project-management": {
+"bestR2": 0.8759,
+"periodBest": 256.0,
+"annualFrac": 0.0057,
+"trendFrac": 0.9766,
+"winR2": 0.9259
+},
+"product-management": {
+"bestR2": 0.8603,
+"periodBest": 256.0,
+"annualFrac": 0.0063,
+"trendFrac": 0.0884,
+"winR2": 0.9307
+},
+"agile": {
+"bestR2": 0.8506,
+"periodBest": 140.0,
+"annualFrac": 0.0005,
+"trendFrac": 1.0,
+"winR2": 0.957
+},
+"scrum": {
+"bestR2": 0.8852,
+"periodBest": 116.0,
+"annualFrac": 0.001,
+"trendFrac": 0.9262,
+"winR2": 0.9621
+},
+"kanban": {
+"bestR2": 0.8451,
+"periodBest": 256.0,
+"annualFrac": 0.01,
+"trendFrac": 0.0886,
+"winR2": 0.8622
+},
+"jira": {
+"bestR2": 0.9614,
+"periodBest": 256.0,
+"annualFrac": 0.0022,
+"trendFrac": 0.9435,
+"winR2": 0.9727
+},
+"notion": {
+"bestR2": 0.9548,
+"periodBest": 256.0,
+"annualFrac": 0.004,
+"trendFrac": 1.0,
+"winR2": 0.9845
+},
+"airtable": {
+"bestR2": 0.941,
+"periodBest": 256.0,
+"annualFrac": 0.0017,
+"trendFrac": 0.9094,
+"winR2": 0.9794
+},
+"zapier": {
+"bestR2": 0.9351,
+"periodBest": 256.0,
+"annualFrac": 0.0033,
+"trendFrac": 1.0,
+"winR2": 0.9838
+},
+"automation": {
+"bestR2": 0.8274,
+"periodBest": 256.0,
+"annualFrac": 0.01,
+"trendFrac": 0.1079,
+"winR2": 0.9293
+},
+"business-analysis": {
+"bestR2": 0.6654,
+"periodBest": 256.0,
+"annualFrac": 0.0312,
+"trendFrac": 0.464,
+"winR2": 0.8656
+},
+"business-strategy": {
+"bestR2": 0.6911,
+"periodBest": 256.0,
+"annualFrac": 0.0762,
+"trendFrac": 0.6926,
+"winR2": 0.787
+},
+"entrepreneurship": {
+"bestR2": 0.7539,
+"periodBest": 256.0,
+"annualFrac": 0.0278,
+"trendFrac": 0.1763,
+"winR2": 0.8865
+},
+"business-development": {
+"bestR2": 0.8402,
+"periodBest": 256.0,
+"annualFrac": 0.0112,
+"trendFrac": 0.9901,
+"winR2": 0.8689
+},
+"sales": {
+"bestR2": 0.8936,
+"periodBest": 256.0,
+"annualFrac": 0.0,
+"trendFrac": 1.0,
+"winR2": 0.89
+},
+"negotiation": {
+"bestR2": 0.8058,
+"periodBest": 256.0,
+"annualFrac": 0.0395,
+"trendFrac": 1.0,
+"winR2": 0.8742
+},
+"cold-calling": {
+"bestR2": 0.7563,
+"periodBest": 256.0,
+"annualFrac": 0.0458,
+"trendFrac": 0.8295,
+"winR2": 0.8114
+},
+"lead-generation": {
+"bestR2": 0.887,
+"periodBest": 256.0,
+"annualFrac": 0.0062,
+"trendFrac": 0.8701,
+"winR2": 0.981
+},
+"crm": {
+"bestR2": 0.7945,
+"periodBest": 256.0,
+"annualFrac": 0.0333,
+"trendFrac": 0.0384,
+"winR2": 0.8291
+},
+"salesforce": {
+"bestR2": 0.9662,
+"periodBest": 160.0,
+"annualFrac": 0.0024,
+"trendFrac": 1.0,
+"winR2": 0.9813
+},
+"customer-service": {
+"bestR2": 0.9832,
+"periodBest": 236.0,
+"annualFrac": 0.002,
+"trendFrac": 0.6238,
+"winR2": 0.9822
+},
+"customer-success": {
+"bestR2": 0.955,
+"periodBest": 256.0,
+"annualFrac": 0.0018,
+"trendFrac": 0.8923,
+"winR2": 0.9887
+},
+"account-management": {
+"bestR2": 0.5877,
+"periodBest": 256.0,
+"annualFrac": 0.0236,
+"trendFrac": 0.4009,
+"winR2": 0.7009
+},
+"operations-management": {
+"bestR2": 0.6616,
+"periodBest": 256.0,
+"annualFrac": 0.0686,
+"trendFrac": 0.7515,
+"winR2": 0.6259
+},
+"supply-chain": {
+"bestR2": 0.795,
+"periodBest": 256.0,
+"annualFrac": 0.0157,
+"trendFrac": 0.0006,
+"winR2": 0.8884
+},
+"logistics": {
+"bestR2": 0.911,
+"periodBest": 256.0,
+"annualFrac": 0.0108,
+"trendFrac": 0.4106,
+"winR2": 0.893
+},
+"procurement": {
+"bestR2": 0.7703,
+"periodBest": 256.0,
+"annualFrac": 0.0195,
+"trendFrac": 0.3596,
+"winR2": 0.8502
+},
+"inventory-management": {
+"bestR2": 0.8259,
+"periodBest": 256.0,
+"annualFrac": 0.0232,
+"trendFrac": 0.0166,
+"winR2": 0.9136
+},
+"six-sigma": {
+"bestR2": 0.9699,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 1.0,
+"winR2": 0.9744
+},
+"process-improvement": {
+"bestR2": 0.837,
+"periodBest": 256.0,
+"annualFrac": 0.0143,
+"trendFrac": 1.0,
+"winR2": 0.8773
+},
+"quality-assurance": {
+"bestR2": 0.9435,
+"periodBest": 256.0,
+"annualFrac": 0.0101,
+"trendFrac": 1.0,
+"winR2": 0.9627
+},
+"quality-control": {
+"bestR2": 0.827,
+"periodBest": 256.0,
+"annualFrac": 0.0136,
+"trendFrac": 0.8524,
+"winR2": 0.9098
+},
+"risk-management": {
+"bestR2": 0.8699,
+"periodBest": 256.0,
+"annualFrac": 0.0067,
+"trendFrac": 0.9506,
+"winR2": 0.8573
+},
+"compliance": {
+"bestR2": 0.7575,
+"periodBest": 256.0,
+"annualFrac": 0.0222,
+"trendFrac": 0.999,
+"winR2": 0.828
+},
+"auditing": {
+"bestR2": 0.9267,
+"periodBest": 256.0,
+"annualFrac": 0.0036,
+"trendFrac": 1.0,
+"winR2": 0.9414
+},
+"accounting": {
+"bestR2": 0.7923,
+"periodBest": 256.0,
+"annualFrac": 0.0066,
+"trendFrac": 1.0,
+"winR2": 0.8786
+},
+"bookkeeping": {
+"bestR2": 0.6492,
+"periodBest": 256.0,
+"annualFrac": 0.1087,
+"trendFrac": 0.4985,
+"winR2": 0.7906
+},
+"quickbooks": {
+"bestR2": 0.6662,
+"periodBest": 256.0,
+"annualFrac": 0.2241,
+"trendFrac": 0.5002,
+"winR2": 0.7743
+},
+"payroll": {
+"bestR2": 0.6528,
+"periodBest": 6.0,
+"annualFrac": 0.0416,
+"trendFrac": 0.8284,
+"winR2": 0.6656
+},
+"tax-preparation": {
+"bestR2": 0.7761,
+"periodBest": 6.0,
+"annualFrac": 0.6751,
+"trendFrac": 0.0663,
+"winR2": 0.79
+},
+"financial-modeling": {
+"bestR2": 0.3586,
+"periodBest": 256.0,
+"annualFrac": 0.0201,
+"trendFrac": 0.0087,
+"winR2": 0.7773
+},
+"financial-analysis": {
+"bestR2": 0.8154,
+"periodBest": 256.0,
+"annualFrac": 0.0209,
+"trendFrac": 0.9133,
+"winR2": 0.8775
+},
+"financial-planning": {
+"bestR2": 0.9322,
+"periodBest": 256.0,
+"annualFrac": 0.0034,
+"trendFrac": 0.9271,
+"winR2": 0.9265
+},
+"corporate-finance": {
+"bestR2": 0.9267,
+"periodBest": 256.0,
+"annualFrac": 0.0053,
+"trendFrac": 0.9886,
+"winR2": 0.9446
+},
+"budgeting": {
+"bestR2": 0.7861,
+"periodBest": 256.0,
+"annualFrac": 0.0539,
+"trendFrac": 0.7011,
+"winR2": 0.8889
+},
+"investing": {
+"bestR2": 0.9413,
+"periodBest": 188.0,
+"annualFrac": 0.0041,
+"trendFrac": 0.5875,
+"winR2": 0.959
+},
+"stock-trading": {
+"bestR2": 0.5957,
+"periodBest": 256.0,
+"annualFrac": 0.0402,
+"trendFrac": 0.1638,
+"winR2": 0.7508
+},
+"options-trading": {
+"bestR2": 0.6297,
+"periodBest": 256.0,
+"annualFrac": 0.0178,
+"trendFrac": 0.11,
+"winR2": 0.8493
+},
+"forex-trading": {
+"bestR2": 0.8649,
+"periodBest": 168.0,
+"annualFrac": 0.0031,
+"trendFrac": 0.6945,
+"winR2": 0.9695
+},
+"cryptocurrency": {
+"bestR2": 0.4093,
+"periodBest": 256.0,
+"annualFrac": 0.0208,
+"trendFrac": 0.0205,
+"winR2": 0.9132
+},
+"bitcoin": {
+"bestR2": 0.611,
+"periodBest": 256.0,
+"annualFrac": 0.0195,
+"trendFrac": 0.3063,
+"winR2": 0.8779
+},
+"real-estate": {
+"bestR2": 0.9733,
+"periodBest": 256.0,
+"annualFrac": 0.0108,
+"trendFrac": 1.0,
+"winR2": 0.9614
+},
+"property-management": {
+"bestR2": 0.7231,
+"periodBest": 188.0,
+"annualFrac": 0.4778,
+"trendFrac": 0.3008,
+"winR2": 0.7932
+},
+"insurance": {
+"bestR2": 0.81,
+"periodBest": 256.0,
+"annualFrac": 0.0311,
+"trendFrac": 0.5486,
+"winR2": 0.8022
+},
+"fundraising": {
+"bestR2": 0.8368,
+"periodBest": 256.0,
+"annualFrac": 0.0031,
+"trendFrac": 1.0,
+"winR2": 0.8646
+},
+"grant-writing": {
+"bestR2": 0.9413,
+"periodBest": 256.0,
+"annualFrac": 0.0025,
+"trendFrac": 1.0,
+"winR2": 0.9664
+},
+"consulting": {
+"bestR2": 0.9548,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 1.0,
+"winR2": 0.9733
+},
+"strategic-planning": {
+"bestR2": 0.9202,
+"periodBest": 256.0,
+"annualFrac": 0.0048,
+"trendFrac": 1.0,
+"winR2": 0.9238
+},
+"powerpoint": {
+"bestR2": 0.7834,
+"periodBest": 6.0,
+"annualFrac": 0.1128,
+"trendFrac": 0.6931,
+"winR2": 0.8367
+},
+"microsoft-office": {
+"bestR2": 0.9521,
+"periodBest": 252.0,
+"annualFrac": 0.0114,
+"trendFrac": 0.1548,
+"winR2": 0.9819
+},
+"leadership": {
+"bestR2": 0.6408,
+"periodBest": 256.0,
+"annualFrac": 0.0398,
+"trendFrac": 0.5813,
+"winR2": 0.667
+},
+"management": {
+"bestR2": 0.9326,
+"periodBest": 256.0,
+"annualFrac": 0.0046,
+"trendFrac": 1.0,
+"winR2": 0.9535
+},
+"communication": {
+"bestR2": 0.8926,
+"periodBest": 256.0,
+"annualFrac": 0.0186,
+"trendFrac": 1.0,
+"winR2": 0.9252
+},
+"public-speaking": {
+"bestR2": 0.6729,
+"periodBest": 256.0,
+"annualFrac": 0.0499,
+"trendFrac": 0.6259,
+"winR2": 0.7809
+},
+"presentation": {
+"bestR2": 0.6483,
+"periodBest": 256.0,
+"annualFrac": 0.1239,
+"trendFrac": 0.2717,
+"winR2": 0.7507
+},
+"emotional-intelligence": {
+"bestR2": 0.7824,
+"periodBest": 256.0,
+"annualFrac": 0.0353,
+"trendFrac": 0.0275,
+"winR2": 0.8775
+},
+"critical-thinking": {
+"bestR2": 0.5457,
+"periodBest": 256.0,
+"annualFrac": 0.1171,
+"trendFrac": 0.1772,
+"winR2": 0.7065
+},
+"problem-solving": {
+"bestR2": 0.5537,
+"periodBest": 256.0,
+"annualFrac": 0.1692,
+"trendFrac": 1.0,
+"winR2": 0.7273
+},
+"decision-making": {
+"bestR2": 0.6034,
+"periodBest": 256.0,
+"annualFrac": 0.1163,
+"trendFrac": 0.5772,
+"winR2": 0.7043
+},
+"time-management": {
+"bestR2": 0.6572,
+"periodBest": 256.0,
+"annualFrac": 0.0072,
+"trendFrac": 0.4978,
+"winR2": 0.8553
+},
+"conflict-resolution": {
+"bestR2": 0.8599,
+"periodBest": 256.0,
+"annualFrac": 0.0121,
+"trendFrac": 1.0,
+"winR2": 0.9176
+},
+"team-building": {
+"bestR2": 0.7632,
+"periodBest": 256.0,
+"annualFrac": 0.0896,
+"trendFrac": 0.3951,
+"winR2": 0.8358
+},
+"teamwork": {
+"bestR2": 0.468,
+"periodBest": 152.0,
+"annualFrac": 0.0687,
+"trendFrac": 0.1119,
+"winR2": 0.6171
+},
+"adaptability": {
+"bestR2": 0.9135,
+"periodBest": 256.0,
+"annualFrac": 0.0068,
+"trendFrac": 1.0,
+"winR2": 0.9488
+},
+"creativity": {
+"bestR2": 0.6437,
+"periodBest": 256.0,
+"annualFrac": 0.1502,
+"trendFrac": 0.7577,
+"winR2": 0.7683
+},
+"resilience": {
+"bestR2": 0.9545,
+"periodBest": 256.0,
+"annualFrac": 0.0018,
+"trendFrac": 1.0,
+"winR2": 0.9783
+},
+"mindfulness": {
+"bestR2": 0.9627,
+"periodBest": 240.0,
+"annualFrac": 0.0034,
+"trendFrac": 0.3853,
+"winR2": 0.9577
+},
+"meditation": {
+"bestR2": 0.9285,
+"periodBest": 216.0,
+"annualFrac": 0.02,
+"trendFrac": 0.0828,
+"winR2": 0.9299
+},
+"stress-management": {
+"bestR2": 0.8776,
+"periodBest": 256.0,
+"annualFrac": 0.0204,
+"trendFrac": 1.0,
+"winR2": 0.9259
+},
+"active-listening": {
+"bestR2": 0.7595,
+"periodBest": 256.0,
+"annualFrac": 0.0213,
+"trendFrac": 0.5257,
+"winR2": 0.8641
+},
+"mentoring": {
+"bestR2": 0.8723,
+"periodBest": 256.0,
+"annualFrac": 0.0062,
+"trendFrac": 1.0,
+"winR2": 0.9184
+},
+"coaching": {
+"bestR2": 0.7047,
+"periodBest": 256.0,
+"annualFrac": 0.0324,
+"trendFrac": 0.2932,
+"winR2": 0.8289
+},
+"life-coaching": {
+"bestR2": 0.9166,
+"periodBest": 256.0,
+"annualFrac": 0.0049,
+"trendFrac": 1.0,
+"winR2": 0.9475
+},
+"teaching": {
+"bestR2": 0.926,
+"periodBest": 256.0,
+"annualFrac": 0.0066,
+"trendFrac": 1.0,
+"winR2": 0.9453
+},
+"tutoring": {
+"bestR2": 0.3727,
+"periodBest": 6.0,
+"annualFrac": 0.0669,
+"trendFrac": 0.0972,
+"winR2": 0.5925
+},
+"instructional-design": {
+"bestR2": 0.9118,
+"periodBest": 256.0,
+"annualFrac": 0.0038,
+"trendFrac": 1.0,
+"winR2": 0.9611
+},
+"curriculum-development": {
+"bestR2": 0.7711,
+"periodBest": 256.0,
+"annualFrac": 0.0184,
+"trendFrac": 1.0,
+"winR2": 0.8304
+},
+"elearning": {
+"bestR2": 0.7491,
+"periodBest": 256.0,
+"annualFrac": 0.0155,
+"trendFrac": 0.0843,
+"winR2": 0.9041
+},
+"lesson-planning": {
+"bestR2": 0.7576,
+"periodBest": 256.0,
+"annualFrac": 0.0051,
+"trendFrac": 1.0,
+"winR2": 0.6698
+},
+"classroom-management": {
+"bestR2": 0.809,
+"periodBest": 256.0,
+"annualFrac": 0.0029,
+"trendFrac": 1.0,
+"winR2": 0.8234
+},
+"child-development": {
+"bestR2": 0.8388,
+"periodBest": 256.0,
+"annualFrac": 0.0221,
+"trendFrac": 1.0,
+"winR2": 0.8503
+},
+"special-education": {
+"bestR2": 0.8397,
+"periodBest": 256.0,
+"annualFrac": 0.002,
+"trendFrac": 1.0,
+"winR2": 0.8732
+},
+"sign-language": {
+"bestR2": 0.6107,
+"periodBest": 256.0,
+"annualFrac": 0.0875,
+"trendFrac": 1.0,
+"winR2": 0.6035
+},
+"academic-writing": {
+"bestR2": 0.7624,
+"periodBest": 256.0,
+"annualFrac": 0.0061,
+"trendFrac": 0.2526,
+"winR2": 0.8851
+},
+"essay-writing": {
+"bestR2": 0.4883,
+"periodBest": 256.0,
+"annualFrac": 0.3141,
+"trendFrac": 0.1902,
+"winR2": 0.7797
+},
+"research-methods": {
+"bestR2": 0.5789,
+"periodBest": 256.0,
+"annualFrac": 0.1613,
+"trendFrac": 0.8996,
+"winR2": 0.6765
+},
+"study-skills": {
+"bestR2": 0.7952,
+"periodBest": 256.0,
+"annualFrac": 0.0301,
+"trendFrac": 1.0,
+"winR2": 0.8267
+},
+"english": {
+"bestR2": 0.9569,
+"periodBest": 256.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.4358,
+"winR2": 0.9921
+},
+"spanish": {
+"bestR2": 0.7559,
+"periodBest": 256.0,
+"annualFrac": 0.0487,
+"trendFrac": 0.0603,
+"winR2": 0.7849
+},
+"french": {
+"bestR2": 0.6803,
+"periodBest": 256.0,
+"annualFrac": 0.0345,
+"trendFrac": 1.0,
+"winR2": 0.7343
+},
+"german": {
+"bestR2": 0.9305,
+"periodBest": 256.0,
+"annualFrac": 0.0025,
+"trendFrac": 1.0,
+"winR2": 0.9564
+},
+"chinese": {
+"bestR2": 0.5213,
+"periodBest": 256.0,
+"annualFrac": 0.2847,
+"trendFrac": 0.3416,
+"winR2": 0.654
+},
+"japanese": {
+"bestR2": 0.8948,
+"periodBest": 256.0,
+"annualFrac": 0.0153,
+"trendFrac": 0.0001,
+"winR2": 0.9474
+},
+"korean": {
+"bestR2": 0.9653,
+"periodBest": 256.0,
+"annualFrac": 0.0025,
+"trendFrac": 0.4431,
+"winR2": 0.9799
+},
+"arabic": {
+"bestR2": 0.8802,
+"periodBest": 256.0,
+"annualFrac": 0.0031,
+"trendFrac": 0.8312,
+"winR2": 0.9527
+},
+"portuguese": {
+"bestR2": 0.784,
+"periodBest": 256.0,
+"annualFrac": 0.0208,
+"trendFrac": 0.4511,
+"winR2": 0.8273
+},
+"italian": {
+"bestR2": 0.8079,
+"periodBest": 256.0,
+"annualFrac": 0.0051,
+"trendFrac": 0.7083,
+"winR2": 0.8882
+},
+"russian": {
+"bestR2": 0.6347,
+"periodBest": 252.0,
+"annualFrac": 0.04,
+"trendFrac": 0.4629,
+"winR2": 0.7874
+},
+"hindi": {
+"bestR2": 0.9566,
+"periodBest": 256.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.4033,
+"winR2": 0.991
+},
+"translation": {
+"bestR2": 0.7966,
+"periodBest": 256.0,
+"annualFrac": 0.0096,
+"trendFrac": 0.0599,
+"winR2": 0.9703
+},
+"nursing": {
+"bestR2": 0.6485,
+"periodBest": 256.0,
+"annualFrac": 0.0232,
+"trendFrac": 0.5134,
+"winR2": 0.7313
+},
+"first-aid": {
+"bestR2": 0.6238,
+"periodBest": 256.0,
+"annualFrac": 0.0556,
+"trendFrac": 0.1698,
+"winR2": 0.7456
+},
+"cpr": {
+"bestR2": 0.5825,
+"periodBest": 256.0,
+"annualFrac": 0.1404,
+"trendFrac": 0.7383,
+"winR2": 0.5508
+},
+"phlebotomy": {
+"bestR2": 0.8333,
+"periodBest": 188.0,
+"annualFrac": 0.0214,
+"trendFrac": 0.7646,
+"winR2": 0.9074
+},
+"medical-coding": {
+"bestR2": 0.7422,
+"periodBest": 256.0,
+"annualFrac": 0.0252,
+"trendFrac": 1.0,
+"winR2": 0.8829
+},
+"medical-billing": {
+"bestR2": 0.5962,
+"periodBest": 256.0,
+"annualFrac": 0.0692,
+"trendFrac": 0.08,
+"winR2": 0.7121
+},
+"patient-care": {
+"bestR2": 0.8924,
+"periodBest": 256.0,
+"annualFrac": 0.0078,
+"trendFrac": 0.8459,
+"winR2": 0.9086
+},
+"caregiving": {
+"bestR2": 0.7853,
+"periodBest": 256.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.9078,
+"winR2": 0.8924
+},
+"pharmacy": {
+"bestR2": 0.9611,
+"periodBest": 216.0,
+"annualFrac": 0.0009,
+"trendFrac": 0.794,
+"winR2": 0.9796
+},
+"physiotherapy": {
+"bestR2": 0.8677,
+"periodBest": 256.0,
+"annualFrac": 0.0183,
+"trendFrac": 0.5148,
+"winR2": 0.8811
+},
+"occupational-therapy": {
+"bestR2": 0.4763,
+"periodBest": 256.0,
+"annualFrac": 0.0317,
+"trendFrac": 0.8919,
+"winR2": 0.6154
+},
+"speech-therapy": {
+"bestR2": 0.7527,
+"periodBest": 256.0,
+"annualFrac": 0.0035,
+"trendFrac": 0.2582,
+"winR2": 0.8383
+},
+"massage-therapy": {
+"bestR2": 0.8681,
+"periodBest": 256.0,
+"annualFrac": 0.0004,
+"trendFrac": 1.0,
+"winR2": 0.9735
+},
+"acupuncture": {
+"bestR2": 0.5287,
+"periodBest": 164.0,
+"annualFrac": 0.0395,
+"trendFrac": 0.2303,
+"winR2": 0.7286
+},
+"nutrition": {
+"bestR2": 0.5467,
+"periodBest": 180.0,
+"annualFrac": 0.3935,
+"trendFrac": 0.0541,
+"winR2": 0.5092
+},
+"meal-planning": {
+"bestR2": 0.5396,
+"periodBest": 140.0,
+"annualFrac": 0.0496,
+"trendFrac": 0.0502,
+"winR2": 0.6097
+},
+"personal-training": {
+"bestR2": 0.857,
+"periodBest": 6.0,
+"annualFrac": 0.0173,
+"trendFrac": 0.934,
+"winR2": 0.9009
+},
+"fitness": {
+"bestR2": 0.6153,
+"periodBest": 180.0,
+"annualFrac": 0.1327,
+"trendFrac": 0.2488,
+"winR2": 0.5859
+},
+"yoga": {
+"bestR2": 0.8707,
+"periodBest": 200.0,
+"annualFrac": 0.0044,
+"trendFrac": 0.1363,
+"winR2": 0.873
+},
+"pilates": {
+"bestR2": 0.6915,
+"periodBest": 256.0,
+"annualFrac": 0.012,
+"trendFrac": 0.9192,
+"winR2": 0.8491
+},
+"crossfit": {
+"bestR2": 0.9174,
+"periodBest": 224.0,
+"annualFrac": 0.005,
+"trendFrac": 0.1343,
+"winR2": 0.9227
+},
+"weightlifting": {
+"bestR2": 0.2819,
+"periodBest": 152.0,
+"annualFrac": 0.0001,
+"trendFrac": 0.4124,
+"winR2": 0.5779
+},
+"running": {
+"bestR2": 0.9213,
+"periodBest": 256.0,
+"annualFrac": 0.0064,
+"trendFrac": 0.5809,
+"winR2": 0.9593
+},
+"swimming": {
+"bestR2": 0.6323,
+"periodBest": 6.0,
+"annualFrac": 0.7348,
+"trendFrac": 0.0405,
+"winR2": 0.3865
+},
+"martial-arts": {
+"bestR2": 0.9669,
+"periodBest": 256.0,
+"annualFrac": 0.0012,
+"trendFrac": 1.0,
+"winR2": 0.9808
+},
+"boxing": {
+"bestR2": 0.4005,
+"periodBest": 6.0,
+"annualFrac": 0.3373,
+"trendFrac": 0.0068,
+"winR2": 0.2792
+},
+"self-defense": {
+"bestR2": 0.4892,
+"periodBest": 256.0,
+"annualFrac": 0.0398,
+"trendFrac": 0.8637,
+"winR2": 0.6147
+},
+"dance": {
+"bestR2": 0.8811,
+"periodBest": 228.0,
+"annualFrac": 0.0036,
+"trendFrac": 0.6484,
+"winR2": 0.9106
+},
+"counseling": {
+"bestR2": 0.6426,
+"periodBest": 256.0,
+"annualFrac": 0.0391,
+"trendFrac": 0.528,
+"winR2": 0.6322
+},
+"psychotherapy": {
+"bestR2": 0.9291,
+"periodBest": 256.0,
+"annualFrac": 0.0149,
+"trendFrac": 0.84,
+"winR2": 0.9361
+},
+"herbalism": {
+"bestR2": 0.8433,
+"periodBest": 248.0,
+"annualFrac": 0.0059,
+"trendFrac": 0.0315,
+"winR2": 0.9513
+},
+"welding": {
+"bestR2": 0.6337,
+"periodBest": 256.0,
+"annualFrac": 0.0095,
+"trendFrac": 0.0136,
+"winR2": 0.7879
+},
+"machining": {
+"bestR2": 0.906,
+"periodBest": 256.0,
+"annualFrac": 0.0041,
+"trendFrac": 1.0,
+"winR2": 0.9658
+},
+"cnc": {
+"bestR2": 0.6666,
+"periodBest": 256.0,
+"annualFrac": 0.0911,
+"trendFrac": 0.097,
+"winR2": 0.7508
+},
+"3d-printing": {
+"bestR2": 0.9739,
+"periodBest": 140.0,
+"annualFrac": 0.0065,
+"trendFrac": 0.9866,
+"winR2": 0.9805
+},
+"carpentry": {
+"bestR2": 0.7676,
+"periodBest": 256.0,
+"annualFrac": 0.0103,
+"trendFrac": 0.302,
+"winR2": 0.7931
+},
+"woodworking": {
+"bestR2": 0.9247,
+"periodBest": 256.0,
+"annualFrac": 0.0394,
+"trendFrac": 1.0,
+"winR2": 0.9888
+},
+"furniture-making": {
+"bestR2": 0.9135,
+"periodBest": 256.0,
+"annualFrac": 0.003,
+"trendFrac": 1.0,
+"winR2": 0.9031
+},
+"plumbing": {
+"bestR2": 0.6125,
+"periodBest": 256.0,
+"annualFrac": 0.0025,
+"trendFrac": 0.1617,
+"winR2": 0.8186
+},
+"electrical-wiring": {
+"bestR2": 0.9543,
+"periodBest": 256.0,
+"annualFrac": 0.0001,
+"trendFrac": 1.0,
+"winR2": 0.9759
+},
+"hvac": {
+"bestR2": 0.8012,
+"periodBest": 256.0,
+"annualFrac": 0.0643,
+"trendFrac": 1.0,
+"winR2": 0.9303
+},
+"refrigeration": {
+"bestR2": 0.7872,
+"periodBest": 256.0,
+"annualFrac": 0.1847,
+"trendFrac": 1.0,
+"winR2": 0.866
+},
+"masonry": {
+"bestR2": 0.7288,
+"periodBest": 256.0,
+"annualFrac": 0.4166,
+"trendFrac": 0.3445,
+"winR2": 0.8452
+},
+"tiling": {
+"bestR2": 0.8959,
+"periodBest": 256.0,
+"annualFrac": 0.0041,
+"trendFrac": 0.5293,
+"winR2": 0.8852
+},
+"roofing": {
+"bestR2": 0.6896,
+"periodBest": 256.0,
+"annualFrac": 0.2942,
+"trendFrac": 0.686,
+"winR2": 0.8908
+},
+"drywall": {
+"bestR2": 0.9077,
+"periodBest": 228.0,
+"annualFrac": 0.0047,
+"trendFrac": 0.5444,
+"winR2": 0.9252
+},
+"flooring": {
+"bestR2": 0.6912,
+"periodBest": 180.0,
+"annualFrac": 0.0412,
+"trendFrac": 0.0467,
+"winR2": 0.8011
+},
+"landscaping": {
+"bestR2": 0.8302,
+"periodBest": 6.0,
+"annualFrac": 0.8334,
+"trendFrac": 0.0389,
+"winR2": 0.904
+},
+"gardening": {
+"bestR2": 0.8288,
+"periodBest": 256.0,
+"annualFrac": 0.3121,
+"trendFrac": 0.9663,
+"winR2": 0.8717
+},
+"horticulture": {
+"bestR2": 0.9282,
+"periodBest": 256.0,
+"annualFrac": 0.0415,
+"trendFrac": 1.0,
+"winR2": 0.9511
+},
+"farming": {
+"bestR2": 0.8769,
+"periodBest": 168.0,
+"annualFrac": 0.0112,
+"trendFrac": 0.4365,
+"winR2": 0.9281
+},
+"agriculture": {
+"bestR2": 0.8435,
+"periodBest": 256.0,
+"annualFrac": 0.017,
+"trendFrac": 0.5621,
+"winR2": 0.8501
+},
+"hydroponics": {
+"bestR2": 0.7855,
+"periodBest": 204.0,
+"annualFrac": 0.0519,
+"trendFrac": 0.7108,
+"winR2": 0.9155
+},
+"beekeeping": {
+"bestR2": 0.7931,
+"periodBest": 188.0,
+"annualFrac": 0.4038,
+"trendFrac": 0.4333,
+"winR2": 0.8438
+},
+"auto-repair": {
+"bestR2": 0.7994,
+"periodBest": 200.0,
+"annualFrac": 0.2245,
+"trendFrac": 0.1916,
+"winR2": 0.896
+},
+"car-detailing": {
+"bestR2": 0.9453,
+"periodBest": 256.0,
+"annualFrac": 0.072,
+"trendFrac": 0.577,
+"winR2": 0.9755
+},
+"engine-repair": {
+"bestR2": 0.8145,
+"periodBest": 256.0,
+"annualFrac": 0.5825,
+"trendFrac": 0.7183,
+"winR2": 0.8339
+},
+"motorcycle-repair": {
+"bestR2": 0.9169,
+"periodBest": 256.0,
+"annualFrac": 0.3431,
+"trendFrac": 0.9562,
+"winR2": 0.9437
+},
+"locksmithing": {
+"bestR2": 0.8896,
+"periodBest": 256.0,
+"annualFrac": 0.0013,
+"trendFrac": 1.0,
+"winR2": 0.8997
+},
+"appliance-repair": {
+"bestR2": 0.9061,
+"periodBest": 232.0,
+"annualFrac": 0.0262,
+"trendFrac": 0.4664,
+"winR2": 0.9714
+},
+"phone-repair": {
+"bestR2": 0.9736,
+"periodBest": 256.0,
+"annualFrac": 0.0125,
+"trendFrac": 0.2001,
+"winR2": 0.9862
+},
+"computer-repair": {
+"bestR2": 0.8951,
+"periodBest": 196.0,
+"annualFrac": 0.0048,
+"trendFrac": 0.6991,
+"winR2": 0.8741
+},
+"soldering": {
+"bestR2": 0.854,
+"periodBest": 256.0,
+"annualFrac": 0.0314,
+"trendFrac": 0.6749,
+"winR2": 0.9153
+},
+"electronics": {
+"bestR2": 0.965,
+"periodBest": 256.0,
+"annualFrac": 0.0028,
+"trendFrac": 1.0,
+"winR2": 0.9912
+},
+"arduino": {
+"bestR2": 0.9687,
+"periodBest": 212.0,
+"annualFrac": 0.0107,
+"trendFrac": 0.4405,
+"winR2": 0.9892
+},
+"raspberry-pi": {
+"bestR2": 0.9306,
+"periodBest": 192.0,
+"annualFrac": 0.0116,
+"trendFrac": 0.4073,
+"winR2": 0.9269
+},
+"robotics": {
+"bestR2": 0.904,
+"periodBest": 256.0,
+"annualFrac": 0.0138,
+"trendFrac": 1.0,
+"winR2": 0.9771
+},
+"drone-pilot": {
+"bestR2": 0.964,
+"periodBest": 256.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.9274,
+"winR2": 0.9857
+},
+"embedded-systems": {
+"bestR2": 0.8981,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 1.0,
+"winR2": 0.9619
+},
+"plc-programming": {
+"bestR2": 0.7063,
+"periodBest": 256.0,
+"annualFrac": 0.0046,
+"trendFrac": 1.0,
+"winR2": 0.7305
+},
+"cad": {
+"bestR2": 0.896,
+"periodBest": 256.0,
+"annualFrac": 0.0096,
+"trendFrac": 0.5288,
+"winR2": 0.9563
+},
+"autocad": {
+"bestR2": 0.9265,
+"periodBest": 256.0,
+"annualFrac": 0.0037,
+"trendFrac": 0.9935,
+"winR2": 0.9571
+},
+"solidworks": {
+"bestR2": 0.5826,
+"periodBest": 176.0,
+"annualFrac": 0.1733,
+"trendFrac": 0.0733,
+"winR2": 0.6692
+},
+"revit": {
+"bestR2": 0.9638,
+"periodBest": 184.0,
+"annualFrac": 0.0055,
+"trendFrac": 0.8928,
+"winR2": 0.9627
+},
+"sketchup": {
+"bestR2": 0.9112,
+"periodBest": 256.0,
+"annualFrac": 0.0175,
+"trendFrac": 1.0,
+"winR2": 0.9558
+},
+"bim": {
+"bestR2": 0.9625,
+"periodBest": 256.0,
+"annualFrac": 0.0035,
+"trendFrac": 0.4652,
+"winR2": 0.9743
+},
+"gis": {
+"bestR2": 0.9054,
+"periodBest": 256.0,
+"annualFrac": 0.0285,
+"trendFrac": 1.0,
+"winR2": 0.9332
+},
+"surveying": {
+"bestR2": 0.8994,
+"periodBest": 256.0,
+"annualFrac": 0.0072,
+"trendFrac": 1.0,
+"winR2": 0.8989
+},
+"forklift": {
+"bestR2": 0.8749,
+"periodBest": 256.0,
+"annualFrac": 0.0072,
+"trendFrac": 0.981,
+"winR2": 0.881
+},
+"truck-driving": {
+"bestR2": 0.446,
+"periodBest": 216.0,
+"annualFrac": 0.0906,
+"trendFrac": 0.0002,
+"winR2": 0.6686
+},
+"defensive-driving": {
+"bestR2": 0.9342,
+"periodBest": 256.0,
+"annualFrac": 0.007,
+"trendFrac": 0.7728,
+"winR2": 0.9507
+},
+"sewing": {
+"bestR2": 0.6139,
+"periodBest": 256.0,
+"annualFrac": 0.042,
+"trendFrac": 1.0,
+"winR2": 0.9477
+},
+"tailoring": {
+"bestR2": 0.6066,
+"periodBest": 236.0,
+"annualFrac": 0.0038,
+"trendFrac": 1.0,
+"winR2": 0.8339
+},
+"knitting": {
+"bestR2": 0.9103,
+"periodBest": 256.0,
+"annualFrac": 0.2332,
+"trendFrac": 0.9491,
+"winR2": 0.9591
+},
+"crocheting": {
+"bestR2": 0.808,
+"periodBest": 256.0,
+"annualFrac": 0.4255,
+"trendFrac": 0.1587,
+"winR2": 0.9102
+},
+"embroidery": {
+"bestR2": 0.8116,
+"periodBest": 256.0,
+"annualFrac": 0.0654,
+"trendFrac": 0.4092,
+"winR2": 0.8502
+},
+"leatherworking": {
+"bestR2": 0.8375,
+"periodBest": 256.0,
+"annualFrac": 0.0044,
+"trendFrac": 0.0765,
+"winR2": 0.967
+},
+"jewelry-making": {
+"bestR2": 0.9271,
+"periodBest": 256.0,
+"annualFrac": 0.0143,
+"trendFrac": 1.0,
+"winR2": 0.9561
+},
+"pottery": {
+"bestR2": 0.9328,
+"periodBest": 256.0,
+"annualFrac": 0.0391,
+"trendFrac": 1.0,
+"winR2": 0.9412
+},
+"blacksmithing": {
+"bestR2": 0.7985,
+"periodBest": 256.0,
+"annualFrac": 0.0027,
+"trendFrac": 0.018,
+"winR2": 0.9176
+},
+"cooking": {
+"bestR2": 0.7935,
+"periodBest": 224.0,
+"annualFrac": 0.1316,
+"trendFrac": 0.0347,
+"winR2": 0.9085
+},
+"baking": {
+"bestR2": 0.8408,
+"periodBest": 208.0,
+"annualFrac": 0.0342,
+"trendFrac": 0.7682,
+"winR2": 0.9275
+},
+"pastry": {
+"bestR2": 0.8123,
+"periodBest": 6.0,
+"annualFrac": 0.135,
+"trendFrac": 0.8052,
+"winR2": 0.8161
+},
+"grilling": {
+"bestR2": 0.9041,
+"periodBest": 6.0,
+"annualFrac": 0.8819,
+"trendFrac": 0.0148,
+"winR2": 0.929
+},
+"fermentation": {
+"bestR2": 0.6433,
+"periodBest": 256.0,
+"annualFrac": 0.4668,
+"trendFrac": 0.1983,
+"winR2": 0.7731
+},
+"canning": {
+"bestR2": 0.8626,
+"periodBest": 6.0,
+"annualFrac": 0.7633,
+"trendFrac": 0.0228,
+"winR2": 0.927
+},
+"cake-decorating": {
+"bestR2": 0.9396,
+"periodBest": 220.0,
+"annualFrac": 0.0057,
+"trendFrac": 0.5756,
+"winR2": 0.9395
+},
+"bartending": {
+"bestR2": 0.9458,
+"periodBest": 256.0,
+"annualFrac": 0.0158,
+"trendFrac": 1.0,
+"winR2": 0.9463
+},
+"mixology": {
+"bestR2": 0.4265,
+"periodBest": 156.0,
+"annualFrac": 0.0064,
+"trendFrac": 0.2299,
+"winR2": 0.8293
+},
+"barista": {
+"bestR2": 0.9729,
+"periodBest": 256.0,
+"annualFrac": 0.0032,
+"trendFrac": 1.0,
+"winR2": 0.9425
+},
+"wine-tasting": {
+"bestR2": 0.7286,
+"periodBest": 256.0,
+"annualFrac": 0.0442,
+"trendFrac": 0.3857,
+"winR2": 0.9061
+},
+"food-safety": {
+"bestR2": 0.615,
+"periodBest": 256.0,
+"annualFrac": 0.013,
+"trendFrac": 0.0122,
+"winR2": 0.7204
+},
+"catering": {
+"bestR2": 0.7784,
+"periodBest": 256.0,
+"annualFrac": 0.0124,
+"trendFrac": 0.3606,
+"winR2": 0.8543
+},
+"restaurant-management": {
+"bestR2": 0.7696,
+"periodBest": 256.0,
+"annualFrac": 0.0048,
+"trendFrac": 1.0,
+"winR2": 0.8291
+},
+"hospitality": {
+"bestR2": 0.6924,
+"periodBest": 256.0,
+"annualFrac": 0.0215,
+"trendFrac": 0.0002,
+"winR2": 0.785
+},
+"housekeeping": {
+"bestR2": 0.3582,
+"periodBest": 156.0,
+"annualFrac": 0.2183,
+"trendFrac": 0.28,
+"winR2": 0.1654
+},
+"event-planning": {
+"bestR2": 0.9314,
+"periodBest": 256.0,
+"annualFrac": 0.0038,
+"trendFrac": 0.6274,
+"winR2": 0.9553
+},
+"wedding-planning": {
+"bestR2": 0.9389,
+"periodBest": 256.0,
+"annualFrac": 0.0024,
+"trendFrac": 0.9122,
+"winR2": 0.9614
+},
+"music-production": {
+"bestR2": 0.9121,
+"periodBest": 256.0,
+"annualFrac": 0.0101,
+"trendFrac": 1.0,
+"winR2": 0.967
+},
+"music-theory": {
+"bestR2": 0.9172,
+"periodBest": 256.0,
+"annualFrac": 0.0245,
+"trendFrac": 1.0,
+"winR2": 0.9368
+},
+"songwriting": {
+"bestR2": 0.9444,
+"periodBest": 256.0,
+"annualFrac": 0.0024,
+"trendFrac": 1.0,
+"winR2": 0.974
+},
+"guitar": {
+"bestR2": 0.9717,
+"periodBest": 208.0,
+"annualFrac": 0.0051,
+"trendFrac": 0.8094,
+"winR2": 0.9882
+},
+"piano": {
+"bestR2": 0.7577,
+"periodBest": 180.0,
+"annualFrac": 0.2029,
+"trendFrac": 0.6157,
+"winR2": 0.8584
+},
+"violin": {
+"bestR2": 0.8667,
+"periodBest": 152.0,
+"annualFrac": 0.0598,
+"trendFrac": 0.7332,
+"winR2": 0.8666
+},
+"drums": {
+"bestR2": 0.9647,
+"periodBest": 256.0,
+"annualFrac": 0.0051,
+"trendFrac": 0.8061,
+"winR2": 0.9898
+},
+"bass-guitar": {
+"bestR2": 0.9715,
+"periodBest": 256.0,
+"annualFrac": 0.0068,
+"trendFrac": 1.0,
+"winR2": 0.9893
+},
+"ukulele": {
+"bestR2": 0.8808,
+"periodBest": 220.0,
+"annualFrac": 0.0022,
+"trendFrac": 0.3001,
+"winR2": 0.9752
+},
+"singing": {
+"bestR2": 0.5441,
+"periodBest": 240.0,
+"annualFrac": 0.3077,
+"trendFrac": 0.0249,
+"winR2": 0.4761
+},
+"djing": {
+"bestR2": 0.9112,
+"periodBest": 148.0,
+"annualFrac": 0.0006,
+"trendFrac": 1.0,
+"winR2": 0.9209
+},
+"ableton": {
+"bestR2": 0.8592,
+"periodBest": 248.0,
+"annualFrac": 0.05,
+"trendFrac": 0.4816,
+"winR2": 0.9262
+},
+"fl-studio": {
+"bestR2": 0.9379,
+"periodBest": 220.0,
+"annualFrac": 0.0104,
+"trendFrac": 0.3606,
+"winR2": 0.956
+},
+"logic-pro": {
+"bestR2": 0.4985,
+"periodBest": 176.0,
+"annualFrac": 0.0934,
+"trendFrac": 0.0656,
+"winR2": 0.7999
+},
+"audio-engineering": {
+"bestR2": 0.9256,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9741
+},
+"sound-design": {
+"bestR2": 0.9102,
+"periodBest": 256.0,
+"annualFrac": 0.0144,
+"trendFrac": 1.0,
+"winR2": 0.9296
+},
+"audio-mixing": {
+"bestR2": 0.9556,
+"periodBest": 256.0,
+"annualFrac": 0.0028,
+"trendFrac": 1.0,
+"winR2": 0.9803
+},
+"mastering": {
+"bestR2": 0.7036,
+"periodBest": 176.0,
+"annualFrac": 0.1016,
+"trendFrac": 0.2817,
+"winR2": 0.746
+},
+"acting": {
+"bestR2": 0.7589,
+"periodBest": 256.0,
+"annualFrac": 0.03,
+"trendFrac": 0.0148,
+"winR2": 0.7878
+},
+"screenwriting": {
+"bestR2": 0.9402,
+"periodBest": 256.0,
+"annualFrac": 0.0044,
+"trendFrac": 1.0,
+"winR2": 0.9823
+},
+"filmmaking": {
+"bestR2": 0.0718,
+"periodBest": 248.0,
+"annualFrac": 0.0649,
+"trendFrac": 0.7153,
+"winR2": -0.9054
+},
+"chess": {
+"bestR2": 0.8284,
+"periodBest": 256.0,
+"annualFrac": 0.0396,
+"trendFrac": 0.0007,
+"winR2": 0.9281
+},
+"poker": {
+"bestR2": 0.9373,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 0.1972,
+"winR2": 0.975
+},
+"democracy": {
+"bestR2": 0.5017,
+"periodBest": 256.0,
+"annualFrac": 0.1915,
+"trendFrac": 0.6685,
+"winR2": 0.5549
+},
+"development": {
+"bestR2": 0.9426,
+"periodBest": 256.0,
+"annualFrac": 0.0038,
+"trendFrac": 1.0,
+"winR2": 0.9701
+},
+"constitution": {
+"bestR2": 0.6285,
+"periodBest": 256.0,
+"annualFrac": 0.1156,
+"trendFrac": 1.0,
+"winR2": 0.8262
+},
+"awareness": {
+"bestR2": 0.6803,
+"periodBest": 6.0,
+"annualFrac": 0.0404,
+"trendFrac": 0.3298,
+"winR2": 0.806
+},
+"destiny": {
+"bestR2": 0.441,
+"periodBest": 164.0,
+"annualFrac": 0.0929,
+"trendFrac": 0.2501,
+"winR2": 0.3552
+},
+"ethics": {
+"bestR2": 0.8097,
+"periodBest": 256.0,
+"annualFrac": 0.0519,
+"trendFrac": 1.0,
+"winR2": 0.7961
+},
+"psychology": {
+"bestR2": 0.7456,
+"periodBest": 256.0,
+"annualFrac": 0.0895,
+"trendFrac": 1.0,
+"winR2": 0.7975
+},
+"adventure": {
+"bestR2": 0.7101,
+"periodBest": 220.0,
+"annualFrac": 0.2737,
+"trendFrac": 0.262,
+"winR2": 0.8527
+},
+"religion": {
+"bestR2": 0.7327,
+"periodBest": 256.0,
+"annualFrac": 0.0892,
+"trendFrac": 0.8523,
+"winR2": 0.7829
+},
+"art": {
+"bestR2": 0.9576,
+"periodBest": 256.0,
+"annualFrac": 0.0073,
+"trendFrac": 1.0,
+"winR2": 0.9807
+},
+"science": {
+"bestR2": 0.8245,
+"periodBest": 256.0,
+"annualFrac": 0.0436,
+"trendFrac": 0.8708,
+"winR2": 0.8652
+},
+"energy": {
+"bestR2": 0.5785,
+"periodBest": 256.0,
+"annualFrac": 0.1227,
+"trendFrac": 0.343,
+"winR2": 0.6272
+},
+"spectrum": {
+"bestR2": 0.9497,
+"periodBest": 184.0,
+"annualFrac": 0.0016,
+"trendFrac": 0.4137,
+"winR2": 0.9707
+},
+"romance": {
+"bestR2": 0.2462,
+"periodBest": 51.0,
+"annualFrac": 0.0428,
+"trendFrac": 0.2393,
+"winR2": 0.9218
+},
+"outdoor": {
+"bestR2": 0.8086,
+"periodBest": 208.0,
+"annualFrac": 0.3104,
+"trendFrac": 0.3075,
+"winR2": 0.9569
+},
+"movement": {
+"bestR2": 0.6121,
+"periodBest": 256.0,
+"annualFrac": 0.2991,
+"trendFrac": 0.0002,
+"winR2": 0.8045
+},
+"cuisine": {
+"bestR2": 0.8285,
+"periodBest": 236.0,
+"annualFrac": 0.1513,
+"trendFrac": 0.1824,
+"winR2": 0.9433
+},
+"football": {
+"bestR2": 0.8316,
+"periodBest": 6.0,
+"annualFrac": 0.8972,
+"trendFrac": 0.0012,
+"winR2": 0.8173
+},
+"soccer": {
+"bestR2": 0.6192,
+"periodBest": 136.0,
+"annualFrac": 0.2319,
+"trendFrac": 0.504,
+"winR2": 0.6421
+},
+"basketball": {
+"bestR2": 0.7337,
+"periodBest": 6.0,
+"annualFrac": 0.7845,
+"trendFrac": 0.053,
+"winR2": 0.6767
+},
+"nba": {
+"bestR2": 0.6393,
+"periodBest": 6.0,
+"annualFrac": 0.2964,
+"trendFrac": 0.5118,
+"winR2": 0.8334
+},
+"nfl": {
+"bestR2": 0.7182,
+"periodBest": 6.0,
+"annualFrac": 0.7743,
+"trendFrac": 0.1675,
+"winR2": 0.7358
+},
+"world-cup": {
+"bestR2": 0.1498,
+"periodBest": 51.0,
+"annualFrac": 0.1343,
+"trendFrac": 0.2105,
+"winR2": 0.3874
+},
+"olympics": {
+"bestR2": 0.1556,
+"periodBest": 6.0,
+"annualFrac": 0.216,
+"trendFrac": 0.0043,
+"winR2": 0.208
+},
+"tennis": {
+"bestR2": 0.5978,
+"periodBest": 256.0,
+"annualFrac": 0.6107,
+"trendFrac": 0.0163,
+"winR2": 0.7383
+},
+"cricket": {
+"bestR2": 0.3593,
+"periodBest": 51.0,
+"annualFrac": 0.0275,
+"trendFrac": 0.7581,
+"winR2": 0.4919
+},
+"baseball": {
+"bestR2": 0.8463,
+"periodBest": 256.0,
+"annualFrac": 0.7709,
+"trendFrac": 0.1197,
+"winR2": 0.8817
+},
+"golf": {
+"bestR2": 0.9169,
+"periodBest": 256.0,
+"annualFrac": 0.4237,
+"trendFrac": 0.5009,
+"winR2": 0.9369
+},
+"boxing-t": {
+"bestR2": 0.4005,
+"periodBest": 6.0,
+"annualFrac": 0.3373,
+"trendFrac": 0.0068,
+"winR2": 0.391
+},
+"mma": {
+"bestR2": 0.8792,
+"periodBest": 228.0,
+"annualFrac": 0.0015,
+"trendFrac": 0.5443,
+"winR2": 0.7897
+},
+"ufc": {
+"bestR2": 0.6818,
+"periodBest": 212.0,
+"annualFrac": 0.0016,
+"trendFrac": 1.0,
+"winR2": 0.6668
+},
+"formula-1": {
+"bestR2": 0.4394,
+"periodBest": 6.0,
+"annualFrac": 0.4633,
+"trendFrac": 0.0665,
+"winR2": 0.4608
+},
+"premier-league": {
+"bestR2": 0.6688,
+"periodBest": 256.0,
+"annualFrac": 0.0666,
+"trendFrac": 0.5768,
+"winR2": 0.631
+},
+"champions-league": {
+"bestR2": 0.6396,
+"periodBest": 6.0,
+"annualFrac": 0.0424,
+"trendFrac": 0.6554,
+"winR2": 0.5013
+},
+"super-bowl": {
+"bestR2": 0.5858,
+"periodBest": 6.0,
+"annualFrac": 0.4423,
+"trendFrac": 0.0356,
+"winR2": 0.5302
+},
+"marathon": {
+"bestR2": 0.6,
+"periodBest": 6.0,
+"annualFrac": 0.0172,
+"trendFrac": 0.4305,
+"winR2": 0.5477
+},
+"gym": {
+"bestR2": 0.8889,
+"periodBest": 136.0,
+"annualFrac": 0.0033,
+"trendFrac": 1.0,
+"winR2": 0.9112
+},
+"yoga-t": {
+"bestR2": 0.8707,
+"periodBest": 200.0,
+"annualFrac": 0.0044,
+"trendFrac": 0.1363,
+"winR2": 0.8878
+},
+"workout": {
+"bestR2": 0.9007,
+"periodBest": 228.0,
+"annualFrac": 0.0466,
+"trendFrac": 0.41,
+"winR2": 0.8907
+},
+"bodybuilding": {
+"bestR2": 0.9727,
+"periodBest": 228.0,
+"annualFrac": 0.006,
+"trendFrac": 0.4994,
+"winR2": 0.9778
+},
+"swimming-t": {
+"bestR2": 0.6323,
+"periodBest": 6.0,
+"annualFrac": 0.7348,
+"trendFrac": 0.0405,
+"winR2": 0.7682
+},
+"cycling": {
+"bestR2": 0.7661,
+"periodBest": 6.0,
+"annualFrac": 0.5064,
+"trendFrac": 0.3993,
+"winR2": 0.8356
+},
+"skiing": {
+"bestR2": 0.7467,
+"periodBest": 256.0,
+"annualFrac": 0.5303,
+"trendFrac": 0.5141,
+"winR2": 0.9571
+},
+"surfing": {
+"bestR2": 0.7417,
+"periodBest": 256.0,
+"annualFrac": 0.0349,
+"trendFrac": 0.8726,
+"winR2": 0.9781
+},
+"wrestling": {
+"bestR2": 0.9138,
+"periodBest": 256.0,
+"annualFrac": 0.1483,
+"trendFrac": 0.8092,
+"winR2": 0.9635
+},
+"hockey": {
+"bestR2": 0.6678,
+"periodBest": 256.0,
+"annualFrac": 0.3942,
+"trendFrac": 0.3458,
+"winR2": 0.7928
+},
+"rugby": {
+"bestR2": 0.2646,
+"periodBest": 48.0,
+"annualFrac": 0.1519,
+"trendFrac": 0.2543,
+"winR2": 0.3174
+},
+"badminton": {
+"bestR2": 0.2833,
+"periodBest": 256.0,
+"annualFrac": 0.1094,
+"trendFrac": 0.3054,
+"winR2": 0.3478
+},
+"table-tennis": {
+"bestR2": 0.6136,
+"periodBest": 256.0,
+"annualFrac": 0.0499,
+"trendFrac": 0.4041,
+"winR2": 0.4353
+},
+"volleyball": {
+"bestR2": 0.4532,
+"periodBest": 256.0,
+"annualFrac": 0.4572,
+"trendFrac": 0.0599,
+"winR2": 0.613
+},
+"athletics": {
+"bestR2": 0.7039,
+"periodBest": 256.0,
+"annualFrac": 0.0286,
+"trendFrac": 0.2159,
+"winR2": 0.8769
+},
+"nhl": {
+"bestR2": 0.5714,
+"periodBest": 6.0,
+"annualFrac": 0.5266,
+"trendFrac": 0.1641,
+"winR2": 0.595
+},
+"mlb": {
+"bestR2": 0.7318,
+"periodBest": 6.0,
+"annualFrac": 0.6027,
+"trendFrac": 0.2874,
+"winR2": 0.7891
+},
+"nba-scores": {
+"bestR2": 0.5297,
+"periodBest": 256.0,
+"annualFrac": 0.2043,
+"trendFrac": 0.1997,
+"winR2": 0.4509
+},
+"messi": {
+"bestR2": 0.4104,
+"periodBest": 216.0,
+"annualFrac": 0.0229,
+"trendFrac": 0.8101,
+"winR2": 0.4247
+},
+"ronaldo": {
+"bestR2": 0.3076,
+"periodBest": 48.0,
+"annualFrac": 0.1375,
+"trendFrac": 0.5384,
+"winR2": 0.6544
+},
+"lebron-james": {
+"bestR2": 0.3439,
+"periodBest": 208.0,
+"annualFrac": 0.1647,
+"trendFrac": 0.3918,
+"winR2": 0.3233
+},
+"serena-williams": {
+"bestR2": 0.1915,
+"periodBest": 196.0,
+"annualFrac": 0.394,
+"trendFrac": 0.0175,
+"winR2": 0.2964
+},
+"tiger-woods": {
+"bestR2": 0.1311,
+"periodBest": 100.0,
+"annualFrac": 0.0479,
+"trendFrac": 0.3434,
+"winR2": 0.4375
+},
+"michael-jordan": {
+"bestR2": 0.3564,
+"periodBest": 200.0,
+"annualFrac": 0.3799,
+"trendFrac": 0.2413,
+"winR2": 0.3955
+},
+"usain-bolt": {
+"bestR2": 0.1602,
+"periodBest": 6.0,
+"annualFrac": 0.4218,
+"trendFrac": 0.0479,
+"winR2": 0.5687
+},
+"roger-federer": {
+"bestR2": 0.3032,
+"periodBest": 240.0,
+"annualFrac": 0.2369,
+"trendFrac": 0.0067,
+"winR2": 0.1593
+},
+"nadal": {
+"bestR2": 0.2065,
+"periodBest": 6.0,
+"annualFrac": 0.3099,
+"trendFrac": 0.2651,
+"winR2": 0.236
+},
+"djokovic": {
+"bestR2": 0.4071,
+"periodBest": 6.0,
+"annualFrac": 0.1156,
+"trendFrac": 0.6992,
+"winR2": 0.4393
+},
+"mbappe": {
+"bestR2": 0.3772,
+"periodBest": 220.0,
+"annualFrac": 0.0079,
+"trendFrac": 0.7484,
+"winR2": 0.4102
+},
+"neymar": {
+"bestR2": 0.4211,
+"periodBest": 224.0,
+"annualFrac": 0.0866,
+"trendFrac": 0.3606,
+"winR2": 0.4432
+},
+"la-liga": {
+"bestR2": 0.6865,
+"periodBest": 224.0,
+"annualFrac": 0.0491,
+"trendFrac": 0.8179,
+"winR2": 0.8379
+},
+"serie-a": {
+"bestR2": 0.744,
+"periodBest": 256.0,
+"annualFrac": 0.0392,
+"trendFrac": 0.3264,
+"winR2": 0.5887
+},
+"bundesliga": {
+"bestR2": 0.6117,
+"periodBest": 6.0,
+"annualFrac": 0.0697,
+"trendFrac": 0.7386,
+"winR2": 0.4536
+},
+"europa-league": {
+"bestR2": 0.5748,
+"periodBest": 6.0,
+"annualFrac": 0.0387,
+"trendFrac": 0.7802,
+"winR2": 0.6325
+},
+"fifa": {
+"bestR2": 0.1826,
+"periodBest": 48.0,
+"annualFrac": 0.1848,
+"trendFrac": 0.006,
+"winR2": 0.3632
+},
+"wimbledon": {
+"bestR2": 0.4548,
+"periodBest": 6.0,
+"annualFrac": 0.4604,
+"trendFrac": 0.0048,
+"winR2": 0.6281
+},
+"us-open": {
+"bestR2": 0.5953,
+"periodBest": 6.0,
+"annualFrac": 0.4937,
+"trendFrac": 0.0149,
+"winR2": 0.5957
+},
+"masters": {
+"bestR2": 0.4837,
+"periodBest": 6.0,
+"annualFrac": 0.2904,
+"trendFrac": 0.0015,
+"winR2": 0.5228
+},
+"crossfit-t": {
+"bestR2": 0.9174,
+"periodBest": 224.0,
+"annualFrac": 0.005,
+"trendFrac": 0.1343,
+"winR2": 0.9267
+},
+"pilates-t": {
+"bestR2": 0.6915,
+"periodBest": 256.0,
+"annualFrac": 0.012,
+"trendFrac": 0.9192,
+"winR2": 0.5605
+},
+"hiit": {
+"bestR2": 0.908,
+"periodBest": 256.0,
+"annualFrac": 0.0163,
+"trendFrac": 0.1605,
+"winR2": 0.9248
+},
+"cardio": {
+"bestR2": 0.8134,
+"periodBest": 200.0,
+"annualFrac": 0.0736,
+"trendFrac": 0.724,
+"winR2": 0.8756
+},
+"running-t": {
+"bestR2": 0.9213,
+"periodBest": 256.0,
+"annualFrac": 0.0064,
+"trendFrac": 0.5809,
+"winR2": 0.9595
+},
+"weightlifting-t": {
+"bestR2": 0.2819,
+"periodBest": 152.0,
+"annualFrac": 0.0001,
+"trendFrac": 0.4124,
+"winR2": 0.7402
+},
+"deadlift": {
+"bestR2": 0.9699,
+"periodBest": 192.0,
+"annualFrac": 0.0065,
+"trendFrac": 0.8651,
+"winR2": 0.9785
+},
+"squat": {
+"bestR2": 0.9404,
+"periodBest": 156.0,
+"annualFrac": 0.0148,
+"trendFrac": 0.9528,
+"winR2": 0.9773
+},
+"bench-press": {
+"bestR2": 0.9316,
+"periodBest": 116.0,
+"annualFrac": 0.0456,
+"trendFrac": 0.8017,
+"winR2": 0.947
+},
+"ironman": {
+"bestR2": 0.4638,
+"periodBest": 224.0,
+"annualFrac": 0.4175,
+"trendFrac": 0.0341,
+"winR2": 0.5953
+},
+"triathlon": {
+"bestR2": 0.8656,
+"periodBest": 6.0,
+"annualFrac": 0.417,
+"trendFrac": 0.5314,
+"winR2": 0.9565
+},
+"karate": {
+"bestR2": 0.4218,
+"periodBest": 124.0,
+"annualFrac": 0.0137,
+"trendFrac": 0.8199,
+"winR2": 0.8568
+},
+"judo": {
+"bestR2": 0.5493,
+"periodBest": 256.0,
+"annualFrac": 0.0391,
+"trendFrac": 0.3705,
+"winR2": 0.8897
+},
+"taekwondo": {
+"bestR2": 0.4506,
+"periodBest": 156.0,
+"annualFrac": 0.0879,
+"trendFrac": 0.8372,
+"winR2": 0.2907
+},
+"fencing": {
+"bestR2": 0.7305,
+"periodBest": 256.0,
+"annualFrac": 0.4686,
+"trendFrac": 0.5427,
+"winR2": 0.6824
+},
+"archery": {
+"bestR2": 0.1393,
+"periodBest": 132.0,
+"annualFrac": 0.4046,
+"trendFrac": 0.4089,
+"winR2": 0.0641
+},
+"rowing": {
+"bestR2": 0.7327,
+"periodBest": 256.0,
+"annualFrac": 0.0976,
+"trendFrac": 1.0,
+"winR2": 0.6983
+},
+"sprinting": {
+"bestR2": 0.5949,
+"periodBest": 256.0,
+"annualFrac": 0.2781,
+"trendFrac": 0.0069,
+"winR2": 0.7709
+},
+"gymnastics": {
+"bestR2": 0.1275,
+"periodBest": 6.0,
+"annualFrac": 0.3031,
+"trendFrac": 0.0114,
+"winR2": 0.2636
+},
+"figure-skating": {
+"bestR2": 0.2887,
+"periodBest": 48.0,
+"annualFrac": 0.4682,
+"trendFrac": 0.1609,
+"winR2": 0.1618
+},
+"snowboarding": {
+"bestR2": 0.771,
+"periodBest": 256.0,
+"annualFrac": 0.3869,
+"trendFrac": 0.5194,
+"winR2": 0.8852
+},
+"skateboarding": {
+"bestR2": 0.5018,
+"periodBest": 256.0,
+"annualFrac": 0.0124,
+"trendFrac": 0.8891,
+"winR2": 0.972
+},
+"motogp": {
+"bestR2": 0.5137,
+"periodBest": 196.0,
+"annualFrac": 0.3488,
+"trendFrac": 0.2127,
+"winR2": 0.6582
+},
+"nascar": {
+"bestR2": 0.6877,
+"periodBest": 6.0,
+"annualFrac": 0.2298,
+"trendFrac": 0.5153,
+"winR2": 0.8614
+},
+"darts": {
+"bestR2": 0.6317,
+"periodBest": 6.0,
+"annualFrac": 0.5419,
+"trendFrac": 0.1603,
+"winR2": 0.5459
+},
+"snooker": {
+"bestR2": 0.4332,
+"periodBest": 6.0,
+"annualFrac": 0.529,
+"trendFrac": 0.0463,
+"winR2": 0.5863
+},
+"swimming-pool": {
+"bestR2": 0.8658,
+"periodBest": 6.0,
+"annualFrac": 0.8859,
+"trendFrac": 0.0011,
+"winR2": 0.9143
+},
+"dumbbell": {
+"bestR2": 0.9282,
+"periodBest": 196.0,
+"annualFrac": 0.0113,
+"trendFrac": 0.9564,
+"winR2": 0.9713
+},
+"finance": {
+"bestR2": 0.5975,
+"periodBest": 148.0,
+"annualFrac": 0.0112,
+"trendFrac": 0.1941,
+"winR2": 0.7379
+},
+"stock-market": {
+"bestR2": 0.4009,
+"periodBest": 248.0,
+"annualFrac": 0.0754,
+"trendFrac": 0.3754,
+"winR2": 0.8591
+},
+"bitcoin-t": {
+"bestR2": 0.611,
+"periodBest": 256.0,
+"annualFrac": 0.0195,
+"trendFrac": 0.3063,
+"winR2": 0.9699
+},
+"cryptocurrency-t": {
+"bestR2": 0.4093,
+"periodBest": 256.0,
+"annualFrac": 0.0208,
+"trendFrac": 0.0205,
+"winR2": 0.8199
+},
+"ethereum": {
+"bestR2": 0.514,
+"periodBest": 256.0,
+"annualFrac": 0.0062,
+"trendFrac": 0.0838,
+"winR2": 0.8772
+},
+"inflation": {
+"bestR2": 0.6952,
+"periodBest": 216.0,
+"annualFrac": 0.0236,
+"trendFrac": 0.3524,
+"winR2": 0.9451
+},
+"interest-rates": {
+"bestR2": 0.6347,
+"periodBest": 256.0,
+"annualFrac": 0.0216,
+"trendFrac": 0.2841,
+"winR2": 0.8415
+},
+"mortgage": {
+"bestR2": 0.8761,
+"periodBest": 256.0,
+"annualFrac": 0.0303,
+"trendFrac": 0.8122,
+"winR2": 0.9087
+},
+"recession": {
+"bestR2": 0.3488,
+"periodBest": 156.0,
+"annualFrac": 0.0122,
+"trendFrac": 0.0017,
+"winR2": 0.808
+},
+"stocks": {
+"bestR2": 0.5499,
+"periodBest": 196.0,
+"annualFrac": 0.1078,
+"trendFrac": 0.2218,
+"winR2": 0.7832
+},
+"forex": {
+"bestR2": 0.7431,
+"periodBest": 256.0,
+"annualFrac": 0.0122,
+"trendFrac": 1.0,
+"winR2": 0.9407
+},
+"gold-price": {
+"bestR2": 0.8188,
+"periodBest": 192.0,
+"annualFrac": 0.0001,
+"trendFrac": 0.992,
+"winR2": 0.8387
+},
+"nasdaq": {
+"bestR2": 0.8632,
+"periodBest": 232.0,
+"annualFrac": 0.0077,
+"trendFrac": 0.3539,
+"winR2": 0.874
+},
+"dow-jones": {
+"bestR2": 0.6915,
+"periodBest": 256.0,
+"annualFrac": 0.005,
+"trendFrac": 0.148,
+"winR2": 0.6193
+},
+"sp-500": {
+"bestR2": 0.7484,
+"periodBest": 256.0,
+"annualFrac": 0.0123,
+"trendFrac": 0.9619,
+"winR2": 0.9179
+},
+"index-funds": {
+"bestR2": 0.7771,
+"periodBest": 256.0,
+"annualFrac": 0.0395,
+"trendFrac": 0.0013,
+"winR2": 0.9008
+},
+"etf": {
+"bestR2": 0.8361,
+"periodBest": 256.0,
+"annualFrac": 0.0221,
+"trendFrac": 1.0,
+"winR2": 0.9364
+},
+"dividend": {
+"bestR2": 0.9362,
+"periodBest": 216.0,
+"annualFrac": 0.0254,
+"trendFrac": 0.7664,
+"winR2": 0.9563
+},
+"roth-ira": {
+"bestR2": 0.7897,
+"periodBest": 256.0,
+"annualFrac": 0.3819,
+"trendFrac": 0.049,
+"winR2": 0.8597
+},
+"credit-score": {
+"bestR2": 0.921,
+"periodBest": 256.0,
+"annualFrac": 0.0217,
+"trendFrac": 0.5569,
+"winR2": 0.9433
+},
+"compound-interest": {
+"bestR2": 0.9561,
+"periodBest": 216.0,
+"annualFrac": 0.0182,
+"trendFrac": 0.6025,
+"winR2": 0.9728
+},
+"day-trading": {
+"bestR2": 0.5251,
+"periodBest": 244.0,
+"annualFrac": 0.1946,
+"trendFrac": 0.0153,
+"winR2": 0.6614
+},
+"options-trading-t": {
+"bestR2": 0.6297,
+"periodBest": 256.0,
+"annualFrac": 0.0178,
+"trendFrac": 0.11,
+"winR2": 0.9291
+},
+"real-estate-t": {
+"bestR2": 0.9733,
+"periodBest": 256.0,
+"annualFrac": 0.0108,
+"trendFrac": 1.0,
+"winR2": 0.9837
+},
+"hedge-fund": {
+"bestR2": 0.9052,
+"periodBest": 244.0,
+"annualFrac": 0.0009,
+"trendFrac": 0.7705,
+"winR2": 0.9544
+},
+"bonds": {
+"bestR2": 0.8149,
+"periodBest": 256.0,
+"annualFrac": 0.0328,
+"trendFrac": 0.7963,
+"winR2": 0.9037
+},
+"gdp": {
+"bestR2": 0.6819,
+"periodBest": 256.0,
+"annualFrac": 0.0942,
+"trendFrac": 0.3118,
+"winR2": 0.8732
+},
+"federal-reserve": {
+"bestR2": 0.8671,
+"periodBest": 256.0,
+"annualFrac": 0.0123,
+"trendFrac": 1.0,
+"winR2": 0.943
+},
+"tax-return": {
+"bestR2": 0.8943,
+"periodBest": 6.0,
+"annualFrac": 0.6116,
+"trendFrac": 0.055,
+"winR2": 0.8113
+},
+"personal-finance": {
+"bestR2": 0.0789,
+"periodBest": 208.0,
+"annualFrac": 0.0534,
+"trendFrac": 0.2978,
+"winR2": 0.0544
+},
+"budgeting-t": {
+"bestR2": 0.7861,
+"periodBest": 256.0,
+"annualFrac": 0.0539,
+"trendFrac": 0.7011,
+"winR2": 0.8228
+},
+"mutual-funds": {
+"bestR2": 0.8637,
+"periodBest": 256.0,
+"annualFrac": 0.0345,
+"trendFrac": 0.7259,
+"winR2": 0.9742
+},
+"stock-price": {
+"bestR2": 0.8939,
+"periodBest": 184.0,
+"annualFrac": 0.0063,
+"trendFrac": 0.9024,
+"winR2": 0.984
+},
+"crypto": {
+"bestR2": 0.6668,
+"periodBest": 208.0,
+"annualFrac": 0.013,
+"trendFrac": 0.7122,
+"winR2": 0.9412
+},
+"dogecoin": {
+"bestR2": 0.1991,
+"periodBest": 96.0,
+"annualFrac": 0.064,
+"trendFrac": 0.5802,
+"winR2": -0.5139
+},
+"nft": {
+"bestR2": 0.3474,
+"periodBest": 192.0,
+"annualFrac": 0.0347,
+"trendFrac": 0.5101,
+"winR2": 0.9372
+},
+"stock-exchange": {
+"bestR2": 0.9563,
+"periodBest": 256.0,
+"annualFrac": 0.0021,
+"trendFrac": 0.8182,
+"winR2": 0.9742
+},
+"nyse": {
+"bestR2": 0.6377,
+"periodBest": 252.0,
+"annualFrac": 0.0486,
+"trendFrac": 0.2401,
+"winR2": 0.8111
+},
+"ipo": {
+"bestR2": 0.4958,
+"periodBest": 256.0,
+"annualFrac": 0.0429,
+"trendFrac": 0.3056,
+"winR2": 0.4917
+},
+"capital-gains": {
+"bestR2": 0.7277,
+"periodBest": 256.0,
+"annualFrac": 0.0845,
+"trendFrac": 0.0006,
+"winR2": 0.9363
+},
+"mortgage-rates": {
+"bestR2": 0.3259,
+"periodBest": 216.0,
+"annualFrac": 0.0723,
+"trendFrac": 0.0201,
+"winR2": 0.7257
+},
+"refinance": {
+"bestR2": 0.34,
+"periodBest": 144.0,
+"annualFrac": 0.0334,
+"trendFrac": 0.0087,
+"winR2": 0.8681
+},
+"home-loan": {
+"bestR2": 0.8283,
+"periodBest": 180.0,
+"annualFrac": 0.0372,
+"trendFrac": 0.6453,
+"winR2": 0.9204
+},
+"car-loan": {
+"bestR2": 0.9398,
+"periodBest": 160.0,
+"annualFrac": 0.025,
+"trendFrac": 1.0,
+"winR2": 0.9354
+},
+"student-loans": {
+"bestR2": 0.6975,
+"periodBest": 6.0,
+"annualFrac": 0.1071,
+"trendFrac": 0.758,
+"winR2": 0.8658
+},
+"debt-consolidation": {
+"bestR2": 0.8917,
+"periodBest": 256.0,
+"annualFrac": 0.0081,
+"trendFrac": 0.3425,
+"winR2": 0.9697
+},
+"credit-card": {
+"bestR2": 0.9367,
+"periodBest": 188.0,
+"annualFrac": 0.0044,
+"trendFrac": 0.7919,
+"winR2": 0.9648
+},
+"debit-card": {
+"bestR2": 0.9828,
+"periodBest": 212.0,
+"annualFrac": 0.002,
+"trendFrac": 0.857,
+"winR2": 0.991
+},
+"net-worth": {
+"bestR2": 0.9742,
+"periodBest": 184.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.8971,
+"winR2": 0.993
+},
+"savings-account": {
+"bestR2": 0.9554,
+"periodBest": 256.0,
+"annualFrac": 0.0072,
+"trendFrac": 0.9698,
+"winR2": 0.9706
+},
+"high-yield": {
+"bestR2": 0.9129,
+"periodBest": 256.0,
+"annualFrac": 0.0114,
+"trendFrac": 1.0,
+"winR2": 0.9566
+},
+"money-market": {
+"bestR2": 0.6832,
+"periodBest": 228.0,
+"annualFrac": 0.02,
+"trendFrac": 0.1126,
+"winR2": 0.8375
+},
+"treasury-bonds": {
+"bestR2": 0.6111,
+"periodBest": 256.0,
+"annualFrac": 0.0198,
+"trendFrac": 0.1476,
+"winR2": 0.7502
+},
+"municipal-bonds": {
+"bestR2": 0.7532,
+"periodBest": 188.0,
+"annualFrac": 0.0302,
+"trendFrac": 0.8438,
+"winR2": 0.9046
+},
+"yield-curve": {
+"bestR2": 0.5298,
+"periodBest": 256.0,
+"annualFrac": 0.0056,
+"trendFrac": 0.6822,
+"winR2": 0.7294
+},
+"stock-broker": {
+"bestR2": 0.8119,
+"periodBest": 236.0,
+"annualFrac": 0.0236,
+"trendFrac": 0.9934,
+"winR2": 0.9207
+},
+"robinhood": {
+"bestR2": 0.5096,
+"periodBest": 180.0,
+"annualFrac": 0.0262,
+"trendFrac": 0.7792,
+"winR2": 0.5898
+},
+"coinbase": {
+"bestR2": 0.4879,
+"periodBest": 256.0,
+"annualFrac": 0.0255,
+"trendFrac": 0.1886,
+"winR2": 0.7302
+},
+"trading": {
+"bestR2": 0.8981,
+"periodBest": 256.0,
+"annualFrac": 0.013,
+"trendFrac": 0.1051,
+"winR2": 0.9379
+},
+"investing-t": {
+"bestR2": 0.9413,
+"periodBest": 188.0,
+"annualFrac": 0.0041,
+"trendFrac": 0.5875,
+"winR2": 0.9859
+},
+"portfolio": {
+"bestR2": 0.8064,
+"periodBest": 256.0,
+"annualFrac": 0.0744,
+"trendFrac": 0.0823,
+"winR2": 0.8032
+},
+"asset-allocation": {
+"bestR2": 0.9473,
+"periodBest": 256.0,
+"annualFrac": 0.0078,
+"trendFrac": 0.8498,
+"winR2": 0.9746
+},
+"retirement": {
+"bestR2": 0.7779,
+"periodBest": 256.0,
+"annualFrac": 0.0937,
+"trendFrac": 0.1098,
+"winR2": 0.8463
+},
+"pension": {
+"bestR2": 0.7436,
+"periodBest": 256.0,
+"annualFrac": 0.0674,
+"trendFrac": 0.1946,
+"winR2": 0.651
+},
+"annuity": {
+"bestR2": 0.8079,
+"periodBest": 256.0,
+"annualFrac": 0.0376,
+"trendFrac": 0.4721,
+"winR2": 0.8909
+},
+"social-security": {
+"bestR2": 0.6878,
+"periodBest": 256.0,
+"annualFrac": 0.0399,
+"trendFrac": 0.5633,
+"winR2": 0.8015
+},
+"estate-planning": {
+"bestR2": 0.7826,
+"periodBest": 256.0,
+"annualFrac": 0.0098,
+"trendFrac": 0.2521,
+"winR2": 0.9586
+},
+"life-insurance": {
+"bestR2": 0.7572,
+"periodBest": 248.0,
+"annualFrac": 0.0137,
+"trendFrac": 0.2174,
+"winR2": 0.7895
+},
+"health-insurance": {
+"bestR2": 0.6899,
+"periodBest": 256.0,
+"annualFrac": 0.0168,
+"trendFrac": 0.1088,
+"winR2": 0.8442
+},
+"exchange-rate": {
+"bestR2": 0.7144,
+"periodBest": 160.0,
+"annualFrac": 0.0387,
+"trendFrac": 0.5035,
+"winR2": 0.8731
+},
+"currency": {
+"bestR2": 0.9294,
+"periodBest": 256.0,
+"annualFrac": 0.0015,
+"trendFrac": 0.8172,
+"winR2": 0.9671
+},
+"dollar": {
+"bestR2": 0.9214,
+"periodBest": 88.0,
+"annualFrac": 0.0014,
+"trendFrac": 0.9858,
+"winR2": 0.9734
+},
+"euro": {
+"bestR2": 0.2744,
+"periodBest": 6.0,
+"annualFrac": 0.225,
+"trendFrac": 0.5052,
+"winR2": 0.0908
+},
+"inflation-rate": {
+"bestR2": 0.767,
+"periodBest": 232.0,
+"annualFrac": 0.0464,
+"trendFrac": 0.2202,
+"winR2": 0.9528
+},
+"unemployment": {
+"bestR2": 0.3959,
+"periodBest": 124.0,
+"annualFrac": 0.021,
+"trendFrac": 0.0018,
+"winR2": 0.9624
+},
+"stimulus": {
+"bestR2": 0.2879,
+"periodBest": 136.0,
+"annualFrac": 0.0519,
+"trendFrac": 0.1977,
+"winR2": -0.5162
+},
+"bull-market": {
+"bestR2": 0.7774,
+"periodBest": 240.0,
+"annualFrac": 0.0071,
+"trendFrac": 0.8524,
+"winR2": 0.8966
+},
+"bear-market": {
+"bestR2": 0.2155,
+"periodBest": 160.0,
+"annualFrac": 0.0811,
+"trendFrac": 0.3413,
+"winR2": 0.4144
+},
+"market-crash": {
+"bestR2": 0.3278,
+"periodBest": 256.0,
+"annualFrac": 0.1596,
+"trendFrac": 0.0322,
+"winR2": 0.1975
+},
+"penny-stocks": {
+"bestR2": 0.2697,
+"periodBest": 92.0,
+"annualFrac": 0.2697,
+"trendFrac": 0.218,
+"winR2": 0.7432
+},
+"blue-chip": {
+"bestR2": 0.7735,
+"periodBest": 256.0,
+"annualFrac": 0.0508,
+"trendFrac": 0.9474,
+"winR2": 0.8375
+},
+"stock-split": {
+"bestR2": 0.2984,
+"periodBest": 208.0,
+"annualFrac": 0.1064,
+"trendFrac": 0.3299,
+"winR2": 0.3783
+},
+"short-selling": {
+"bestR2": 0.1703,
+"periodBest": 148.0,
+"annualFrac": 0.0042,
+"trendFrac": 0.4265,
+"winR2": 0.2736
+},
+"margin-trading": {
+"bestR2": 0.7291,
+"periodBest": 220.0,
+"annualFrac": 0.0108,
+"trendFrac": 0.428,
+"winR2": 0.917
+},
+"futures": {
+"bestR2": 0.5368,
+"periodBest": 248.0,
+"annualFrac": 0.016,
+"trendFrac": 0.0667,
+"winR2": 0.7301
+},
+"biology": {
+"bestR2": 0.7086,
+"periodBest": 256.0,
+"annualFrac": 0.048,
+"trendFrac": 0.5223,
+"winR2": 0.7941
+},
+"chemistry": {
+"bestR2": 0.7153,
+"periodBest": 256.0,
+"annualFrac": 0.0447,
+"trendFrac": 0.4836,
+"winR2": 0.8666
+},
+"physics": {
+"bestR2": 0.7195,
+"periodBest": 256.0,
+"annualFrac": 0.067,
+"trendFrac": 0.212,
+"winR2": 0.8808
+},
+"astronomy": {
+"bestR2": 0.9466,
+"periodBest": 256.0,
+"annualFrac": 0.0118,
+"trendFrac": 1.0,
+"winR2": 0.9483
+},
+"dna": {
+"bestR2": 0.7669,
+"periodBest": 256.0,
+"annualFrac": 0.2659,
+"trendFrac": 0.7353,
+"winR2": 0.8642
+},
+"gravity": {
+"bestR2": 0.6567,
+"periodBest": 188.0,
+"annualFrac": 0.0493,
+"trendFrac": 0.1394,
+"winR2": 0.7913
+},
+"black-hole": {
+"bestR2": 0.0597,
+"periodBest": 116.0,
+"annualFrac": 0.1864,
+"trendFrac": 0.1079,
+"winR2": -0.0068
+},
+"atom": {
+"bestR2": 0.5429,
+"periodBest": 6.0,
+"annualFrac": 0.5719,
+"trendFrac": 0.0974,
+"winR2": 0.8271
+},
+"evolution": {
+"bestR2": 0.7636,
+"periodBest": 248.0,
+"annualFrac": 0.015,
+"trendFrac": 0.8033,
+"winR2": 0.8688
+},
+"photosynthesis": {
+"bestR2": 0.7862,
+"periodBest": 6.0,
+"annualFrac": 0.3603,
+"trendFrac": 0.3414,
+"winR2": 0.8351
+},
+"periodic-table": {
+"bestR2": 0.6931,
+"periodBest": 6.0,
+"annualFrac": 0.6159,
+"trendFrac": 0.0095,
+"winR2": 0.8604
+},
+"big-bang": {
+"bestR2": 0.9366,
+"periodBest": 212.0,
+"annualFrac": 0.0153,
+"trendFrac": 0.0114,
+"winR2": 0.9567
+},
+"solar-system": {
+"bestR2": 0.6751,
+"periodBest": 256.0,
+"annualFrac": 0.2299,
+"trendFrac": 0.6307,
+"winR2": 0.7414
+},
+"quantum-physics": {
+"bestR2": 0.8154,
+"periodBest": 256.0,
+"annualFrac": 0.0082,
+"trendFrac": 1.0,
+"winR2": 0.89
+},
+"relativity": {
+"bestR2": 0.8449,
+"periodBest": 256.0,
+"annualFrac": 0.0263,
+"trendFrac": 1.0,
+"winR2": 0.9186
+},
+"electricity": {
+"bestR2": 0.8476,
+"periodBest": 256.0,
+"annualFrac": 0.0048,
+"trendFrac": 0.1174,
+"winR2": 0.8725
+},
+"magnetism": {
+"bestR2": 0.7949,
+"periodBest": 256.0,
+"annualFrac": 0.1846,
+"trendFrac": 1.0,
+"winR2": 0.889
+},
+"cell": {
+"bestR2": 0.9451,
+"periodBest": 256.0,
+"annualFrac": 0.0182,
+"trendFrac": 1.0,
+"winR2": 0.9487
+},
+"genetics": {
+"bestR2": 0.9126,
+"periodBest": 256.0,
+"annualFrac": 0.0901,
+"trendFrac": 1.0,
+"winR2": 0.9299
+},
+"vaccine": {
+"bestR2": 0.3604,
+"periodBest": 132.0,
+"annualFrac": 0.0032,
+"trendFrac": 0.4193,
+"winR2": 0.9917
+},
+"virus": {
+"bestR2": 0.2426,
+"periodBest": 216.0,
+"annualFrac": 0.0725,
+"trendFrac": 0.8129,
+"winR2": 0.9078
+},
+"bacteria": {
+"bestR2": 0.6633,
+"periodBest": 256.0,
+"annualFrac": 0.0523,
+"trendFrac": 0.1285,
+"winR2": 0.7902
+},
+"ecosystem": {
+"bestR2": 0.7005,
+"periodBest": 256.0,
+"annualFrac": 0.0485,
+"trendFrac": 0.2994,
+"winR2": 0.8069
+},
+"global-warming": {
+"bestR2": 0.7309,
+"periodBest": 256.0,
+"annualFrac": 0.0525,
+"trendFrac": 0.0158,
+"winR2": 0.9783
+},
+"earthquake": {
+"bestR2": 0.0965,
+"periodBest": 160.0,
+"annualFrac": 0.1734,
+"trendFrac": 0.0085,
+"winR2": 0.1704
+},
+"volcano": {
+"bestR2": 0.103,
+"periodBest": 160.0,
+"annualFrac": 0.3954,
+"trendFrac": 0.0043,
+"winR2": 0.6904
+},
+"chemical-reaction": {
+"bestR2": 0.7553,
+"periodBest": 6.0,
+"annualFrac": 0.1402,
+"trendFrac": 0.6587,
+"winR2": 0.8584
+},
+"mass": {
+"bestR2": 0.3373,
+"periodBest": 256.0,
+"annualFrac": 0.0941,
+"trendFrac": 1.0,
+"winR2": 0.4602
+},
+"light": {
+"bestR2": 0.9329,
+"periodBest": 256.0,
+"annualFrac": 0.039,
+"trendFrac": 0.4932,
+"winR2": 0.9241
+},
+"sound": {
+"bestR2": 0.9605,
+"periodBest": 256.0,
+"annualFrac": 0.0039,
+"trendFrac": 0.9529,
+"winR2": 0.9332
+},
+"climate-change": {
+"bestR2": 0.2042,
+"periodBest": 6.0,
+"annualFrac": 0.1042,
+"trendFrac": 0.598,
+"winR2": -0.0595
+},
+"molecule": {
+"bestR2": 0.7806,
+"periodBest": 6.0,
+"annualFrac": 0.2673,
+"trendFrac": 0.552,
+"winR2": 0.843
+},
+"electron": {
+"bestR2": 0.5823,
+"periodBest": 256.0,
+"annualFrac": 0.4332,
+"trendFrac": 0.0508,
+"winR2": 0.8101
+},
+"proton": {
+"bestR2": 0.7464,
+"periodBest": 256.0,
+"annualFrac": 0.0191,
+"trendFrac": 0.8213,
+"winR2": 0.7621
+},
+"neutron": {
+"bestR2": 0.3406,
+"periodBest": 256.0,
+"annualFrac": 0.0442,
+"trendFrac": 0.3287,
+"winR2": 0.7899
+},
+"nucleus": {
+"bestR2": 0.6483,
+"periodBest": 6.0,
+"annualFrac": 0.2716,
+"trendFrac": 0.4455,
+"winR2": 0.8554
+},
+"mitosis": {
+"bestR2": 0.7255,
+"periodBest": 6.0,
+"annualFrac": 0.6032,
+"trendFrac": 0.072,
+"winR2": 0.7319
+},
+"meiosis": {
+"bestR2": 0.7577,
+"periodBest": 6.0,
+"annualFrac": 0.5291,
+"trendFrac": 0.1589,
+"winR2": 0.8347
+},
+"osmosis": {
+"bestR2": 0.5383,
+"periodBest": 256.0,
+"annualFrac": 0.2164,
+"trendFrac": 0.2736,
+"winR2": 0.7091
+},
+"diffusion": {
+"bestR2": 0.5706,
+"periodBest": 256.0,
+"annualFrac": 0.1379,
+"trendFrac": 0.4029,
+"winR2": 0.7881
+},
+"genome": {
+"bestR2": 0.9078,
+"periodBest": 256.0,
+"annualFrac": 0.0299,
+"trendFrac": 1.0,
+"winR2": 0.9749
+},
+"chromosome": {
+"bestR2": 0.7848,
+"periodBest": 256.0,
+"annualFrac": 0.3196,
+"trendFrac": 0.054,
+"winR2": 0.8501
+},
+"protein": {
+"bestR2": 0.9393,
+"periodBest": 256.0,
+"annualFrac": 0.0136,
+"trendFrac": 0.9875,
+"winR2": 0.9669
+},
+"enzyme": {
+"bestR2": 0.6652,
+"periodBest": 256.0,
+"annualFrac": 0.2217,
+"trendFrac": 0.1672,
+"winR2": 0.7973
+},
+"hormone": {
+"bestR2": 0.8821,
+"periodBest": 256.0,
+"annualFrac": 0.0595,
+"trendFrac": 0.389,
+"winR2": 0.939
+},
+"neuron": {
+"bestR2": 0.5519,
+"periodBest": 256.0,
+"annualFrac": 0.2392,
+"trendFrac": 0.0117,
+"winR2": 0.7612
+},
+"gene": {
+"bestR2": 0.5029,
+"periodBest": 256.0,
+"annualFrac": 0.0886,
+"trendFrac": 0.2521,
+"winR2": 0.8686
+},
+"rna": {
+"bestR2": 0.6533,
+"periodBest": 256.0,
+"annualFrac": 0.2586,
+"trendFrac": 0.2761,
+"winR2": 0.7915
+},
+"mutation": {
+"bestR2": 0.7368,
+"periodBest": 256.0,
+"annualFrac": 0.2337,
+"trendFrac": 0.0877,
+"winR2": 0.8828
+},
+"natural-selection": {
+"bestR2": 0.6766,
+"periodBest": 256.0,
+"annualFrac": 0.2547,
+"trendFrac": 1.0,
+"winR2": 0.8218
+},
+"food-chain": {
+"bestR2": 0.4931,
+"periodBest": 6.0,
+"annualFrac": 0.1854,
+"trendFrac": 0.0728,
+"winR2": 0.6679
+},
+"photon": {
+"bestR2": 0.8595,
+"periodBest": 184.0,
+"annualFrac": 0.0031,
+"trendFrac": 0.001,
+"winR2": 0.9854
+},
+"electromagnetism": {
+"bestR2": 0.8212,
+"periodBest": 256.0,
+"annualFrac": 0.0787,
+"trendFrac": 1.0,
+"winR2": -0.2796
+},
+"thermodynamics": {
+"bestR2": 0.6101,
+"periodBest": 256.0,
+"annualFrac": 0.3952,
+"trendFrac": 0.4881,
+"winR2": 0.6791
+},
+"entropy": {
+"bestR2": 0.6471,
+"periodBest": 256.0,
+"annualFrac": 0.2655,
+"trendFrac": 0.4654,
+"winR2": 0.6954
+},
+"force": {
+"bestR2": 0.4332,
+"periodBest": 256.0,
+"annualFrac": 0.1004,
+"trendFrac": 1.0,
+"winR2": 0.7208
+},
+"acceleration": {
+"bestR2": 0.6664,
+"periodBest": 6.0,
+"annualFrac": 0.2049,
+"trendFrac": 0.4971,
+"winR2": 0.7966
+},
+"velocity": {
+"bestR2": 0.6216,
+"periodBest": 244.0,
+"annualFrac": 0.086,
+"trendFrac": 0.0583,
+"winR2": 0.5757
+},
+"momentum": {
+"bestR2": 0.8801,
+"periodBest": 256.0,
+"annualFrac": 0.1001,
+"trendFrac": 0.4689,
+"winR2": 0.9101
+},
+"friction": {
+"bestR2": 0.6194,
+"periodBest": 256.0,
+"annualFrac": 0.3695,
+"trendFrac": 0.0233,
+"winR2": 0.8168
+},
+"density": {
+"bestR2": 0.5469,
+"periodBest": 256.0,
+"annualFrac": 0.1587,
+"trendFrac": 0.4625,
+"winR2": 0.6429
+},
+"pressure": {
+"bestR2": 0.9525,
+"periodBest": 256.0,
+"annualFrac": 0.0103,
+"trendFrac": 0.3845,
+"winR2": 0.9667
+},
+"temperature": {
+"bestR2": 0.8579,
+"periodBest": 244.0,
+"annualFrac": 0.0463,
+"trendFrac": 0.414,
+"winR2": 0.9292
+},
+"heat": {
+"bestR2": 0.5916,
+"periodBest": 248.0,
+"annualFrac": 0.0426,
+"trendFrac": 0.5738,
+"winR2": 0.7641
+},
+"radiation": {
+"bestR2": 0.2205,
+"periodBest": 256.0,
+"annualFrac": 0.2825,
+"trendFrac": 0.7653,
+"winR2": 0.791
+},
+"nuclear-fission": {
+"bestR2": 0.5248,
+"periodBest": 256.0,
+"annualFrac": 0.4265,
+"trendFrac": 0.5844,
+"winR2": 0.682
+},
+"nuclear-fusion": {
+"bestR2": 0.3265,
+"periodBest": 256.0,
+"annualFrac": 0.2407,
+"trendFrac": 0.4599,
+"winR2": 0.6272
+},
+"isotope": {
+"bestR2": 0.4919,
+"periodBest": 6.0,
+"annualFrac": 0.4777,
+"trendFrac": 0.0083,
+"winR2": 0.7491
+},
+"ion": {
+"bestR2": 0.5819,
+"periodBest": 252.0,
+"annualFrac": 0.6318,
+"trendFrac": 0.1961,
+"winR2": 0.7173
+},
+"acid": {
+"bestR2": 0.8822,
+"periodBest": 256.0,
+"annualFrac": 0.0257,
+"trendFrac": 0.0364,
+"winR2": 0.9317
+},
+"base": {
+"bestR2": 0.6956,
+"periodBest": 248.0,
+"annualFrac": 0.0323,
+"trendFrac": 0.1901,
+"winR2": 0.8696
+},
+"ph": {
+"bestR2": 0.9457,
+"periodBest": 256.0,
+"annualFrac": 0.0079,
+"trendFrac": 0.8604,
+"winR2": 0.956
+},
+"oxygen": {
+"bestR2": 0.6239,
+"periodBest": 236.0,
+"annualFrac": 0.0246,
+"trendFrac": 0.0012,
+"winR2": 0.8311
+},
+"hydrogen": {
+"bestR2": 0.7164,
+"periodBest": 244.0,
+"annualFrac": 0.0586,
+"trendFrac": 0.0639,
+"winR2": 0.7823
+},
+"carbon": {
+"bestR2": 0.3084,
+"periodBest": 256.0,
+"annualFrac": 0.1606,
+"trendFrac": 0.7667,
+"winR2": 0.7301
+},
+"nitrogen": {
+"bestR2": 0.6407,
+"periodBest": 256.0,
+"annualFrac": 0.1085,
+"trendFrac": 0.0027,
+"winR2": 0.8398
+},
+"helium": {
+"bestR2": 0.6141,
+"periodBest": 216.0,
+"annualFrac": 0.0074,
+"trendFrac": 0.3419,
+"winR2": 0.7932
+},
+"element": {
+"bestR2": 0.6985,
+"periodBest": 256.0,
+"annualFrac": 0.2126,
+"trendFrac": 0.0095,
+"winR2": 0.8417
+},
+"compound": {
+"bestR2": 0.846,
+"periodBest": 224.0,
+"annualFrac": 0.0594,
+"trendFrac": 0.6256,
+"winR2": 0.9131
+},
+"mixture": {
+"bestR2": 0.8064,
+"periodBest": 104.0,
+"annualFrac": 0.0318,
+"trendFrac": 0.875,
+"winR2": 0.8814
+},
+"galaxy": {
+"bestR2": 0.9548,
+"periodBest": 184.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.1219,
+"winR2": 0.9899
+},
+"star": {
+"bestR2": 0.5506,
+"periodBest": 240.0,
+"annualFrac": 0.047,
+"trendFrac": 0.8436,
+"winR2": 0.6636
+},
+"planet": {
+"bestR2": 0.8422,
+"periodBest": 148.0,
+"annualFrac": 0.0091,
+"trendFrac": 1.0,
+"winR2": 0.8555
+},
+"moon": {
+"bestR2": 0.2408,
+"periodBest": 156.0,
+"annualFrac": 0.023,
+"trendFrac": 0.0001,
+"winR2": 0.5361
+},
+"comet": {
+"bestR2": 0.8464,
+"periodBest": 256.0,
+"annualFrac": 0.0442,
+"trendFrac": 0.1792,
+"winR2": 0.8112
+},
+"ancient-egypt": {
+"bestR2": 0.8167,
+"periodBest": 256.0,
+"annualFrac": 0.0945,
+"trendFrac": 1.0,
+"winR2": 0.9037
+},
+"roman-empire": {
+"bestR2": 0.6257,
+"periodBest": 256.0,
+"annualFrac": 0.1769,
+"trendFrac": 0.421,
+"winR2": 0.9074
+},
+"ancient-greece": {
+"bestR2": 0.8094,
+"periodBest": 256.0,
+"annualFrac": 0.0412,
+"trendFrac": 1.0,
+"winR2": 0.867
+},
+"cold-war": {
+"bestR2": 0.216,
+"periodBest": 188.0,
+"annualFrac": 0.156,
+"trendFrac": 0.1578,
+"winR2": 0.3151
+},
+"hitler": {
+"bestR2": 0.7413,
+"periodBest": 256.0,
+"annualFrac": 0.2667,
+"trendFrac": 1.0,
+"winR2": 0.8182
+},
+"napoleon": {
+"bestR2": 0.453,
+"periodBest": 256.0,
+"annualFrac": 0.0447,
+"trendFrac": 0.9466,
+"winR2": 0.8828
+},
+"vikings": {
+"bestR2": 0.655,
+"periodBest": 196.0,
+"annualFrac": 0.2169,
+"trendFrac": 0.2723,
+"winR2": 0.6196
+},
+"renaissance": {
+"bestR2": 0.8746,
+"periodBest": 256.0,
+"annualFrac": 0.0024,
+"trendFrac": 1.0,
+"winR2": 0.9093
+},
+"civil-war": {
+"bestR2": 0.4094,
+"periodBest": 140.0,
+"annualFrac": 0.1764,
+"trendFrac": 0.0958,
+"winR2": 0.4991
+},
+"french-revolution": {
+"bestR2": 0.7028,
+"periodBest": 256.0,
+"annualFrac": 0.2501,
+"trendFrac": 1.0,
+"winR2": 0.8276
+},
+"american-revolution": {
+"bestR2": 0.7272,
+"periodBest": 256.0,
+"annualFrac": 0.2895,
+"trendFrac": 1.0,
+"winR2": 0.8558
+},
+"holocaust": {
+"bestR2": 0.7586,
+"periodBest": 256.0,
+"annualFrac": 0.253,
+"trendFrac": 0.9606,
+"winR2": 0.8974
+},
+"pearl-harbor": {
+"bestR2": 0.5935,
+"periodBest": 256.0,
+"annualFrac": 0.3163,
+"trendFrac": 1.0,
+"winR2": 0.1946
+},
+"great-depression": {
+"bestR2": 0.6734,
+"periodBest": 6.0,
+"annualFrac": 0.4159,
+"trendFrac": 0.4201,
+"winR2": 0.8765
+},
+"slavery": {
+"bestR2": 0.5387,
+"periodBest": 256.0,
+"annualFrac": 0.3316,
+"trendFrac": 1.0,
+"winR2": 0.4014
+},
+"middle-ages": {
+"bestR2": 0.7778,
+"periodBest": 256.0,
+"annualFrac": 0.0776,
+"trendFrac": 1.0,
+"winR2": 0.7814
+},
+"pyramids": {
+"bestR2": 0.7244,
+"periodBest": 256.0,
+"annualFrac": 0.0564,
+"trendFrac": 0.3872,
+"winR2": 0.7036
+},
+"crusades": {
+"bestR2": 0.7561,
+"periodBest": 256.0,
+"annualFrac": 0.0691,
+"trendFrac": 0.9931,
+"winR2": 0.6379
+},
+"industrial-revolution": {
+"bestR2": 0.7146,
+"periodBest": 256.0,
+"annualFrac": 0.512,
+"trendFrac": 0.9759,
+"winR2": 0.8716
+},
+"julius-caesar": {
+"bestR2": 0.7229,
+"periodBest": 256.0,
+"annualFrac": 0.3036,
+"trendFrac": 1.0,
+"winR2": 0.914
+},
+"cleopatra": {
+"bestR2": 0.4452,
+"periodBest": 256.0,
+"annualFrac": 0.0631,
+"trendFrac": 1.0,
+"winR2": 0.5617
+},
+"berlin-wall": {
+"bestR2": 0.1203,
+"periodBest": 6.0,
+"annualFrac": 0.0937,
+"trendFrac": 0.2337,
+"winR2": -0.5278
+},
+"titanic": {
+"bestR2": 0.1127,
+"periodBest": 132.0,
+"annualFrac": 0.2159,
+"trendFrac": 0.3886,
+"winR2": -0.0205
+},
+"ancient-rome": {
+"bestR2": 0.7853,
+"periodBest": 256.0,
+"annualFrac": 0.0535,
+"trendFrac": 1.0,
+"winR2": 0.8284
+},
+"mesopotamia": {
+"bestR2": 0.683,
+"periodBest": 6.0,
+"annualFrac": 0.4257,
+"trendFrac": 0.1193,
+"winR2": 0.8076
+},
+"abraham-lincoln": {
+"bestR2": 0.4748,
+"periodBest": 180.0,
+"annualFrac": 0.2461,
+"trendFrac": 0.182,
+"winR2": 0.7811
+},
+"ottoman-empire": {
+"bestR2": 0.6963,
+"periodBest": 256.0,
+"annualFrac": 0.2873,
+"trendFrac": 0.0817,
+"winR2": 0.8794
+},
+"black-death": {
+"bestR2": 0.3729,
+"periodBest": 256.0,
+"annualFrac": 0.2279,
+"trendFrac": 1.0,
+"winR2": 0.7122
+},
+"genghis-khan": {
+"bestR2": 0.703,
+"periodBest": 256.0,
+"annualFrac": 0.0587,
+"trendFrac": 0.2322,
+"winR2": 0.834
+},
+"the-alamo": {
+"bestR2": 0.4993,
+"periodBest": 256.0,
+"annualFrac": 0.1428,
+"trendFrac": 1.0,
+"winR2": 0.3787
+},
+"d-day": {
+"bestR2": 0.2708,
+"periodBest": 6.0,
+"annualFrac": 0.3782,
+"trendFrac": 0.1484,
+"winR2": 0.5942
+},
+"mayan-civilization": {
+"bestR2": 0.4957,
+"periodBest": 6.0,
+"annualFrac": 0.269,
+"trendFrac": 0.5924,
+"winR2": 0.6172
+},
+"aztecs": {
+"bestR2": 0.7712,
+"periodBest": 256.0,
+"annualFrac": 0.0563,
+"trendFrac": 1.0,
+"winR2": 0.8491
+},
+"incas": {
+"bestR2": 0.7283,
+"periodBest": 256.0,
+"annualFrac": 0.0961,
+"trendFrac": 1.0,
+"winR2": 0.8794
+},
+"ancient-china": {
+"bestR2": 0.7545,
+"periodBest": 256.0,
+"annualFrac": 0.1179,
+"trendFrac": 1.0,
+"winR2": 0.8632
+},
+"great-wall": {
+"bestR2": 0.2942,
+"periodBest": 148.0,
+"annualFrac": 0.1323,
+"trendFrac": 0.0006,
+"winR2": 0.775
+},
+"samurai": {
+"bestR2": 0.7044,
+"periodBest": 256.0,
+"annualFrac": 0.0095,
+"trendFrac": 1.0,
+"winR2": 0.7432
+},
+"feudalism": {
+"bestR2": 0.5453,
+"periodBest": 200.0,
+"annualFrac": 0.2558,
+"trendFrac": 0.1645,
+"winR2": 0.7438
+},
+"byzantine-empire": {
+"bestR2": 0.5845,
+"periodBest": 6.0,
+"annualFrac": 0.5828,
+"trendFrac": 0.0205,
+"winR2": 0.7475
+},
+"persian-empire": {
+"bestR2": 0.5175,
+"periodBest": 6.0,
+"annualFrac": 0.4979,
+"trendFrac": 0.0023,
+"winR2": 0.3219
+},
+"alexander-great": {
+"bestR2": 0.5448,
+"periodBest": 256.0,
+"annualFrac": 0.0654,
+"trendFrac": 1.0,
+"winR2": 0.8469
+},
+"spartans": {
+"bestR2": 0.2513,
+"periodBest": 256.0,
+"annualFrac": 0.1044,
+"trendFrac": 0.2988,
+"winR2": 0.6816
+},
+"trojan-war": {
+"bestR2": 0.6098,
+"periodBest": 256.0,
+"annualFrac": 0.0176,
+"trendFrac": 1.0,
+"winR2": 0.788
+},
+"greek-mythology": {
+"bestR2": 0.7274,
+"periodBest": 256.0,
+"annualFrac": 0.0537,
+"trendFrac": 1.0,
+"winR2": 0.887
+},
+"egyptian-gods": {
+"bestR2": 0.824,
+"periodBest": 256.0,
+"annualFrac": 0.0572,
+"trendFrac": 1.0,
+"winR2": 0.9422
+},
+"king-tut": {
+"bestR2": 0.6849,
+"periodBest": 236.0,
+"annualFrac": 0.0253,
+"trendFrac": 0.8869,
+"winR2": 0.7094
+},
+"mummies": {
+"bestR2": 0.6511,
+"periodBest": 256.0,
+"annualFrac": 0.0728,
+"trendFrac": 1.0,
+"winR2": 0.8049
+},
+"stonehenge": {
+"bestR2": 0.8189,
+"periodBest": 256.0,
+"annualFrac": 0.0534,
+"trendFrac": 1.0,
+"winR2": 0.7467
+},
+"machu-picchu": {
+"bestR2": 0.512,
+"periodBest": 184.0,
+"annualFrac": 0.0392,
+"trendFrac": 0.2138,
+"winR2": 0.4547
+},
+"colosseum": {
+"bestR2": 0.5448,
+"periodBest": 256.0,
+"annualFrac": 0.0206,
+"trendFrac": 0.3655,
+"winR2": 0.8161
+},
+"spanish-inquisition": {
+"bestR2": 0.857,
+"periodBest": 256.0,
+"annualFrac": 0.0231,
+"trendFrac": 1.0,
+"winR2": 0.9184
+},
+"salem-witch": {
+"bestR2": 0.5962,
+"periodBest": 6.0,
+"annualFrac": 0.286,
+"trendFrac": 0.4473,
+"winR2": 0.6827
+},
+"boston-tea": {
+"bestR2": 0.6318,
+"periodBest": 256.0,
+"annualFrac": 0.4082,
+"trendFrac": 0.6227,
+"winR2": 0.8934
+},
+"declaration-independence": {
+"bestR2": 0.6269,
+"periodBest": 256.0,
+"annualFrac": 0.3047,
+"trendFrac": 1.0,
+"winR2": 0.4028
+},
+"george-washington": {
+"bestR2": 0.7663,
+"periodBest": 256.0,
+"annualFrac": 0.1542,
+"trendFrac": 1.0,
+"winR2": 0.7935
+},
+"benjamin-franklin": {
+"bestR2": 0.7942,
+"periodBest": 256.0,
+"annualFrac": 0.1008,
+"trendFrac": 1.0,
+"winR2": 0.8853
+},
+"thomas-jefferson": {
+"bestR2": 0.7784,
+"periodBest": 256.0,
+"annualFrac": 0.1229,
+"trendFrac": 1.0,
+"winR2": 0.8276
+},
+"martin-luther": {
+"bestR2": 0.5668,
+"periodBest": 6.0,
+"annualFrac": 0.4352,
+"trendFrac": 0.2607,
+"winR2": 0.5441
+},
+"winston-churchill": {
+"bestR2": 0.4206,
+"periodBest": 188.0,
+"annualFrac": 0.2091,
+"trendFrac": 0.1087,
+"winR2": 0.43
+},
+"joseph-stalin": {
+"bestR2": 0.6952,
+"periodBest": 256.0,
+"annualFrac": 0.64,
+"trendFrac": 0.8444,
+"winR2": 0.8334
+},
+"mao-zedong": {
+"bestR2": 0.5826,
+"periodBest": 6.0,
+"annualFrac": 0.6123,
+"trendFrac": 0.0214,
+"winR2": 0.5972
+},
+"gandhi": {
+"bestR2": 0.6086,
+"periodBest": 92.0,
+"annualFrac": 0.0299,
+"trendFrac": 0.9364,
+"winR2": 0.8162
+},
+"nelson-mandela": {
+"bestR2": 0.066,
+"periodBest": 168.0,
+"annualFrac": 0.0355,
+"trendFrac": 0.0165,
+"winR2": -0.9542
+},
+"abraham": {
+"bestR2": 0.5018,
+"periodBest": 172.0,
+"annualFrac": 0.0555,
+"trendFrac": 0.031,
+"winR2": 0.6234
+},
+"queen-victoria": {
+"bestR2": 0.3282,
+"periodBest": 180.0,
+"annualFrac": 0.0923,
+"trendFrac": 0.0317,
+"winR2": 0.2566
+},
+"henry-viii": {
+"bestR2": 0.6522,
+"periodBest": 184.0,
+"annualFrac": 0.0522,
+"trendFrac": 0.76,
+"winR2": 0.7058
+},
+"marie-antoinette": {
+"bestR2": 0.2294,
+"periodBest": 256.0,
+"annualFrac": 0.0713,
+"trendFrac": 0.5137,
+"winR2": 0.4534
+},
+"joan-arc": {
+"bestR2": 0.7938,
+"periodBest": 256.0,
+"annualFrac": 0.0445,
+"trendFrac": 1.0,
+"winR2": 0.9493
+},
+"christopher-columbus": {
+"bestR2": 0.5839,
+"periodBest": 6.0,
+"annualFrac": 0.3304,
+"trendFrac": 0.3619,
+"winR2": 0.6206
+},
+"magna-carta": {
+"bestR2": 0.1016,
+"periodBest": 116.0,
+"annualFrac": 0.0477,
+"trendFrac": 0.5121,
+"winR2": -1.2654
+},
+"hundred-years": {
+"bestR2": 0.7167,
+"periodBest": 256.0,
+"annualFrac": 0.0607,
+"trendFrac": 0.9928,
+"winR2": 0.8038
+},
+"war-1812": {
+"bestR2": 0.7654,
+"periodBest": 256.0,
+"annualFrac": 0.1953,
+"trendFrac": 1.0,
+"winR2": 0.8938
+},
+"revolutionary-war": {
+"bestR2": 0.7658,
+"periodBest": 256.0,
+"annualFrac": 0.1989,
+"trendFrac": 1.0,
+"winR2": 0.8921
+},
+"vietnam-war": {
+"bestR2": 0.643,
+"periodBest": 256.0,
+"annualFrac": 0.1906,
+"trendFrac": 1.0,
+"winR2": 0.7098
+},
+"korean-war": {
+"bestR2": 0.6197,
+"periodBest": 256.0,
+"annualFrac": 0.3471,
+"trendFrac": 1.0,
+"winR2": 0.8534
+},
+"spanish-flu": {
+"bestR2": 0.1758,
+"periodBest": 168.0,
+"annualFrac": 0.0789,
+"trendFrac": 0.3931,
+"winR2": -0.309
+},
+"atomic-bomb": {
+"bestR2": 0.6535,
+"periodBest": 256.0,
+"annualFrac": 0.1307,
+"trendFrac": 1.0,
+"winR2": 0.7849
+},
+"hiroshima": {
+"bestR2": 0.3176,
+"periodBest": 256.0,
+"annualFrac": 0.1616,
+"trendFrac": 0.4638,
+"winR2": 0.4127
+},
+"auschwitz": {
+"bestR2": 0.2634,
+"periodBest": 60.0,
+"annualFrac": 0.5786,
+"trendFrac": 0.0077,
+"winR2": 0.2453
+},
+"anne-frank": {
+"bestR2": 0.6248,
+"periodBest": 256.0,
+"annualFrac": 0.4914,
+"trendFrac": 1.0,
+"winR2": 0.6189
+},
+"gettysburg": {
+"bestR2": 0.7899,
+"periodBest": 256.0,
+"annualFrac": 0.0597,
+"trendFrac": 1.0,
+"winR2": 0.8743
+},
+"emancipation-proclamation": {
+"bestR2": 0.5338,
+"periodBest": 6.0,
+"annualFrac": 0.5725,
+"trendFrac": 0.2426,
+"winR2": 0.8105
+},
+"underground-railroad": {
+"bestR2": 0.655,
+"periodBest": 256.0,
+"annualFrac": 0.2209,
+"trendFrac": 1.0,
+"winR2": 0.6925
+},
+"civil-rights": {
+"bestR2": 0.7602,
+"periodBest": 256.0,
+"annualFrac": 0.326,
+"trendFrac": 0.928,
+"winR2": 0.7326
+},
+"great-fire": {
+"bestR2": 0.3337,
+"periodBest": 256.0,
+"annualFrac": 0.061,
+"trendFrac": 1.0,
+"winR2": 0.6628
+},
+"painting-t": {
+"bestR2": 0.8451,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 0.2395,
+"winR2": 0.9188
+},
+"drawing-t": {
+"bestR2": 0.9472,
+"periodBest": 236.0,
+"annualFrac": 0.0066,
+"trendFrac": 0.5763,
+"winR2": 0.9621
+},
+"photography-t": {
+"bestR2": 0.9786,
+"periodBest": 180.0,
+"annualFrac": 0.0036,
+"trendFrac": 0.8971,
+"winR2": 0.9758
+},
+"music": {
+"bestR2": 0.9823,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 0.8413,
+"winR2": 0.985
+},
+"guitar-t": {
+"bestR2": 0.9717,
+"periodBest": 208.0,
+"annualFrac": 0.0051,
+"trendFrac": 0.8094,
+"winR2": 0.9881
+},
+"piano-t": {
+"bestR2": 0.7577,
+"periodBest": 180.0,
+"annualFrac": 0.2029,
+"trendFrac": 0.6157,
+"winR2": 0.8407
+},
+"anime": {
+"bestR2": 0.8829,
+"periodBest": 220.0,
+"annualFrac": 0.0055,
+"trendFrac": 0.6592,
+"winR2": 0.9765
+},
+"calligraphy-t": {
+"bestR2": 0.9204,
+"periodBest": 256.0,
+"annualFrac": 0.0113,
+"trendFrac": 0.0232,
+"winR2": 0.9606
+},
+"sculpture": {
+"bestR2": 0.9218,
+"periodBest": 256.0,
+"annualFrac": 0.0057,
+"trendFrac": 1.0,
+"winR2": 0.9589
+},
+"watercolor-t": {
+"bestR2": 0.9463,
+"periodBest": 180.0,
+"annualFrac": 0.0141,
+"trendFrac": 0.5425,
+"winR2": 0.9751
+},
+"oil-painting": {
+"bestR2": 0.91,
+"periodBest": 256.0,
+"annualFrac": 0.004,
+"trendFrac": 1.0,
+"winR2": 0.955
+},
+"digital-art-t": {
+"bestR2": 0.9348,
+"periodBest": 256.0,
+"annualFrac": 0.0076,
+"trendFrac": 0.6517,
+"winR2": 0.9673
+},
+"graffiti": {
+"bestR2": 0.9615,
+"periodBest": 256.0,
+"annualFrac": 0.0017,
+"trendFrac": 0.4341,
+"winR2": 0.9859
+},
+"tattoo": {
+"bestR2": 0.889,
+"periodBest": 256.0,
+"annualFrac": 0.0729,
+"trendFrac": 0.1071,
+"winR2": 0.9521
+},
+"pottery-t": {
+"bestR2": 0.9328,
+"periodBest": 256.0,
+"annualFrac": 0.0391,
+"trendFrac": 1.0,
+"winR2": 0.9488
+},
+"origami": {
+"bestR2": 0.7389,
+"periodBest": 220.0,
+"annualFrac": 0.0793,
+"trendFrac": 0.4368,
+"winR2": 0.7177
+},
+"animation-t": {
+"bestR2": 0.9555,
+"periodBest": 256.0,
+"annualFrac": 0.0043,
+"trendFrac": 0.7161,
+"winR2": 0.9854
+},
+"graphic-design-t": {
+"bestR2": 0.9246,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 1.0,
+"winR2": 0.9312
+},
+"sketching-t": {
+"bestR2": 0.7168,
+"periodBest": 256.0,
+"annualFrac": 0.0423,
+"trendFrac": 0.0334,
+"winR2": 0.6931
+},
+"mona-lisa": {
+"bestR2": 0.6895,
+"periodBest": 256.0,
+"annualFrac": 0.0719,
+"trendFrac": 1.0,
+"winR2": 0.8134
+},
+"van-gogh": {
+"bestR2": 0.1533,
+"periodBest": 244.0,
+"annualFrac": 0.0866,
+"trendFrac": 1.0,
+"winR2": 0.3932
+},
+"picasso": {
+"bestR2": 0.7564,
+"periodBest": 256.0,
+"annualFrac": 0.069,
+"trendFrac": 1.0,
+"winR2": 0.8713
+},
+"ballet": {
+"bestR2": 0.9189,
+"periodBest": 256.0,
+"annualFrac": 0.092,
+"trendFrac": 0.6621,
+"winR2": 0.9384
+},
+"opera": {
+"bestR2": 0.973,
+"periodBest": 160.0,
+"annualFrac": 0.007,
+"trendFrac": 0.9693,
+"winR2": 0.9554
+},
+"theatre": {
+"bestR2": 0.9395,
+"periodBest": 256.0,
+"annualFrac": 0.0168,
+"trendFrac": 0.7149,
+"winR2": 0.9694
+},
+"poetry": {
+"bestR2": 0.9129,
+"periodBest": 256.0,
+"annualFrac": 0.0326,
+"trendFrac": 1.0,
+"winR2": 0.9107
+},
+"sheet-music": {
+"bestR2": 0.9529,
+"periodBest": 256.0,
+"annualFrac": 0.0199,
+"trendFrac": 1.0,
+"winR2": 0.9795
+},
+"knitting-t": {
+"bestR2": 0.9103,
+"periodBest": 256.0,
+"annualFrac": 0.2332,
+"trendFrac": 0.9491,
+"winR2": 0.9654
+},
+"crochet": {
+"bestR2": 0.9563,
+"periodBest": 248.0,
+"annualFrac": 0.028,
+"trendFrac": 0.6705,
+"winR2": 0.9756
+},
+"illustration-t": {
+"bestR2": 0.8238,
+"periodBest": 256.0,
+"annualFrac": 0.0506,
+"trendFrac": 0.2844,
+"winR2": 0.8537
+},
+"violin-t": {
+"bestR2": 0.8667,
+"periodBest": 152.0,
+"annualFrac": 0.0598,
+"trendFrac": 0.7332,
+"winR2": 0.8971
+},
+"drums-t": {
+"bestR2": 0.9647,
+"periodBest": 256.0,
+"annualFrac": 0.0051,
+"trendFrac": 0.8061,
+"winR2": 0.9811
+},
+"singing-t": {
+"bestR2": 0.5441,
+"periodBest": 240.0,
+"annualFrac": 0.3077,
+"trendFrac": 0.0249,
+"winR2": 0.4667
+},
+"ukulele-t": {
+"bestR2": 0.8808,
+"periodBest": 220.0,
+"annualFrac": 0.0022,
+"trendFrac": 0.3001,
+"winR2": 0.6968
+},
+"saxophone": {
+"bestR2": 0.8419,
+"periodBest": 256.0,
+"annualFrac": 0.0849,
+"trendFrac": 1.0,
+"winR2": 0.8483
+},
+"flute": {
+"bestR2": 0.7376,
+"periodBest": 256.0,
+"annualFrac": 0.1229,
+"trendFrac": 1.0,
+"winR2": 0.7942
+},
+"cello": {
+"bestR2": 0.6087,
+"periodBest": 256.0,
+"annualFrac": 0.2547,
+"trendFrac": 0.7326,
+"winR2": 0.7381
+},
+"trumpet": {
+"bestR2": 0.8142,
+"periodBest": 256.0,
+"annualFrac": 0.0111,
+"trendFrac": 1.0,
+"winR2": 0.9053
+},
+"harmonica": {
+"bestR2": 0.9073,
+"periodBest": 256.0,
+"annualFrac": 0.0202,
+"trendFrac": 0.969,
+"winR2": 0.96
+},
+"guitar-chords": {
+"bestR2": 0.9564,
+"periodBest": 256.0,
+"annualFrac": 0.0039,
+"trendFrac": 1.0,
+"winR2": 0.9654
+},
+"karaoke": {
+"bestR2": 0.7614,
+"periodBest": 192.0,
+"annualFrac": 0.1196,
+"trendFrac": 0.0145,
+"winR2": 0.7723
+},
+"rap": {
+"bestR2": 0.9497,
+"periodBest": 232.0,
+"annualFrac": 0.0031,
+"trendFrac": 0.6692,
+"winR2": 0.9321
+},
+"jazz": {
+"bestR2": 0.9282,
+"periodBest": 256.0,
+"annualFrac": 0.0293,
+"trendFrac": 1.0,
+"winR2": 0.9505
+},
+"classical-music": {
+"bestR2": 0.9606,
+"periodBest": 256.0,
+"annualFrac": 0.0171,
+"trendFrac": 1.0,
+"winR2": 0.9903
+},
+"hip-hop": {
+"bestR2": 0.9833,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.8228,
+"winR2": 0.9877
+},
+"dance-t": {
+"bestR2": 0.8811,
+"periodBest": 228.0,
+"annualFrac": 0.0036,
+"trendFrac": 0.6484,
+"winR2": 0.9365
+},
+"salsa": {
+"bestR2": 0.554,
+"periodBest": 256.0,
+"annualFrac": 0.173,
+"trendFrac": 0.2307,
+"winR2": 0.6627
+},
+"tango": {
+"bestR2": 0.9149,
+"periodBest": 152.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.8333,
+"winR2": 0.8611
+},
+"breakdancing": {
+"bestR2": 0.3353,
+"periodBest": 256.0,
+"annualFrac": 0.0103,
+"trendFrac": 0.579,
+"winR2": 0.9585
+},
+"embroidery-t": {
+"bestR2": 0.8116,
+"periodBest": 256.0,
+"annualFrac": 0.0654,
+"trendFrac": 0.4092,
+"winR2": 0.8689
+},
+"quilting": {
+"bestR2": 0.9483,
+"periodBest": 256.0,
+"annualFrac": 0.0067,
+"trendFrac": 1.0,
+"winR2": 0.9638
+},
+"woodworking-t": {
+"bestR2": 0.9247,
+"periodBest": 256.0,
+"annualFrac": 0.0394,
+"trendFrac": 1.0,
+"winR2": 0.9931
+},
+"pottery-wheel": {
+"bestR2": 0.737,
+"periodBest": 256.0,
+"annualFrac": 0.2737,
+"trendFrac": 0.0063,
+"winR2": 0.7231
+},
+"ceramics": {
+"bestR2": 0.9287,
+"periodBest": 256.0,
+"annualFrac": 0.0081,
+"trendFrac": 1.0,
+"winR2": 0.9808
+},
+"clay": {
+"bestR2": 0.6356,
+"periodBest": 256.0,
+"annualFrac": 0.0095,
+"trendFrac": 0.6938,
+"winR2": 0.8751
+},
+"scrapbooking": {
+"bestR2": 0.9863,
+"periodBest": 220.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.7887,
+"winR2": 0.9927
+},
+"candle-making": {
+"bestR2": 0.8656,
+"periodBest": 256.0,
+"annualFrac": 0.2568,
+"trendFrac": 0.5596,
+"winR2": 0.9624
+},
+"soap-making": {
+"bestR2": 0.8653,
+"periodBest": 256.0,
+"annualFrac": 0.0334,
+"trendFrac": 1.0,
+"winR2": 0.9305
+},
+"macrame": {
+"bestR2": 0.8996,
+"periodBest": 256.0,
+"annualFrac": 0.0109,
+"trendFrac": 0.0107,
+"winR2": 0.9812
+},
+"cross-stitch": {
+"bestR2": 0.9127,
+"periodBest": 256.0,
+"annualFrac": 0.0135,
+"trendFrac": 1.0,
+"winR2": 0.9584
+},
+"acrylic-painting": {
+"bestR2": 0.8825,
+"periodBest": 240.0,
+"annualFrac": 0.0036,
+"trendFrac": 0.0805,
+"winR2": 0.9584
+},
+"portrait": {
+"bestR2": 0.7509,
+"periodBest": 256.0,
+"annualFrac": 0.2364,
+"trendFrac": 0.6367,
+"winR2": 0.8615
+},
+"landscape": {
+"bestR2": 0.8368,
+"periodBest": 256.0,
+"annualFrac": 0.2211,
+"trendFrac": 0.8542,
+"winR2": 0.8964
+},
+"abstract-art": {
+"bestR2": 0.7263,
+"periodBest": 256.0,
+"annualFrac": 0.091,
+"trendFrac": 1.0,
+"winR2": -0.0957
+},
+"street-art": {
+"bestR2": 0.7147,
+"periodBest": 184.0,
+"annualFrac": 0.0267,
+"trendFrac": 0.0654,
+"winR2": 0.8154
+},
+"murals": {
+"bestR2": 0.9405,
+"periodBest": 256.0,
+"annualFrac": 0.0046,
+"trendFrac": 1.0,
+"winR2": 0.9593
+},
+"canvas": {
+"bestR2": 0.87,
+"periodBest": 168.0,
+"annualFrac": 0.0077,
+"trendFrac": 0.9882,
+"winR2": 0.9448
+},
+"acrylic": {
+"bestR2": 0.9627,
+"periodBest": 196.0,
+"annualFrac": 0.0016,
+"trendFrac": 0.6768,
+"winR2": 0.9837
+},
+"charcoal": {
+"bestR2": 0.9607,
+"periodBest": 196.0,
+"annualFrac": 0.0494,
+"trendFrac": 0.6193,
+"winR2": 0.9803
+},
+"pastel": {
+"bestR2": 0.958,
+"periodBest": 256.0,
+"annualFrac": 0.0039,
+"trendFrac": 0.3596,
+"winR2": 0.9915
+},
+"ink": {
+"bestR2": 0.541,
+"periodBest": 152.0,
+"annualFrac": 0.0496,
+"trendFrac": 0.4064,
+"winR2": 0.6612
+},
+"manga": {
+"bestR2": 0.7476,
+"periodBest": 256.0,
+"annualFrac": 0.0249,
+"trendFrac": 0.2855,
+"winR2": 0.9468
+},
+"cartoon": {
+"bestR2": 0.82,
+"periodBest": 100.0,
+"annualFrac": 0.0019,
+"trendFrac": 0.8599,
+"winR2": 0.8302
+},
+"caricature": {
+"bestR2": 0.1627,
+"periodBest": 208.0,
+"annualFrac": 0.2054,
+"trendFrac": 0.7084,
+"winR2": -1.0383
+},
+"doodle": {
+"bestR2": 0.1444,
+"periodBest": 104.0,
+"annualFrac": 0.0786,
+"trendFrac": 0.4358,
+"winR2": 0.8203
+},
+"typography-t": {
+"bestR2": 0.7401,
+"periodBest": 256.0,
+"annualFrac": 0.0735,
+"trendFrac": 0.1406,
+"winR2": 0.8728
+},
+"logo-design-t": {
+"bestR2": 0.8201,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.3423,
+"winR2": 0.9393
+},
+"collage": {
+"bestR2": 0.8335,
+"periodBest": 192.0,
+"annualFrac": 0.0252,
+"trendFrac": 0.0128,
+"winR2": 0.8899
+},
+"printmaking": {
+"bestR2": 0.8759,
+"periodBest": 256.0,
+"annualFrac": 0.0665,
+"trendFrac": 1.0,
+"winR2": 0.9091
+},
+"screen-printing": {
+"bestR2": 0.9275,
+"periodBest": 256.0,
+"annualFrac": 0.0109,
+"trendFrac": 1.0,
+"winR2": 0.9748
+},
+"photoshop-t": {
+"bestR2": 0.9846,
+"periodBest": 212.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.6187,
+"winR2": 0.9948
+},
+"fashion-design-t": {
+"bestR2": 0.9576,
+"periodBest": 256.0,
+"annualFrac": 0.0011,
+"trendFrac": 1.0,
+"winR2": 0.9622
+},
+"interior-design-t": {
+"bestR2": 0.8389,
+"periodBest": 256.0,
+"annualFrac": 0.0028,
+"trendFrac": 1.0,
+"winR2": 0.8522
+},
+"architecture": {
+"bestR2": 0.9286,
+"periodBest": 256.0,
+"annualFrac": 0.0089,
+"trendFrac": 1.0,
+"winR2": 0.9728
+},
+"glass-blowing": {
+"bestR2": 0.8123,
+"periodBest": 256.0,
+"annualFrac": 0.0423,
+"trendFrac": 1.0,
+"winR2": 0.8984
+},
+"diabetes": {
+"bestR2": 0.7475,
+"periodBest": 256.0,
+"annualFrac": 0.0123,
+"trendFrac": 0.3387,
+"winR2": 0.8232
+},
+"cancer": {
+"bestR2": 0.5243,
+"periodBest": 256.0,
+"annualFrac": 0.0028,
+"trendFrac": 0.7012,
+"winR2": 0.5268
+},
+"covid": {
+"bestR2": 0.5047,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.1866,
+"winR2": 0.8872
+},
+"weight-loss": {
+"bestR2": 0.728,
+"periodBest": 256.0,
+"annualFrac": 0.2414,
+"trendFrac": 0.4409,
+"winR2": 0.7509
+},
+"nutrition-t": {
+"bestR2": 0.5467,
+"periodBest": 180.0,
+"annualFrac": 0.3935,
+"trendFrac": 0.0541,
+"winR2": 0.5899
+},
+"anxiety": {
+"bestR2": 0.9727,
+"periodBest": 188.0,
+"annualFrac": 0.0013,
+"trendFrac": 0.8534,
+"winR2": 0.9878
+},
+"depression": {
+"bestR2": 0.7965,
+"periodBest": 256.0,
+"annualFrac": 0.1286,
+"trendFrac": 1.0,
+"winR2": 0.8164
+},
+"blood-pressure": {
+"bestR2": 0.9643,
+"periodBest": 256.0,
+"annualFrac": 0.0119,
+"trendFrac": 0.5091,
+"winR2": 0.9599
+},
+"cholesterol": {
+"bestR2": 0.8555,
+"periodBest": 256.0,
+"annualFrac": 0.0177,
+"trendFrac": 0.1932,
+"winR2": 0.8775
+},
+"keto-diet": {
+"bestR2": 0.7772,
+"periodBest": 212.0,
+"annualFrac": 0.0016,
+"trendFrac": 0.0954,
+"winR2": 0.9753
+},
+"intermittent-fasting": {
+"bestR2": 0.8881,
+"periodBest": 236.0,
+"annualFrac": 0.0079,
+"trendFrac": 0.2634,
+"winR2": 0.9467
+},
+"vitamin-d": {
+"bestR2": 0.9512,
+"periodBest": 124.0,
+"annualFrac": 0.0296,
+"trendFrac": 0.8832,
+"winR2": 0.9813
+},
+"mental-health": {
+"bestR2": 0.8733,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 0.2023,
+"winR2": 0.9155
+},
+"insomnia": {
+"bestR2": 0.8454,
+"periodBest": 128.0,
+"annualFrac": 0.0074,
+"trendFrac": 0.8648,
+"winR2": 0.8939
+},
+"headache": {
+"bestR2": 0.9773,
+"periodBest": 204.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.8559,
+"winR2": 0.9873
+},
+"pregnancy": {
+"bestR2": 0.5866,
+"periodBest": 256.0,
+"annualFrac": 0.0478,
+"trendFrac": 0.3712,
+"winR2": 0.5995
+},
+"flu": {
+"bestR2": 0.2078,
+"periodBest": 42.0,
+"annualFrac": 0.3082,
+"trendFrac": 0.041,
+"winR2": 0.3834
+},
+"allergies": {
+"bestR2": 0.6817,
+"periodBest": 6.0,
+"annualFrac": 0.6218,
+"trendFrac": 0.0611,
+"winR2": 0.8221
+},
+"asthma": {
+"bestR2": 0.5866,
+"periodBest": 256.0,
+"annualFrac": 0.1182,
+"trendFrac": 0.5664,
+"winR2": 0.7445
+},
+"arthritis": {
+"bestR2": 0.8546,
+"periodBest": 256.0,
+"annualFrac": 0.0111,
+"trendFrac": 0.1578,
+"winR2": 0.8547
+},
+"meditation-t": {
+"bestR2": 0.9285,
+"periodBest": 216.0,
+"annualFrac": 0.02,
+"trendFrac": 0.0828,
+"winR2": 0.9496
+},
+"calories": {
+"bestR2": 0.8618,
+"periodBest": 6.0,
+"annualFrac": 0.1342,
+"trendFrac": 0.8095,
+"winR2": 0.8294
+},
+"bmi": {
+"bestR2": 0.8568,
+"periodBest": 256.0,
+"annualFrac": 0.0323,
+"trendFrac": 0.1605,
+"winR2": 0.8958
+},
+"heart-disease": {
+"bestR2": 0.7758,
+"periodBest": 256.0,
+"annualFrac": 0.1182,
+"trendFrac": 1.0,
+"winR2": 0.8266
+},
+"stroke": {
+"bestR2": 0.8554,
+"periodBest": 256.0,
+"annualFrac": 0.124,
+"trendFrac": 0.1645,
+"winR2": 0.8626
+},
+"immune-system": {
+"bestR2": 0.3271,
+"periodBest": 188.0,
+"annualFrac": 0.219,
+"trendFrac": 0.5314,
+"winR2": 0.8971
+},
+"gut-health": {
+"bestR2": 0.9795,
+"periodBest": 256.0,
+"annualFrac": 0.002,
+"trendFrac": 1.0,
+"winR2": 0.9888
+},
+"covid-symptoms": {
+"bestR2": 0.521,
+"periodBest": 180.0,
+"annualFrac": 0.0019,
+"trendFrac": 0.5757,
+"winR2": 0.6451
+},
+"migraine": {
+"bestR2": 0.9399,
+"periodBest": 256.0,
+"annualFrac": 0.0011,
+"trendFrac": 0.305,
+"winR2": 0.9626
+},
+"hypertension": {
+"bestR2": 0.8246,
+"periodBest": 256.0,
+"annualFrac": 0.0681,
+"trendFrac": 0.2566,
+"winR2": 0.8343
+},
+"obesity": {
+"bestR2": 0.8553,
+"periodBest": 256.0,
+"annualFrac": 0.0346,
+"trendFrac": 1.0,
+"winR2": 0.9497
+},
+"metabolism": {
+"bestR2": 0.565,
+"periodBest": 256.0,
+"annualFrac": 0.2041,
+"trendFrac": 1.0,
+"winR2": 0.6559
+},
+"probiotics": {
+"bestR2": 0.9739,
+"periodBest": 256.0,
+"annualFrac": 0.0042,
+"trendFrac": 0.9429,
+"winR2": 0.9783
+},
+"collagen": {
+"bestR2": 0.9822,
+"periodBest": 256.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.6656,
+"winR2": 0.99
+},
+"magnesium": {
+"bestR2": 0.9491,
+"periodBest": 256.0,
+"annualFrac": 0.0041,
+"trendFrac": 1.0,
+"winR2": 0.9708
+},
+"omega-3": {
+"bestR2": 0.9558,
+"periodBest": 256.0,
+"annualFrac": 0.0038,
+"trendFrac": 1.0,
+"winR2": 0.9744
+},
+"vitamin-c": {
+"bestR2": 0.9173,
+"periodBest": 220.0,
+"annualFrac": 0.0066,
+"trendFrac": 0.6875,
+"winR2": 0.7865
+},
+"vitamin-b12": {
+"bestR2": 0.9685,
+"periodBest": 256.0,
+"annualFrac": 0.0016,
+"trendFrac": 0.9999,
+"winR2": 0.9848
+},
+"zinc": {
+"bestR2": 0.8707,
+"periodBest": 228.0,
+"annualFrac": 0.0075,
+"trendFrac": 0.4872,
+"winR2": 0.9378
+},
+"iron-deficiency": {
+"bestR2": 0.9466,
+"periodBest": 256.0,
+"annualFrac": 0.0034,
+"trendFrac": 0.4986,
+"winR2": 0.9694
+},
+"thyroid": {
+"bestR2": 0.6905,
+"periodBest": 256.0,
+"annualFrac": 0.1158,
+"trendFrac": 0.1223,
+"winR2": 0.7249
+},
+"hypothyroidism": {
+"bestR2": 0.6659,
+"periodBest": 256.0,
+"annualFrac": 0.1505,
+"trendFrac": 0.0898,
+"winR2": 0.7247
+},
+"pcos": {
+"bestR2": 0.9778,
+"periodBest": 256.0,
+"annualFrac": 0.0035,
+"trendFrac": 1.0,
+"winR2": 0.9832
+},
+"menopause": {
+"bestR2": 0.8331,
+"periodBest": 256.0,
+"annualFrac": 0.0371,
+"trendFrac": 0.1671,
+"winR2": 0.8321
+},
+"fibromyalgia": {
+"bestR2": 0.7893,
+"periodBest": 172.0,
+"annualFrac": 0.0069,
+"trendFrac": 0.6617,
+"winR2": 0.8416
+},
+"ibs": {
+"bestR2": 0.6838,
+"periodBest": 236.0,
+"annualFrac": 0.0097,
+"trendFrac": 1.0,
+"winR2": 0.7684
+},
+"acid-reflux": {
+"bestR2": 0.9545,
+"periodBest": 204.0,
+"annualFrac": 0.0028,
+"trendFrac": 0.839,
+"winR2": 0.969
+},
+"constipation": {
+"bestR2": 0.9743,
+"periodBest": 256.0,
+"annualFrac": 0.0039,
+"trendFrac": 0.7132,
+"winR2": 0.9803
+},
+"dehydration": {
+"bestR2": 0.8872,
+"periodBest": 248.0,
+"annualFrac": 0.0348,
+"trendFrac": 0.4474,
+"winR2": 0.9106
+},
+"food-poisoning": {
+"bestR2": 0.896,
+"periodBest": 140.0,
+"annualFrac": 0.0687,
+"trendFrac": 0.8051,
+"winR2": 0.9494
+},
+"sore-throat": {
+"bestR2": 0.8347,
+"periodBest": 232.0,
+"annualFrac": 0.0392,
+"trendFrac": 0.6383,
+"winR2": 0.9108
+},
+"cough": {
+"bestR2": 0.8656,
+"periodBest": 256.0,
+"annualFrac": 0.1076,
+"trendFrac": 0.6441,
+"winR2": 0.9554
+},
+"fever": {
+"bestR2": 0.6821,
+"periodBest": 256.0,
+"annualFrac": 0.0265,
+"trendFrac": 0.8453,
+"winR2": 0.7511
+},
+"pneumonia": {
+"bestR2": 0.7521,
+"periodBest": 60.0,
+"annualFrac": 0.2404,
+"trendFrac": 0.7129,
+"winR2": 0.7978
+},
+"bronchitis": {
+"bestR2": 0.7336,
+"periodBest": 156.0,
+"annualFrac": 0.7403,
+"trendFrac": 0.1649,
+"winR2": 0.9198
+},
+"sinus-infection": {
+"bestR2": 0.848,
+"periodBest": 84.0,
+"annualFrac": 0.3732,
+"trendFrac": 0.6532,
+"winR2": 0.9392
+},
+"ear-infection": {
+"bestR2": 0.916,
+"periodBest": 76.0,
+"annualFrac": 0.0357,
+"trendFrac": 0.9451,
+"winR2": 0.9708
+},
+"uti": {
+"bestR2": 0.9771,
+"periodBest": 256.0,
+"annualFrac": 0.0026,
+"trendFrac": 0.8752,
+"winR2": 0.9882
+},
+"kidney-stones": {
+"bestR2": 0.8659,
+"periodBest": 172.0,
+"annualFrac": 0.0129,
+"trendFrac": 0.9355,
+"winR2": 0.8834
+},
+"gallstones": {
+"bestR2": 0.8978,
+"periodBest": 176.0,
+"annualFrac": 0.0088,
+"trendFrac": 0.8729,
+"winR2": 0.9009
+},
+"hemorrhoids": {
+"bestR2": 0.9324,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.6572,
+"winR2": 0.9656
+},
+"eczema": {
+"bestR2": 0.9584,
+"periodBest": 256.0,
+"annualFrac": 0.0258,
+"trendFrac": 0.6382,
+"winR2": 0.9789
+},
+"psoriasis": {
+"bestR2": 0.8124,
+"periodBest": 256.0,
+"annualFrac": 0.0315,
+"trendFrac": 0.0894,
+"winR2": 0.8078
+},
+"acne": {
+"bestR2": 0.9447,
+"periodBest": 180.0,
+"annualFrac": 0.0021,
+"trendFrac": 0.9978,
+"winR2": 0.9685
+},
+"shingles": {
+"bestR2": 0.5861,
+"periodBest": 176.0,
+"annualFrac": 0.5515,
+"trendFrac": 0.2344,
+"winR2": 0.6865
+},
+"chickenpox": {
+"bestR2": 0.7752,
+"periodBest": 256.0,
+"annualFrac": 0.1686,
+"trendFrac": 0.2933,
+"winR2": 0.9531
+},
+"measles": {
+"bestR2": 0.2892,
+"periodBest": 132.0,
+"annualFrac": 0.2496,
+"trendFrac": 0.4153,
+"winR2": 0.0712
+},
+"hiv": {
+"bestR2": 0.678,
+"periodBest": 256.0,
+"annualFrac": 0.0346,
+"trendFrac": 1.0,
+"winR2": 0.5759
+},
+"std": {
+"bestR2": 0.765,
+"periodBest": 240.0,
+"annualFrac": 0.0175,
+"trendFrac": 0.1598,
+"winR2": 0.7726
+},
+"hepatitis": {
+"bestR2": 0.6687,
+"periodBest": 256.0,
+"annualFrac": 0.0263,
+"trendFrac": 1.0,
+"winR2": 0.8889
+},
+"tuberculosis": {
+"bestR2": 0.5205,
+"periodBest": 256.0,
+"annualFrac": 0.0751,
+"trendFrac": 1.0,
+"winR2": 0.7847
+},
+"malaria": {
+"bestR2": 0.4878,
+"periodBest": 256.0,
+"annualFrac": 0.0172,
+"trendFrac": 1.0,
+"winR2": 0.3287
+},
+"dengue": {
+"bestR2": 0.4259,
+"periodBest": 96.0,
+"annualFrac": 0.0605,
+"trendFrac": 0.495,
+"winR2": 0.7256
+},
+"alzheimers": {
+"bestR2": 0.9225,
+"periodBest": 256.0,
+"annualFrac": 0.0027,
+"trendFrac": 0.8744,
+"winR2": 0.9379
+},
+"dementia": {
+"bestR2": 0.9386,
+"periodBest": 256.0,
+"annualFrac": 0.003,
+"trendFrac": 0.7742,
+"winR2": 0.9658
+},
+"parkinsons": {
+"bestR2": 0.77,
+"periodBest": 256.0,
+"annualFrac": 0.0021,
+"trendFrac": 0.562,
+"winR2": 0.8153
+},
+"epilepsy": {
+"bestR2": 0.8015,
+"periodBest": 256.0,
+"annualFrac": 0.0222,
+"trendFrac": 0.7228,
+"winR2": 0.881
+},
+"seizures": {
+"bestR2": 0.7709,
+"periodBest": 256.0,
+"annualFrac": 0.0146,
+"trendFrac": 0.1102,
+"winR2": 0.8915
+},
+"adhd": {
+"bestR2": 0.9692,
+"periodBest": 256.0,
+"annualFrac": 0.0036,
+"trendFrac": 0.9818,
+"winR2": 0.9788
+},
+"autism": {
+"bestR2": 0.72,
+"periodBest": 256.0,
+"annualFrac": 0.0988,
+"trendFrac": 1.0,
+"winR2": 0.7671
+},
+"bipolar-disorder": {
+"bestR2": 0.4899,
+"periodBest": 244.0,
+"annualFrac": 0.0859,
+"trendFrac": 0.73,
+"winR2": 0.6203
+},
+"ptsd": {
+"bestR2": 0.9618,
+"periodBest": 256.0,
+"annualFrac": 0.0049,
+"trendFrac": 0.5231,
+"winR2": 0.9795
+},
+"ocd": {
+"bestR2": 0.8558,
+"periodBest": 232.0,
+"annualFrac": 0.0097,
+"trendFrac": 0.9174,
+"winR2": 0.8798
+},
+"panic-attack": {
+"bestR2": 0.9759,
+"periodBest": 208.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.7929,
+"winR2": 0.9845
+},
+"stress": {
+"bestR2": 0.649,
+"periodBest": 256.0,
+"annualFrac": 0.1254,
+"trendFrac": 0.614,
+"winR2": 0.7251
+},
+"divorce": {
+"bestR2": 0.6622,
+"periodBest": 164.0,
+"annualFrac": 0.0011,
+"trendFrac": 0.6987,
+"winR2": 0.634
+},
+"custody": {
+"bestR2": 0.6024,
+"periodBest": 172.0,
+"annualFrac": 0.1309,
+"trendFrac": 0.6226,
+"winR2": 0.4017
+},
+"child-support": {
+"bestR2": 0.8592,
+"periodBest": 256.0,
+"annualFrac": 0.0228,
+"trendFrac": 0.0094,
+"winR2": 0.882
+},
+"alimony": {
+"bestR2": 0.7006,
+"periodBest": 84.0,
+"annualFrac": 0.0494,
+"trendFrac": 0.8909,
+"winR2": 0.8494
+},
+"prenup": {
+"bestR2": 0.8717,
+"periodBest": 184.0,
+"annualFrac": 0.0002,
+"trendFrac": 1.0,
+"winR2": 0.8117
+},
+"annulment": {
+"bestR2": 0.3249,
+"periodBest": 256.0,
+"annualFrac": 0.0048,
+"trendFrac": 1.0,
+"winR2": 0.4692
+},
+"restraining-order": {
+"bestR2": 0.8264,
+"periodBest": 168.0,
+"annualFrac": 0.0626,
+"trendFrac": 0.8785,
+"winR2": 0.8648
+},
+"copyright": {
+"bestR2": 0.9443,
+"periodBest": 256.0,
+"annualFrac": 0.0076,
+"trendFrac": 0.9491,
+"winR2": 0.9706
+},
+"trademark": {
+"bestR2": 0.9167,
+"periodBest": 256.0,
+"annualFrac": 0.0098,
+"trendFrac": 0.8416,
+"winR2": 0.9438
+},
+"patent": {
+"bestR2": 0.9779,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 1.0,
+"winR2": 0.9913
+},
+"intellectual-property": {
+"bestR2": 0.9491,
+"periodBest": 256.0,
+"annualFrac": 0.0059,
+"trendFrac": 1.0,
+"winR2": 0.9625
+},
+"licensing": {
+"bestR2": 0.9693,
+"periodBest": 256.0,
+"annualFrac": 0.0046,
+"trendFrac": 0.898,
+"winR2": 0.963
+},
+"royalties": {
+"bestR2": 0.5226,
+"periodBest": 256.0,
+"annualFrac": 0.1047,
+"trendFrac": 0.4679,
+"winR2": 0.442
+},
+"lawsuit": {
+"bestR2": 0.7079,
+"periodBest": 256.0,
+"annualFrac": 0.0098,
+"trendFrac": 0.5208,
+"winR2": 0.8227
+},
+"class-action": {
+"bestR2": 0.744,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.2128,
+"winR2": 0.8224
+},
+"settlement": {
+"bestR2": 0.624,
+"periodBest": 256.0,
+"annualFrac": 0.0018,
+"trendFrac": 0.5333,
+"winR2": 0.4443
+},
+"defamation": {
+"bestR2": 0.4472,
+"periodBest": 256.0,
+"annualFrac": 0.0409,
+"trendFrac": 0.1395,
+"winR2": 0.5976
+},
+"libel": {
+"bestR2": 0.1003,
+"periodBest": 72.0,
+"annualFrac": 0.2664,
+"trendFrac": 0.1229,
+"winR2": -0.4334
+},
+"slander": {
+"bestR2": 0.6964,
+"periodBest": 240.0,
+"annualFrac": 0.0094,
+"trendFrac": 0.089,
+"winR2": 0.8801
+},
+"malpractice": {
+"bestR2": 0.8295,
+"periodBest": 256.0,
+"annualFrac": 0.0057,
+"trendFrac": 0.9059,
+"winR2": 0.9388
+},
+"negligence": {
+"bestR2": 0.7173,
+"periodBest": 256.0,
+"annualFrac": 0.0104,
+"trendFrac": 0.1977,
+"winR2": 0.8727
+},
+"liability": {
+"bestR2": 0.7761,
+"periodBest": 256.0,
+"annualFrac": 0.0321,
+"trendFrac": 0.5657,
+"winR2": 0.8542
+},
+"damages": {
+"bestR2": 0.5206,
+"periodBest": 204.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.0818,
+"winR2": 0.8049
+},
+"personal-injury": {
+"bestR2": 0.6037,
+"periodBest": 184.0,
+"annualFrac": 0.0089,
+"trendFrac": 0.6047,
+"winR2": 0.8866
+},
+"wrongful-death": {
+"bestR2": 0.5433,
+"periodBest": 256.0,
+"annualFrac": 0.0118,
+"trendFrac": 0.8326,
+"winR2": 0.8643
+},
+"bankruptcy": {
+"bestR2": 0.8725,
+"periodBest": 180.0,
+"annualFrac": 0.0018,
+"trendFrac": 0.8713,
+"winR2": 0.9662
+},
+"chapter-7": {
+"bestR2": 0.8962,
+"periodBest": 256.0,
+"annualFrac": 0.0246,
+"trendFrac": 0.2915,
+"winR2": 0.9766
+},
+"chapter-11": {
+"bestR2": 0.8591,
+"periodBest": 256.0,
+"annualFrac": 0.0311,
+"trendFrac": 0.3296,
+"winR2": 0.9502
+},
+"chapter-13": {
+"bestR2": 0.7158,
+"periodBest": 72.0,
+"annualFrac": 0.2622,
+"trendFrac": 0.7302,
+"winR2": 0.9239
+},
+"foreclosure": {
+"bestR2": 0.8922,
+"periodBest": 228.0,
+"annualFrac": 0.0071,
+"trendFrac": 0.1765,
+"winR2": 0.9751
+},
+"garnishment": {
+"bestR2": 0.6455,
+"periodBest": 196.0,
+"annualFrac": 0.0224,
+"trendFrac": 0.4575,
+"winR2": 0.7681
+},
+"lien": {
+"bestR2": 0.9621,
+"periodBest": 196.0,
+"annualFrac": 0.0014,
+"trendFrac": 0.0399,
+"winR2": 0.9795
+},
+"debt-collection": {
+"bestR2": 0.9052,
+"periodBest": 256.0,
+"annualFrac": 0.0124,
+"trendFrac": 0.5882,
+"winR2": 0.9373
+},
+"contract": {
+"bestR2": 0.5282,
+"periodBest": 256.0,
+"annualFrac": 0.0288,
+"trendFrac": 0.0292,
+"winR2": 0.5818
+},
+"breach": {
+"bestR2": 0.5432,
+"periodBest": 196.0,
+"annualFrac": 0.0015,
+"trendFrac": 0.858,
+"winR2": 0.8658
+},
+"nda": {
+"bestR2": 0.5115,
+"periodBest": 116.0,
+"annualFrac": 0.1067,
+"trendFrac": 0.8322,
+"winR2": 0.2855
+},
+"non-compete": {
+"bestR2": 0.3455,
+"periodBest": 256.0,
+"annualFrac": 0.0729,
+"trendFrac": 1.0,
+"winR2": -0.4168
+},
+"arbitration": {
+"bestR2": 0.8735,
+"periodBest": 256.0,
+"annualFrac": 0.0026,
+"trendFrac": 0.9148,
+"winR2": 0.907
+},
+"mediation": {
+"bestR2": 0.8562,
+"periodBest": 256.0,
+"annualFrac": 0.0146,
+"trendFrac": 0.9848,
+"winR2": 0.916
+},
+"small-claims": {
+"bestR2": 0.967,
+"periodBest": 256.0,
+"annualFrac": 0.0076,
+"trendFrac": 0.8004,
+"winR2": 0.9713
+},
+"litigation": {
+"bestR2": 0.8578,
+"periodBest": 256.0,
+"annualFrac": 0.0035,
+"trendFrac": 0.8651,
+"winR2": 0.944
+},
+"subpoena": {
+"bestR2": 0.3905,
+"periodBest": 176.0,
+"annualFrac": 0.0265,
+"trendFrac": 0.6178,
+"winR2": 0.6157
+},
+"deposition": {
+"bestR2": 0.411,
+"periodBest": 256.0,
+"annualFrac": 0.2474,
+"trendFrac": 0.4944,
+"winR2": 0.7193
+},
+"will": {
+"bestR2": 0.8995,
+"periodBest": 124.0,
+"annualFrac": 0.0061,
+"trendFrac": 0.8472,
+"winR2": 0.915
+},
+"trust": {
+"bestR2": 0.9438,
+"periodBest": 256.0,
+"annualFrac": 0.0075,
+"trendFrac": 0.8309,
+"winR2": 0.9607
+},
+"probate": {
+"bestR2": 0.7963,
+"periodBest": 256.0,
+"annualFrac": 0.0521,
+"trendFrac": 0.2066,
+"winR2": 0.8928
+},
+"living-will": {
+"bestR2": 0.17,
+"periodBest": 244.0,
+"annualFrac": 0.1047,
+"trendFrac": 0.1147,
+"winR2": 0.6115
+},
+"inheritance": {
+"bestR2": 0.716,
+"periodBest": 256.0,
+"annualFrac": 0.0827,
+"trendFrac": 0.1756,
+"winR2": 0.6411
+},
+"executor": {
+"bestR2": 0.8318,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 1.0,
+"winR2": 0.9856
+},
+"immigration": {
+"bestR2": 0.8967,
+"periodBest": 256.0,
+"annualFrac": 0.0072,
+"trendFrac": 0.8918,
+"winR2": 0.934
+},
+"green-card": {
+"bestR2": 0.4159,
+"periodBest": 256.0,
+"annualFrac": 0.256,
+"trendFrac": 0.0004,
+"winR2": 0.484
+},
+"visa": {
+"bestR2": 0.4932,
+"periodBest": 256.0,
+"annualFrac": 0.0656,
+"trendFrac": 1.0,
+"winR2": 0.8806
+},
+"citizenship": {
+"bestR2": 0.5292,
+"periodBest": 256.0,
+"annualFrac": 0.0194,
+"trendFrac": 0.1347,
+"winR2": 0.7562
+},
+"deportation": {
+"bestR2": 0.3212,
+"periodBest": 256.0,
+"annualFrac": 0.1053,
+"trendFrac": 1.0,
+"winR2": 0.3668
+},
+"asylum": {
+"bestR2": 0.4709,
+"periodBest": 188.0,
+"annualFrac": 0.1082,
+"trendFrac": 0.0611,
+"winR2": 0.9388
+},
+"naturalization": {
+"bestR2": 0.9174,
+"periodBest": 256.0,
+"annualFrac": 0.0024,
+"trendFrac": 1.0,
+"winR2": 0.9917
+},
+"eviction": {
+"bestR2": 0.5202,
+"periodBest": 176.0,
+"annualFrac": 0.1794,
+"trendFrac": 0.739,
+"winR2": 0.7044
+},
+"lease-agreement": {
+"bestR2": 0.6247,
+"periodBest": 168.0,
+"annualFrac": 0.4499,
+"trendFrac": 0.3684,
+"winR2": 0.6806
+},
+"landlord-tenant": {
+"bestR2": 0.9162,
+"periodBest": 256.0,
+"annualFrac": 0.0585,
+"trendFrac": 0.9449,
+"winR2": 0.9232
+},
+"security-deposit": {
+"bestR2": 0.8232,
+"periodBest": 164.0,
+"annualFrac": 0.1575,
+"trendFrac": 0.7859,
+"winR2": 0.6798
+},
+"quitclaim-deed": {
+"bestR2": 0.8765,
+"periodBest": 212.0,
+"annualFrac": 0.0163,
+"trendFrac": 0.0436,
+"winR2": 0.9531
+},
+"easement": {
+"bestR2": 0.8519,
+"periodBest": 256.0,
+"annualFrac": 0.1874,
+"trendFrac": 0.0355,
+"winR2": 0.866
+},
+"zoning": {
+"bestR2": 0.9165,
+"periodBest": 256.0,
+"annualFrac": 0.0495,
+"trendFrac": 0.6134,
+"winR2": 0.9631
+},
+"title": {
+"bestR2": 0.5849,
+"periodBest": 256.0,
+"annualFrac": 0.0984,
+"trendFrac": 0.0018,
+"winR2": 0.6789
+},
+"dui": {
+"bestR2": 0.4396,
+"periodBest": 192.0,
+"annualFrac": 0.018,
+"trendFrac": 0.0402,
+"winR2": 0.4702
+},
+"dwi": {
+"bestR2": 0.451,
+"periodBest": 176.0,
+"annualFrac": 0.0275,
+"trendFrac": 0.0078,
+"winR2": 0.6447
+},
+"felony": {
+"bestR2": 0.6569,
+"periodBest": 192.0,
+"annualFrac": 0.0154,
+"trendFrac": 0.798,
+"winR2": 0.7593
+},
+"misdemeanor": {
+"bestR2": 0.8308,
+"periodBest": 184.0,
+"annualFrac": 0.0126,
+"trendFrac": 0.589,
+"winR2": 0.8684
+},
+"expungement": {
+"bestR2": 0.633,
+"periodBest": 208.0,
+"annualFrac": 0.0885,
+"trendFrac": 0.0325,
+"winR2": 0.597
+},
+"parole": {
+"bestR2": 0.9554,
+"periodBest": 256.0,
+"annualFrac": 0.005,
+"trendFrac": 0.0422,
+"winR2": 0.9761
+},
+"probation": {
+"bestR2": 0.7666,
+"periodBest": 200.0,
+"annualFrac": 0.0145,
+"trendFrac": 0.1327,
+"winR2": 0.8444
+},
+"bail": {
+"bestR2": 0.5368,
+"periodBest": 204.0,
+"annualFrac": 0.0097,
+"trendFrac": 0.5252,
+"winR2": 0.5076
+},
+"plea-deal": {
+"bestR2": 0.7176,
+"periodBest": 256.0,
+"annualFrac": 0.0103,
+"trendFrac": 1.0,
+"winR2": 0.8094
+},
+"arraignment": {
+"bestR2": 0.1772,
+"periodBest": 128.0,
+"annualFrac": 0.081,
+"trendFrac": 0.2604,
+"winR2": 0.4801
+},
+"indictment": {
+"bestR2": 0.1153,
+"periodBest": 72.0,
+"annualFrac": 0.0253,
+"trendFrac": 0.3897,
+"winR2": 0.1229
+},
+"miranda-rights": {
+"bestR2": 0.1924,
+"periodBest": 124.0,
+"annualFrac": 0.1355,
+"trendFrac": 0.0131,
+"winR2": 0.5892
+},
+"criminal-law": {
+"bestR2": 0.7849,
+"periodBest": 256.0,
+"annualFrac": 0.0289,
+"trendFrac": 0.7563,
+"winR2": 0.8682
+},
+"civil-law": {
+"bestR2": 0.7158,
+"periodBest": 256.0,
+"annualFrac": 0.0564,
+"trendFrac": 0.4494,
+"winR2": 0.8548
+},
+"constitutional-law": {
+"bestR2": 0.7103,
+"periodBest": 256.0,
+"annualFrac": 0.1183,
+"trendFrac": 0.4933,
+"winR2": 0.701
+},
+"human-rights": {
+"bestR2": 0.8941,
+"periodBest": 256.0,
+"annualFrac": 0.0349,
+"trendFrac": 1.0,
+"winR2": 0.9602
+},
+"discrimination": {
+"bestR2": 0.7696,
+"periodBest": 256.0,
+"annualFrac": 0.1185,
+"trendFrac": 1.0,
+"winR2": 0.7487
+},
+"harassment": {
+"bestR2": 0.4367,
+"periodBest": 256.0,
+"annualFrac": 0.0171,
+"trendFrac": 0.1757,
+"winR2": 0.7674
+},
+"wrongful-termination": {
+"bestR2": 0.4151,
+"periodBest": 256.0,
+"annualFrac": 0.0569,
+"trendFrac": 0.0854,
+"winR2": 0.7733
+},
+"workers-compensation": {
+"bestR2": 0.83,
+"periodBest": 256.0,
+"annualFrac": 0.0166,
+"trendFrac": 1.0,
+"winR2": 0.9372
+},
+"overtime": {
+"bestR2": 0.3906,
+"periodBest": 256.0,
+"annualFrac": 0.0142,
+"trendFrac": 0.5984,
+"winR2": 0.6393
+},
+"solar-panel": {
+"bestR2": 0.9587,
+"periodBest": 256.0,
+"annualFrac": 0.0385,
+"trendFrac": 1.0,
+"winR2": 0.9766
+},
+"electric-car": {
+"bestR2": 0.8634,
+"periodBest": 188.0,
+"annualFrac": 0.003,
+"trendFrac": 0.6875,
+"winR2": 0.9419
+},
+"robotics-t": {
+"bestR2": 0.904,
+"periodBest": 256.0,
+"annualFrac": 0.0138,
+"trendFrac": 1.0,
+"winR2": 0.9717
+},
+"drone": {
+"bestR2": 0.9281,
+"periodBest": 176.0,
+"annualFrac": 0.005,
+"trendFrac": 0.8037,
+"winR2": 0.9259
+},
+"wind-turbine": {
+"bestR2": 0.7382,
+"periodBest": 240.0,
+"annualFrac": 0.0409,
+"trendFrac": 0.0222,
+"winR2": 0.89
+},
+"electric-motor": {
+"bestR2": 0.8543,
+"periodBest": 256.0,
+"annualFrac": 0.0838,
+"trendFrac": 1.0,
+"winR2": 0.94
+},
+"circuit": {
+"bestR2": 0.8995,
+"periodBest": 216.0,
+"annualFrac": 0.0097,
+"trendFrac": 0.7355,
+"winR2": 0.9534
+},
+"arduino-t": {
+"bestR2": 0.9687,
+"periodBest": 212.0,
+"annualFrac": 0.0107,
+"trendFrac": 0.4405,
+"winR2": 0.9848
+},
+"raspberry-pi-t": {
+"bestR2": 0.9306,
+"periodBest": 192.0,
+"annualFrac": 0.0116,
+"trendFrac": 0.4073,
+"winR2": 0.9769
+},
+"gear": {
+"bestR2": 0.7884,
+"periodBest": 184.0,
+"annualFrac": 0.0102,
+"trendFrac": 0.9354,
+"winR2": 0.6094
+},
+"engine": {
+"bestR2": 0.8016,
+"periodBest": 256.0,
+"annualFrac": 0.0244,
+"trendFrac": 0.8484,
+"winR2": 0.9433
+},
+"hydraulics": {
+"bestR2": 0.9428,
+"periodBest": 256.0,
+"annualFrac": 0.004,
+"trendFrac": 1.0,
+"winR2": 0.9616
+},
+"welding-t": {
+"bestR2": 0.6337,
+"periodBest": 256.0,
+"annualFrac": 0.0095,
+"trendFrac": 0.0136,
+"winR2": 0.4467
+},
+"cad-t": {
+"bestR2": 0.896,
+"periodBest": 256.0,
+"annualFrac": 0.0096,
+"trendFrac": 0.5288,
+"winR2": 0.9617
+},
+"battery": {
+"bestR2": 0.9378,
+"periodBest": 256.0,
+"annualFrac": 0.0083,
+"trendFrac": 0.7623,
+"winR2": 0.968
+},
+"semiconductor": {
+"bestR2": 0.9581,
+"periodBest": 256.0,
+"annualFrac": 0.0024,
+"trendFrac": 1.0,
+"winR2": 0.9846
+},
+"transistor": {
+"bestR2": 0.9017,
+"periodBest": 256.0,
+"annualFrac": 0.0159,
+"trendFrac": 1.0,
+"winR2": 0.9098
+},
+"laser": {
+"bestR2": 0.6058,
+"periodBest": 256.0,
+"annualFrac": 0.0107,
+"trendFrac": 0.5646,
+"winR2": 0.9023
+},
+"nuclear-reactor": {
+"bestR2": 0.0816,
+"periodBest": 33.0,
+"annualFrac": 0.3199,
+"trendFrac": 0.1919,
+"winR2": -0.0235
+},
+"jet-engine": {
+"bestR2": 0.9433,
+"periodBest": 256.0,
+"annualFrac": 0.0021,
+"trendFrac": 1.0,
+"winR2": 0.9766
+},
+"rocket": {
+"bestR2": 0.527,
+"periodBest": 244.0,
+"annualFrac": 0.0018,
+"trendFrac": 0.1163,
+"winR2": 0.7922
+},
+"concrete": {
+"bestR2": 0.8404,
+"periodBest": 256.0,
+"annualFrac": 0.4085,
+"trendFrac": 0.0071,
+"winR2": 0.922
+},
+"steel": {
+"bestR2": 0.3731,
+"periodBest": 256.0,
+"annualFrac": 0.0061,
+"trendFrac": 0.1764,
+"winR2": 0.7158
+},
+"hvac-t": {
+"bestR2": 0.8012,
+"periodBest": 256.0,
+"annualFrac": 0.0643,
+"trendFrac": 1.0,
+"winR2": 0.9337
+},
+"plumbing-t": {
+"bestR2": 0.6125,
+"periodBest": 256.0,
+"annualFrac": 0.0025,
+"trendFrac": 0.1617,
+"winR2": 0.7896
+},
+"soldering-t": {
+"bestR2": 0.854,
+"periodBest": 256.0,
+"annualFrac": 0.0314,
+"trendFrac": 0.6749,
+"winR2": 0.948
+},
+"transformer": {
+"bestR2": 0.4098,
+"periodBest": 184.0,
+"annualFrac": 0.0233,
+"trendFrac": 0.1892,
+"winR2": 0.9166
+},
+"generator": {
+"bestR2": 0.9225,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 0.7418,
+"winR2": 0.966
+},
+"solar-energy": {
+"bestR2": 0.6653,
+"periodBest": 180.0,
+"annualFrac": 0.1345,
+"trendFrac": 0.6145,
+"winR2": 0.7822
+},
+"heat-pump": {
+"bestR2": 0.8625,
+"periodBest": 256.0,
+"annualFrac": 0.0096,
+"trendFrac": 0.9899,
+"winR2": 0.8765
+},
+"inverter": {
+"bestR2": 0.9518,
+"periodBest": 256.0,
+"annualFrac": 0.0355,
+"trendFrac": 0.7444,
+"winR2": 0.9563
+},
+"capacitor": {
+"bestR2": 0.7545,
+"periodBest": 256.0,
+"annualFrac": 0.0929,
+"trendFrac": 0.1538,
+"winR2": 0.765
+},
+"resistor": {
+"bestR2": 0.7571,
+"periodBest": 256.0,
+"annualFrac": 0.0351,
+"trendFrac": 0.7354,
+"winR2": 0.8746
+},
+"diode": {
+"bestR2": 0.8991,
+"periodBest": 256.0,
+"annualFrac": 0.0251,
+"trendFrac": 1.0,
+"winR2": 0.9305
+},
+"microcontroller": {
+"bestR2": 0.9437,
+"periodBest": 256.0,
+"annualFrac": 0.0073,
+"trendFrac": 1.0,
+"winR2": 0.9864
+},
+"sensor": {
+"bestR2": 0.9618,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.7115,
+"winR2": 0.9865
+},
+"servo": {
+"bestR2": 0.75,
+"periodBest": 256.0,
+"annualFrac": 0.0502,
+"trendFrac": 0.7076,
+"winR2": 0.9501
+},
+"actuator": {
+"bestR2": 0.9198,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.3657,
+"winR2": 0.9528
+},
+"bearing": {
+"bestR2": 0.9124,
+"periodBest": 256.0,
+"annualFrac": 0.0462,
+"trendFrac": 0.2975,
+"winR2": 0.9117
+},
+"turbine": {
+"bestR2": 0.9007,
+"periodBest": 256.0,
+"annualFrac": 0.0146,
+"trendFrac": 0.8476,
+"winR2": 0.9422
+},
+"combustion-engine": {
+"bestR2": 0.8858,
+"periodBest": 256.0,
+"annualFrac": 0.0402,
+"trendFrac": 1.0,
+"winR2": 0.9223
+},
+"piston": {
+"bestR2": 0.7629,
+"periodBest": 204.0,
+"annualFrac": 0.0318,
+"trendFrac": 0.8828,
+"winR2": 0.6889
+},
+"crankshaft": {
+"bestR2": 0.9313,
+"periodBest": 160.0,
+"annualFrac": 0.0188,
+"trendFrac": 1.0,
+"winR2": 0.9437
+},
+"gearbox": {
+"bestR2": 0.8187,
+"periodBest": 168.0,
+"annualFrac": 0.033,
+"trendFrac": 0.9638,
+"winR2": 0.8903
+},
+"pump": {
+"bestR2": 0.9023,
+"periodBest": 164.0,
+"annualFrac": 0.065,
+"trendFrac": 0.8913,
+"winR2": 0.9448
+},
+"valve": {
+"bestR2": 0.8065,
+"periodBest": 256.0,
+"annualFrac": 0.0306,
+"trendFrac": 0.0134,
+"winR2": 0.9511
+},
+"compressor": {
+"bestR2": 0.9505,
+"periodBest": 256.0,
+"annualFrac": 0.09,
+"trendFrac": 0.672,
+"winR2": 0.9691
+},
+"boiler": {
+"bestR2": 0.8619,
+"periodBest": 256.0,
+"annualFrac": 0.5538,
+"trendFrac": 0.2719,
+"winR2": 0.8582
+},
+"radiator": {
+"bestR2": 0.9319,
+"periodBest": 256.0,
+"annualFrac": 0.0931,
+"trendFrac": 0.3375,
+"winR2": 0.89
+},
+"voltage": {
+"bestR2": 0.8617,
+"periodBest": 256.0,
+"annualFrac": 0.0222,
+"trendFrac": 0.6917,
+"winR2": 0.9322
+},
+"current": {
+"bestR2": 0.7983,
+"periodBest": 160.0,
+"annualFrac": 0.0368,
+"trendFrac": 0.8971,
+"winR2": 0.854
+},
+"resistance": {
+"bestR2": 0.6467,
+"periodBest": 240.0,
+"annualFrac": 0.1704,
+"trendFrac": 0.1687,
+"winR2": 0.8378
+},
+"ohms-law": {
+"bestR2": 0.7815,
+"periodBest": 256.0,
+"annualFrac": 0.0642,
+"trendFrac": 0.6925,
+"winR2": 0.826
+},
+"circuit-board": {
+"bestR2": 0.8196,
+"periodBest": 256.0,
+"annualFrac": 0.02,
+"trendFrac": 1.0,
+"winR2": 0.8995
+},
+"pcb": {
+"bestR2": 0.9021,
+"periodBest": 256.0,
+"annualFrac": 0.0226,
+"trendFrac": 0.551,
+"winR2": 0.9282
+},
+"breadboard": {
+"bestR2": 0.7841,
+"periodBest": 144.0,
+"annualFrac": 0.1816,
+"trendFrac": 0.4859,
+"winR2": 0.7929
+},
+"led": {
+"bestR2": 0.9374,
+"periodBest": 208.0,
+"annualFrac": 0.0881,
+"trendFrac": 0.6272,
+"winR2": 0.9401
+},
+"relay": {
+"bestR2": 0.5771,
+"periodBest": 256.0,
+"annualFrac": 0.1764,
+"trendFrac": 0.3179,
+"winR2": 0.6894
+},
+"fuse": {
+"bestR2": 0.9376,
+"periodBest": 256.0,
+"annualFrac": 0.0088,
+"trendFrac": 0.8986,
+"winR2": 0.958
+},
+"solar-cell": {
+"bestR2": 0.8251,
+"periodBest": 172.0,
+"annualFrac": 0.0169,
+"trendFrac": 0.9589,
+"winR2": 0.8896
+},
+"lithium-battery": {
+"bestR2": 0.9601,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.7986,
+"winR2": 0.9799
+},
+"fuel-cell": {
+"bestR2": 0.9158,
+"periodBest": 256.0,
+"annualFrac": 0.0063,
+"trendFrac": 1.0,
+"winR2": 0.9415
+},
+"biofuel": {
+"bestR2": 0.7655,
+"periodBest": 256.0,
+"annualFrac": 0.0093,
+"trendFrac": 0.1974,
+"winR2": 0.9223
+},
+"geothermal": {
+"bestR2": 0.7972,
+"periodBest": 192.0,
+"annualFrac": 0.2033,
+"trendFrac": 0.594,
+"winR2": 0.8593
+},
+"hydropower": {
+"bestR2": 0.5931,
+"periodBest": 256.0,
+"annualFrac": 0.4395,
+"trendFrac": 0.0653,
+"winR2": 0.6967
+},
+"power-grid": {
+"bestR2": 0.4379,
+"periodBest": 156.0,
+"annualFrac": 0.0298,
+"trendFrac": 0.679,
+"winR2": 0.2285
+},
+"power-plant": {
+"bestR2": 0.195,
+"periodBest": 144.0,
+"annualFrac": 0.26,
+"trendFrac": 0.0131,
+"winR2": 0.3775
+},
+"electric-grid": {
+"bestR2": 0.5184,
+"periodBest": 256.0,
+"annualFrac": 0.0008,
+"trendFrac": 1.0,
+"winR2": 0.4632
+},
+"suspension-bridge": {
+"bestR2": 0.567,
+"periodBest": 256.0,
+"annualFrac": 0.1942,
+"trendFrac": 0.7931,
+"winR2": 0.6283
+},
+"truss": {
+"bestR2": 0.1661,
+"periodBest": 220.0,
+"annualFrac": 0.0621,
+"trendFrac": 0.1249,
+"winR2": 0.4587
+},
+"beam": {
+"bestR2": 0.8378,
+"periodBest": 256.0,
+"annualFrac": 0.0117,
+"trendFrac": 0.2337,
+"winR2": 0.896
+},
+"foundation": {
+"bestR2": 0.8784,
+"periodBest": 256.0,
+"annualFrac": 0.0011,
+"trendFrac": 1.0,
+"winR2": 0.9311
+},
+"rebar": {
+"bestR2": 0.9344,
+"periodBest": 256.0,
+"annualFrac": 0.0813,
+"trendFrac": 0.822,
+"winR2": 0.9433
+},
+"cantilever": {
+"bestR2": 0.6995,
+"periodBest": 256.0,
+"annualFrac": 0.2525,
+"trendFrac": 0.0002,
+"winR2": 0.8497
+},
+"tunnel": {
+"bestR2": 0.6288,
+"periodBest": 172.0,
+"annualFrac": 0.036,
+"trendFrac": 0.7665,
+"winR2": 0.931
+},
+"pipeline": {
+"bestR2": 0.3346,
+"periodBest": 256.0,
+"annualFrac": 0.0928,
+"trendFrac": 0.1547,
+"winR2": 0.7207
+},
+"machining-t": {
+"bestR2": 0.906,
+"periodBest": 256.0,
+"annualFrac": 0.0041,
+"trendFrac": 1.0,
+"winR2": 0.967
+},
+"cnc-t": {
+"bestR2": 0.6666,
+"periodBest": 256.0,
+"annualFrac": 0.0911,
+"trendFrac": 0.097,
+"winR2": 0.7621
+},
+"laser-cutting": {
+"bestR2": 0.8803,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.1778,
+"winR2": 0.9512
+},
+"injection-molection": {
+"bestR2": 0.0316,
+"periodBest": 48.0,
+"annualFrac": 0.2435,
+"trendFrac": 0.224,
+"winR2": 0.0
+},
+"casting": {
+"bestR2": 0.9029,
+"periodBest": 184.0,
+"annualFrac": 0.0034,
+"trendFrac": 0.2791,
+"winR2": 0.9038
+},
+"forging": {
+"bestR2": 0.7857,
+"periodBest": 256.0,
+"annualFrac": 0.0145,
+"trendFrac": 1.0,
+"winR2": 0.9331
+},
+"extrusion": {
+"bestR2": 0.9285,
+"periodBest": 256.0,
+"annualFrac": 0.007,
+"trendFrac": 0.9048,
+"winR2": 0.9499
+},
+"algebra": {
+"bestR2": 0.7362,
+"periodBest": 6.0,
+"annualFrac": 0.0506,
+"trendFrac": 0.6862,
+"winR2": 0.8372
+},
+"geometry": {
+"bestR2": 0.79,
+"periodBest": 256.0,
+"annualFrac": 0.0267,
+"trendFrac": 1.0,
+"winR2": 0.9449
+},
+"calculus-t": {
+"bestR2": 0.607,
+"periodBest": 6.0,
+"annualFrac": 0.09,
+"trendFrac": 0.5814,
+"winR2": 0.7379
+},
+"trigonometry": {
+"bestR2": 0.7653,
+"periodBest": 252.0,
+"annualFrac": 0.0057,
+"trendFrac": 0.0072,
+"winR2": 0.8332
+},
+"statistics-t": {
+"bestR2": 0.9067,
+"periodBest": 256.0,
+"annualFrac": 0.015,
+"trendFrac": 1.0,
+"winR2": 0.9668
+},
+"fractions": {
+"bestR2": 0.5919,
+"periodBest": 240.0,
+"annualFrac": 0.5578,
+"trendFrac": 0.003,
+"winR2": 0.7209
+},
+"multiplication": {
+"bestR2": 0.6644,
+"periodBest": 6.0,
+"annualFrac": 0.5693,
+"trendFrac": 0.1165,
+"winR2": 0.8152
+},
+"division": {
+"bestR2": 0.2942,
+"periodBest": 152.0,
+"annualFrac": 0.254,
+"trendFrac": 0.002,
+"winR2": 0.7082
+},
+"percentage": {
+"bestR2": 0.9722,
+"periodBest": 256.0,
+"annualFrac": 0.0088,
+"trendFrac": 0.845,
+"winR2": 0.9732
+},
+"equations": {
+"bestR2": 0.6627,
+"periodBest": 6.0,
+"annualFrac": 0.4222,
+"trendFrac": 0.061,
+"winR2": 0.8481
+},
+"grammar": {
+"bestR2": 0.6627,
+"periodBest": 252.0,
+"annualFrac": 0.0469,
+"trendFrac": 0.0,
+"winR2": 0.7704
+},
+"spelling": {
+"bestR2": 0.8286,
+"periodBest": 220.0,
+"annualFrac": 0.0047,
+"trendFrac": 0.9264,
+"winR2": 0.9335
+},
+"vocabulary": {
+"bestR2": 0.6417,
+"periodBest": 6.0,
+"annualFrac": 0.2777,
+"trendFrac": 0.2943,
+"winR2": 0.7578
+},
+"phonics": {
+"bestR2": 0.3593,
+"periodBest": 6.0,
+"annualFrac": 0.3035,
+"trendFrac": 0.1234,
+"winR2": 0.6778
+},
+"essay": {
+"bestR2": 0.5776,
+"periodBest": 256.0,
+"annualFrac": 0.3148,
+"trendFrac": 0.167,
+"winR2": 0.7952
+},
+"synonyms": {
+"bestR2": 0.9316,
+"periodBest": 72.0,
+"annualFrac": 0.0102,
+"trendFrac": 0.9949,
+"winR2": 0.9434
+},
+"antonyms": {
+"bestR2": 0.8355,
+"periodBest": 212.0,
+"annualFrac": 0.0519,
+"trendFrac": 0.8324,
+"winR2": 0.9058
+},
+"punctuation": {
+"bestR2": 0.8055,
+"periodBest": 232.0,
+"annualFrac": 0.004,
+"trendFrac": 0.0003,
+"winR2": 0.9728
+},
+"metaphor": {
+"bestR2": 0.4283,
+"periodBest": 6.0,
+"annualFrac": 0.2833,
+"trendFrac": 0.4576,
+"winR2": 0.5588
+},
+"homework": {
+"bestR2": 0.5064,
+"periodBest": 256.0,
+"annualFrac": 0.2846,
+"trendFrac": 0.933,
+"winR2": 0.5748
+},
+"flashcards": {
+"bestR2": 0.6804,
+"periodBest": 6.0,
+"annualFrac": 0.1724,
+"trendFrac": 0.5641,
+"winR2": 0.8401
+},
+"quizlet": {
+"bestR2": 0.8133,
+"periodBest": 224.0,
+"annualFrac": 0.0458,
+"trendFrac": 0.3374,
+"winR2": 0.9065
+},
+"study-tips": {
+"bestR2": 0.8647,
+"periodBest": 256.0,
+"annualFrac": 0.0225,
+"trendFrac": 1.0,
+"winR2": 0.9157
+},
+"notes": {
+"bestR2": 0.8804,
+"periodBest": 256.0,
+"annualFrac": 0.0343,
+"trendFrac": 0.3715,
+"winR2": 0.9616
+},
+"revision": {
+"bestR2": 0.5279,
+"periodBest": 256.0,
+"annualFrac": 0.2736,
+"trendFrac": 0.649,
+"winR2": 0.7133
+},
+"homeschool": {
+"bestR2": 0.604,
+"periodBest": 6.0,
+"annualFrac": 0.2023,
+"trendFrac": 0.4405,
+"winR2": 0.7483
+},
+"tutoring-t": {
+"bestR2": 0.3727,
+"periodBest": 6.0,
+"annualFrac": 0.0669,
+"trendFrac": 0.0972,
+"winR2": 0.6888
+},
+"worksheets": {
+"bestR2": 0.6615,
+"periodBest": 204.0,
+"annualFrac": 0.1957,
+"trendFrac": 0.1996,
+"winR2": 0.7695
+},
+"study-guide": {
+"bestR2": 0.8363,
+"periodBest": 160.0,
+"annualFrac": 0.0739,
+"trendFrac": 0.6924,
+"winR2": 0.8907
+},
+"sat": {
+"bestR2": 0.3321,
+"periodBest": 232.0,
+"annualFrac": 0.2063,
+"trendFrac": 0.0008,
+"winR2": 0.3206
+},
+"act": {
+"bestR2": 0.7697,
+"periodBest": 256.0,
+"annualFrac": 0.1064,
+"trendFrac": 1.0,
+"winR2": 0.8555
+},
+"gmat": {
+"bestR2": 0.9708,
+"periodBest": 256.0,
+"annualFrac": 0.0069,
+"trendFrac": 0.8133,
+"winR2": 0.986
+},
+"lsat": {
+"bestR2": 0.8772,
+"periodBest": 256.0,
+"annualFrac": 0.0595,
+"trendFrac": 0.725,
+"winR2": 0.9371
+},
+"mcat": {
+"bestR2": 0.675,
+"periodBest": 256.0,
+"annualFrac": 0.6591,
+"trendFrac": 0.1392,
+"winR2": 0.7946
+},
+"ielts": {
+"bestR2": 0.9017,
+"periodBest": 54.0,
+"annualFrac": 0.0118,
+"trendFrac": 0.9891,
+"winR2": 0.9765
+},
+"toefl": {
+"bestR2": 0.9722,
+"periodBest": 244.0,
+"annualFrac": 0.0141,
+"trendFrac": 0.7763,
+"winR2": 0.9757
+},
+"ap-exam": {
+"bestR2": 0.6374,
+"periodBest": 6.0,
+"annualFrac": 0.4775,
+"trendFrac": 0.1694,
+"winR2": 0.0103
+},
+"scholarship": {
+"bestR2": 0.6203,
+"periodBest": 256.0,
+"annualFrac": 0.1365,
+"trendFrac": 0.3574,
+"winR2": 0.8479
+},
+"university": {
+"bestR2": 0.9439,
+"periodBest": 256.0,
+"annualFrac": 0.0042,
+"trendFrac": 1.0,
+"winR2": 0.9552
+},
+"college": {
+"bestR2": 0.8917,
+"periodBest": 256.0,
+"annualFrac": 0.0325,
+"trendFrac": 0.95,
+"winR2": 0.884
+},
+"admissions": {
+"bestR2": 0.7229,
+"periodBest": 192.0,
+"annualFrac": 0.0946,
+"trendFrac": 0.0964,
+"winR2": 0.8363
+},
+"financial-aid": {
+"bestR2": 0.4836,
+"periodBest": 184.0,
+"annualFrac": 0.2122,
+"trendFrac": 0.1014,
+"winR2": 0.5814
+},
+"fafsa": {
+"bestR2": 0.6231,
+"periodBest": 256.0,
+"annualFrac": 0.2852,
+"trendFrac": 0.4739,
+"winR2": 0.8858
+},
+"community-college": {
+"bestR2": 0.9513,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.9433,
+"winR2": 0.9626
+},
+"mba": {
+"bestR2": 0.8821,
+"periodBest": 256.0,
+"annualFrac": 0.0156,
+"trendFrac": 0.5454,
+"winR2": 0.9264
+},
+"phd": {
+"bestR2": 0.4553,
+"periodBest": 256.0,
+"annualFrac": 0.0062,
+"trendFrac": 0.4435,
+"winR2": 0.6783
+},
+"degree": {
+"bestR2": 0.9392,
+"periodBest": 256.0,
+"annualFrac": 0.0134,
+"trendFrac": 0.7031,
+"winR2": 0.9645
+},
+"diploma": {
+"bestR2": 0.7092,
+"periodBest": 168.0,
+"annualFrac": 0.3085,
+"trendFrac": 0.4602,
+"winR2": 0.7991
+},
+"transcript": {
+"bestR2": 0.4457,
+"periodBest": 256.0,
+"annualFrac": 0.025,
+"trendFrac": 0.0317,
+"winR2": 0.4008
+},
+"thesis": {
+"bestR2": 0.6688,
+"periodBest": 6.0,
+"annualFrac": 0.2242,
+"trendFrac": 0.3442,
+"winR2": 0.7979
+},
+"dissertation": {
+"bestR2": 0.8276,
+"periodBest": 256.0,
+"annualFrac": 0.1753,
+"trendFrac": 1.0,
+"winR2": 0.8365
+},
+"citation": {
+"bestR2": 0.6601,
+"periodBest": 6.0,
+"annualFrac": 0.3818,
+"trendFrac": 0.0108,
+"winR2": 0.7418
+},
+"plagiarism": {
+"bestR2": 0.8416,
+"periodBest": 232.0,
+"annualFrac": 0.0224,
+"trendFrac": 0.8426,
+"winR2": 0.96
+},
+"bibliography": {
+"bestR2": 0.8424,
+"periodBest": 256.0,
+"annualFrac": 0.049,
+"trendFrac": 1.0,
+"winR2": 0.9579
+},
+"apa-format": {
+"bestR2": 0.6686,
+"periodBest": 6.0,
+"annualFrac": 0.2161,
+"trendFrac": 0.317,
+"winR2": 0.7138
+},
+"mla-format": {
+"bestR2": 0.8152,
+"periodBest": 6.0,
+"annualFrac": 0.1495,
+"trendFrac": 0.5959,
+"winR2": 0.8302
+},
+"anatomy": {
+"bestR2": 0.5943,
+"periodBest": 132.0,
+"annualFrac": 0.0865,
+"trendFrac": 0.4963,
+"winR2": 0.7867
+},
+"history": {
+"bestR2": 0.9031,
+"periodBest": 256.0,
+"annualFrac": 0.021,
+"trendFrac": 1.0,
+"winR2": 0.9641
+},
+"geography": {
+"bestR2": 0.7349,
+"periodBest": 256.0,
+"annualFrac": 0.0291,
+"trendFrac": 0.5703,
+"winR2": 0.7076
+},
+"economics": {
+"bestR2": 0.8074,
+"periodBest": 256.0,
+"annualFrac": 0.046,
+"trendFrac": 1.0,
+"winR2": 0.8715
+},
+"philosophy": {
+"bestR2": 0.8889,
+"periodBest": 256.0,
+"annualFrac": 0.0408,
+"trendFrac": 1.0,
+"winR2": 0.9408
+},
+"sociology": {
+"bestR2": 0.6462,
+"periodBest": 256.0,
+"annualFrac": 0.1798,
+"trendFrac": 1.0,
+"winR2": 0.7665
+},
+"literature": {
+"bestR2": 0.8309,
+"periodBest": 256.0,
+"annualFrac": 0.0472,
+"trendFrac": 1.0,
+"winR2": 0.8986
+},
+"shakespeare": {
+"bestR2": 0.911,
+"periodBest": 256.0,
+"annualFrac": 0.0404,
+"trendFrac": 1.0,
+"winR2": 0.9688
+},
+"spanish-t": {
+"bestR2": 0.7559,
+"periodBest": 256.0,
+"annualFrac": 0.0487,
+"trendFrac": 0.0603,
+"winR2": 0.8493
+},
+"french-t": {
+"bestR2": 0.6803,
+"periodBest": 256.0,
+"annualFrac": 0.0345,
+"trendFrac": 1.0,
+"winR2": 0.6841
+},
+"language-learning": {
+"bestR2": 0.8956,
+"periodBest": 256.0,
+"annualFrac": 0.0099,
+"trendFrac": 0.8813,
+"winR2": 0.919
+},
+"duolingo": {
+"bestR2": 0.9581,
+"periodBest": 236.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.9392,
+"winR2": 0.9845
+},
+"online-courses": {
+"bestR2": 0.5478,
+"periodBest": 92.0,
+"annualFrac": 0.1014,
+"trendFrac": 0.8268,
+"winR2": 0.8231
+},
+"coursera": {
+"bestR2": 0.8794,
+"periodBest": 212.0,
+"annualFrac": 0.0038,
+"trendFrac": 0.857,
+"winR2": 0.9786
+},
+"khan-academy": {
+"bestR2": 0.7637,
+"periodBest": 188.0,
+"annualFrac": 0.0158,
+"trendFrac": 0.5361,
+"winR2": 0.9036
+},
+"udemy": {
+"bestR2": 0.9677,
+"periodBest": 244.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.6518,
+"winR2": 0.9922
+},
+"edx": {
+"bestR2": 0.8989,
+"periodBest": 176.0,
+"annualFrac": 0.0051,
+"trendFrac": 0.6866,
+"winR2": 0.958
+},
+"kindergarten": {
+"bestR2": 0.4611,
+"periodBest": 6.0,
+"annualFrac": 0.1105,
+"trendFrac": 0.0007,
+"winR2": 0.5649
+},
+"preschool": {
+"bestR2": 0.7963,
+"periodBest": 6.0,
+"annualFrac": 0.014,
+"trendFrac": 0.7157,
+"winR2": 0.8129
+},
+"montessori": {
+"bestR2": 0.2883,
+"periodBest": 6.0,
+"annualFrac": 0.0498,
+"trendFrac": 0.05,
+"winR2": 0.4331
+},
+"curriculum": {
+"bestR2": 0.8984,
+"periodBest": 256.0,
+"annualFrac": 0.0021,
+"trendFrac": 0.8315,
+"winR2": 0.9377
+},
+"syllabus": {
+"bestR2": 0.9171,
+"periodBest": 256.0,
+"annualFrac": 0.0037,
+"trendFrac": 0.3481,
+"winR2": 0.9802
+},
+"lesson-plans": {
+"bestR2": 0.8694,
+"periodBest": 256.0,
+"annualFrac": 0.017,
+"trendFrac": 1.0,
+"winR2": 0.9583
+},
+"gpa-calculator": {
+"bestR2": 0.4709,
+"periodBest": 6.0,
+"annualFrac": 0.2477,
+"trendFrac": 0.0765,
+"winR2": 0.4821
+},
+"learning-styles": {
+"bestR2": 0.8897,
+"periodBest": 256.0,
+"annualFrac": 0.0157,
+"trendFrac": 1.0,
+"winR2": 0.9644
+},
+"critical-thinking-t": {
+"bestR2": 0.5457,
+"periodBest": 256.0,
+"annualFrac": 0.1171,
+"trendFrac": 0.1772,
+"winR2": 0.7379
+},
+"marketing": {
+"bestR2": 0.8418,
+"periodBest": 256.0,
+"annualFrac": 0.0049,
+"trendFrac": 0.9673,
+"winR2": 0.9154
+},
+"digital-marketing-t": {
+"bestR2": 0.9849,
+"periodBest": 256.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.6807,
+"winR2": 0.9961
+},
+"content-marketing-t": {
+"bestR2": 0.9663,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 0.6928,
+"winR2": 0.9873
+},
+"email-marketing-t": {
+"bestR2": 0.7309,
+"periodBest": 256.0,
+"annualFrac": 0.0189,
+"trendFrac": 0.9099,
+"winR2": 0.8698
+},
+"affiliate-marketing-t": {
+"bestR2": 0.8755,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 0.532,
+"winR2": 0.9575
+},
+"seo-t": {
+"bestR2": 0.9016,
+"periodBest": 212.0,
+"annualFrac": 0.0073,
+"trendFrac": 1.0,
+"winR2": 0.9842
+},
+"ppc-t": {
+"bestR2": 0.9664,
+"periodBest": 216.0,
+"annualFrac": 0.0008,
+"trendFrac": 0.5717,
+"winR2": 0.9358
+},
+"google-ads-t": {
+"bestR2": 0.9622,
+"periodBest": 212.0,
+"annualFrac": 0.001,
+"trendFrac": 0.8101,
+"winR2": 0.9917
+},
+"facebook-ads-t": {
+"bestR2": 0.9684,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.7344,
+"winR2": 0.9903
+},
+"branding-t": {
+"bestR2": 0.7169,
+"periodBest": 256.0,
+"annualFrac": 0.0295,
+"trendFrac": 0.252,
+"winR2": 0.855
+},
+"advertising": {
+"bestR2": 0.9701,
+"periodBest": 256.0,
+"annualFrac": 0.0027,
+"trendFrac": 1.0,
+"winR2": 0.9828
+},
+"market-research-t": {
+"bestR2": 0.9324,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 1.0,
+"winR2": 0.9824
+},
+"copywriting-t": {
+"bestR2": 0.9009,
+"periodBest": 220.0,
+"annualFrac": 0.0013,
+"trendFrac": 0.4017,
+"winR2": 0.9759
+},
+"lead-generation-t": {
+"bestR2": 0.887,
+"periodBest": 256.0,
+"annualFrac": 0.0062,
+"trendFrac": 0.8701,
+"winR2": 0.9631
+},
+"sales-funnel": {
+"bestR2": 0.9378,
+"periodBest": 212.0,
+"annualFrac": 0.0014,
+"trendFrac": 0.7269,
+"winR2": 0.9574
+},
+"crm-t": {
+"bestR2": 0.7945,
+"periodBest": 256.0,
+"annualFrac": 0.0333,
+"trendFrac": 0.0384,
+"winR2": 0.8711
+},
+"b2b": {
+"bestR2": 0.3856,
+"periodBest": 128.0,
+"annualFrac": 0.0101,
+"trendFrac": 0.3127,
+"winR2": 0.9752
+},
+"b2c": {
+"bestR2": 0.8803,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 0.2408,
+"winR2": 0.9268
+},
+"ecommerce": {
+"bestR2": 0.9311,
+"periodBest": 256.0,
+"annualFrac": 0.0045,
+"trendFrac": 0.1521,
+"winR2": 0.9642
+},
+"dropshipping": {
+"bestR2": 0.9384,
+"periodBest": 224.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.753,
+"winR2": 0.9512
+},
+"amazon-fba": {
+"bestR2": 0.9457,
+"periodBest": 256.0,
+"annualFrac": 0.0,
+"trendFrac": 0.3116,
+"winR2": 0.974
+},
+"shopify-t": {
+"bestR2": 0.9747,
+"periodBest": 256.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.8615,
+"winR2": 0.9971
+},
+"startup": {
+"bestR2": 0.8963,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 1.0,
+"winR2": 0.9612
+},
+"entrepreneurship-t": {
+"bestR2": 0.7539,
+"periodBest": 256.0,
+"annualFrac": 0.0278,
+"trendFrac": 0.1763,
+"winR2": 0.8618
+},
+"business-plan": {
+"bestR2": 0.9431,
+"periodBest": 256.0,
+"annualFrac": 0.0119,
+"trendFrac": 1.0,
+"winR2": 0.9698
+},
+"small-business": {
+"bestR2": 0.8919,
+"periodBest": 256.0,
+"annualFrac": 0.0054,
+"trendFrac": 1.0,
+"winR2": 0.9518
+},
+"side-hustle": {
+"bestR2": 0.9215,
+"periodBest": 216.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.7624,
+"winR2": 0.9613
+},
+"passive-income": {
+"bestR2": 0.958,
+"periodBest": 204.0,
+"annualFrac": 0.0023,
+"trendFrac": 0.8391,
+"winR2": 0.9673
+},
+"franchise": {
+"bestR2": 0.8494,
+"periodBest": 256.0,
+"annualFrac": 0.0311,
+"trendFrac": 1.0,
+"winR2": 0.926
+},
+"business-idea": {
+"bestR2": 0.7795,
+"periodBest": 208.0,
+"annualFrac": 0.0152,
+"trendFrac": 0.4893,
+"winR2": 0.8185
+},
+"side-business": {
+"bestR2": 0.8416,
+"periodBest": 256.0,
+"annualFrac": 0.0084,
+"trendFrac": 0.8636,
+"winR2": 0.8756
+},
+"online-business": {
+"bestR2": 0.4592,
+"periodBest": 64.0,
+"annualFrac": 0.0735,
+"trendFrac": 0.7246,
+"winR2": 0.7041
+},
+"home-business": {
+"bestR2": 0.8748,
+"periodBest": 240.0,
+"annualFrac": 0.0066,
+"trendFrac": 0.7657,
+"winR2": 0.9708
+},
+"sole-proprietorship": {
+"bestR2": 0.8728,
+"periodBest": 244.0,
+"annualFrac": 0.0349,
+"trendFrac": 0.4739,
+"winR2": 0.9429
+},
+"llc": {
+"bestR2": 0.8295,
+"periodBest": 256.0,
+"annualFrac": 0.045,
+"trendFrac": 1.0,
+"winR2": 0.9075
+},
+"incorporation": {
+"bestR2": 0.9577,
+"periodBest": 256.0,
+"annualFrac": 0.0066,
+"trendFrac": 0.7346,
+"winR2": 0.9748
+},
+"business-license": {
+"bestR2": 0.7439,
+"periodBest": 256.0,
+"annualFrac": 0.1138,
+"trendFrac": 0.724,
+"winR2": 0.8899
+},
+"ein": {
+"bestR2": 0.8921,
+"periodBest": 256.0,
+"annualFrac": 0.0739,
+"trendFrac": 1.0,
+"winR2": 0.9276
+},
+"management-t": {
+"bestR2": 0.9326,
+"periodBest": 256.0,
+"annualFrac": 0.0046,
+"trendFrac": 1.0,
+"winR2": 0.9628
+},
+"leadership-t": {
+"bestR2": 0.6408,
+"periodBest": 256.0,
+"annualFrac": 0.0398,
+"trendFrac": 0.5813,
+"winR2": 0.7409
+},
+"project-management-t": {
+"bestR2": 0.8759,
+"periodBest": 256.0,
+"annualFrac": 0.0057,
+"trendFrac": 0.9766,
+"winR2": 0.9009
+},
+"operations-management-t": {
+"bestR2": 0.6616,
+"periodBest": 256.0,
+"annualFrac": 0.0686,
+"trendFrac": 0.7515,
+"winR2": 0.7393
+},
+"supply-chain-t": {
+"bestR2": 0.795,
+"periodBest": 256.0,
+"annualFrac": 0.0157,
+"trendFrac": 0.0006,
+"winR2": 0.8945
+},
+"logistics-t": {
+"bestR2": 0.911,
+"periodBest": 256.0,
+"annualFrac": 0.0108,
+"trendFrac": 0.4106,
+"winR2": 0.8935
+},
+"inventory-management-t": {
+"bestR2": 0.8259,
+"periodBest": 256.0,
+"annualFrac": 0.0232,
+"trendFrac": 0.0166,
+"winR2": 0.9219
+},
+"agile-t": {
+"bestR2": 0.8506,
+"periodBest": 140.0,
+"annualFrac": 0.0005,
+"trendFrac": 1.0,
+"winR2": 0.915
+},
+"scrum-t": {
+"bestR2": 0.8852,
+"periodBest": 116.0,
+"annualFrac": 0.001,
+"trendFrac": 0.9262,
+"winR2": 0.9212
+},
+"kanban-t": {
+"bestR2": 0.8451,
+"periodBest": 256.0,
+"annualFrac": 0.01,
+"trendFrac": 0.0886,
+"winR2": 0.8551
+},
+"six-sigma-t": {
+"bestR2": 0.9699,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 1.0,
+"winR2": 0.974
+},
+"change-management": {
+"bestR2": 0.8544,
+"periodBest": 256.0,
+"annualFrac": 0.0157,
+"trendFrac": 0.8262,
+"winR2": 0.9125
+},
+"risk-management-t": {
+"bestR2": 0.8699,
+"periodBest": 256.0,
+"annualFrac": 0.0067,
+"trendFrac": 0.9506,
+"winR2": 0.9384
+},
+"quality-control-t": {
+"bestR2": 0.827,
+"periodBest": 256.0,
+"annualFrac": 0.0136,
+"trendFrac": 0.8524,
+"winR2": 0.933
+},
+"sales-t": {
+"bestR2": 0.8936,
+"periodBest": 256.0,
+"annualFrac": 0.0,
+"trendFrac": 1.0,
+"winR2": 0.8743
+},
+"customer-service-t": {
+"bestR2": 0.9832,
+"periodBest": 236.0,
+"annualFrac": 0.002,
+"trendFrac": 0.6238,
+"winR2": 0.9889
+},
+"networking": {
+"bestR2": 0.9218,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 1.0,
+"winR2": 0.9837
+},
+"negotiation-t": {
+"bestR2": 0.8058,
+"periodBest": 256.0,
+"annualFrac": 0.0395,
+"trendFrac": 1.0,
+"winR2": 0.9381
+},
+"cold-calling-t": {
+"bestR2": 0.7563,
+"periodBest": 256.0,
+"annualFrac": 0.0458,
+"trendFrac": 0.8295,
+"winR2": 0.7985
+},
+"upselling": {
+"bestR2": 0.895,
+"periodBest": 228.0,
+"annualFrac": 0.0039,
+"trendFrac": 1.0,
+"winR2": 0.9281
+},
+"crm-software": {
+"bestR2": 0.6514,
+"periodBest": 256.0,
+"annualFrac": 0.0143,
+"trendFrac": 0.3389,
+"winR2": 0.9371
+},
+"accounting-t": {
+"bestR2": 0.7923,
+"periodBest": 256.0,
+"annualFrac": 0.0066,
+"trendFrac": 1.0,
+"winR2": 0.8754
+},
+"bookkeeping-t": {
+"bestR2": 0.6492,
+"periodBest": 256.0,
+"annualFrac": 0.1087,
+"trendFrac": 0.4985,
+"winR2": 0.7736
+},
+"payroll-t": {
+"bestR2": 0.6528,
+"periodBest": 6.0,
+"annualFrac": 0.0416,
+"trendFrac": 0.8284,
+"winR2": 0.6829
+},
+"invoice": {
+"bestR2": 0.9331,
+"periodBest": 256.0,
+"annualFrac": 0.0063,
+"trendFrac": 0.8898,
+"winR2": 0.9722
+},
+"cash-flow": {
+"bestR2": 0.7767,
+"periodBest": 256.0,
+"annualFrac": 0.0873,
+"trendFrac": 0.5079,
+"winR2": 0.8911
+},
+"balance-sheet": {
+"bestR2": 0.6414,
+"periodBest": 6.0,
+"annualFrac": 0.1285,
+"trendFrac": 0.5582,
+"winR2": 0.7055
+},
+"profit-margin": {
+"bestR2": 0.7928,
+"periodBest": 6.0,
+"annualFrac": 0.0958,
+"trendFrac": 0.7002,
+"winR2": 0.831
+},
+"revenue": {
+"bestR2": 0.8376,
+"periodBest": 256.0,
+"annualFrac": 0.1261,
+"trendFrac": 0.623,
+"winR2": 0.875
+},
+"roi": {
+"bestR2": 0.6909,
+"periodBest": 200.0,
+"annualFrac": 0.0144,
+"trendFrac": 0.005,
+"winR2": 0.7077
+},
+"financial-planning-t": {
+"bestR2": 0.9322,
+"periodBest": 256.0,
+"annualFrac": 0.0034,
+"trendFrac": 0.9271,
+"winR2": 0.9737
+},
+"kpi": {
+"bestR2": 0.9491,
+"periodBest": 256.0,
+"annualFrac": 0.0047,
+"trendFrac": 1.0,
+"winR2": 0.9484
+},
+"swot-analysis": {
+"bestR2": 0.5814,
+"periodBest": 6.0,
+"annualFrac": 0.1812,
+"trendFrac": 0.2406,
+"winR2": 0.7558
+},
+"business-strategy-t": {
+"bestR2": 0.6911,
+"periodBest": 256.0,
+"annualFrac": 0.0762,
+"trendFrac": 0.6926,
+"winR2": 0.8554
+},
+"competitive-analysis": {
+"bestR2": 0.6846,
+"periodBest": 256.0,
+"annualFrac": 0.0407,
+"trendFrac": 0.7021,
+"winR2": 0.8222
+},
+"market-analysis": {
+"bestR2": 0.8251,
+"periodBest": 256.0,
+"annualFrac": 0.0115,
+"trendFrac": 0.8914,
+"winR2": 0.855
+},
+"business-model": {
+"bestR2": 0.6369,
+"periodBest": 256.0,
+"annualFrac": 0.0432,
+"trendFrac": 0.1316,
+"winR2": 0.7256
+},
+"pricing-strategy": {
+"bestR2": 0.4737,
+"periodBest": 6.0,
+"annualFrac": 0.2551,
+"trendFrac": 0.0224,
+"winR2": 0.6589
+},
+"value-proposition": {
+"bestR2": 0.7651,
+"periodBest": 256.0,
+"annualFrac": 0.0105,
+"trendFrac": 0.2777,
+"winR2": 0.8665
+},
+"commerce": {
+"bestR2": 0.9874,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.9339,
+"winR2": 0.987
+},
+"retail": {
+"bestR2": 0.9622,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 1.0,
+"winR2": 0.9727
+},
+"wholesale": {
+"bestR2": 0.943,
+"periodBest": 256.0,
+"annualFrac": 0.0022,
+"trendFrac": 1.0,
+"winR2": 0.9846
+},
+"trade": {
+"bestR2": 0.6732,
+"periodBest": 256.0,
+"annualFrac": 0.0364,
+"trendFrac": 0.7013,
+"winR2": 0.6552
+},
+"merchandising": {
+"bestR2": 0.0525,
+"periodBest": 27.0,
+"annualFrac": 0.1102,
+"trendFrac": 0.1683,
+"winR2": -3.9868
+},
+"pos": {
+"bestR2": 0.9833,
+"periodBest": 232.0,
+"annualFrac": 0.0001,
+"trendFrac": 0.6174,
+"winR2": 0.987
+},
+"dropshipping-suppliers": {
+"bestR2": 0.9579,
+"periodBest": 224.0,
+"annualFrac": 0.0001,
+"trendFrac": 0.7463,
+"winR2": 0.9908
+},
+"technology": {
+"bestR2": 0.9398,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 1.0,
+"winR2": 0.983
+},
+"ai": {
+"bestR2": 0.8827,
+"periodBest": 256.0,
+"annualFrac": 0.0019,
+"trendFrac": 1.0,
+"winR2": 0.9913
+},
+"chatgpt-t": {
+"bestR2": 0.7993,
+"periodBest": 256.0,
+"annualFrac": 0.0041,
+"trendFrac": 1.0,
+"winR2": 0.9938
+},
+"iphone": {
+"bestR2": 0.9104,
+"periodBest": 220.0,
+"annualFrac": 0.0363,
+"trendFrac": 0.6605,
+"winR2": 0.9552
+},
+"android": {
+"bestR2": 0.9813,
+"periodBest": 200.0,
+"annualFrac": 0.0009,
+"trendFrac": 0.1622,
+"winR2": 0.9963
+},
+"python-t": {
+"bestR2": 0.938,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.3567,
+"winR2": 0.9836
+},
+"javascript-t": {
+"bestR2": 0.981,
+"periodBest": 256.0,
+"annualFrac": 0.0016,
+"trendFrac": 1.0,
+"winR2": 0.99
+},
+"software": {
+"bestR2": 0.9776,
+"periodBest": 256.0,
+"annualFrac": 0.0004,
+"trendFrac": 1.0,
+"winR2": 0.9958
+},
+"app": {
+"bestR2": 0.9883,
+"periodBest": 196.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.9475,
+"winR2": 0.9962
+},
+"vpn-t": {
+"bestR2": 0.8903,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.1659,
+"winR2": 0.9515
+},
+"cloud-computing-t": {
+"bestR2": 0.8702,
+"periodBest": 220.0,
+"annualFrac": 0.002,
+"trendFrac": 0.5007,
+"winR2": 0.9877
+},
+"cybersecurity-t": {
+"bestR2": 0.9581,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9831
+},
+"machine-learning-t": {
+"bestR2": 0.962,
+"periodBest": 256.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.6234,
+"winR2": 0.9884
+},
+"blockchain-t": {
+"bestR2": 0.8053,
+"periodBest": 156.0,
+"annualFrac": 0.0052,
+"trendFrac": 0.9506,
+"winR2": 0.9897
+},
+"metaverse": {
+"bestR2": 0.3268,
+"periodBest": 188.0,
+"annualFrac": 0.0387,
+"trendFrac": 0.4927,
+"winR2": 0.9579
+},
+"wifi": {
+"bestR2": 0.9778,
+"periodBest": 216.0,
+"annualFrac": 0.0044,
+"trendFrac": 0.5989,
+"winR2": 0.9864
+},
+"bluetooth": {
+"bestR2": 0.7588,
+"periodBest": 176.0,
+"annualFrac": 0.1063,
+"trendFrac": 0.0902,
+"winR2": 0.8811
+},
+"operating-system": {
+"bestR2": 0.9095,
+"periodBest": 256.0,
+"annualFrac": 0.009,
+"trendFrac": 1.0,
+"winR2": 0.9457
+},
+"linux-t": {
+"bestR2": 0.9764,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9966
+},
+"windows": {
+"bestR2": 0.9571,
+"periodBest": 132.0,
+"annualFrac": 0.0023,
+"trendFrac": 1.0,
+"winR2": 0.9843
+},
+"macbook": {
+"bestR2": 0.9225,
+"periodBest": 256.0,
+"annualFrac": 0.0125,
+"trendFrac": 1.0,
+"winR2": 0.9358
+},
+"gpu": {
+"bestR2": 0.9538,
+"periodBest": 256.0,
+"annualFrac": 0.0038,
+"trendFrac": 1.0,
+"winR2": 0.9806
+},
+"ssd": {
+"bestR2": 0.9708,
+"periodBest": 200.0,
+"annualFrac": 0.009,
+"trendFrac": 1.0,
+"winR2": 0.9891
+},
+"virtual-reality": {
+"bestR2": 0.701,
+"periodBest": 148.0,
+"annualFrac": 0.0337,
+"trendFrac": 0.3368,
+"winR2": 0.9402
+},
+"smart-home": {
+"bestR2": 0.9469,
+"periodBest": 180.0,
+"annualFrac": 0.005,
+"trendFrac": 0.863,
+"winR2": 0.9734
+},
+"coding": {
+"bestR2": 0.9199,
+"periodBest": 256.0,
+"annualFrac": 0.0022,
+"trendFrac": 0.1841,
+"winR2": 0.9489
+},
+"html-t": {
+"bestR2": 0.988,
+"periodBest": 256.0,
+"annualFrac": 0.0009,
+"trendFrac": 1.0,
+"winR2": 0.9954
+},
+"database": {
+"bestR2": 0.9767,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 1.0,
+"winR2": 0.9926
+},
+"api": {
+"bestR2": 0.8357,
+"periodBest": 256.0,
+"annualFrac": 0.0198,
+"trendFrac": 0.6332,
+"winR2": 0.9082
+},
+"laptop": {
+"bestR2": 0.7859,
+"periodBest": 144.0,
+"annualFrac": 0.1092,
+"trendFrac": 0.3627,
+"winR2": 0.8323
+},
+"smartphone": {
+"bestR2": 0.9577,
+"periodBest": 196.0,
+"annualFrac": 0.0076,
+"trendFrac": 0.1107,
+"winR2": 0.9656
+},
+"ipad": {
+"bestR2": 0.912,
+"periodBest": 192.0,
+"annualFrac": 0.0057,
+"trendFrac": 0.2139,
+"winR2": 0.9619
+},
+"samsung": {
+"bestR2": 0.9333,
+"periodBest": 212.0,
+"annualFrac": 0.0218,
+"trendFrac": 0.2623,
+"winR2": 0.9639
+},
+"google": {
+"bestR2": 0.9291,
+"periodBest": 224.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.259,
+"winR2": 0.9932
+},
+"microsoft": {
+"bestR2": 0.9626,
+"periodBest": 256.0,
+"annualFrac": 0.0037,
+"trendFrac": 0.8626,
+"winR2": 0.9722
+},
+"apple": {
+"bestR2": 0.7381,
+"periodBest": 188.0,
+"annualFrac": 0.2346,
+"trendFrac": 0.7658,
+"winR2": 0.7629
+},
+"chrome": {
+"bestR2": 0.9349,
+"periodBest": 208.0,
+"annualFrac": 0.0017,
+"trendFrac": 0.2153,
+"winR2": 0.9796
+},
+"firefox": {
+"bestR2": 0.9305,
+"periodBest": 256.0,
+"annualFrac": 0.002,
+"trendFrac": 0.0498,
+"winR2": 0.9601
+},
+"browser": {
+"bestR2": 0.9128,
+"periodBest": 140.0,
+"annualFrac": 0.0037,
+"trendFrac": 0.527,
+"winR2": 0.9687
+},
+"router": {
+"bestR2": 0.957,
+"periodBest": 256.0,
+"annualFrac": 0.0113,
+"trendFrac": 1.0,
+"winR2": 0.9725
+},
+"modem": {
+"bestR2": 0.9369,
+"periodBest": 256.0,
+"annualFrac": 0.0002,
+"trendFrac": 1.0,
+"winR2": 0.9917
+},
+"processor": {
+"bestR2": 0.9378,
+"periodBest": 256.0,
+"annualFrac": 0.026,
+"trendFrac": 1.0,
+"winR2": 0.9672
+},
+"ram": {
+"bestR2": 0.8124,
+"periodBest": 256.0,
+"annualFrac": 0.0072,
+"trendFrac": 0.2373,
+"winR2": 0.9354
+},
+"hard-drive": {
+"bestR2": 0.9695,
+"periodBest": 256.0,
+"annualFrac": 0.0107,
+"trendFrac": 1.0,
+"winR2": 0.9933
+},
+"usb": {
+"bestR2": 0.9682,
+"periodBest": 256.0,
+"annualFrac": 0.0116,
+"trendFrac": 0.9893,
+"winR2": 0.9814
+},
+"hdmi": {
+"bestR2": 0.9012,
+"periodBest": 256.0,
+"annualFrac": 0.086,
+"trendFrac": 0.8341,
+"winR2": 0.9534
+},
+"ethernet": {
+"bestR2": 0.9613,
+"periodBest": 256.0,
+"annualFrac": 0.0036,
+"trendFrac": 1.0,
+"winR2": 0.9958
+},
+"firewall-t": {
+"bestR2": 0.9776,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9968
+},
+"malware": {
+"bestR2": 0.7433,
+"periodBest": 228.0,
+"annualFrac": 0.0015,
+"trendFrac": 0.0248,
+"winR2": 0.8303
+},
+"antivirus": {
+"bestR2": 0.9465,
+"periodBest": 164.0,
+"annualFrac": 0.0007,
+"trendFrac": 1.0,
+"winR2": 0.9833
+},
+"encryption-t": {
+"bestR2": 0.9578,
+"periodBest": 256.0,
+"annualFrac": 0.0031,
+"trendFrac": 1.0,
+"winR2": 0.9797
+},
+"hacking": {
+"bestR2": 0.9326,
+"periodBest": 256.0,
+"annualFrac": 0.0002,
+"trendFrac": 1.0,
+"winR2": 0.992
+},
+"phishing": {
+"bestR2": 0.7743,
+"periodBest": 204.0,
+"annualFrac": 0.0085,
+"trendFrac": 0.4797,
+"winR2": 0.8737
+},
+"data": {
+"bestR2": 0.9043,
+"periodBest": 256.0,
+"annualFrac": 0.0014,
+"trendFrac": 0.0038,
+"winR2": 0.9329
+},
+"algorithm": {
+"bestR2": 0.8772,
+"periodBest": 256.0,
+"annualFrac": 0.0233,
+"trendFrac": 1.0,
+"winR2": 0.9724
+},
+"programming": {
+"bestR2": 0.9535,
+"periodBest": 256.0,
+"annualFrac": 0.001,
+"trendFrac": 1.0,
+"winR2": 0.9882
+},
+"java-t": {
+"bestR2": 0.9872,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 1.0,
+"winR2": 0.9945
+},
+"css-t": {
+"bestR2": 0.9447,
+"periodBest": 192.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.8741,
+"winR2": 0.9843
+},
+"sql-t": {
+"bestR2": 0.9791,
+"periodBest": 256.0,
+"annualFrac": 0.0022,
+"trendFrac": 1.0,
+"winR2": 0.9868
+},
+"react-t": {
+"bestR2": 0.9579,
+"periodBest": 256.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.4681,
+"winR2": 0.9941
+},
+"nodejs-t": {
+"bestR2": 0.9438,
+"periodBest": 200.0,
+"annualFrac": 0.001,
+"trendFrac": 0.7266,
+"winR2": 0.9929
+},
+"github-t": {
+"bestR2": 0.9753,
+"periodBest": 256.0,
+"annualFrac": 0.0015,
+"trendFrac": 1.0,
+"winR2": 0.9926
+},
+"docker-t": {
+"bestR2": 0.9649,
+"periodBest": 256.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.8064,
+"winR2": 0.9911
+},
+"kubernetes-t": {
+"bestR2": 0.959,
+"periodBest": 212.0,
+"annualFrac": 0.0005,
+"trendFrac": 0.7102,
+"winR2": 0.9944
+},
+"server": {
+"bestR2": 0.982,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9923
+},
+"internet": {
+"bestR2": 0.9646,
+"periodBest": 132.0,
+"annualFrac": 0.0007,
+"trendFrac": 1.0,
+"winR2": 0.9834
+},
+"wireless": {
+"bestR2": 0.9636,
+"periodBest": 196.0,
+"annualFrac": 0.0121,
+"trendFrac": 0.8548,
+"winR2": 0.9749
+},
+"hotspot": {
+"bestR2": 0.9421,
+"periodBest": 208.0,
+"annualFrac": 0.0012,
+"trendFrac": 0.1624,
+"winR2": 0.9825
+},
+"streaming": {
+"bestR2": 0.8806,
+"periodBest": 212.0,
+"annualFrac": 0.0028,
+"trendFrac": 0.0869,
+"winR2": 0.985
+},
+"download": {
+"bestR2": 0.8946,
+"periodBest": 164.0,
+"annualFrac": 0.0029,
+"trendFrac": 0.8532,
+"winR2": 0.9808
+},
+"upload": {
+"bestR2": 0.9096,
+"periodBest": 256.0,
+"annualFrac": 0.0014,
+"trendFrac": 0.1206,
+"winR2": 0.9637
+},
+"email": {
+"bestR2": 0.6918,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 0.0427,
+"winR2": 0.8789
+},
+"password": {
+"bestR2": 0.9436,
+"periodBest": 256.0,
+"annualFrac": 0.002,
+"trendFrac": 1.0,
+"winR2": 0.9762
+},
+"backup": {
+"bestR2": 0.9687,
+"periodBest": 136.0,
+"annualFrac": 0.0083,
+"trendFrac": 0.9125,
+"winR2": 0.9845
+},
+"storage": {
+"bestR2": 0.8647,
+"periodBest": 256.0,
+"annualFrac": 0.0169,
+"trendFrac": 0.0484,
+"winR2": 0.9489
+},
+"megabyte": {
+"bestR2": 0.9646,
+"periodBest": 256.0,
+"annualFrac": 0.0028,
+"trendFrac": 1.0,
+"winR2": 0.9836
+},
+"gigabyte": {
+"bestR2": 0.964,
+"periodBest": 256.0,
+"annualFrac": 0.0114,
+"trendFrac": 0.5167,
+"winR2": 0.9876
+},
+"bandwidth": {
+"bestR2": 0.9842,
+"periodBest": 256.0,
+"annualFrac": 0.0003,
+"trendFrac": 1.0,
+"winR2": 0.9959
+},
+"ethernet-cable": {
+"bestR2": 0.6576,
+"periodBest": 256.0,
+"annualFrac": 0.0604,
+"trendFrac": 0.0036,
+"winR2": 0.8678
+},
+"chatbot": {
+"bestR2": 0.8524,
+"periodBest": 256.0,
+"annualFrac": 0.0042,
+"trendFrac": 1.0,
+"winR2": 0.9933
+},
+"neural-network": {
+"bestR2": 0.7615,
+"periodBest": 256.0,
+"annualFrac": 0.0299,
+"trendFrac": 0.4487,
+"winR2": 0.7987
+},
+"deep-learning-t": {
+"bestR2": 0.9586,
+"periodBest": 168.0,
+"annualFrac": 0.0014,
+"trendFrac": 0.9249,
+"winR2": 0.9904
+},
+"automation-t": {
+"bestR2": 0.8274,
+"periodBest": 256.0,
+"annualFrac": 0.01,
+"trendFrac": 0.1079,
+"winR2": 0.9594
+},
+"microchip": {
+"bestR2": 0.9286,
+"periodBest": 256.0,
+"annualFrac": 0.0044,
+"trendFrac": 1.0,
+"winR2": 0.9566
+},
+"keyboard": {
+"bestR2": 0.697,
+"periodBest": 256.0,
+"annualFrac": 0.2193,
+"trendFrac": 0.0259,
+"winR2": 0.7955
+},
+"christianity": {
+"bestR2": 0.8086,
+"periodBest": 256.0,
+"annualFrac": 0.0793,
+"trendFrac": 0.7416,
+"winR2": 0.898
+},
+"islam": {
+"bestR2": 0.8225,
+"periodBest": 216.0,
+"annualFrac": 0.0236,
+"trendFrac": 0.5514,
+"winR2": 0.9026
+},
+"buddhism": {
+"bestR2": 0.846,
+"periodBest": 256.0,
+"annualFrac": 0.0506,
+"trendFrac": 1.0,
+"winR2": 0.9272
+},
+"hinduism": {
+"bestR2": 0.6938,
+"periodBest": 256.0,
+"annualFrac": 0.1553,
+"trendFrac": 0.9617,
+"winR2": 0.7507
+},
+"judaism": {
+"bestR2": 0.8302,
+"periodBest": 256.0,
+"annualFrac": 0.073,
+"trendFrac": 1.0,
+"winR2": 0.9332
+},
+"catholic": {
+"bestR2": 0.9009,
+"periodBest": 256.0,
+"annualFrac": 0.0367,
+"trendFrac": 0.9018,
+"winR2": 0.9379
+},
+"bible": {
+"bestR2": 0.7724,
+"periodBest": 256.0,
+"annualFrac": 0.0437,
+"trendFrac": 0.0154,
+"winR2": 0.8456
+},
+"quran": {
+"bestR2": 0.6398,
+"periodBest": 256.0,
+"annualFrac": 0.0159,
+"trendFrac": 0.7052,
+"winR2": 0.6621
+},
+"prayer": {
+"bestR2": 0.9098,
+"periodBest": 252.0,
+"annualFrac": 0.0045,
+"trendFrac": 0.6829,
+"winR2": 0.9193
+},
+"mythology": {
+"bestR2": 0.8636,
+"periodBest": 256.0,
+"annualFrac": 0.0085,
+"trendFrac": 1.0,
+"winR2": 0.9805
+},
+"astrology": {
+"bestR2": 0.9275,
+"periodBest": 256.0,
+"annualFrac": 0.0032,
+"trendFrac": 1.0,
+"winR2": 0.7944
+},
+"horoscope": {
+"bestR2": 0.8387,
+"periodBest": 236.0,
+"annualFrac": 0.0461,
+"trendFrac": 0.6927,
+"winR2": 0.7721
+},
+"tarot": {
+"bestR2": 0.9233,
+"periodBest": 156.0,
+"annualFrac": 0.0086,
+"trendFrac": 0.6017,
+"winR2": 0.971
+},
+"zodiac": {
+"bestR2": 0.6797,
+"periodBest": 256.0,
+"annualFrac": 0.0324,
+"trendFrac": 0.1021,
+"winR2": 0.8832
+},
+"food": {
+"bestR2": 0.9509,
+"periodBest": 216.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.6387,
+"winR2": 0.9727
+},
+"recipes": {
+"bestR2": 0.8892,
+"periodBest": 204.0,
+"annualFrac": 0.0869,
+"trendFrac": 0.6544,
+"winR2": 0.9378
+},
+"cooking-t": {
+"bestR2": 0.7935,
+"periodBest": 224.0,
+"annualFrac": 0.1316,
+"trendFrac": 0.0347,
+"winR2": 0.9055
+},
+"sushi": {
+"bestR2": 0.9664,
+"periodBest": 256.0,
+"annualFrac": 0.0011,
+"trendFrac": 0.7137,
+"winR2": 0.968
+},
+"pizza": {
+"bestR2": 0.961,
+"periodBest": 256.0,
+"annualFrac": 0.0001,
+"trendFrac": 0.3733,
+"winR2": 0.9786
+},
+"vegan": {
+"bestR2": 0.97,
+"periodBest": 240.0,
+"annualFrac": 0.0044,
+"trendFrac": 0.2292,
+"winR2": 0.9884
+},
+"vegetarian": {
+"bestR2": 0.8018,
+"periodBest": 196.0,
+"annualFrac": 0.1395,
+"trendFrac": 0.01,
+"winR2": 0.7865
+},
+"ramen": {
+"bestR2": 0.9863,
+"periodBest": 256.0,
+"annualFrac": 0.0023,
+"trendFrac": 0.8312,
+"winR2": 0.9917
+},
+"tacos": {
+"bestR2": 0.9713,
+"periodBest": 252.0,
+"annualFrac": 0.0031,
+"trendFrac": 0.5481,
+"winR2": 0.9933
+},
+"bbq": {
+"bestR2": 0.9458,
+"periodBest": 236.0,
+"annualFrac": 0.2208,
+"trendFrac": 0.459,
+"winR2": 0.9569
+},
+"dessert": {
+"bestR2": 0.8053,
+"periodBest": 6.0,
+"annualFrac": 0.055,
+"trendFrac": 0.8779,
+"winR2": 0.8566
+},
+"coffee": {
+"bestR2": 0.9558,
+"periodBest": 256.0,
+"annualFrac": 0.0071,
+"trendFrac": 0.7546,
+"winR2": 0.9658
+},
+"wine": {
+"bestR2": 0.5264,
+"periodBest": 256.0,
+"annualFrac": 0.3741,
+"trendFrac": 0.451,
+"winR2": 0.6427
+},
+"fashion": {
+"bestR2": 0.8861,
+"periodBest": 204.0,
+"annualFrac": 0.0258,
+"trendFrac": 0.7953,
+"winR2": 0.8748
+},
+"streetwear": {
+"bestR2": 0.9559,
+"periodBest": 232.0,
+"annualFrac": 0.007,
+"trendFrac": 0.4302,
+"winR2": 0.9711
+},
+"makeup": {
+"bestR2": 0.8562,
+"periodBest": 212.0,
+"annualFrac": 0.0479,
+"trendFrac": 0.2717,
+"winR2": 0.8659
+},
+"skincare": {
+"bestR2": 0.9791,
+"periodBest": 240.0,
+"annualFrac": 0.0006,
+"trendFrac": 0.6884,
+"winR2": 0.9938
+},
+"nails": {
+"bestR2": 0.9503,
+"periodBest": 184.0,
+"annualFrac": 0.02,
+"trendFrac": 0.9274,
+"winR2": 0.9564
+},
+"hairstyles": {
+"bestR2": 0.8885,
+"periodBest": 228.0,
+"annualFrac": 0.0423,
+"trendFrac": 0.3888,
+"winR2": 0.9419
+},
+"piercing": {
+"bestR2": 0.7961,
+"periodBest": 248.0,
+"annualFrac": 0.029,
+"trendFrac": 0.0228,
+"winR2": 0.9442
+},
+"outfits": {
+"bestR2": 0.9672,
+"periodBest": 168.0,
+"annualFrac": 0.0107,
+"trendFrac": 0.9696,
+"winR2": 0.9828
+},
+"sneakers": {
+"bestR2": 0.9727,
+"periodBest": 224.0,
+"annualFrac": 0.0016,
+"trendFrac": 0.7353,
+"winR2": 0.9769
+},
+"jewelry": {
+"bestR2": 0.7091,
+"periodBest": 256.0,
+"annualFrac": 0.1829,
+"trendFrac": 0.8393,
+"winR2": 0.6999
+},
+"movies": {
+"bestR2": 0.6685,
+"periodBest": 200.0,
+"annualFrac": 0.0101,
+"trendFrac": 0.034,
+"winR2": 0.8355
+},
+"netflix": {
+"bestR2": 0.9517,
+"periodBest": 228.0,
+"annualFrac": 0.002,
+"trendFrac": 0.5739,
+"winR2": 0.9699
+},
+"kdrama": {
+"bestR2": 0.9591,
+"periodBest": 240.0,
+"annualFrac": 0.0007,
+"trendFrac": 0.8962,
+"winR2": 0.9682
+},
+"bollywood": {
+"bestR2": 0.9239,
+"periodBest": 220.0,
+"annualFrac": 0.006,
+"trendFrac": 0.0246,
+"winR2": 0.9728
+},
+"hollywood": {
+"bestR2": 0.6797,
+"periodBest": 200.0,
+"annualFrac": 0.0427,
+"trendFrac": 0.1812,
+"winR2": 0.7861
+},
+"cinema": {
+"bestR2": 0.6105,
+"periodBest": 192.0,
+"annualFrac": 0.0505,
+"trendFrac": 0.6984,
+"winR2": 0.862
+},
+"documentary": {
+"bestR2": 0.866,
+"periodBest": 184.0,
+"annualFrac": 0.0282,
+"trendFrac": 0.9364,
+"winR2": 0.8739
+},
+"kpop": {
+"bestR2": 0.9448,
+"periodBest": 200.0,
+"annualFrac": 0.0027,
+"trendFrac": 0.8638,
+"winR2": 0.971
+},
+"hiphop": {
+"bestR2": 0.9875,
+"periodBest": 252.0,
+"annualFrac": 0.0004,
+"trendFrac": 0.7551,
+"winR2": 0.9947
+},
+"concert": {
+"bestR2": 0.6872,
+"periodBest": 256.0,
+"annualFrac": 0.0608,
+"trendFrac": 0.0032,
+"winR2": 0.8525
+},
+"lyrics": {
+"bestR2": 0.9769,
+"periodBest": 256.0,
+"annualFrac": 0.0,
+"trendFrac": 0.6603,
+"winR2": 0.9933
+},
+"podcast": {
+"bestR2": 0.9355,
+"periodBest": 164.0,
+"annualFrac": 0.0009,
+"trendFrac": 0.8725,
+"winR2": 0.9846
+},
+"celebrity": {
+"bestR2": 0.9124,
+"periodBest": 236.0,
+"annualFrac": 0.0166,
+"trendFrac": 0.8546,
+"winR2": 0.9296
+},
+"meme": {
+"bestR2": 0.9852,
+"periodBest": 216.0,
+"annualFrac": 0.0001,
+"trendFrac": 0.5546,
+"winR2": 0.9904
+},
+"memes": {
+"bestR2": 0.9817,
+"periodBest": 236.0,
+"annualFrac": 0.0002,
+"trendFrac": 0.0783,
+"winR2": 0.9914
+},
+"tiktok": {
+"bestR2": 0.9685,
+"periodBest": 224.0,
+"annualFrac": 0.0002,
+"trendFrac": 0.7719,
+"winR2": 0.9913
+},
+"youtube": {
+"bestR2": 0.9626,
+"periodBest": 240.0,
+"annualFrac": 0.0009,
+"trendFrac": 0.2368,
+"winR2": 0.9887
+},
+"gaming": {
+"bestR2": 0.9315,
+"periodBest": 204.0,
+"annualFrac": 0.0099,
+"trendFrac": 0.7278,
+"winR2": 0.9663
+},
+"festival": {
+"bestR2": 0.7981,
+"periodBest": 256.0,
+"annualFrac": 0.5248,
+"trendFrac": 0.2284,
+"winR2": 0.9183
+},
+"christmas": {
+"bestR2": 0.7128,
+"periodBest": 6.0,
+"annualFrac": 0.5221,
+"trendFrac": 0.0001,
+"winR2": 0.7829
+},
+"halloween": {
+"bestR2": 0.6627,
+"periodBest": 6.0,
+"annualFrac": 0.4812,
+"trendFrac": 0.0001,
+"winR2": 0.7112
+},
+"ramadan": {
+"bestR2": 0.1289,
+"periodBest": 21.0,
+"annualFrac": 0.5344,
+"trendFrac": 0.3872,
+"winR2": 0.3005
+},
+"diwali": {
+"bestR2": 0.4308,
+"periodBest": 6.0,
+"annualFrac": 0.4887,
+"trendFrac": 0.1294,
+"winR2": 0.4358
+},
+"easter": {
+"bestR2": 0.61,
+"periodBest": 6.0,
+"annualFrac": 0.5698,
+"trendFrac": 0.0,
+"winR2": 0.745
+},
+"thanksgiving": {
+"bestR2": 0.6232,
+"periodBest": 6.0,
+"annualFrac": 0.4554,
+"trendFrac": 0.0005,
+"winR2": 0.6331
+},
+"hanukkah": {
+"bestR2": 0.6128,
+"periodBest": 6.0,
+"annualFrac": 0.4707,
+"trendFrac": 0.0027,
+"winR2": 0.6801
+},
+"carnival": {
+"bestR2": 0.4623,
+"periodBest": 6.0,
+"annualFrac": 0.1994,
+"trendFrac": 0.0012,
+"winR2": 0.5303
+},
+"wedding": {
+"bestR2": 0.6333,
+"periodBest": 164.0,
+"annualFrac": 0.1429,
+"trendFrac": 0.7496,
+"winR2": 0.8099
+},
+"funeral": {
+"bestR2": 0.837,
+"periodBest": 256.0,
+"annualFrac": 0.0054,
+"trendFrac": 0.3503,
+"winR2": 0.658
+},
+"birthday": {
+"bestR2": 0.9412,
+"periodBest": 256.0,
+"annualFrac": 0.0125,
+"trendFrac": 0.114,
+"winR2": 0.9404
+},
+"language": {
+"bestR2": 0.8718,
+"periodBest": 256.0,
+"annualFrac": 0.0094,
+"trendFrac": 0.4778,
+"winR2": 0.9325
+},
+"culture": {
+"bestR2": 0.8285,
+"periodBest": 256.0,
+"annualFrac": 0.0369,
+"trendFrac": 1.0,
+"winR2": 0.9244
+},
+"museum": {
+"bestR2": 0.8929,
+"periodBest": 256.0,
+"annualFrac": 0.0131,
+"trendFrac": 0.7349,
+"winR2": 0.946
+},
+"society": {
+"bestR2": 0.9613,
+"periodBest": 256.0,
+"annualFrac": 0.0021,
+"trendFrac": 1.0,
+"winR2": 0.972
+},
+"tradition": {
+"bestR2": 0.797,
+"periodBest": 256.0,
+"annualFrac": 0.3049,
+"trendFrac": 0.4615,
+"winR2": 0.6546
+},
+"heritage": {
+"bestR2": 0.8329,
+"periodBest": 256.0,
+"annualFrac": 0.0429,
+"trendFrac": 0.5274,
+"winR2": 0.8739
+},
+"folklore": {
+"bestR2": 0.8073,
+"periodBest": 256.0,
+"annualFrac": 0.0563,
+"trendFrac": 1.0,
+"winR2": 0.6369
+},
+"ritual": {
+"bestR2": 0.8059,
+"periodBest": 256.0,
+"annualFrac": 0.0102,
+"trendFrac": 0.4961,
+"winR2": 0.9275
+},
+"etiquette": {
+"bestR2": 0.9573,
+"periodBest": 256.0,
+"annualFrac": 0.0015,
+"trendFrac": 1.0,
+"winR2": 0.9713
+},
+"gossip": {
+"bestR2": 0.8853,
+"periodBest": 228.0,
+"annualFrac": 0.0061,
+"trendFrac": 0.0066,
+"winR2": 0.9573
+},
+"fandom": {
+"bestR2": 0.9687,
+"periodBest": 204.0,
+"annualFrac": 0.0016,
+"trendFrac": 0.7844,
+"winR2": 0.9914
+}
+}

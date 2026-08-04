@@ -1,0 +1,66 @@
+{
+ "topics": 3021,
+ "skipped": 63,
+ "months": 210,
+ "window": [
+  "2008-01",
+  "2025-06"
+ ],
+ "season_led": 174,
+ "median_r2_test": -1.1699,
+ "sign_dist_all": {
+  "Aries": 295,
+  "Taurus": 307,
+  "Gemini": 268,
+  "Cancer": 348,
+  "Leo": 369,
+  "Virgo": 368,
+  "Libra": 145,
+  "Scorpio": 132,
+  "Sagittarius": 133,
+  "Capricorn": 190,
+  "Aquarius": 226,
+  "Pisces": 240
+ },
+ "sign_dist_season_led": {
+  "Aries": 18,
+  "Taurus": 18,
+  "Gemini": 20,
+  "Cancer": 28,
+  "Leo": 20,
+  "Virgo": 10,
+  "Libra": 8,
+  "Scorpio": 7,
+  "Sagittarius": 6,
+  "Capricorn": 6,
+  "Aquarius": 12,
+  "Pisces": 21
+ },
+ "lamp_survival_all": {
+  "sun": 719,
+  "mercury": 448,
+  "venus": 366,
+  "mars": 839,
+  "jupiter": 1564,
+  "saturn": 1775,
+  "uranus": 1190,
+  "neptune": 855,
+  "pluto": 1198,
+  "chiron": 1316,
+  "node": 1814
+ },
+ "lamp_survival_season_led": {
+  "sun": 45,
+  "mercury": 35,
+  "venus": 17,
+  "mars": 41,
+  "jupiter": 81,
+  "saturn": 112,
+  "uranus": 69,
+  "neptune": 56,
+  "pluto": 65,
+  "chiron": 81,
+  "node": 94
+ },
+ "mechanism": "furnace kernel=gauss fixed_f=1.0 intercept=True clip=True; 11 sidereal bodies (moonless), positive params, 12 sign-centre GD inits, prune-4 refit"
+}

@@ -1,0 +1,119 @@
+%% Journal of Seasonality submission — four chart-derived topic sets against a fixed phase model.
+\documentclass[11pt]{artaquest}
+\input{numbers}
+
+\definecolor{tgold}{HTML}{9A6B0A}
+\definecolor{tblue}{HTML}{1746DC}
+
+\title{Do the world's top searches keep seasonal time? Google's own lunar-month charts against a fixed phase model, in four search modalities}
+\runningtitle{Top searches against seasonal time}
+
+\author{Arash Ashrafnejad\affmark{1}}
+\affiliation{\affmark{1}ArtaQuest Foundation}
+\keywords{seasonality; Google Trends; search behaviour; lunar months; phase estimation; pre-registration; reproducibility}
+
+\dataavailability{The open dataset --- \texttt{astro4-datasets.zip}, carrying
+  \texttt{ImageTopics.csv}, \texttt{NewsTopics.csv}, \texttt{ShopTopics.csv} and
+  \texttt{YouTubeTopics.csv} (\nTotal{} topics $\times$ \nMonths{} months, \winStart{}--\winEnd{};
+  each row: topic, its FROZEN chart-derived class, chart-presence metadata, month, own-property
+  interest, and the eleven sidereal body phases of that month) plus the manifest --- is registered
+  as a platform research artifact and mirrored at
+  \url{https://artaquest.org/wp-content/uploads/research-uploads/astro4-datasets.zip}. The 1{,}115
+  raw lunar-month chart CSVs (the classes' full provenance, including the excluded web property)
+  are archived in the platform repository.}
+\codeavailability{The registered model bundle (the platform's canonical sinc-model implementation,
+  verbatim, plus the analysis entrypoint) is at
+  \url{https://artaquest.org/wp-content/uploads/research-uploads/astro4-model.zip};
+  \texttt{python3 reproduce.py astro4-datasets.zip} regenerates every number and figure in this
+  paper (\texttt{--quick N} and \texttt{--from-cache} give a two-minute and a ten-second path).}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+When something tops the world's search charts again and again in the same month of the year, does its own search history actually rise and fall with that season? We let Google answer both sides of the question about itself. From Google Trends' own ``top queries'' charts --- downloaded for every \emph{lunar month} (one new moon to the next; the gloss below) from 2008 to 2025, worldwide, separately for image, news, shopping and YouTube search --- we selected each modality's most consistently charting topics and gave every topic one \textbf{frozen, chart-derived seasonal class}: the sidereal season in which its summed chart score is largest (the sidereal calendar follows the fixed stars, running about 24 days behind the familiar newspaper dates; a lunar month is one new-moon-to-new-moon cycle, $\approx$29.5 days). Then, independently, we fitted each topic's own monthly interest series --- on its own search modality --- with a fixed, open, already-published eleven-body sinc phase model (the ArtaQuest topic-500 class, taken verbatim), whose fitted phase reads where in the sidereal year the series itself peaks. The two read-outs were compared blind.
+
+Across \nTotal{} topics in four datasets (ImageTopics \nImage{}, NewsTopics \nNews{}, ShopTopics \nShop{}, YouTubeTopics \nYouTube{}), the answer is yes --- measurably, in every modality --- but how strongly depends on how the series' season is read. Read simply, by each series' raw peak month, the chart-derived class is recovered \rawAgree\% of the time (2.6$\times$ the $8.3\%$ chance line; cluster-level permutation $z = \rawPermZ$, $\rawPermP$), and \emph{every} modality clears chance decisively (Image $z = \rawZImage$, News \rawZNews, Shop \rawZShop, YouTube \rawZYouTube). Read through the fixed spectral model, agreement is \poolAgree\% ($z = \poolPermZ$) and \emph{differential}: solid in news (\agreeNews\%, $z=\permZNews$) and shopping (\agreeShop\%, $z=\permZShop$), marginal in image search, and absent in YouTube --- the model's phase, fitted to whole 17-year histories, is dragged by the strong secular trends these chart-head topics carry (its offsets are diffuse: median absolute \poolMedAbs$^\circ$, resultant $R = \poolOffsetR$), where the raw peak month is immune. The season also travels with the topic: the \xTopics{} topics charting in more than one modality keep the same fitted sign across modalities \xSame\% of the time (chance $8.3\%$). Everything here is mechanical --- charts in, classes out, two fixed read-outs, comparison --- with no human or editorial judgement anywhere in the loop; every number regenerates from open data and open code.
+\end{abstract}
+
+\section{One question, two read-outs}
+Google Trends~\citep{ginsberg2009,choi2012,preis2013} offers two independent windows onto the seasonality of collective attention. The first is \emph{relative}: its ``top queries'' chart ranks what the world searched most in a chosen window, against everything else. The second is \emph{absolute}: each query's own interest series, its rises and falls over the years. If a topic's chart appearances pile up in one season, and its own series genuinely peaks in that same season, the two read-outs agree --- and that agreement is a measurable, falsifiable property of the search record, requiring no curator, no rater and no theory of why.
+
+This paper measures that agreement at scale, in four search modalities at once (image, news, shopping and YouTube search), on a lunar-month calendar, against the sidereal year. Everything on the ``theory'' side is Google's own output, frozen deterministically before anything on the ``empirics'' side was fetched; everything on the empirics side is a fixed, open, already-published phase model. Nothing here asks whether the sky causes anything --- the sidereal wheel serves as a clock face, and the lunar months as the platform's native season windows; the question is whether Google's chart clock and Google's series clock tell the same time.
+
+\section{The chart-derived classes}
+\textbf{Charts.} For every lunation from 2008 to 2025 --- one \emph{new moon} to the day before the next, 223 windows, computed astronomically on the platform ephemeris --- we downloaded Google Trends Explore's ``Top queries'' CSV (worldwide; the given modality; the window's exact dates): the same file the UI's download button produces, with a TOP-25 list (each query carrying a relative interest value 1--100) and a RISING-25 list. These 223 $\times$ 5 = 1{,}115 raw CSVs (a web-search set was collected but pre-excluded from the study as purely navigational) are the study's complete provenance and ship with it.
+
+\textbf{Scoring, selection, class --- all frozen.} A topic's score in a lunation is its actual TOP value (1--100) if it appears in that lunation's top-50 and 0 if it does not. Its \emph{ranking score} is the mean over all 223 lunations; each modality's top 20th percentile of ranked topics forms its dataset. Its \textbf{class} is the argmax: the sidereal season (the sign of the Sun at the lunation midpoint) in which its summed chart score is largest, with deterministic tie-breaks (appearance count, then season order). Queries are lowercased ASCII, at most two words; the token ``news'' is stripped (``india news'' merges into ``india''), and the bare term ``news'' is excluded. The classes were committed to the platform repository before any interest series was fetched~\citep{nosek2018}; \texttt{preregistration} files inside the dataset carry every class with its full per-season chart record.
+
+\section{The empirical classifier}
+Each topic's worldwide monthly interest \emph{on its own modality} (\winStart{}--\winEnd{}; \nMonths{} months; the provisional most-recent year excluded per the platform's recency guard) is fitted by the platform's one canonical model class,
+\[ \hat{y}(t) \;=\; \sum_{i=1}^{11} w_i\,\mathrm{sinc}\!\big(f_i\,\mathrm{wrap}(x_i(t) - p)\big) + b, \]
+eleven sidereal body phases $x_i$, non-negative weights, bounded per-body frequencies, one bias, and \textbf{one global circular phase $p$} whose $30^\circ$ sector is the topic's empirical sign. The implementation is the topic-500 competition's reference file, shipped verbatim in the registered model bundle: twelve gradient starts, one per sign centre, so no sign is favoured; the plain least-squares (``atlas'') objective; deterministic throughout. The model was fixed and published by the platform before this study existed and is not tuned here. Its read-out is also transparent: the fitted phase reproduces each series' raw argmax-of-monthly-mean peak to a median \rawMedianDeg$^\circ$ ($\approx$\rawMedianDays{} days; \rawWithinSign\% within one sign), and reading that raw peak directly against the classes gives \rawAgree\% agreement --- slightly different machinery, same story: the result belongs to the data.
+
+\section{Results}
+\textbf{The chart classes carry real seasonal information --- in every modality.} The simplest reader of a series' season is its raw peak: the calendar month of its highest monthly mean, mapped to that month's sidereal sign. Scored against the frozen chart classes, this raw read-out agrees \rawAgree\% of the time pooled (2.6$\times$ chance; cluster-level permutation $z = \rawPermZ$, $\rawPermP$) and clears chance in all four modalities: ImageTopics \rawAgreeImage\% ($z=\rawZImage$), NewsTopics \rawAgreeNews\% ($z=\rawZNews$), ShopTopics \rawAgreeShop\% ($z=\rawZShop$), YouTubeTopics \rawAgreeYouTube\% ($z=\rawZYouTube$) --- every permutation $p < 10^{-4}$ (Table~\ref{tab:key}). Where Google's charts say a topic's season is, the topic's own history peaks.
+
+\textbf{The spectral model reads the same signal more weakly, and differentially.} The sinc model's fitted sign agrees \poolAgree\% pooled ($z = \poolPermZ$, $\poolPermP$; Fig.~\ref{fig:conf}) and \poolAdj\% within one sign --- solid in NewsTopics (\agreeNews\%, $z=\permZNews$) and ShopTopics (\agreeShop\%, $z=\permZShop$), marginal in ImageTopics (\agreeImage\%, $z=\permZImage$), and null in YouTubeTopics (\agreeYouTube\%, $z=\permZYouTube$). The weakness is the model's, not the signal's: these chart-head populations carry strong secular trends (platform booms and decays), the 24-parameter fit spends its slow-body terms on that trend, and the single global phase drifts --- its offsets against the class centres are diffuse (median absolute \poolMedAbs$^\circ$; resultant $R = \poolOffsetR$; Fig.~\ref{fig:rose}) and its phase sits a median \rawMedianDeg$^\circ$ from the raw peak (\rawWithinSign\% within one sign). On curated, strongly-annual topic sets the platform documents far tighter phase behaviour; on unselected chart heads the raw peak month is the more robust season estimator. The per-topic exact binomial ($\log_{10}p \approx \poolLogP$) is quoted only as an optimistic bound; rotating the class labels collapses agreement for ten of eleven rotations (mean \poolRotRest\%; best rotation \poolRotMax\%).
+
+\begin{table}[t]\centering\small
+\begin{tabular}{lrrrrr}
+\hline
+\textbf{Dataset} & \textbf{n} & \textbf{Model agree} & \textbf{z} & \textbf{Raw-peak agree} & \textbf{z}\\
+\hline
+ImageTopics & \nImage & \agreeImage\% & \permZImage & \rawAgreeImage\% & \rawZImage\\
+NewsTopics & \nNews & \agreeNews\% & \permZNews & \rawAgreeNews\% & \rawZNews\\
+ShopTopics & \nShop & \agreeShop\% & \permZShop & \rawAgreeShop\% & \rawZShop\\
+YouTubeTopics & \nYouTube & \agreeYouTube\% & \permZYouTube & \rawAgreeYouTube\% & \rawZYouTube\\
+\hline
+Pooled & \nTotal & \poolAgree\% & \poolPermZ & \rawAgree\% & \rawPermZ\\
+\hline
+\end{tabular}
+\caption{\textbf{The four datasets, two read-outs.} Exact-sign agreement between the frozen chart-derived class and (left pair) the sinc-model sign, (right pair) the raw monthly-mean peak's sign; each $z$ from a 10{,}000-draw label permutation at the shared-token cluster level. Chance is $8.3\%$.}
+\label{tab:key}
+\end{table}
+
+\textbf{Fit quality, honestly labelled.} All $R^2$ are in-sample training fits of the 24-parameter class on \nMonths{} months (pooled mean \poolRtwo{}, adjusted \poolAdjRtwo{}, median \poolMedRtwo{}; Fig.~\ref{fig:rtwo}) --- high because the class absorbs the secular trend, which is precisely why its \emph{phase} is the weaker season reader here; among the \poolWellfit{} well-fitted topics ($R^2 \ge 0.3$) agreement is essentially unchanged (\poolWellfitAgree\%), confirming the differential is not a fit-quality artefact.
+
+\textbf{The sign travels with the topic across modalities.} \xTopics{} topics chart in more than one modality (\xPairs{} cross-modality pairs); their independently fitted signs --- from separate series on separate search products --- agree \xSame\% of the time against an $8.3\%$ chance line. The season is a property of the topic, not of any one modality's chart mechanics.
+
+\begin{figure}[t]\centering\includegraphics[width=0.95\linewidth]{figs/fig1_confusions.png}
+\caption{\textbf{Chart class against model sign, per dataset.} Row-normalised confusion (rows: frozen chart-derived class; columns: fitted sign), colour-blind-safe \emph{cividis}; gold boxes mark exact agreement.}
+\label{fig:conf}\end{figure}
+
+\begin{figure}[t]\centering\includegraphics[width=0.85\linewidth]{figs/fig2_agreement.png}
+\caption{\textbf{Exact-sign agreement} per dataset (blue) and pooled (gold) against the dashed $8.3\%$ chance line, values annotated.}
+\label{fig:agree}\end{figure}
+
+\begin{figure}[t]\centering\includegraphics[width=0.7\linewidth]{figs/fig3_rose.png}
+\caption{\textbf{Pooled signed offset} (fitted phase minus class centre); angles run $-180^\circ..180^\circ$, $0^\circ$ at north, \emph{negative = earlier}; radial axis: topics per $10^\circ$ bin; the gold vector is the circular mean.}
+\label{fig:rose}\end{figure}
+
+\begin{figure}[t]\centering\includegraphics[width=0.85\linewidth]{figs/fig4_r2.png}
+\caption{\textbf{Fit quality context}: in-sample $R^2$ distribution per dataset (boxes: quartiles; gold line: median).}
+\label{fig:rtwo}\end{figure}
+
+\section{Discussion}
+Three things should be kept apart. First, what is genuinely established: Google's relative chart record and Google's absolute series record tell the same seasonal time far beyond chance, in all four modalities, when the series' season is read robustly (the raw peak month; pooled $z = \rawPermZ$) --- and neither side involved judgement anywhere: the classes are Google's own chart output passed through a frozen argmax, the read-outs fixed and mechanical. Second, a methodological finding with teeth: on unselected chart-head populations --- trend-heavy, boom-and-decay histories --- a fixed spectral phase model documented to work well on curated annual topics becomes the \emph{weaker} season estimator (solid on news and shopping, null on YouTube), while the plain raw peak stays robust everywhere. Estimator choice, not signal existence, drives that differential, and studies testing seasonality on popularity-selected populations should expect the same trap. Third, what is \emph{not} claimed: nothing here is astrology --- the sidereal wheel and the lunar months are clock faces chosen for their platform-native precision, and the same experiment on any other fixed partition of the year would read identically. Correlation, as the platform's every atlas page insists, is not causation.
+
+The practical contribution is a validated, fully mechanical pipeline: Google's own charts classify topics into seasons that the topics' own histories confirm, a labelling that costs no curation, survives a change of read-out, and transfers across search modalities (\xSame\% cross-modality sign consistency).
+
+\section{Methods}
+\textbf{Lunar calendar.} New-moon datetimes 2008--2026 computed from the platform's sidereal ephemeris (daily Sun/Moon elongation crossing $0^\circ$; USHASHASHI ayanamsa); a lunation runs from one new moon to the day before the next; its season is the Sun's sidereal sign at the lunation midpoint.
+
+\textbf{Charts.} Trends Explore, empty query, worldwide, per-modality property, per-lunation date window; the RELATED\_QUERIES widget's CSV export (the UI's download button). 223 lunations $\times$ 5 properties; the web property was collected and pre-excluded (navigational; its 20 head terms are dominated by platform names). Terms: NFKD-normalised lowercase ASCII, $\le$2 words, token ``news'' stripped, bare ``news'' excluded. No other filtering of any kind.
+
+\textbf{Scoring, selection, classes.} Per-lunation score = the TOP value (1--100) or 0; ranking score = mean over all 223 lunations; dataset = the modality's top 20\% of ranked terms; class = argmax season by summed score (ties: appearance count, then season order). All rules and all resulting classes were committed to the platform repository before any interest series was fetched.
+
+\textbf{Series and model.} Per-topic single-frame monthly Trends fetch on the topic's own property (own maximum $=100$), reindexed to the platform grid, analysed on the clean \winStart{}--\winEnd{} window (\nMonths{} months; the provisional final year dropped). Classifier: \texttt{topic500\_reference\_solution.py} verbatim, mode ``atlas'' (12 sign-centre starts, 2{,}400 Adam steps, deterministic per device; cross-device float-32 tolerance $\sim\pm0.5$ pt). All $R^2$ are in-sample training fits of the 24-parameter class on \nMonths{} points; adjusted $R^2$ and RMSE ship per topic.
+
+\textbf{Statistics.} Exact binomial versus $1/12$ at topic level (optimistic bound) and at shared-token cluster level with a 10{,}000-draw fixed-seed label permutation (the headline test), per dataset and pooled; signed circular offsets summarised by both moments (circular mean = bias; median absolute and resultant $R$ = spread)~\citep{fisher1993}; rotation null over all 11 non-zero label rotations; the raw-argmax transparency check maps each series' peak calendar month to that month's circular-mean sidereal solar longitude (from the dataset's own \texttt{sun} column) and scores it directly against the classes; cross-modality consistency counts sign-equal pairs among topics selected in $>$1 dataset.
+
+{\sloppy\textbf{Reproduction.} \texttt{python3 reproduce.py astro4-datasets.zip} regenerates \texttt{results.json}, the per-topic table \texttt{atlas\_signs.csv} and Figs.~1--4 in one command ($\sim$25 min GPU, $\sim$50 min CPU); \texttt{expected.json} declares the headline numbers; the manuscript's number macros are machine-generated from \texttt{results.json} by a script that fails if any key is absent. Lighter paths: \texttt{--quick N} (deterministic subset) and \texttt{--from-cache} (statistics and figures from the bundled per-topic table in seconds).\par}
+
+\declarations
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

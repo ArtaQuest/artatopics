@@ -1,0 +1,11 @@
+arm,acc,h1,h24
+persistence_AR,0.9194,0.9394,0.9047
+seasonal_naive_AR,0.9106,0.9172,0.9047
+base_rate,0.7165,0.7286,0.7084
+label_climatology,0.7145,0.717,0.7087
+memory_majority,0.7286,0.7375,0.7249
+pooled_logistic_AR,0.8908,0.9341,0.8742
+ENCDECB_pure,0.8568,0.8692,0.8424
+ENCDECB_mem,0.8956,0.9106,0.8832
+direct_pooled,0.9193,0.9401,0.9027
+CHAMPION_selected5,0.9183,0.9288,0.903

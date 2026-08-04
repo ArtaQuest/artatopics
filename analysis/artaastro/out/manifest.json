@@ -1,0 +1,56 @@
+{
+ "engine": "kerykeion+swisseph",
+ "ayanamsa": "LAHIRI",
+ "instant": "10:00 America/New_York",
+ "bodies": [
+  "Sun",
+  "Moon",
+  "Mercury",
+  "Venus",
+  "Mars",
+  "Jupiter",
+  "Saturn",
+  "Uranus",
+  "Neptune",
+  "Pluto",
+  "Rahu",
+  "Ketu"
+ ],
+ "union_span": [
+  "1979-01-01",
+  "2253-02-09"
+ ],
+ "product_span": [
+  "2020-02-25",
+  "2253-02-09"
+ ],
+ "total_days": 100117,
+ "chunks": [
+  "astro-2020s.json",
+  "astro-2030s.json",
+  "astro-2040s.json",
+  "astro-2050s.json",
+  "astro-2060s.json",
+  "astro-2070s.json",
+  "astro-2080s.json",
+  "astro-2090s.json",
+  "astro-2100s.json",
+  "astro-2110s.json",
+  "astro-2120s.json",
+  "astro-2130s.json",
+  "astro-2140s.json",
+  "astro-2150s.json",
+  "astro-2160s.json",
+  "astro-2170s.json",
+  "astro-2180s.json",
+  "astro-2190s.json",
+  "astro-2200s.json",
+  "astro-2210s.json",
+  "astro-2220s.json",
+  "astro-2230s.json",
+  "astro-2240s.json",
+  "astro-2250s.json"
+ ],
+ "notable_threshold": 55,
+ "notable_count": 1082
+}
