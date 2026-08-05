@@ -1,18 +1,18 @@
 {
  "all seven (the model)": {
-  "shuffled": 0.6829,
-  "temporal": 0.6369
+  "shuffled": 0.5729,
+  "temporal": 0.7243
  },
  "fast only (mars, jupiter)": {
-  "shuffled": 0.4767,
-  "temporal": 0.3793
+  "shuffled": 0.4794,
+  "temporal": 0.6949
  },
  "slow only (ur, ne, pl)": {
-  "shuffled": 0.6962,
-  "temporal": 0.6369
+  "shuffled": 0.5875,
+  "temporal": 0.7255
  },
  "bare linear year [1, t]": {
-  "shuffled": 0.7132,
-  "temporal": 0.7297
+  "shuffled": 0.6687,
+  "temporal": 0.7292
  }
 }

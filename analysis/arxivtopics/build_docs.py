@@ -16,13 +16,15 @@ for f in ("trend_binary_scatter.png", "trend_binary_controls.png"):
     shutil.copyfile(os.path.join(HERE, "figs", f), os.path.join(DOCS, "figs", f))
 
 TB = json.load(open(os.path.join(HERE, "trend_binary.json")))
-rows = sorted(TB["topics"].items(), key=lambda kv: -kv[1]["p_now"])
+CT = json.load(open(os.path.join(HERE, "trend_binary_controls.json")))
 S = TB["summary"]
-
+above = sum(1 for v in TB["topics"].values() if v["test"] > 0.5)
+ntop = len(TB["topics"])
+rows = sorted(TB["topics"].items(), key=lambda kv: (-kv[1]["call_now"], -kv[1]["test"]))
 trow = "\n".join(
-    f"<tr><td>{html.escape(k)}</td><td class='n'>{int(round(v['p_now']*100))}%</td>"
-    f"<td class='n'>{'yes' if v['p_now'] >= 0.5 else 'no'}</td><td class='n'>{int(round(v['test']*100))}%</td></tr>"
-    for k, v in rows)
+    f"<tr><td>{html.escape(k)}</td><td class='n'>{'yes' if v['call_now'] else 'no'}</td>"
+    f"<td class='n'>{int(round(v['test']*100))}%</td></tr>" for k, v in rows)
+fast = CT["fast only (mars, jupiter)"]; slow = CT["slow only (ur, ne, pl)"]; year = CT["bare linear year [1, t]"]
 
 page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,23 +81,22 @@ better than the field's long-run average. Full code and data:
 signals cannot encode drift. Verified not to be a training issue: loss, model form, phase count and
 topic roster all varied — ranking unchanged.</p>
 
-<h2>3 · "Will it trend next year?" — one yes/no predictor per field</h2>
+<h2>3 · "Will it trend next year?" — one predictor per field, trained by least squares, called at the field's median</h2>
 <div class="tiles">
-<div class="tile"><div class="l">unseen data</div><div class="v">{S["test_mean"]*100:.0f}%</div><div class="h">coin flip = 50%</div></div>
-<div class="tile"><div class="l">fields above chance</div><div class="v">89%</div><div class="h">223 of 251</div></div>
+<div class="tile"><div class="l">unseen data</div><div class="v">{S["test_mean"]*100:.0f}%</div><div class="h">balanced · coin flip = 50%</div></div>
+<div class="tile"><div class="l">fields above chance</div><div class="v">{above*100//ntop}%</div><div class="h">{above} of {ntop}</div></div>
 <div class="tile"><div class="l">latest-years test</div><div class="v">{S["test_temporal_mean"]*100:.0f}%</div><div class="h"></div></div>
 </div>
-<p><b>Controls:</b> fast planets only → 48% (chance). Slow planets only → 70%. Calendar year alone →
-71–73%, better than the sky. The accuracy is calendar signal carried by the slow planets, not
-planetary rhythm.</p>
+<p><b>Controls:</b> fast planets only → {fast["shuffled"]*100:.0f}% (chance). Slow planets only →
+{slow["shuffled"]*100:.0f}%. Calendar year alone → {year["shuffled"]*100:.0f}%, better than the sky.
+The accuracy is calendar signal carried by the slow planets, not planetary rhythm.</p>
 <img src="figs/trend_binary_controls.png" alt="Controls: fast planets at chance; slow planets carry the accuracy; a bare year does best">
-<img src="figs/trend_binary_scatter.png" alt="Per-field train vs held-out accuracy; most fields above the 0.5 chance line">
 
 <h2>Per-field calls</h2>
 <input id="q" placeholder="filter fields…" oninput="
   const v=this.value.toLowerCase();
   document.querySelectorAll('#tt tbody tr').forEach(r=>r.style.display=r.cells[0].textContent.toLowerCase().includes(v)?'':'none');">
-<div class="wrap"><table id="tt"><thead><tr><th>field</th><th>p(trend)</th><th>call</th><th>accuracy</th></tr></thead>
+<div class="wrap"><table id="tt"><thead><tr><th>field</th><th>call</th><th>accuracy</th></tr></thead>
 <tbody>{trow}</tbody></table></div>
 
 <footer>No causal claims. Code MIT · data CC0 (OpenAlex) ·

@@ -6,7 +6,9 @@
       τ_j      = median_t Δ_j(t)                     the topic's own median rise
       label(t) = 1 if Δ_j(t) > τ_j                   "trending next year" — balanced ~50/50 by definition
       features = [1, sin θᵢ(t), cos θᵢ(t)]           the sky at year t, nothing else
-      model    = logistic regression (binary cross-entropy, convex, deterministic)
+      model    = plain least squares (MSE) on the RAW change Δ_j(t); the prediction is called
+                 "trending" when it exceeds the same median threshold τ_j — so training is MSE and
+                 the REPORT is balanced classification accuracy, as specified (2026-08-05)
 
     Years: from the topic's continuously-non-zero start (on works) through the last full year.
     Split: SHUFFLED 90/10 of the topic's data points (RandomState(0)), as specified. A shuffled
@@ -20,7 +22,6 @@
 import os, sys, json, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import numpy as np, pandas as pd
-from scipy.optimize import minimize
 import arxiv_fit as af
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -43,15 +44,10 @@ D = Z_ALL.shape[1]
 RNG = np.random.RandomState(0)                              # the one RNG: the specified shuffled split
 
 
-def logistic(Zt, y, lam=1e-6):
-    def obj(th):
-        s = Zt @ th
-        p = 1.0 / (1.0 + np.exp(-np.clip(s, -30, 30)))
-        ce = -np.mean(y * np.log(np.clip(p, 1e-12, None)) + (1 - y) * np.log(np.clip(1 - p, 1e-12, None)))
-        g = Zt.T @ (p - y) / len(y)
-        return ce + lam * (th[1:] ** 2).sum(), g + 2 * lam * np.r_[0, th[1:]]
-    return minimize(obj, np.zeros(Zt.shape[1]), jac=True, method="L-BFGS-B",
-                    options={"maxiter": 500}).x
+def mse_fit(Zt, d):
+    """Closed-form least squares on the raw change — deterministic, no optimiser at all."""
+    G = Zt.T @ Zt + 1e-8 * np.eye(Zt.shape[1])
+    return np.linalg.solve(G, Zt.T @ d)
 
 
 def run_topic(j):
@@ -68,16 +64,14 @@ def run_topic(j):
     idx = RNG.permutation(len(ts))
     k = max(1, int(round(0.1 * len(ts))))
     te, tr = idx[:k], idx[k:]
-    th = logistic(Z[tr], y[tr])
-    acc = lambda I: float(((Z[I] @ th > 0).astype(float) == y[I]).mean())
-    # temporal contrast: same machinery, last 10% of YEARS held out
+    th = mse_fit(Z[tr], d[tr])
+    acc = lambda I: float(((Z[I] @ th > tau).astype(float) == y[I]).mean())
     cut = len(ts) - k
-    th_t = logistic(Z[:cut], y[:cut])
-    acc_t = float(((Z[cut:] @ th_t > 0).astype(float) == y[cut:]).mean())
-    # today's call: the sky at the last year → trending next year?
-    p_now = float(1.0 / (1.0 + np.exp(-(Z_ALL[n - 1] @ th))))
+    th_t = mse_fit(Z[:cut], d[:cut])
+    acc_t = float(((Z[cut:] @ th_t > tau).astype(float) == y[cut:]).mean())
+    call_now = bool(Z_ALL[n - 1] @ th > tau)
     return {"train": acc(tr), "test": acc(te), "test_temporal": acc_t,
-            "balance": float(y.mean()), "n": len(ts), "p_now": p_now, "start": labels_y[t0]}
+            "balance": float(y.mean()), "n": len(ts), "call_now": call_now, "start": labels_y[t0]}
 
 
 def main():
