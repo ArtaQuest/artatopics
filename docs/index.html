@@ -1,123 +1,75 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>artatopics — can the sky forecast science?</title>
+<title>artatopics — results</title>
 <style>
 :root { --gold:#8A6D0B; --blue:#1746DC; --bg:#ffffff; --card:#f6f7f9; --ink:#1a2330; --ink2:#4a5568; --ink3:#6b7686; --line:#e3e6ea; }
 @media (prefers-color-scheme: dark) {
   :root { --gold:#E8B923; --blue:#6f8dff; --bg:#010C17; --card:#06121E; --ink:#eef2f7; --ink2:#b8c2cf; --ink3:#8b98a8; --line:#12283c; } }
 * { box-sizing:border-box } body { margin:0; background:var(--bg); color:var(--ink);
-  font:16px/1.65 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif }
-main { max-width:760px; margin:0 auto; padding:44px 20px 80px }
-h1 { font-size:30px; margin:0 0 4px } h1 b { color:var(--gold) }
-.sub { font-size:18px; color:var(--ink2); margin:0 0 6px }
-h2 { font-size:20px; margin:48px 0 8px }
-h2 span { color:var(--gold); font-variant-numeric:tabular-nums }
-p { color:var(--ink2); margin:10px 0 }
+  font:15px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif }
+main { max-width:720px; margin:0 auto; padding:36px 20px 70px }
+h1 { font-size:26px; margin:0 } h1 b { color:var(--gold) }
+h2 { font-size:16px; margin:34px 0 8px }
+p { color:var(--ink2); margin:8px 0 }
 table { border-collapse:collapse; width:100%; font-size:14px }
-th,td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--line) }
+th,td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--line) }
 th { color:var(--ink3); font-size:11px; text-transform:uppercase; letter-spacing:.08em }
 td.n { font-variant-numeric:tabular-nums }
-.tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; margin:14px 0 }
-.tile { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 14px }
+.tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin:12px 0 }
+.tile { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:10px 13px }
 .tile .l { font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink3) }
-.tile .v { font-size:24px; font-weight:700; margin-top:2px }
-.tile .h { font-size:12px; color:var(--ink3); margin-top:2px; line-height:1.4 }
-img { max-width:100%; border-radius:10px; border:1px solid var(--line); background:#fff }
-.box { background:var(--card); border:1px solid var(--line); border-left:3px solid var(--gold);
-  border-radius:10px; padding:12px 16px; margin:14px 0 }
-.box p { margin:6px 0 }
-input { width:100%; padding:9px 12px; border-radius:10px; border:1px solid var(--line);
-  background:var(--card); color:var(--ink); font-size:15px; margin:8px 0 4px }
+.tile .v { font-size:22px; font-weight:700; margin-top:2px }
+.tile .h { font-size:11.5px; color:var(--ink3); margin-top:2px; line-height:1.35 }
+img { max-width:100%; border-radius:10px; border:1px solid var(--line); background:#fff; margin-top:6px }
+input { width:100%; padding:8px 12px; border-radius:10px; border:1px solid var(--line);
+  background:var(--card); color:var(--ink); font-size:14px; margin:6px 0 4px }
 a { color:var(--blue) }
-.wrap { overflow-x:auto; max-height:480px; overflow-y:auto; border:1px solid var(--line); border-radius:10px }
-.cap { font-size:13px; color:var(--ink3); margin-top:4px }
-footer { margin-top:56px; font-size:13px; color:var(--ink3) }
+.wrap { overflow-x:auto; max-height:440px; overflow-y:auto; border:1px solid var(--line); border-radius:10px }
+.cap { font-size:12.5px; color:var(--ink3); margin:4px 0 0 }
+footer { margin-top:44px; font-size:12.5px; color:var(--ink3) }
 </style></head><body><main>
 
 <h1>arta<b>topics</b></h1>
-<p class="sub">Can the positions of the planets forecast the rise and fall of research fields?</p>
-<p>Almost certainly not in any mystical sense — which is exactly why it makes a good test case for
-<b>honest forecasting</b>. We built models whose only input is where the planets are (something known
-centuries in advance), tested them the strictest way we know, and published everything — especially
-the failures. This page is the whole story in plain words. The code and data behind every number are
-public at <a href="https://github.com/ArtaQuest/artatopics">github.com/ArtaQuest/artatopics</a>, and
-the live atlas is at <a href="https://artaquest.com/topics/">artaquest.com/topics</a>.</p>
+<p>Forecasting 251 research fields from planetary positions only. Every test: fit on data ≤1995,
+graded on 1996–2025 the model never saw, against do-nothing baselines. Scores: 1.0 = perfect, 0 = no
+better than the field's long-run average. Full code and data:
+<a href="https://github.com/ArtaQuest/artatopics">github.com/ArtaQuest/artatopics</a>.</p>
 
-<h2>How we keep the test honest</h2>
-<p><b>1 — Hide the future.</b> We fit each model using data only up to 1995, then ask it to forecast
-1996–2025 and compare with what actually happened. The model never sees the years it is graded on.</p>
-<p><b>2 — Always compare with doing nothing.</b> Two lazy strategies set the bar: assume a field stays
-at its long-run average, or assume tomorrow looks exactly like today. A model that cannot beat those
-is not a model, so every score here is shown next to them.</p>
-<p><b>3 — Publish the failures.</b> Most of what we tried did not work. It is all below, and in the
-repository, because a search that only reports its wins cannot be trusted.</p>
-
-<h2><span>Finding 1</span> — one planet-tuned dial per field tracks thirty years surprisingly well</h2>
-<p>Each of 251 research fields gets its own tiny receiver: nine numbers that say how strongly it
-"listens" to each of seven slow planets, and one dial for when it peaks. Scores run from 1.0 (a
-perfect forecast) down to 0 (no better than guessing the long-run average).</p>
+<h2>1 · Per-field 30-year forecast</h2>
 <div class="tiles">
-<div class="tile"><div class="l">our model, 30 years</div><div class="v">0.80</div><div class="h">fit to 1995, graded on 1996–2025</div></div>
-<div class="tile"><div class="l">"nothing changes"</div><div class="v">0.73</div><div class="h">the same test, doing nothing</div></div>
-<div class="tile"><div class="l">our model, 12 years</div><div class="v">0.93</div><div class="h">shorter forecasts are easier</div></div>
-<div class="tile"><div class="l">our model, 4 years</div><div class="v">0.97</div><div class="h">easier still</div></div>
+<div class="tile"><div class="l">model · 30 yr</div><div class="v">0.80</div><div class="h">9 parameters per field</div></div>
+<div class="tile"><div class="l">"no change" · 30 yr</div><div class="v">0.73</div><div class="h">carry today forward</div></div>
+<div class="tile"><div class="l">model · 12 yr</div><div class="v">0.93</div><div class="h"></div></div>
+<div class="tile"><div class="l">model · 4 yr</div><div class="v">0.97</div><div class="h"></div></div>
 </div>
-<p>Beating "nothing changes" over thirty unseen years — including the whole internet era — is a real
-result. It is also a bounded one: the planets here work as a set of very slow, perfectly predictable
-pendulums, and the model uses them as scaffolding for each field's own long rhythm. <b>We make no
-claim about why it works, and none that the planets cause anything.</b></p>
 
-<h2><span>Finding 2</span> — predicting the whole pie of science: copying yesterday still wins</h2>
-<p>Different question: on a given date, how is the world's scientific attention divided among all 251
-fields — which slice of the pie does each field get? We tried many planet-driven models of the whole
-pie at once. The winner, every time, was the simplest strategy there is: <b>copy yesterday's pie</b>.</p>
-<table><tr><th>strategy</th><th>error in the guessed pie ↓</th></tr>
-<tr><td>copy yesterday's pie</td><td class="n"><b>0.083</b></td></tr>
-<tr><td>our per-field model, rescaled into a pie</td><td class="n">0.085</td></tr>
-<tr><td>the best combined planet model</td><td class="n">0.088</td></tr>
-<tr><td>a textbook statistical model (softmax)</td><td class="n">0.110</td></tr></table>
-<p class="cap">Smaller is better: roughly, how far the guessed pie is from the real one.</p>
-<p>And we can say <b>why</b> the planet models lose: science drifts. Artificial intelligence keeps
-growing; older fields slowly shrink. Copying yesterday captures that drift for free. Planets, which
-just go round and round, have no way to encode a one-way trend — and we proved the problem was not
-our training method by checking every alternative: a different loss, a different model shape, more or
-fewer dials, restricting to only the oldest fields. Nothing changed the ranking.</p>
+<h2>2 · The share of attention across all fields at once</h2>
+<table><tr><th>strategy</th><th>error ↓</th></tr>
+<tr><td>copy yesterday's distribution</td><td class="n"><b>0.083</b></td></tr>
+<tr><td>per-field model, renormalised</td><td class="n">0.085</td></tr>
+<tr><td>best combined planet model</td><td class="n">0.088</td></tr>
+<tr><td>softmax (convex, provably optimal)</td><td class="n">0.110</td></tr></table>
+<p class="cap">Copying yesterday wins. Fields drift one way (AI grows, old fields shrink); periodic
+signals cannot encode drift. Verified not to be a training issue: loss, model form, phase count and
+topic roster all varied — ranking unchanged.</p>
 
-<h2><span>Finding 3</span> — "will my field trend next year?" scores 68% … and the fine print is the story</h2>
-<p>For each field separately we asked a yes/no question: will next year's publication count jump by
-more than is typical for this field? By construction a coin flip scores 50%. Our predictors score
-well above that:</p>
+<h2>3 · "Will it trend next year?" — one yes/no predictor per field</h2>
 <div class="tiles">
-<div class="tile"><div class="l">right on unseen data</div><div class="v">68%</div><div class="h">coin flip = 50%</div></div>
-<div class="tile"><div class="l">fields above chance</div><div class="v">89%</div><div class="h">223 of 251 predictors</div></div>
-<div class="tile"><div class="l">stricter time test</div><div class="v">64%</div><div class="h">grading only on the latest years</div></div>
+<div class="tile"><div class="l">unseen data</div><div class="v">68%</div><div class="h">coin flip = 50%</div></div>
+<div class="tile"><div class="l">fields above chance</div><div class="v">89%</div><div class="h">223 of 251</div></div>
+<div class="tile"><div class="l">latest-years test</div><div class="v">64%</div><div class="h"></div></div>
 </div>
-<div class="box">
-<p><b>But here is what they actually learned — the time, not the stars.</b> We ran the check that
-matters: give the predictors only the <i>fast</i> planets (Mars and Jupiter, which loop round many
-times and so carry no information about which century it is) and accuracy collapses to a coin flip.
-Give them only the <i>slowest</i> planets — which crawl so slowly they work like the hands of a
-clock — and all the accuracy comes back. Give them nothing but the plain calendar year, and they do
-<i>better</i> than with the sky.</p>
-<p>In other words: publishing sped up in the modern era, "trending" years cluster in the modern era,
-and the slow planets simply tell the model what era it is. The predictor works — but it is reading a
-clock, not the stars.</p>
-</div>
-<p><img src="figs/trend_binary_controls.png" alt="Bar chart: with only fast planets, accuracy drops to a coin flip; with only slow planets it recovers; a plain calendar year does best of all"></p>
-<p class="cap">The decisive picture: fast planets = coin flip, slow planets = full accuracy, a plain
-year number = best of all. That pattern has one honest reading: the model is telling the time.</p>
-<p><img src="figs/trend_binary_scatter.png" alt="Scatter plot: each dot is one field, showing accuracy on data it trained on versus data it never saw"></p>
-<p class="cap">Each dot is one research field: how often its predictor was right on data it trained
-on (across) versus data it had never seen (up). Dots above the dotted 0.5 line beat a coin flip.</p>
+<p><b>Controls:</b> fast planets only → 48% (chance). Slow planets only → 70%. Calendar year alone →
+71–73%, better than the sky. The accuracy is calendar signal carried by the slow planets, not
+planetary rhythm.</p>
+<img src="figs/trend_binary_controls.png" alt="Controls: fast planets at chance; slow planets carry the accuracy; a bare year does best">
+<img src="figs/trend_binary_scatter.png" alt="Per-field train vs held-out accuracy; most fields above the 0.5 chance line">
 
-<h2>Look up your field</h2>
-<p>Each field's current call — the predictor's estimate that it "trends" next year, and how often
-that predictor was right on unseen data. Read it with Finding 3 in mind: this is a well-tested
-reading of the <i>era</i>, not a message from the planets.</p>
-<input id="q" placeholder="type to filter — e.g. immunology" oninput="
+<h2>Per-field calls</h2>
+<input id="q" placeholder="filter fields…" oninput="
   const v=this.value.toLowerCase();
   document.querySelectorAll('#tt tbody tr').forEach(r=>r.style.display=r.cells[0].textContent.toLowerCase().includes(v)?'':'none');">
-<div class="wrap"><table id="tt"><thead><tr><th>field</th><th>chance it trends</th><th>call</th><th>right on unseen data</th></tr></thead>
+<div class="wrap"><table id="tt"><thead><tr><th>field</th><th>p(trend)</th><th>call</th><th>accuracy</th></tr></thead>
 <tbody><tr><td>Health Informatics</td><td class='n'>100%</td><td class='n'>yes</td><td class='n'>100%</td></tr>
 <tr><td>Renewable Energy, Sustainability and the Environment</td><td class='n'>98%</td><td class='n'>yes</td><td class='n'>76%</td></tr>
 <tr><td>Orthodontics</td><td class='n'>96%</td><td class='n'>yes</td><td class='n'>86%</td></tr>
@@ -370,13 +322,6 @@ reading of the <i>era</i>, not a message from the planets.</p>
 <tr><td>Aging</td><td class='n'>12%</td><td class='n'>no</td><td class='n'>50%</td></tr>
 <tr><td>General Engineering</td><td class='n'>6%</td><td class='n'>no</td><td class='n'>43%</td></tr></tbody></table></div>
 
-<h2>What we claim — and what we don't</h2>
-<p>We claim exactly this: under tests where the future is hidden, the numbers above are what these
-models score, against the stated do-nothing baselines. We do <b>not</b> claim the planets cause
-anything, and where a model looked impressive, the controls above say plainly what it was really
-doing. That, more than any single score, is the point of the project.</p>
-
-<footer>ArtaQuest Foundation · code MIT, data CC0 (OpenAlex) ·
-<a href="https://github.com/ArtaQuest/artatopics">source &amp; full technical detail</a> ·
-regenerated by analysis/arxivtopics/build_docs.py</footer>
+<footer>No causal claims. Code MIT · data CC0 (OpenAlex) ·
+<a href="https://github.com/ArtaQuest/artatopics">source</a></footer>
 </main></body></html>
