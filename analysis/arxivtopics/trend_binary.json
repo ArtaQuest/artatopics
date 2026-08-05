@@ -1,0 +1,2272 @@
+{
+ "topics": {
+  "General Agricultural and Biological Sciences": {
+   "train": 0.7047,
+   "test": 0.5455,
+   "test_temporal": 0.2727,
+   "balance": 0.493,
+   "n": 215,
+   "p_now": 0.7044,
+   "start": "1810"
+  },
+  "Agronomy and Crop Science": {
+   "train": 0.7429,
+   "test": 0.5263,
+   "test_temporal": 0.6316,
+   "balance": 0.4794,
+   "n": 194,
+   "p_now": 0.8153,
+   "start": "1831"
+  },
+  "Animal Science and Zoology": {
+   "train": 0.6758,
+   "test": 0.8,
+   "test_temporal": 0.8,
+   "balance": 0.495,
+   "n": 202,
+   "p_now": 0.723,
+   "start": "1823"
+  },
+  "Aquatic Science": {
+   "train": 0.7598,
+   "test": 0.65,
+   "test_temporal": 0.8,
+   "balance": 0.4874,
+   "n": 199,
+   "p_now": 0.6719,
+   "start": "1826"
+  },
+  "Ecology, Evolution, Behavior and Systematics": {
+   "train": 0.6978,
+   "test": 0.6,
+   "test_temporal": 0.48,
+   "balance": 0.488,
+   "n": 250,
+   "p_now": 0.5144,
+   "start": "1775"
+  },
+  "Food Science": {
+   "train": 0.7512,
+   "test": 0.8261,
+   "test_temporal": 0.8261,
+   "balance": 0.5,
+   "n": 232,
+   "p_now": 0.6854,
+   "start": "1793"
+  },
+  "Forestry": {
+   "train": 0.6298,
+   "test": 0.45,
+   "test_temporal": 0.8,
+   "balance": 0.4975,
+   "n": 201,
+   "p_now": 0.8355,
+   "start": "1824"
+  },
+  "Horticulture": {
+   "train": 0.646,
+   "test": 0.4615,
+   "test_temporal": 0.6154,
+   "balance": 0.4921,
+   "n": 126,
+   "p_now": 0.6409,
+   "start": "1899"
+  },
+  "Insect Science": {
+   "train": 0.7219,
+   "test": 0.5714,
+   "test_temporal": 0.2857,
+   "balance": 0.4952,
+   "n": 208,
+   "p_now": 0.4011,
+   "start": "1817"
+  },
+  "Plant Science": {
+   "train": 0.6812,
+   "test": 0.6774,
+   "test_temporal": 0.2258,
+   "balance": 0.4919,
+   "n": 307,
+   "p_now": 0.3729,
+   "start": "1718"
+  },
+  "Soil Science": {
+   "train": 0.7725,
+   "test": 0.8421,
+   "test_temporal": 0.7895,
+   "balance": 0.4946,
+   "n": 186,
+   "p_now": 0.7404,
+   "start": "1839"
+  },
+  "General Arts and Humanities": {
+   "train": 0.7044,
+   "test": 0.5217,
+   "test_temporal": 0.6522,
+   "balance": 0.5,
+   "n": 226,
+   "p_now": 0.6288,
+   "start": "1799"
+  },
+  "History": {
+   "train": 0.6143,
+   "test": 0.7188,
+   "test_temporal": 0.3438,
+   "balance": 0.4892,
+   "n": 325,
+   "p_now": 0.308,
+   "start": "1700"
+  },
+  "Language and Linguistics": {
+   "train": 0.7415,
+   "test": 0.5769,
+   "test_temporal": 0.7692,
+   "balance": 0.5,
+   "n": 262,
+   "p_now": 0.4638,
+   "start": "1763"
+  },
+  "Archeology (Arts and Humanities)": {
+   "train": 0.6452,
+   "test": 0.6452,
+   "test_temporal": 0.3871,
+   "balance": 0.4935,
+   "n": 310,
+   "p_now": 0.4211,
+   "start": "1715"
+  },
+  "Classics": {
+   "train": 0.6313,
+   "test": 0.4583,
+   "test_temporal": 0.625,
+   "balance": 0.4896,
+   "n": 241,
+   "p_now": 0.5854,
+   "start": "1784"
+  },
+  "Conservation": {
+   "train": 0.6897,
+   "test": 0.6364,
+   "test_temporal": 0.7273,
+   "balance": 0.4933,
+   "n": 225,
+   "p_now": 0.6371,
+   "start": "1800"
+  },
+  "History and Philosophy of Science": {
+   "train": 0.6689,
+   "test": 0.5312,
+   "test_temporal": 0.4688,
+   "balance": 0.4831,
+   "n": 325,
+   "p_now": 0.2823,
+   "start": "1700"
+  },
+  "Literature and Literary Theory": {
+   "train": 0.6382,
+   "test": 0.625,
+   "test_temporal": 0.2188,
+   "balance": 0.4985,
+   "n": 325,
+   "p_now": 0.3448,
+   "start": "1700"
+  },
+  "Museology": {
+   "train": 0.654,
+   "test": 0.5,
+   "test_temporal": 0.7692,
+   "balance": 0.4943,
+   "n": 263,
+   "p_now": 0.6196,
+   "start": "1762"
+  },
+  "Music": {
+   "train": 0.6359,
+   "test": 0.7391,
+   "test_temporal": 0.6087,
+   "balance": 0.4934,
+   "n": 229,
+   "p_now": 0.5026,
+   "start": "1796"
+  },
+  "Philosophy": {
+   "train": 0.7031,
+   "test": 0.5938,
+   "test_temporal": 0.25,
+   "balance": 0.4862,
+   "n": 325,
+   "p_now": 0.1538,
+   "start": "1700"
+  },
+  "Religious studies": {
+   "train": 0.7533,
+   "test": 0.6,
+   "test_temporal": 0.68,
+   "balance": 0.5,
+   "n": 252,
+   "p_now": 0.4821,
+   "start": "1773"
+  },
+  "Visual Arts and Performing Arts": {
+   "train": 0.7581,
+   "test": 0.5,
+   "test_temporal": 0.5417,
+   "balance": 0.4979,
+   "n": 239,
+   "p_now": 0.5937,
+   "start": "1786"
+  },
+  "Aging": {
+   "train": 0.7928,
+   "test": 0.5,
+   "test_temporal": 0.4167,
+   "balance": 0.4715,
+   "n": 123,
+   "p_now": 0.1201,
+   "start": "1902"
+  },
+  "Biochemistry (Biochemistry, Genetics and Molecular Biology)": {
+   "train": 0.7173,
+   "test": 0.619,
+   "test_temporal": 0.619,
+   "balance": 0.4858,
+   "n": 212,
+   "p_now": 0.5848,
+   "start": "1813"
+  },
+  "Biophysics": {
+   "train": 0.7095,
+   "test": 0.65,
+   "test_temporal": 0.75,
+   "balance": 0.4673,
+   "n": 199,
+   "p_now": 0.7702,
+   "start": "1826"
+  },
+  "Biotechnology": {
+   "train": 0.7111,
+   "test": 0.75,
+   "test_temporal": 0.65,
+   "balance": 0.485,
+   "n": 200,
+   "p_now": 0.451,
+   "start": "1825"
+  },
+  "Cancer Research": {
+   "train": 0.8287,
+   "test": 0.75,
+   "test_temporal": 0.95,
+   "balance": 0.4726,
+   "n": 201,
+   "p_now": 0.2856,
+   "start": "1824"
+  },
+  "Cell Biology": {
+   "train": 0.7366,
+   "test": 0.619,
+   "test_temporal": 0.2857,
+   "balance": 0.4879,
+   "n": 207,
+   "p_now": 0.5053,
+   "start": "1818"
+  },
+  "Clinical Biochemistry": {
+   "train": 0.6776,
+   "test": 0.65,
+   "test_temporal": 0.5,
+   "balance": 0.4778,
+   "n": 203,
+   "p_now": 0.572,
+   "start": "1822"
+  },
+  "Developmental Biology": {
+   "train": 0.6879,
+   "test": 0.6667,
+   "test_temporal": 0.4444,
+   "balance": 0.4686,
+   "n": 175,
+   "p_now": 0.5847,
+   "start": "1850"
+  },
+  "Endocrinology": {
+   "train": 0.6193,
+   "test": 0.5455,
+   "test_temporal": 0.6818,
+   "balance": 0.4977,
+   "n": 219,
+   "p_now": 0.5407,
+   "start": "1806"
+  },
+  "Genetics (Biochemistry, Genetics and Molecular Biology)": {
+   "train": 0.7358,
+   "test": 0.7917,
+   "test_temporal": 0.5,
+   "balance": 0.5,
+   "n": 236,
+   "p_now": 0.668,
+   "start": "1789"
+  },
+  "Molecular Biology": {
+   "train": 0.7767,
+   "test": 0.875,
+   "test_temporal": 0.6667,
+   "balance": 0.4979,
+   "n": 239,
+   "p_now": 0.4346,
+   "start": "1786"
+  },
+  "Molecular Medicine": {
+   "train": 0.8889,
+   "test": 0.9167,
+   "test_temporal": 0.8333,
+   "balance": 0.5,
+   "n": 120,
+   "p_now": 0.7898,
+   "start": "1905"
+  },
+  "Physiology (Biochemistry, Genetics and Molecular Biology)": {
+   "train": 0.6889,
+   "test": 0.4667,
+   "test_temporal": 0.6,
+   "balance": 0.4867,
+   "n": 150,
+   "p_now": 0.5662,
+   "start": "1875"
+  },
+  "Structural Biology": {
+   "train": 0.7528,
+   "test": 0.9,
+   "test_temporal": 0.7,
+   "balance": 0.4545,
+   "n": 99,
+   "p_now": 0.4486,
+   "start": "1926"
+  },
+  "Accounting": {
+   "train": 0.7549,
+   "test": 0.7826,
+   "test_temporal": 0.7826,
+   "balance": 0.489,
+   "n": 227,
+   "p_now": 0.5985,
+   "start": "1798"
+  },
+  "Business and International Management": {
+   "train": 0.7732,
+   "test": 0.8182,
+   "test_temporal": 0.8182,
+   "balance": 0.4815,
+   "n": 108,
+   "p_now": 0.8803,
+   "start": "1917"
+  },
+  "Management Information Systems": {
+   "train": 0.8293,
+   "test": 0.7222,
+   "test_temporal": 0.7778,
+   "balance": 0.5,
+   "n": 182,
+   "p_now": 0.3476,
+   "start": "1843"
+  },
+  "Management of Technology and Innovation": {
+   "train": 0.7424,
+   "test": 0.7273,
+   "test_temporal": 0.8182,
+   "balance": 0.4955,
+   "n": 220,
+   "p_now": 0.6425,
+   "start": "1805"
+  },
+  "Marketing": {
+   "train": 0.7105,
+   "test": 0.7143,
+   "test_temporal": 0.8571,
+   "balance": 0.4929,
+   "n": 211,
+   "p_now": 0.8224,
+   "start": "1814"
+  },
+  "Organizational Behavior and Human Resource Management": {
+   "train": 0.7588,
+   "test": 0.8182,
+   "test_temporal": 0.7727,
+   "balance": 0.4977,
+   "n": 221,
+   "p_now": 0.5807,
+   "start": "1804"
+  },
+  "Strategy and Management": {
+   "train": 0.7381,
+   "test": 0.7391,
+   "test_temporal": 0.8261,
+   "balance": 0.4979,
+   "n": 233,
+   "p_now": 0.8377,
+   "start": "1792"
+  },
+  "Tourism, Leisure and Hospitality Management": {
+   "train": 0.7153,
+   "test": 0.4375,
+   "test_temporal": 0.625,
+   "balance": 0.5,
+   "n": 160,
+   "p_now": 0.6213,
+   "start": "1865"
+  },
+  "Industrial relations": {
+   "train": 0.6944,
+   "test": 0.6875,
+   "test_temporal": 0.5,
+   "balance": 0.4938,
+   "n": 160,
+   "p_now": 0.5661,
+   "start": "1865"
+  },
+  "Bioengineering": {
+   "train": 0.7676,
+   "test": 0.5625,
+   "test_temporal": 0.5625,
+   "balance": 0.4873,
+   "n": 158,
+   "p_now": 0.5324,
+   "start": "1867"
+  },
+  "Catalysis": {
+   "train": 0.6994,
+   "test": 0.6842,
+   "test_temporal": 0.7895,
+   "balance": 0.4844,
+   "n": 192,
+   "p_now": 0.8718,
+   "start": "1833"
+  },
+  "Chemical Health and Safety": {
+   "train": 0.6643,
+   "test": 0.625,
+   "test_temporal": 0.375,
+   "balance": 0.4679,
+   "n": 156,
+   "p_now": 0.2864,
+   "start": "1869"
+  },
+  "Filtration and Separation": {
+   "train": 0.6528,
+   "test": 0.3125,
+   "test_temporal": 0.4375,
+   "balance": 0.475,
+   "n": 160,
+   "p_now": 0.6582,
+   "start": "1865"
+  },
+  "Fluid Flow and Transfer Processes": {
+   "train": 0.6826,
+   "test": 0.6667,
+   "test_temporal": 0.5,
+   "balance": 0.4865,
+   "n": 185,
+   "p_now": 0.649,
+   "start": "1840"
+  },
+  "Process Chemistry and Technology": {
+   "train": 0.7101,
+   "test": 0.8,
+   "test_temporal": 0.9333,
+   "balance": 0.4837,
+   "n": 153,
+   "p_now": 0.8818,
+   "start": "1872"
+  },
+  "Analytical Chemistry": {
+   "train": 0.7297,
+   "test": 0.55,
+   "test_temporal": 0.75,
+   "balance": 0.4878,
+   "n": 205,
+   "p_now": 0.8543,
+   "start": "1820"
+  },
+  "Electrochemistry": {
+   "train": 0.6629,
+   "test": 0.55,
+   "test_temporal": 0.3,
+   "balance": 0.5,
+   "n": 198,
+   "p_now": 0.7758,
+   "start": "1827"
+  },
+  "Inorganic Chemistry": {
+   "train": 0.7637,
+   "test": 0.75,
+   "test_temporal": 0.75,
+   "balance": 0.5,
+   "n": 202,
+   "p_now": 0.7945,
+   "start": "1823"
+  },
+  "Organic Chemistry": {
+   "train": 0.6497,
+   "test": 0.7273,
+   "test_temporal": 0.4545,
+   "balance": 0.4932,
+   "n": 219,
+   "p_now": 0.2118,
+   "start": "1806"
+  },
+  "Physical and Theoretical Chemistry": {
+   "train": 0.6311,
+   "test": 0.4348,
+   "test_temporal": 0.3478,
+   "balance": 0.4934,
+   "n": 229,
+   "p_now": 0.2688,
+   "start": "1796"
+  },
+  "Spectroscopy": {
+   "train": 0.6847,
+   "test": 0.6522,
+   "test_temporal": 0.4348,
+   "balance": 0.4912,
+   "n": 226,
+   "p_now": 0.4162,
+   "start": "1799"
+  },
+  "Artificial Intelligence": {
+   "train": 0.8058,
+   "test": 0.7826,
+   "test_temporal": 0.8696,
+   "balance": 0.4978,
+   "n": 229,
+   "p_now": 0.6851,
+   "start": "1796"
+  },
+  "Computational Theory and Mathematics": {
+   "train": 0.7744,
+   "test": 0.8182,
+   "test_temporal": 0.5,
+   "balance": 0.4885,
+   "n": 217,
+   "p_now": 0.5158,
+   "start": "1808"
+  },
+  "Computer Graphics and Computer-Aided Design": {
+   "train": 0.7612,
+   "test": 0.6667,
+   "test_temporal": 0.4,
+   "balance": 0.4631,
+   "n": 149,
+   "p_now": 0.3026,
+   "start": "1876"
+  },
+  "Computer Networks and Communications": {
+   "train": 0.8128,
+   "test": 0.619,
+   "test_temporal": 0.619,
+   "balance": 0.5,
+   "n": 208,
+   "p_now": 0.3533,
+   "start": "1817"
+  },
+  "Computer Science Applications": {
+   "train": 0.6829,
+   "test": 0.8889,
+   "test_temporal": 0.8889,
+   "balance": 0.5,
+   "n": 182,
+   "p_now": 0.8989,
+   "start": "1843"
+  },
+  "Computer Vision and Pattern Recognition": {
+   "train": 0.8039,
+   "test": 0.8696,
+   "test_temporal": 0.8696,
+   "balance": 0.4846,
+   "n": 227,
+   "p_now": 0.9085,
+   "start": "1798"
+  },
+  "Hardware and Architecture": {
+   "train": 0.8632,
+   "test": 0.7273,
+   "test_temporal": 0.3636,
+   "balance": 0.4906,
+   "n": 106,
+   "p_now": 0.9027,
+   "start": "1919"
+  },
+  "Human-Computer Interaction": {
+   "train": 0.8222,
+   "test": 0.6,
+   "test_temporal": 0.8667,
+   "balance": 0.4933,
+   "n": 150,
+   "p_now": 0.9152,
+   "start": "1875"
+  },
+  "Information Systems": {
+   "train": 0.799,
+   "test": 0.8182,
+   "test_temporal": 0.7727,
+   "balance": 0.4907,
+   "n": 216,
+   "p_now": 0.5098,
+   "start": "1809"
+  },
+  "Signal Processing": {
+   "train": 0.7958,
+   "test": 0.5625,
+   "test_temporal": 0.375,
+   "balance": 0.4937,
+   "n": 158,
+   "p_now": 0.2983,
+   "start": "1867"
+  },
+  "Software": {
+   "train": 0.7982,
+   "test": 0.8333,
+   "test_temporal": 0.4167,
+   "balance": 0.4793,
+   "n": 121,
+   "p_now": 0.5307,
+   "start": "1904"
+  },
+  "General Decision Sciences": {
+   "train": 0.6196,
+   "test": 0.6667,
+   "test_temporal": 0.6667,
+   "balance": 0.4807,
+   "n": 181,
+   "p_now": 0.6201,
+   "start": "1844"
+  },
+  "Information Systems and Management": {
+   "train": 0.7545,
+   "test": 0.7222,
+   "test_temporal": 0.8333,
+   "balance": 0.4973,
+   "n": 185,
+   "p_now": 0.636,
+   "start": "1840"
+  },
+  "Management Science and Operations Research": {
+   "train": 0.8779,
+   "test": 0.7368,
+   "test_temporal": 0.8421,
+   "balance": 0.4921,
+   "n": 191,
+   "p_now": 0.7249,
+   "start": "1834"
+  },
+  "Statistics, Probability and Uncertainty": {
+   "train": 0.7624,
+   "test": 0.6,
+   "test_temporal": 0.75,
+   "balance": 0.4975,
+   "n": 201,
+   "p_now": 0.5148,
+   "start": "1824"
+  },
+  "Atmospheric Science": {
+   "train": 0.7778,
+   "test": 0.7727,
+   "test_temporal": 0.7727,
+   "balance": 0.4909,
+   "n": 220,
+   "p_now": 0.4483,
+   "start": "1805"
+  },
+  "Earth-Surface Processes": {
+   "train": 0.6973,
+   "test": 0.55,
+   "test_temporal": 0.6,
+   "balance": 0.4732,
+   "n": 205,
+   "p_now": 0.4253,
+   "start": "1820"
+  },
+  "Geochemistry and Petrology": {
+   "train": 0.6216,
+   "test": 0.45,
+   "test_temporal": 0.7,
+   "balance": 0.478,
+   "n": 205,
+   "p_now": 0.5111,
+   "start": "1820"
+  },
+  "Geology": {
+   "train": 0.6609,
+   "test": 0.8421,
+   "test_temporal": 0.7368,
+   "balance": 0.4974,
+   "n": 193,
+   "p_now": 0.5642,
+   "start": "1832"
+  },
+  "Geophysics": {
+   "train": 0.8265,
+   "test": 0.5909,
+   "test_temporal": 0.5909,
+   "balance": 0.5,
+   "n": 218,
+   "p_now": 0.6565,
+   "start": "1807"
+  },
+  "Oceanography": {
+   "train": 0.6537,
+   "test": 0.5652,
+   "test_temporal": 0.4783,
+   "balance": 0.4956,
+   "n": 228,
+   "p_now": 0.398,
+   "start": "1797"
+  },
+  "Paleontology": {
+   "train": 0.6632,
+   "test": 0.4762,
+   "test_temporal": 0.8095,
+   "balance": 0.5,
+   "n": 214,
+   "p_now": 0.7375,
+   "start": "1811"
+  },
+  "Space and Planetary Science": {
+   "train": 0.6243,
+   "test": 0.45,
+   "test_temporal": 0.6,
+   "balance": 0.4726,
+   "n": 201,
+   "p_now": 0.4732,
+   "start": "1824"
+  },
+  "General Economics, Econometrics and Finance": {
+   "train": 0.7868,
+   "test": 0.6364,
+   "test_temporal": 0.6818,
+   "balance": 0.4932,
+   "n": 219,
+   "p_now": 0.425,
+   "start": "1806"
+  },
+  "Economics and Econometrics": {
+   "train": 0.6724,
+   "test": 0.6562,
+   "test_temporal": 0.2812,
+   "balance": 0.4954,
+   "n": 325,
+   "p_now": 0.4118,
+   "start": "1700"
+  },
+  "Finance": {
+   "train": 0.6897,
+   "test": 0.6522,
+   "test_temporal": 0.6957,
+   "balance": 0.5,
+   "n": 226,
+   "p_now": 0.6506,
+   "start": "1799"
+  },
+  "General Energy": {
+   "train": 0.6786,
+   "test": 0.6875,
+   "test_temporal": 0.625,
+   "balance": 0.4808,
+   "n": 156,
+   "p_now": 0.8406,
+   "start": "1869"
+  },
+  "Energy Engineering and Power Technology": {
+   "train": 0.6812,
+   "test": 0.6,
+   "test_temporal": 0.6,
+   "balance": 0.4902,
+   "n": 153,
+   "p_now": 0.8351,
+   "start": "1872"
+  },
+  "Fuel Technology": {
+   "train": 0.6159,
+   "test": 0.4444,
+   "test_temporal": 0.5,
+   "balance": 0.478,
+   "n": 182,
+   "p_now": 0.5175,
+   "start": "1843"
+  },
+  "Nuclear Energy and Engineering": {
+   "train": 0.7294,
+   "test": 0.6667,
+   "test_temporal": 0.7778,
+   "balance": 0.4468,
+   "n": 94,
+   "p_now": 0.513,
+   "start": "1931"
+  },
+  "Renewable Energy, Sustainability and the Environment": {
+   "train": 0.7459,
+   "test": 0.7619,
+   "test_temporal": 0.9524,
+   "balance": 0.5,
+   "n": 206,
+   "p_now": 0.9797,
+   "start": "1819"
+  },
+  "General Engineering": {
+   "train": 0.7969,
+   "test": 0.4286,
+   "test_temporal": 0.5714,
+   "balance": 0.493,
+   "n": 71,
+   "p_now": 0.0616,
+   "start": "1954"
+  },
+  "Aerospace Engineering": {
+   "train": 0.7512,
+   "test": 0.913,
+   "test_temporal": 0.7826,
+   "balance": 0.4957,
+   "n": 232,
+   "p_now": 0.5141,
+   "start": "1793"
+  },
+  "Automotive Engineering": {
+   "train": 0.7744,
+   "test": 0.7778,
+   "test_temporal": 0.9444,
+   "balance": 0.4835,
+   "n": 182,
+   "p_now": 0.9551,
+   "start": "1843"
+  },
+  "Biomedical Engineering": {
+   "train": 0.8238,
+   "test": 0.8261,
+   "test_temporal": 0.9565,
+   "balance": 0.4936,
+   "n": 233,
+   "p_now": 0.8815,
+   "start": "1792"
+  },
+  "Civil and Structural Engineering": {
+   "train": 0.7718,
+   "test": 0.6087,
+   "test_temporal": 0.4783,
+   "balance": 0.4891,
+   "n": 229,
+   "p_now": 0.6255,
+   "start": "1796"
+  },
+  "Computational Mechanics": {
+   "train": 0.7545,
+   "test": 0.7917,
+   "test_temporal": 0.7083,
+   "balance": 0.4959,
+   "n": 244,
+   "p_now": 0.4141,
+   "start": "1781"
+  },
+  "Control and Systems Engineering": {
+   "train": 0.7568,
+   "test": 0.65,
+   "test_temporal": 0.65,
+   "balance": 0.4976,
+   "n": 205,
+   "p_now": 0.5175,
+   "start": "1820"
+  },
+  "Electrical and Electronic Engineering": {
+   "train": 0.7812,
+   "test": 0.619,
+   "test_temporal": 0.1905,
+   "balance": 0.493,
+   "n": 213,
+   "p_now": 0.5609,
+   "start": "1812"
+  },
+  "Industrial and Manufacturing Engineering (Engineering)": {
+   "train": 0.7654,
+   "test": 0.8,
+   "test_temporal": 0.65,
+   "balance": 0.4925,
+   "n": 199,
+   "p_now": 0.5369,
+   "start": "1826"
+  },
+  "Mechanical Engineering": {
+   "train": 0.8049,
+   "test": 0.7826,
+   "test_temporal": 0.8261,
+   "balance": 0.4956,
+   "n": 228,
+   "p_now": 0.7857,
+   "start": "1797"
+  },
+  "Mechanics of Materials": {
+   "train": 0.7821,
+   "test": 0.7,
+   "test_temporal": 0.6,
+   "balance": 0.4925,
+   "n": 199,
+   "p_now": 0.2685,
+   "start": "1826"
+  },
+  "Ocean Engineering": {
+   "train": 0.7696,
+   "test": 0.8696,
+   "test_temporal": 0.7826,
+   "balance": 0.4978,
+   "n": 227,
+   "p_now": 0.664,
+   "start": "1798"
+  },
+  "Safety, Risk, Reliability and Quality": {
+   "train": 0.7091,
+   "test": 0.7778,
+   "test_temporal": 0.5556,
+   "balance": 0.4918,
+   "n": 183,
+   "p_now": 0.6299,
+   "start": "1842"
+  },
+  "Media Technology": {
+   "train": 0.7188,
+   "test": 0.6111,
+   "test_temporal": 0.7222,
+   "balance": 0.5,
+   "n": 178,
+   "p_now": 0.1657,
+   "start": "1847"
+  },
+  "Building and Construction": {
+   "train": 0.7654,
+   "test": 0.8,
+   "test_temporal": 0.85,
+   "balance": 0.4975,
+   "n": 199,
+   "p_now": 0.7131,
+   "start": "1826"
+  },
+  "Architecture": {
+   "train": 0.6557,
+   "test": 0.7,
+   "test_temporal": 0.75,
+   "balance": 0.4877,
+   "n": 203,
+   "p_now": 0.6549,
+   "start": "1822"
+  },
+  "Ecological Modeling": {
+   "train": 0.6763,
+   "test": 0.5263,
+   "test_temporal": 0.6842,
+   "balance": 0.4844,
+   "n": 192,
+   "p_now": 0.649,
+   "start": "1833"
+  },
+  "Ecology": {
+   "train": 0.7768,
+   "test": 0.8,
+   "test_temporal": 0.52,
+   "balance": 0.49,
+   "n": 249,
+   "p_now": 0.5556,
+   "start": "1776"
+  },
+  "Environmental Chemistry": {
+   "train": 0.6519,
+   "test": 0.7,
+   "test_temporal": 0.7,
+   "balance": 0.4975,
+   "n": 201,
+   "p_now": 0.4749,
+   "start": "1824"
+  },
+  "Environmental Engineering": {
+   "train": 0.7688,
+   "test": 0.8947,
+   "test_temporal": 0.4737,
+   "balance": 0.5,
+   "n": 192,
+   "p_now": 0.9466,
+   "start": "1833"
+  },
+  "Global and Planetary Change": {
+   "train": 0.7441,
+   "test": 0.8261,
+   "test_temporal": 0.4783,
+   "balance": 0.4829,
+   "n": 234,
+   "p_now": 0.607,
+   "start": "1791"
+  },
+  "Health, Toxicology and Mutagenesis": {
+   "train": 0.7354,
+   "test": 0.8095,
+   "test_temporal": 0.7143,
+   "balance": 0.4905,
+   "n": 210,
+   "p_now": 0.8536,
+   "start": "1815"
+  },
+  "Management, Monitoring, Policy and Law": {
+   "train": 0.7302,
+   "test": 0.5,
+   "test_temporal": 0.8333,
+   "balance": 0.4937,
+   "n": 239,
+   "p_now": 0.8599,
+   "start": "1786"
+  },
+  "Nature and Landscape Conservation": {
+   "train": 0.7004,
+   "test": 0.56,
+   "test_temporal": 0.76,
+   "balance": 0.4921,
+   "n": 252,
+   "p_now": 0.4452,
+   "start": "1773"
+  },
+  "Pollution": {
+   "train": 0.7816,
+   "test": 0.7895,
+   "test_temporal": 0.6842,
+   "balance": 0.4922,
+   "n": 193,
+   "p_now": 0.8583,
+   "start": "1832"
+  },
+  "Industrial and Manufacturing Engineering (Environmental Science)": {
+   "train": 0.7711,
+   "test": 0.6111,
+   "test_temporal": 0.8333,
+   "balance": 0.4837,
+   "n": 184,
+   "p_now": 0.4838,
+   "start": "1841"
+  },
+  "Water Science and Technology": {
+   "train": 0.7176,
+   "test": 0.8421,
+   "test_temporal": 0.7895,
+   "balance": 0.4974,
+   "n": 189,
+   "p_now": 0.7528,
+   "start": "1836"
+  },
+  "Applied Microbiology and Biotechnology": {
+   "train": 0.75,
+   "test": 0.6429,
+   "test_temporal": 0.7857,
+   "balance": 0.4783,
+   "n": 138,
+   "p_now": 0.4495,
+   "start": "1887"
+  },
+  "Immunology": {
+   "train": 0.7714,
+   "test": 0.8421,
+   "test_temporal": 0.3158,
+   "balance": 0.5,
+   "n": 194,
+   "p_now": 0.3346,
+   "start": "1831"
+  },
+  "Microbiology (Immunology and Microbiology)": {
+   "train": 0.7083,
+   "test": 0.5238,
+   "test_temporal": 0.4762,
+   "balance": 0.493,
+   "n": 213,
+   "p_now": 0.3798,
+   "start": "1812"
+  },
+  "Parasitology": {
+   "train": 0.6854,
+   "test": 0.6,
+   "test_temporal": 0.7,
+   "balance": 0.5,
+   "n": 198,
+   "p_now": 0.4715,
+   "start": "1827"
+  },
+  "Virology": {
+   "train": 0.6685,
+   "test": 0.65,
+   "test_temporal": 0.65,
+   "balance": 0.4925,
+   "n": 201,
+   "p_now": 0.5352,
+   "start": "1824"
+  },
+  "General Materials Science": {
+   "train": 0.6957,
+   "test": 0.45,
+   "test_temporal": 0.55,
+   "balance": 0.5,
+   "n": 204,
+   "p_now": 0.4584,
+   "start": "1821"
+  },
+  "Biomaterials": {
+   "train": 0.7198,
+   "test": 0.75,
+   "test_temporal": 0.85,
+   "balance": 0.4901,
+   "n": 202,
+   "p_now": 0.7612,
+   "start": "1823"
+  },
+  "Ceramics and Composites": {
+   "train": 0.8,
+   "test": 0.7333,
+   "test_temporal": 0.6667,
+   "balance": 0.4733,
+   "n": 150,
+   "p_now": 0.7964,
+   "start": "1875"
+  },
+  "Electronic, Optical and Magnetic Materials": {
+   "train": 0.8056,
+   "test": 0.95,
+   "test_temporal": 0.85,
+   "balance": 0.48,
+   "n": 200,
+   "p_now": 0.6493,
+   "start": "1825"
+  },
+  "Materials Chemistry": {
+   "train": 0.7433,
+   "test": 0.7619,
+   "test_temporal": 0.6667,
+   "balance": 0.5,
+   "n": 208,
+   "p_now": 0.3638,
+   "start": "1817"
+  },
+  "Metals and Alloys": {
+   "train": 0.734,
+   "test": 0.7,
+   "test_temporal": 0.4,
+   "balance": 0.4808,
+   "n": 104,
+   "p_now": 0.9346,
+   "start": "1921"
+  },
+  "Polymers and Plastics": {
+   "train": 0.7329,
+   "test": 0.7222,
+   "test_temporal": 0.6111,
+   "balance": 0.4749,
+   "n": 179,
+   "p_now": 0.7502,
+   "start": "1846"
+  },
+  "Surfaces, Coatings and Films": {
+   "train": 0.7682,
+   "test": 0.7647,
+   "test_temporal": 0.6471,
+   "balance": 0.5,
+   "n": 168,
+   "p_now": 0.5312,
+   "start": "1857"
+  },
+  "Algebra and Number Theory": {
+   "train": 0.7917,
+   "test": 0.875,
+   "test_temporal": 0.8125,
+   "balance": 0.5,
+   "n": 160,
+   "p_now": 0.8443,
+   "start": "1865"
+  },
+  "Applied Mathematics": {
+   "train": 0.8393,
+   "test": 0.7368,
+   "test_temporal": 0.8421,
+   "balance": 0.4866,
+   "n": 187,
+   "p_now": 0.7271,
+   "start": "1838"
+  },
+  "Computational Mathematics": {
+   "train": 0.7368,
+   "test": 0.5,
+   "test_temporal": 0.5,
+   "balance": 0.4762,
+   "n": 63,
+   "p_now": 0.3233,
+   "start": "1962"
+  },
+  "Discrete Mathematics and Combinatorics": {
+   "train": 0.7721,
+   "test": 0.4667,
+   "test_temporal": 0.6667,
+   "balance": 0.4768,
+   "n": 151,
+   "p_now": 0.8421,
+   "start": "1874"
+  },
+  "Geometry and Topology": {
+   "train": 0.7756,
+   "test": 0.6957,
+   "test_temporal": 0.8696,
+   "balance": 0.4956,
+   "n": 228,
+   "p_now": 0.4769,
+   "start": "1797"
+  },
+  "Mathematical Physics": {
+   "train": 0.7654,
+   "test": 0.75,
+   "test_temporal": 0.75,
+   "balance": 0.4874,
+   "n": 199,
+   "p_now": 0.5933,
+   "start": "1826"
+  },
+  "Modeling and Simulation": {
+   "train": 0.723,
+   "test": 0.625,
+   "test_temporal": 0.75,
+   "balance": 0.4817,
+   "n": 164,
+   "p_now": 0.7401,
+   "start": "1861"
+  },
+  "Numerical Analysis": {
+   "train": 0.7778,
+   "test": 0.7222,
+   "test_temporal": 0.6111,
+   "balance": 0.4778,
+   "n": 180,
+   "p_now": 0.4863,
+   "start": "1845"
+  },
+  "Statistics and Probability": {
+   "train": 0.8012,
+   "test": 0.7368,
+   "test_temporal": 0.4211,
+   "balance": 0.4789,
+   "n": 190,
+   "p_now": 0.1428,
+   "start": "1835"
+  },
+  "Theoretical Computer Science": {
+   "train": 0.6313,
+   "test": 0.5833,
+   "test_temporal": 0.6667,
+   "balance": 0.4938,
+   "n": 241,
+   "p_now": 0.4098,
+   "start": "1784"
+  },
+  "Anatomy": {
+   "train": 0.6422,
+   "test": 0.4348,
+   "test_temporal": 0.7826,
+   "balance": 0.489,
+   "n": 227,
+   "p_now": 0.382,
+   "start": "1798"
+  },
+  "Anesthesiology and Pain Medicine": {
+   "train": 0.6744,
+   "test": 0.5789,
+   "test_temporal": 0.5789,
+   "balance": 0.4921,
+   "n": 191,
+   "p_now": 0.4522,
+   "start": "1834"
+  },
+  "Biochemistry (Medicine)": {
+   "train": 0.8015,
+   "test": 0.6667,
+   "test_temporal": 0.7333,
+   "balance": 0.4768,
+   "n": 151,
+   "p_now": 0.6744,
+   "start": "1874"
+  },
+  "Cardiology and Cardiovascular Medicine": {
+   "train": 0.7747,
+   "test": 0.8,
+   "test_temporal": 0.35,
+   "balance": 0.495,
+   "n": 202,
+   "p_now": 0.6658,
+   "start": "1823"
+  },
+  "Critical Care and Intensive Care Medicine": {
+   "train": 0.7398,
+   "test": 0.5909,
+   "test_temporal": 0.8182,
+   "balance": 0.4862,
+   "n": 218,
+   "p_now": 0.7686,
+   "start": "1807"
+  },
+  "Complementary and alternative medicine": {
+   "train": 0.7421,
+   "test": 0.7143,
+   "test_temporal": 0.7619,
+   "balance": 0.4787,
+   "n": 211,
+   "p_now": 0.5978,
+   "start": "1814"
+  },
+  "Dermatology": {
+   "train": 0.6699,
+   "test": 0.7391,
+   "test_temporal": 0.4348,
+   "balance": 0.4934,
+   "n": 229,
+   "p_now": 0.5013,
+   "start": "1796"
+  },
+  "Emergency Medicine": {
+   "train": 0.6995,
+   "test": 0.6087,
+   "test_temporal": 0.3043,
+   "balance": 0.4956,
+   "n": 226,
+   "p_now": 0.6287,
+   "start": "1799"
+  },
+  "Endocrinology, Diabetes and Metabolism": {
+   "train": 0.7306,
+   "test": 0.5909,
+   "test_temporal": 0.8182,
+   "balance": 0.493,
+   "n": 215,
+   "p_now": 0.8163,
+   "start": "1810"
+  },
+  "Epidemiology": {
+   "train": 0.8204,
+   "test": 0.7826,
+   "test_temporal": 0.1739,
+   "balance": 0.4934,
+   "n": 229,
+   "p_now": 0.5659,
+   "start": "1796"
+  },
+  "Family Practice": {
+   "train": 0.7174,
+   "test": 0.6667,
+   "test_temporal": 0.8667,
+   "balance": 0.4902,
+   "n": 153,
+   "p_now": 0.753,
+   "start": "1872"
+  },
+  "Gastroenterology": {
+   "train": 0.697,
+   "test": 0.7222,
+   "test_temporal": 0.4444,
+   "balance": 0.4809,
+   "n": 183,
+   "p_now": 0.4981,
+   "start": "1842"
+  },
+  "Genetics (Medicine)": {
+   "train": 0.7714,
+   "test": 0.7895,
+   "test_temporal": 0.7895,
+   "balance": 0.4948,
+   "n": 194,
+   "p_now": 0.6909,
+   "start": "1831"
+  },
+  "Geriatrics and Gerontology": {
+   "train": 0.7655,
+   "test": 0.875,
+   "test_temporal": 0.8125,
+   "balance": 0.4907,
+   "n": 161,
+   "p_now": 0.8446,
+   "start": "1864"
+  },
+  "Health Informatics": {
+   "train": 0.8197,
+   "test": 1.0,
+   "test_temporal": 1.0,
+   "balance": 0.4853,
+   "n": 68,
+   "p_now": 1.0,
+   "start": "1957"
+  },
+  "Hematology": {
+   "train": 0.8129,
+   "test": 0.5333,
+   "test_temporal": 0.8,
+   "balance": 0.4935,
+   "n": 154,
+   "p_now": 0.9213,
+   "start": "1871"
+  },
+  "Hepatology": {
+   "train": 0.7143,
+   "test": 0.5,
+   "test_temporal": 0.625,
+   "balance": 0.5,
+   "n": 156,
+   "p_now": 0.2744,
+   "start": "1869"
+  },
+  "Immunology and Allergy": {
+   "train": 0.756,
+   "test": 0.6316,
+   "test_temporal": 0.5263,
+   "balance": 0.4652,
+   "n": 187,
+   "p_now": 0.2295,
+   "start": "1838"
+  },
+  "Internal Medicine": {
+   "train": 0.732,
+   "test": 0.5882,
+   "test_temporal": 0.6471,
+   "balance": 0.4882,
+   "n": 170,
+   "p_now": 0.5293,
+   "start": "1855"
+  },
+  "Infectious Diseases": {
+   "train": 0.7157,
+   "test": 0.6522,
+   "test_temporal": 0.7391,
+   "balance": 0.4978,
+   "n": 227,
+   "p_now": 0.4109,
+   "start": "1798"
+  },
+  "Microbiology (Medicine)": {
+   "train": 0.6489,
+   "test": 0.5714,
+   "test_temporal": 0.4286,
+   "balance": 0.4828,
+   "n": 145,
+   "p_now": 0.5051,
+   "start": "1880"
+  },
+  "Nephrology": {
+   "train": 0.7111,
+   "test": 0.65,
+   "test_temporal": 0.75,
+   "balance": 0.495,
+   "n": 200,
+   "p_now": 0.8678,
+   "start": "1825"
+  },
+  "Neurology (Medicine)": {
+   "train": 0.6995,
+   "test": 0.6522,
+   "test_temporal": 0.3478,
+   "balance": 0.4956,
+   "n": 226,
+   "p_now": 0.5316,
+   "start": "1799"
+  },
+  "Obstetrics and Gynecology": {
+   "train": 0.6995,
+   "test": 0.9091,
+   "test_temporal": 0.5,
+   "balance": 0.4791,
+   "n": 215,
+   "p_now": 0.6971,
+   "start": "1810"
+  },
+  "Oncology": {
+   "train": 0.7634,
+   "test": 0.6667,
+   "test_temporal": 0.3333,
+   "balance": 0.4976,
+   "n": 207,
+   "p_now": 0.5213,
+   "start": "1818"
+  },
+  "Ophthalmology": {
+   "train": 0.6943,
+   "test": 0.8182,
+   "test_temporal": 0.5,
+   "balance": 0.4884,
+   "n": 215,
+   "p_now": 0.5909,
+   "start": "1810"
+  },
+  "Orthopedics and Sports Medicine": {
+   "train": 0.7975,
+   "test": 0.8333,
+   "test_temporal": 0.8333,
+   "balance": 0.4716,
+   "n": 176,
+   "p_now": 0.7836,
+   "start": "1849"
+  },
+  "Otorhinolaryngology": {
+   "train": 0.716,
+   "test": 0.7895,
+   "test_temporal": 0.7895,
+   "balance": 0.5,
+   "n": 188,
+   "p_now": 0.3241,
+   "start": "1837"
+  },
+  "Pathology and Forensic Medicine": {
+   "train": 0.7451,
+   "test": 0.8696,
+   "test_temporal": 0.6522,
+   "balance": 0.4978,
+   "n": 227,
+   "p_now": 0.3827,
+   "start": "1798"
+  },
+  "Pediatrics, Perinatology and Child Health": {
+   "train": 0.7427,
+   "test": 0.7826,
+   "test_temporal": 0.1739,
+   "balance": 0.4934,
+   "n": 229,
+   "p_now": 0.3231,
+   "start": "1796"
+  },
+  "Pharmacology (Medicine)": {
+   "train": 0.7737,
+   "test": 0.5238,
+   "test_temporal": 0.4286,
+   "balance": 0.4929,
+   "n": 211,
+   "p_now": 0.2257,
+   "start": "1814"
+  },
+  "Physiology (Medicine)": {
+   "train": 0.7923,
+   "test": 0.7826,
+   "test_temporal": 0.4348,
+   "balance": 0.4957,
+   "n": 230,
+   "p_now": 0.5788,
+   "start": "1795"
+  },
+  "Psychiatry and Mental health": {
+   "train": 0.7635,
+   "test": 0.7826,
+   "test_temporal": 0.6522,
+   "balance": 0.4956,
+   "n": 226,
+   "p_now": 0.5427,
+   "start": "1799"
+  },
+  "Public Health, Environmental and Occupational Health": {
+   "train": 0.7577,
+   "test": 0.68,
+   "test_temporal": 0.8,
+   "balance": 0.4881,
+   "n": 252,
+   "p_now": 0.6222,
+   "start": "1773"
+  },
+  "Pulmonary and Respiratory Medicine": {
+   "train": 0.7734,
+   "test": 0.7391,
+   "test_temporal": 0.2174,
+   "balance": 0.5,
+   "n": 226,
+   "p_now": 0.5106,
+   "start": "1799"
+  },
+  "Radiology, Nuclear Medicine and Imaging": {
+   "train": 0.7621,
+   "test": 0.7826,
+   "test_temporal": 0.1739,
+   "balance": 0.4934,
+   "n": 229,
+   "p_now": 0.4131,
+   "start": "1796"
+  },
+  "Rehabilitation": {
+   "train": 0.7056,
+   "test": 0.5,
+   "test_temporal": 0.9,
+   "balance": 0.495,
+   "n": 200,
+   "p_now": 0.9216,
+   "start": "1825"
+  },
+  "Reproductive Medicine": {
+   "train": 0.7273,
+   "test": 0.6087,
+   "test_temporal": 0.7826,
+   "balance": 0.4871,
+   "n": 232,
+   "p_now": 0.6084,
+   "start": "1793"
+  },
+  "Rheumatology": {
+   "train": 0.7409,
+   "test": 0.7273,
+   "test_temporal": 0.7273,
+   "balance": 0.493,
+   "n": 215,
+   "p_now": 0.4113,
+   "start": "1810"
+  },
+  "Surgery": {
+   "train": 0.7059,
+   "test": 0.7917,
+   "test_temporal": 0.6667,
+   "balance": 0.498,
+   "n": 245,
+   "p_now": 0.7032,
+   "start": "1780"
+  },
+  "Transplantation": {
+   "train": 0.6471,
+   "test": 0.5385,
+   "test_temporal": 0.3846,
+   "balance": 0.4773,
+   "n": 132,
+   "p_now": 0.6501,
+   "start": "1893"
+  },
+  "Urology": {
+   "train": 0.6612,
+   "test": 0.7,
+   "test_temporal": 0.85,
+   "balance": 0.4926,
+   "n": 203,
+   "p_now": 0.9081,
+   "start": "1822"
+  },
+  "Behavioral Neuroscience": {
+   "train": 0.72,
+   "test": 0.5455,
+   "test_temporal": 0.5455,
+   "balance": 0.4955,
+   "n": 111,
+   "p_now": 0.6853,
+   "start": "1914"
+  },
+  "Biological Psychiatry": {
+   "train": 0.6979,
+   "test": 0.7273,
+   "test_temporal": 0.8182,
+   "balance": 0.4953,
+   "n": 107,
+   "p_now": 0.41,
+   "start": "1918"
+  },
+  "Cellular and Molecular Neuroscience": {
+   "train": 0.7747,
+   "test": 0.75,
+   "test_temporal": 0.4,
+   "balance": 0.4901,
+   "n": 202,
+   "p_now": 0.5426,
+   "start": "1823"
+  },
+  "Cognitive Neuroscience": {
+   "train": 0.8434,
+   "test": 0.7273,
+   "test_temporal": 0.7273,
+   "balance": 0.5,
+   "n": 220,
+   "p_now": 0.8277,
+   "start": "1805"
+  },
+  "Developmental Neuroscience": {
+   "train": 0.687,
+   "test": 0.8,
+   "test_temporal": 0.5333,
+   "balance": 0.4932,
+   "n": 146,
+   "p_now": 0.6113,
+   "start": "1879"
+  },
+  "Endocrine and Autonomic Systems": {
+   "train": 0.75,
+   "test": 0.875,
+   "test_temporal": 0.375,
+   "balance": 0.4936,
+   "n": 156,
+   "p_now": 0.2096,
+   "start": "1869"
+  },
+  "Neurology (Neuroscience)": {
+   "train": 0.734,
+   "test": 0.6957,
+   "test_temporal": 0.1739,
+   "balance": 0.5,
+   "n": 226,
+   "p_now": 0.809,
+   "start": "1799"
+  },
+  "Sensory Systems": {
+   "train": 0.7413,
+   "test": 0.9375,
+   "test_temporal": 0.5625,
+   "balance": 0.4843,
+   "n": 159,
+   "p_now": 0.5609,
+   "start": "1866"
+  },
+  "Issues, ethics and legal aspects": {
+   "train": 0.7029,
+   "test": 0.55,
+   "test_temporal": 0.45,
+   "balance": 0.4974,
+   "n": 195,
+   "p_now": 0.6308,
+   "start": "1830"
+  },
+  "Leadership and Management": {
+   "train": 0.7788,
+   "test": 0.9167,
+   "test_temporal": 0.6667,
+   "balance": 0.4741,
+   "n": 116,
+   "p_now": 0.2907,
+   "start": "1909"
+  },
+  "Nutrition and Dietetics": {
+   "train": 0.7978,
+   "test": 0.8,
+   "test_temporal": 0.7,
+   "balance": 0.4975,
+   "n": 203,
+   "p_now": 0.5889,
+   "start": "1822"
+  },
+  "Research and Theory": {
+   "train": 0.7321,
+   "test": 0.6667,
+   "test_temporal": 0.5,
+   "balance": 0.4516,
+   "n": 124,
+   "p_now": 0.3184,
+   "start": "1901"
+  },
+  "Pharmaceutical Science": {
+   "train": 0.7143,
+   "test": 0.7368,
+   "test_temporal": 0.6842,
+   "balance": 0.4691,
+   "n": 194,
+   "p_now": 0.7431,
+   "start": "1831"
+  },
+  "Pharmacology (Pharmacology, Toxicology and Pharmaceutics)": {
+   "train": 0.7027,
+   "test": 0.5,
+   "test_temporal": 0.5,
+   "balance": 0.478,
+   "n": 205,
+   "p_now": 0.4749,
+   "start": "1820"
+  },
+  "Toxicology": {
+   "train": 0.6731,
+   "test": 0.7059,
+   "test_temporal": 0.5882,
+   "balance": 0.4624,
+   "n": 173,
+   "p_now": 0.7347,
+   "start": "1852"
+  },
+  "Acoustics and Ultrasonics": {
+   "train": 0.7288,
+   "test": 1.0,
+   "test_temporal": 0.7143,
+   "balance": 0.5,
+   "n": 66,
+   "p_now": 0.2835,
+   "start": "1959"
+  },
+  "Astronomy and Astrophysics": {
+   "train": 0.7197,
+   "test": 0.5556,
+   "test_temporal": 0.7037,
+   "balance": 0.4925,
+   "n": 266,
+   "p_now": 0.269,
+   "start": "1759"
+  },
+  "Condensed Matter Physics": {
+   "train": 0.7983,
+   "test": 0.4615,
+   "test_temporal": 0.4615,
+   "balance": 0.4848,
+   "n": 132,
+   "p_now": 0.403,
+   "start": "1893"
+  },
+  "Instrumentation": {
+   "train": 0.7,
+   "test": 0.5,
+   "test_temporal": 0.4375,
+   "balance": 0.4679,
+   "n": 156,
+   "p_now": 0.5425,
+   "start": "1869"
+  },
+  "Nuclear and High Energy Physics": {
+   "train": 0.7368,
+   "test": 0.7895,
+   "test_temporal": 0.4211,
+   "balance": 0.4684,
+   "n": 190,
+   "p_now": 0.6896,
+   "start": "1835"
+  },
+  "Atomic and Molecular Physics, and Optics": {
+   "train": 0.7402,
+   "test": 0.6522,
+   "test_temporal": 0.3913,
+   "balance": 0.4934,
+   "n": 227,
+   "p_now": 0.3963,
+   "start": "1798"
+  },
+  "Radiation": {
+   "train": 0.7824,
+   "test": 0.6842,
+   "test_temporal": 0.4211,
+   "balance": 0.4815,
+   "n": 189,
+   "p_now": 0.7473,
+   "start": "1836"
+  },
+  "Statistical and Nonlinear Physics": {
+   "train": 0.761,
+   "test": 0.6522,
+   "test_temporal": 0.7826,
+   "balance": 0.5,
+   "n": 228,
+   "p_now": 0.333,
+   "start": "1797"
+  },
+  "General Psychology": {
+   "train": 0.6077,
+   "test": 0.6,
+   "test_temporal": 0.6,
+   "balance": 0.4925,
+   "n": 201,
+   "p_now": 0.5547,
+   "start": "1824"
+  },
+  "Applied Psychology": {
+   "train": 0.7252,
+   "test": 0.6429,
+   "test_temporal": 0.7857,
+   "balance": 0.4828,
+   "n": 145,
+   "p_now": 0.7403,
+   "start": "1880"
+  },
+  "Clinical Psychology": {
+   "train": 0.8204,
+   "test": 0.6522,
+   "test_temporal": 0.8696,
+   "balance": 0.4934,
+   "n": 229,
+   "p_now": 0.7589,
+   "start": "1796"
+  },
+  "Developmental and Educational Psychology": {
+   "train": 0.8287,
+   "test": 0.6,
+   "test_temporal": 0.9,
+   "balance": 0.4826,
+   "n": 201,
+   "p_now": 0.5828,
+   "start": "1824"
+  },
+  "Experimental and Cognitive Psychology": {
+   "train": 0.8039,
+   "test": 0.913,
+   "test_temporal": 0.913,
+   "balance": 0.4934,
+   "n": 227,
+   "p_now": 0.6529,
+   "start": "1798"
+  },
+  "Neuropsychology and Physiological Psychology": {
+   "train": 0.6871,
+   "test": 0.875,
+   "test_temporal": 0.75,
+   "balance": 0.4785,
+   "n": 163,
+   "p_now": 0.6429,
+   "start": "1862"
+  },
+  "Social Psychology": {
+   "train": 0.8318,
+   "test": 0.875,
+   "test_temporal": 0.7083,
+   "balance": 0.4916,
+   "n": 238,
+   "p_now": 0.8386,
+   "start": "1787"
+  },
+  "General Social Sciences": {
+   "train": 0.7513,
+   "test": 0.7727,
+   "test_temporal": 0.7273,
+   "balance": 0.4977,
+   "n": 215,
+   "p_now": 0.6902,
+   "start": "1810"
+  },
+  "Archeology (Social Sciences)": {
+   "train": 0.6373,
+   "test": 0.6087,
+   "test_temporal": 0.6522,
+   "balance": 0.4934,
+   "n": 227,
+   "p_now": 0.4405,
+   "start": "1798"
+  },
+  "Development": {
+   "train": 0.8309,
+   "test": 0.8,
+   "test_temporal": 0.7333,
+   "balance": 0.4901,
+   "n": 151,
+   "p_now": 0.4321,
+   "start": "1874"
+  },
+  "Education": {
+   "train": 0.8107,
+   "test": 0.7826,
+   "test_temporal": 0.8261,
+   "balance": 0.4978,
+   "n": 229,
+   "p_now": 0.6832,
+   "start": "1796"
+  },
+  "Geography, Planning and Development": {
+   "train": 0.722,
+   "test": 0.7826,
+   "test_temporal": 0.8261,
+   "balance": 0.5,
+   "n": 228,
+   "p_now": 0.6742,
+   "start": "1797"
+  },
+  "Health": {
+   "train": 0.7635,
+   "test": 0.6957,
+   "test_temporal": 0.913,
+   "balance": 0.4735,
+   "n": 226,
+   "p_now": 0.797,
+   "start": "1799"
+  },
+  "Human Factors and Ergonomics": {
+   "train": 0.7706,
+   "test": 0.75,
+   "test_temporal": 0.75,
+   "balance": 0.4793,
+   "n": 121,
+   "p_now": 0.7801,
+   "start": "1904"
+  },
+  "Law": {
+   "train": 0.7395,
+   "test": 0.7308,
+   "test_temporal": 0.8462,
+   "balance": 0.5,
+   "n": 264,
+   "p_now": 0.4867,
+   "start": "1761"
+  },
+  "Library and Information Sciences": {
+   "train": 0.6724,
+   "test": 0.6316,
+   "test_temporal": 0.6316,
+   "balance": 0.4819,
+   "n": 193,
+   "p_now": 0.7642,
+   "start": "1832"
+  },
+  "Linguistics and Language": {
+   "train": 0.7291,
+   "test": 0.7273,
+   "test_temporal": 0.7273,
+   "balance": 0.4756,
+   "n": 225,
+   "p_now": 0.8058,
+   "start": "1800"
+  },
+  "Safety Research": {
+   "train": 0.7663,
+   "test": 0.65,
+   "test_temporal": 0.85,
+   "balance": 0.5,
+   "n": 204,
+   "p_now": 0.6956,
+   "start": "1821"
+  },
+  "Sociology and Political Science": {
+   "train": 0.7761,
+   "test": 0.8276,
+   "test_temporal": 0.1379,
+   "balance": 0.5,
+   "n": 288,
+   "p_now": 0.4287,
+   "start": "1737"
+  },
+  "Transportation": {
+   "train": 0.7222,
+   "test": 0.6818,
+   "test_temporal": 0.5455,
+   "balance": 0.4955,
+   "n": 220,
+   "p_now": 0.5004,
+   "start": "1805"
+  },
+  "Anthropology": {
+   "train": 0.6451,
+   "test": 0.5,
+   "test_temporal": 0.2812,
+   "balance": 0.4954,
+   "n": 325,
+   "p_now": 0.3791,
+   "start": "1700"
+  },
+  "Communication": {
+   "train": 0.7368,
+   "test": 0.5263,
+   "test_temporal": 0.7895,
+   "balance": 0.4947,
+   "n": 190,
+   "p_now": 0.5518,
+   "start": "1835"
+  },
+  "Cultural Studies": {
+   "train": 0.7816,
+   "test": 0.7391,
+   "test_temporal": 0.8261,
+   "balance": 0.4934,
+   "n": 229,
+   "p_now": 0.7384,
+   "start": "1796"
+  },
+  "Demography": {
+   "train": 0.7438,
+   "test": 0.7273,
+   "test_temporal": 0.7273,
+   "balance": 0.4978,
+   "n": 225,
+   "p_now": 0.3542,
+   "start": "1800"
+  },
+  "Gender Studies": {
+   "train": 0.7784,
+   "test": 0.7273,
+   "test_temporal": 0.9091,
+   "balance": 0.4861,
+   "n": 216,
+   "p_now": 0.7733,
+   "start": "1809"
+  },
+  "Life-span and Life-course Studies": {
+   "train": 0.686,
+   "test": 0.6923,
+   "test_temporal": 0.5385,
+   "balance": 0.4851,
+   "n": 134,
+   "p_now": 0.5431,
+   "start": "1891"
+  },
+  "Political Science and International Relations": {
+   "train": 0.6451,
+   "test": 0.5938,
+   "test_temporal": 0.1875,
+   "balance": 0.4954,
+   "n": 325,
+   "p_now": 0.2237,
+   "start": "1700"
+  },
+  "Public Administration": {
+   "train": 0.7394,
+   "test": 0.8333,
+   "test_temporal": 0.6111,
+   "balance": 0.4918,
+   "n": 183,
+   "p_now": 0.4488,
+   "start": "1842"
+  },
+  "Urban Studies": {
+   "train": 0.7586,
+   "test": 0.8636,
+   "test_temporal": 0.8182,
+   "balance": 0.4844,
+   "n": 225,
+   "p_now": 0.5844,
+   "start": "1800"
+  },
+  "Equine": {
+   "train": 0.6331,
+   "test": 0.7368,
+   "test_temporal": 0.5789,
+   "balance": 0.4894,
+   "n": 188,
+   "p_now": 0.4087,
+   "start": "1837"
+  },
+  "Small Animals": {
+   "train": 0.6243,
+   "test": 0.75,
+   "test_temporal": 0.65,
+   "balance": 0.4975,
+   "n": 201,
+   "p_now": 0.5066,
+   "start": "1824"
+  },
+  "General Dentistry": {
+   "train": 0.6794,
+   "test": 0.5714,
+   "test_temporal": 0.5714,
+   "balance": 0.469,
+   "n": 145,
+   "p_now": 0.2035,
+   "start": "1880"
+  },
+  "Oral Surgery": {
+   "train": 0.7167,
+   "test": 0.8,
+   "test_temporal": 0.85,
+   "balance": 0.48,
+   "n": 200,
+   "p_now": 0.7541,
+   "start": "1825"
+  },
+  "Orthodontics": {
+   "train": 0.8626,
+   "test": 0.8571,
+   "test_temporal": 0.7857,
+   "balance": 0.469,
+   "n": 145,
+   "p_now": 0.9631,
+   "start": "1880"
+  },
+  "Periodontics": {
+   "train": 0.7118,
+   "test": 0.6316,
+   "test_temporal": 0.4211,
+   "balance": 0.4762,
+   "n": 189,
+   "p_now": 0.596,
+   "start": "1836"
+  },
+  "General Health Professions": {
+   "train": 0.7478,
+   "test": 0.56,
+   "test_temporal": 0.8,
+   "balance": 0.498,
+   "n": 251,
+   "p_now": 0.7124,
+   "start": "1774"
+  },
+  "Complementary and Manual Therapy": {
+   "train": 0.6936,
+   "test": 0.5789,
+   "test_temporal": 0.5263,
+   "balance": 0.4948,
+   "n": 192,
+   "p_now": 0.7862,
+   "start": "1833"
+  },
+  "Emergency Medical Services": {
+   "train": 0.7151,
+   "test": 0.6,
+   "test_temporal": 0.8,
+   "balance": 0.4824,
+   "n": 199,
+   "p_now": 0.8064,
+   "start": "1826"
+  },
+  "Health Information Management": {
+   "train": 0.6882,
+   "test": 0.6316,
+   "test_temporal": 0.7895,
+   "balance": 0.4974,
+   "n": 189,
+   "p_now": 0.7969,
+   "start": "1836"
+  },
+  "Medical Laboratory Technology": {
+   "train": 0.7163,
+   "test": 0.5625,
+   "test_temporal": 0.5625,
+   "balance": 0.465,
+   "n": 157,
+   "p_now": 0.4491,
+   "start": "1868"
+  },
+  "Medical Terminology": {
+   "train": 0.5941,
+   "test": 0.4211,
+   "test_temporal": 0.4737,
+   "balance": 0.4921,
+   "n": 189,
+   "p_now": 0.2803,
+   "start": "1836"
+  },
+  "Occupational Therapy": {
+   "train": 0.7733,
+   "test": 0.7368,
+   "test_temporal": 0.8421,
+   "balance": 0.4817,
+   "n": 191,
+   "p_now": 0.794,
+   "start": "1834"
+  },
+  "Pharmacy": {
+   "train": 0.6753,
+   "test": 0.6818,
+   "test_temporal": 0.7727,
+   "balance": 0.4815,
+   "n": 216,
+   "p_now": 0.4557,
+   "start": "1809"
+  },
+  "Physical Therapy, Sports Therapy and Rehabilitation": {
+   "train": 0.6842,
+   "test": 0.619,
+   "test_temporal": 0.8571,
+   "balance": 0.4882,
+   "n": 211,
+   "p_now": 0.7764,
+   "start": "1814"
+  },
+  "Radiological and Ultrasound Technology": {
+   "train": 0.7241,
+   "test": 0.75,
+   "test_temporal": 0.875,
+   "balance": 0.4969,
+   "n": 161,
+   "p_now": 0.9228,
+   "start": "1864"
+  },
+  "Speech and Hearing": {
+   "train": 0.734,
+   "test": 0.6522,
+   "test_temporal": 0.8696,
+   "balance": 0.4956,
+   "n": 226,
+   "p_now": 0.8079,
+   "start": "1799"
+  }
+ },
+ "summary": {
+  "train_mean": 0.7314,
+  "test_mean": 0.6829,
+  "test_median": 0.6842,
+  "test_temporal_mean": 0.6369,
+  "pooled_test": 0.6816,
+  "balance_mean": 0.4892,
+  "n_topics": 251
+ }
+}
