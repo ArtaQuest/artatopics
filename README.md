@@ -83,6 +83,7 @@ every script runs verbatim.
 | `analysis/arxivtopics/final_pooled.py` | field-level partial pooling (+0.8800) and the ridge control that proves pooling ≠ regularisation |
 | `analysis/arxivtopics/staged_phases.py` · `eight_*.py` · `nonneg_nine` (in `eight_nonneg.py`) | the parameter-count and sign ablations |
 | `analysis/arxivtopics/kl_balance.py` | the twelve-season balance term, measured and declined |
+| `analysis/arxivtopics/multihead_ce.py` | the single multi-head distribution model: date → p(topic) over all 251 heads at once, squared-linear amplitudes, closed-form global optimum (anchor folded in as rows), CE polish measured rather than assumed |
 | `analysis/arxivtopics/hypernet.py` · `dict_spectrum.py` | the amortised map and the spectrum dictionary — one clean negative, one compression result |
 | `analysis/arxivtopics/build_ephemeris.py` | regenerates the ephemeris CSVs (Skyfield, sidereal Lahiri) |
 | `analysis/citations/` | the yearly citation matrices (OpenAlex, CC0) the campaign trains on |
