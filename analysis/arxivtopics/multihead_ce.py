@@ -154,6 +154,47 @@ def dist_metrics(P, wall):
             "persistence": ce_of(np.repeat(pers_d, hi - wall, 1))}
 
 
+# ── the TUNED-HEAD variant (operator 2026-08-04): y_j = (b_j + Σᵢ w_ij·sin(θᵢ − p_j))² ──────────
+# Each head gains ONE tuning phase shared by its seven bodies — exactly the restriction the AUC
+# campaign measured as optimal (one continuous phase + signed per-body weights), now in the
+# distribution setting. Still analytic: with p_j fixed, sin(θᵢ−p_j) = cosp·sinθᵢ − sinp·cosθᵢ is
+# linear in the same features, so a 1° HALF-circle sweep (p+180° ≡ negate w — the same gauge as the
+# record model) with the anchored closed-form solve at each candidate is the exact global optimum to
+# grid resolution. NO rectifier, per the spec: the amplitude is squared directly, so a negative
+# projection still radiates — the one structural difference from the record receiver.
+GRID = np.deg2rad(np.arange(0.0, 180.0, 1.0))
+
+
+def solve_tuned(wall):
+    ST, CT = np.sin(TH), np.cos(TH)                         # (ne, 7)
+    d = 1 + TH.shape[1]; NG = len(GRID)
+    w = NW[:wall] / NW[:wall].sum()
+    S = np.sqrt(Q[:, :wall])
+    hz = min(wall + af.HORIZON, ne)
+    tail = S[:, max(0, wall - af.ANCHOR_K):wall]
+    m = np.maximum(tail.mean(1), 1e-4)
+    aw = af.LAM_HORIZON / (m ** 2) / max(hz - wall, 1)      # (J,) scale-free anchor weights
+    # features at every grid tuning: Z[g,t,:] = [1, sin(θᵢ(t) − p_g)]
+    Z = np.empty((NG, ne, d)); Z[:, :, 0] = 1.0
+    Z[:, :, 1:] = np.cos(GRID)[:, None, None] * ST[None] - np.sin(GRID)[:, None, None] * CT[None]
+    Zt, Za = Z[:, :wall], Z[:, wall:hz]
+    Gd = np.einsum('gtp,t,gtq->gpq', Zt, w, Zt) + 1e-10 * np.eye(d)[None]
+    Ga = np.einsum('gtp,gtq->gpq', Za, Za)
+    Bd = np.einsum('jt,t,gtp->jgp', S, w, Zt)               # (J, NG, d)
+    Sa = Za.sum(1)                                          # (NG, d)
+    A = np.zeros((J, ne)); P_j = np.zeros(J, int)
+    for j in range(J):
+        Gj = Gd + aw[j] * Ga
+        bj = Bd[j] + aw[j] * m[j] * Sa
+        c = np.linalg.solve(Gj, bj[:, :, None])[:, :, 0]    # (NG, d)
+        fit = np.einsum('gtp,gp->gt', Zt, c)
+        r = ((fit - S[j, None, :]) ** 2) @ w + aw[j] * ((np.einsum('gtp,gp->gt', Za, c) - m[j]) ** 2).sum(1)
+        g = int(np.argmin(r)); P_j[j] = g
+        A[j] = Z[g] @ c[g]
+    Yh = A ** 2
+    return 100.0 * Yh / np.maximum(Yh.sum(0, keepdims=True), 1e-12), A, P_j
+
+
 def auc_at(Yh, wall):
     tv = af.META["topic_valid"]; tvw = tv[:, :wall].astype(float)
     mu = (Yv[:, :wall] * tvw).sum(1) / np.maximum(tvw.sum(1), 1.0)
@@ -202,6 +243,27 @@ def main():
                      "auc_1996": round(float(a[-1]), 4), "auc_1996_polished": round(float(ap[-1]), 4),
                      "ce_1996": {"analytic": [round(ce_an_tr, 4), round(ce_an_te, 4)],
                                   "polished": [round(ce_po_tr, 4), round(ce_po_te, 4)]}}
+    # ── THE TUNED-HEAD MODEL across the twelve origins ──────────────────────────────────────
+    print(f"\n  y_j = (b_j + Σ w_ij·sin(θᵢ − p_j))² · one tuning per head · {J}×9 = {J*9} params", flush=True)
+    t0 = time.time()
+    tuned_auc, tuned_kl = [], []
+    for w in WALLS:
+        P, _, _ = solve_tuned(w)
+        tuned_auc.append(auc_at(P, w)); tuned_kl.append(kl_at(P, w))
+    ta, tk = np.array(tuned_auc), np.array(tuned_kl)
+    print(f"    12-origin share-AUC mean {ta.mean():+.4f} · 1996 {ta[-1]:+.4f}   [{time.time()-t0:.0f}s]", flush=True)
+    print(f"    12-origin KL mean {tk.mean():.4f}   per-origin " + " ".join(f"{v:.3f}" for v in tk), flush=True)
+    P96, A96, PJ = solve_tuned(n - 30)
+    dm96 = dist_metrics(P96, n - 30)
+    print(f"    1996 held-out: CE {dm96['model']:.4f} · KL {dm96['model']-dm96['H_q']:.4f} "
+          f"(persistence {dm96['persistence']-dm96['H_q']:.4f})", flush=True)
+    occ = np.bincount((np.degrees(GRID[PJ]).round().astype(int) % 180) // 15, minlength=12)
+    print(f"    tuning occupancy (15° bins over the half-circle): " + " ".join(map(str, occ)), flush=True)
+    out["tuned_head"] = {"params": J * 9, "auc": [round(v, 4) for v in tuned_auc],
+                         "auc_mean": round(float(ta.mean()), 4), "auc_1996": round(float(ta[-1]), 4),
+                         "kl": [round(v, 4) for v in tuned_kl], "kl_mean": round(float(tk.mean()), 4),
+                         "dist_1996": {k: round(v, 4) for k, v in dm96.items()}}
+
     # ── the fair native comparison: KL over ALL twelve origins, and the per-topic record model
     #    renormalised into a distribution (the strongest date→distribution predictor available) ──
     Zsc = features("sincos")
