@@ -84,6 +84,10 @@ every script runs verbatim.
 | `analysis/arxivtopics/staged_phases.py` · `eight_*.py` · `nonneg_nine` (in `eight_nonneg.py`) | the parameter-count and sign ablations |
 | `analysis/arxivtopics/kl_balance.py` | the twelve-season balance term, measured and declined |
 | `analysis/arxivtopics/multihead_ce.py` | the single multi-head distribution model: date → p(topic) over all 251 heads at once, squared-linear amplitudes, closed-form global optimum (anchor folded in as rows), CE polish measured rather than assumed |
+| `analysis/arxivtopics/kl_softmax.py` · `train_kl_born.py` | the KL line: the convex softmax global optimum (which loses — a provable model-class result), and true KL training on the Born forms with the anchor inside the objective — the analytic solve is the trainable optimum, and none / one / seven phases per topic span 0.0006 of test KL |
+| `analysis/arxivtopics/always_topics.py` | the same board restricted to the 192 topics valid since the 1800s — the ranking does not move, so persistence's edge was never the emergent topics |
+| `analysis/arxivtopics/trend_classifier.py` | 251-way most-trending-topic classification: a thin ranking signal (top-1 ten times chance), overconfident probabilities, 0/30 on the headline window — the honest boundary of sky features on surprise |
+| `analysis/arxivtopics/trend_binary.py` (+ `_controls`, `_figs`, `figs/`) | per-topic balanced binary trending on publication counts: 68% shuffled held-out accuracy — and the controls that name it a CLOCK, not a rhythm (fast planets at chance; a bare year beats the sky) |
 | `analysis/arxivtopics/hypernet.py` · `dict_spectrum.py` | the amortised map and the spectrum dictionary — one clean negative, one compression result |
 | `analysis/arxivtopics/build_ephemeris.py` | regenerates the ephemeris CSVs (Skyfield, sidereal Lahiri) |
 | `analysis/citations/` | the yearly citation matrices (OpenAlex, CC0) the campaign trains on |
