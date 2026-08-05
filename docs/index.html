@@ -1,0 +1,350 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>artatopics — the research behind ArtaQuest topics</title>
+<style>
+:root { --gold:#8A6D0B; --blue:#1746DC; --bg:#ffffff; --card:#f6f7f9; --ink:#1a2330; --ink2:#4a5568; --ink3:#6b7686; --line:#e3e6ea; }
+@media (prefers-color-scheme: dark) {
+  :root { --gold:#E8B923; --blue:#6f8dff; --bg:#010C17; --card:#06121E; --ink:#eef2f7; --ink2:#b8c2cf; --ink3:#8b98a8; --line:#12283c; } }
+* { box-sizing:border-box } body { margin:0; background:var(--bg); color:var(--ink);
+  font:15px/1.6 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif }
+main { max-width:880px; margin:0 auto; padding:40px 20px 80px }
+h1 { font-size:28px; margin:0 } h1 b { color:var(--gold) }
+h2 { font-size:15px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink3); margin:44px 0 10px }
+p { color:var(--ink2) } .eq { font-family:ui-monospace,Menlo,monospace; background:var(--card);
+  border:1px solid var(--line); border-radius:10px; padding:10px 14px; overflow-x:auto }
+table { border-collapse:collapse; width:100%; font-size:13.5px }
+th,td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--line) }
+th { color:var(--ink3); font-size:11px; text-transform:uppercase; letter-spacing:.08em }
+td.n { font-variant-numeric:tabular-nums }
+.tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px }
+.tile { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 14px }
+.tile .l { font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink3) }
+.tile .v { font-size:22px; font-weight:700; margin-top:2px }
+.tile .h { font-size:11px; color:var(--ink3); margin-top:2px }
+img { max-width:100%; border-radius:10px; border:1px solid var(--line); background:#fff }
+.warn { border-left:3px solid var(--gold); padding:2px 0 2px 14px }
+input { width:100%; padding:8px 12px; border-radius:10px; border:1px solid var(--line);
+  background:var(--card); color:var(--ink); font-size:14px; margin:8px 0 4px }
+a { color:var(--blue) } .wrap { overflow-x:auto; max-height:520px; overflow-y:auto;
+  border:1px solid var(--line); border-radius:10px }
+footer { margin-top:56px; font-size:12.5px; color:var(--ink3) }
+</style></head><body><main>
+<h1>arta<b>topics</b></h1>
+<p>The research campaign behind <a href="https://artaquest.com/topics/">artaquest.com/topics</a> —
+251 research fields, models whose only test-time input is the sky, and every negative result on the
+record. This page is the campaign's own surface, generated from the repository's committed artifacts;
+the code and every number behind it live in
+<a href="https://github.com/ArtaQuest/artatopics">github.com/ArtaQuest/artatopics</a>.</p>
+
+<h2>The model of record</h2>
+<div class="eq">ŷ<sub>j</sub>(t) = max( b<sub>j</sub> + Σ<sub>i</sub> a<sub>ji</sub> · cos(θ<sub>i</sub>(t) − φ<sub>j</sub>) , 0 )²</div>
+<p>One deterministic nine-parameter receiver per field — one shared tuning, seven signed arrows, a
+closed-form fit with no optimiser and no seed. Honest walls: refit knowing nothing after a cut-off,
+scored on what actually happened.</p>
+<div class="tiles">
+<div class="tile"><div class="l">30-year wall</div><div class="v">+0.80</div><div class="h">fit ≤1995 → 1996–2025, pooled AUC</div></div>
+<div class="tile"><div class="l">carry-forward bar</div><div class="v">+0.73</div><div class="h">the same test, doing nothing</div></div>
+<div class="tile"><div class="l">12-year wall</div><div class="v">+0.93</div><div class="h">pooled AUC</div></div>
+<div class="tile"><div class="l">4-year wall</div><div class="v">+0.97</div><div class="h">pooled AUC</div></div>
+</div>
+
+<h2>Predicting the distribution of topics given the date</h2>
+<p>Held-out KL(q‖p), mean over twelve origins, lower is better. Nothing yet beats carrying
+yesterday's distribution forward — and the campaign can say precisely why: the loss is not the
+bottleneck (CE ≡ KL, measured), the link is not (the convex softmax global optimum LOSES), the
+phases are not (none / one / seven per topic span 0.0006), and the topic roster is not (restricting
+to the 192 topics alive since the 1800s does not change the order).</p>
+<table><tr><th>model</th><th>test KL ↓</th></tr>
+<tr><td>persistence distribution</td><td class="n"><b>0.0831</b></td></tr>
+<tr><td>per-topic record, renormalised</td><td class="n">0.0853</td></tr>
+<tr><td>Born multi-head, one tuning per topic</td><td class="n">0.0880</td></tr>
+<tr><td>Born multi-head, free per-body phases</td><td class="n">0.0882</td></tr>
+<tr><td>softmax KL — convex, provably global</td><td class="n">0.1104</td></tr></table>
+
+<h2>Trending next year — 251 decoupled binary classifiers</h2>
+<p>Per topic, on its own history: will publication counts rise by more than the topic's own median
+next year? Balanced 50/50 by construction; logistic regression on sky features; shuffled 90/10
+split as specified, with the temporal split reported beside it.</p>
+<div class="tiles">
+<div class="tile"><div class="l">train accuracy</div><div class="v">73%</div><div class="h">mean over topics</div></div>
+<div class="tile"><div class="l">test accuracy</div><div class="v">68%</div><div class="h">shuffled 90/10 · chance 50%</div></div>
+<div class="tile"><div class="l">temporal contrast</div><div class="v">64%</div><div class="h">last 10% of years held out</div></div>
+<div class="tile"><div class="l">above chance</div><div class="v">89%</div><div class="h">of topics, shuffled test</div></div>
+</div>
+<p class="warn"><b>The controls name what was learned — a clock, not a rhythm.</b> Fast planets
+alone (mars, jupiter — dozens of cycles, no calendar information) score at chance. The slow planets
+carry everything. A bare linear year beats the whole sky model. Publication counts accelerated
+secularly, so the balanced label is partly an era label, and the slow bodies' angles encode the era.
+Every claim below carries that caveat.</p>
+<p><img src="figs/trend_binary_controls.png" alt="Controls: fast bodies at chance, slow bodies carry the signal, a bare year beats the sky"></p>
+<p><img src="figs/trend_binary_scatter.png" alt="Per-topic train vs held-out accuracy"></p>
+
+<h2>Every topic's call for next year</h2>
+<p>The classifier's current prediction per topic — probability that next year's publication count
+rises by more than the topic's own median — with its held-out accuracy. An era read, not a
+planetary one; see the controls above.</p>
+<input id="q" placeholder="filter topics…" oninput="
+  const v=this.value.toLowerCase();
+  document.querySelectorAll('#tt tbody tr').forEach(r=>r.style.display=r.cells[0].textContent.toLowerCase().includes(v)?'':'none');">
+<div class="wrap"><table id="tt"><thead><tr><th>topic</th><th>p(trending)</th><th>call</th><th>held-out acc</th><th>years</th></tr></thead>
+<tbody><tr><td>Health Informatics</td><td class='n'>100%</td><td class='n'>yes</td><td class='n'>100%</td><td class='n'>68</td></tr>
+<tr><td>Renewable Energy, Sustainability and the Environment</td><td class='n'>98%</td><td class='n'>yes</td><td class='n'>76%</td><td class='n'>206</td></tr>
+<tr><td>Orthodontics</td><td class='n'>96%</td><td class='n'>yes</td><td class='n'>86%</td><td class='n'>145</td></tr>
+<tr><td>Automotive Engineering</td><td class='n'>96%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>182</td></tr>
+<tr><td>Environmental Engineering</td><td class='n'>95%</td><td class='n'>yes</td><td class='n'>89%</td><td class='n'>192</td></tr>
+<tr><td>Metals and Alloys</td><td class='n'>93%</td><td class='n'>yes</td><td class='n'>70%</td><td class='n'>104</td></tr>
+<tr><td>Radiological and Ultrasound Technology</td><td class='n'>92%</td><td class='n'>yes</td><td class='n'>75%</td><td class='n'>161</td></tr>
+<tr><td>Rehabilitation</td><td class='n'>92%</td><td class='n'>yes</td><td class='n'>50%</td><td class='n'>200</td></tr>
+<tr><td>Hematology</td><td class='n'>92%</td><td class='n'>yes</td><td class='n'>53%</td><td class='n'>154</td></tr>
+<tr><td>Human-Computer Interaction</td><td class='n'>92%</td><td class='n'>yes</td><td class='n'>60%</td><td class='n'>150</td></tr>
+<tr><td>Computer Vision and Pattern Recognition</td><td class='n'>91%</td><td class='n'>yes</td><td class='n'>87%</td><td class='n'>227</td></tr>
+<tr><td>Urology</td><td class='n'>91%</td><td class='n'>yes</td><td class='n'>70%</td><td class='n'>203</td></tr>
+<tr><td>Hardware and Architecture</td><td class='n'>90%</td><td class='n'>yes</td><td class='n'>73%</td><td class='n'>106</td></tr>
+<tr><td>Computer Science Applications</td><td class='n'>90%</td><td class='n'>yes</td><td class='n'>89%</td><td class='n'>182</td></tr>
+<tr><td>Process Chemistry and Technology</td><td class='n'>88%</td><td class='n'>yes</td><td class='n'>80%</td><td class='n'>153</td></tr>
+<tr><td>Biomedical Engineering</td><td class='n'>88%</td><td class='n'>yes</td><td class='n'>83%</td><td class='n'>233</td></tr>
+<tr><td>Business and International Management</td><td class='n'>88%</td><td class='n'>yes</td><td class='n'>82%</td><td class='n'>108</td></tr>
+<tr><td>Catalysis</td><td class='n'>87%</td><td class='n'>yes</td><td class='n'>68%</td><td class='n'>192</td></tr>
+<tr><td>Nephrology</td><td class='n'>87%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>200</td></tr>
+<tr><td>Management, Monitoring, Policy and Law</td><td class='n'>86%</td><td class='n'>yes</td><td class='n'>50%</td><td class='n'>239</td></tr>
+<tr><td>Pollution</td><td class='n'>86%</td><td class='n'>yes</td><td class='n'>79%</td><td class='n'>193</td></tr>
+<tr><td>Analytical Chemistry</td><td class='n'>85%</td><td class='n'>yes</td><td class='n'>55%</td><td class='n'>205</td></tr>
+<tr><td>Health, Toxicology and Mutagenesis</td><td class='n'>85%</td><td class='n'>yes</td><td class='n'>81%</td><td class='n'>210</td></tr>
+<tr><td>Geriatrics and Gerontology</td><td class='n'>84%</td><td class='n'>yes</td><td class='n'>88%</td><td class='n'>161</td></tr>
+<tr><td>Algebra and Number Theory</td><td class='n'>84%</td><td class='n'>yes</td><td class='n'>88%</td><td class='n'>160</td></tr>
+<tr><td>Discrete Mathematics and Combinatorics</td><td class='n'>84%</td><td class='n'>yes</td><td class='n'>47%</td><td class='n'>151</td></tr>
+<tr><td>General Energy</td><td class='n'>84%</td><td class='n'>yes</td><td class='n'>69%</td><td class='n'>156</td></tr>
+<tr><td>Social Psychology</td><td class='n'>84%</td><td class='n'>yes</td><td class='n'>88%</td><td class='n'>238</td></tr>
+<tr><td>Strategy and Management</td><td class='n'>84%</td><td class='n'>yes</td><td class='n'>74%</td><td class='n'>233</td></tr>
+<tr><td>Forestry</td><td class='n'>84%</td><td class='n'>yes</td><td class='n'>45%</td><td class='n'>201</td></tr>
+<tr><td>Energy Engineering and Power Technology</td><td class='n'>84%</td><td class='n'>yes</td><td class='n'>60%</td><td class='n'>153</td></tr>
+<tr><td>Cognitive Neuroscience</td><td class='n'>83%</td><td class='n'>yes</td><td class='n'>73%</td><td class='n'>220</td></tr>
+<tr><td>Marketing</td><td class='n'>82%</td><td class='n'>yes</td><td class='n'>71%</td><td class='n'>211</td></tr>
+<tr><td>Endocrinology, Diabetes and Metabolism</td><td class='n'>82%</td><td class='n'>yes</td><td class='n'>59%</td><td class='n'>215</td></tr>
+<tr><td>Agronomy and Crop Science</td><td class='n'>82%</td><td class='n'>yes</td><td class='n'>53%</td><td class='n'>194</td></tr>
+<tr><td>Neurology (Neuroscience)</td><td class='n'>81%</td><td class='n'>yes</td><td class='n'>70%</td><td class='n'>226</td></tr>
+<tr><td>Speech and Hearing</td><td class='n'>81%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>226</td></tr>
+<tr><td>Emergency Medical Services</td><td class='n'>81%</td><td class='n'>yes</td><td class='n'>60%</td><td class='n'>199</td></tr>
+<tr><td>Linguistics and Language</td><td class='n'>81%</td><td class='n'>yes</td><td class='n'>73%</td><td class='n'>225</td></tr>
+<tr><td>Health</td><td class='n'>80%</td><td class='n'>yes</td><td class='n'>70%</td><td class='n'>226</td></tr>
+<tr><td>Health Information Management</td><td class='n'>80%</td><td class='n'>yes</td><td class='n'>63%</td><td class='n'>189</td></tr>
+<tr><td>Ceramics and Composites</td><td class='n'>80%</td><td class='n'>yes</td><td class='n'>73%</td><td class='n'>150</td></tr>
+<tr><td>Inorganic Chemistry</td><td class='n'>79%</td><td class='n'>yes</td><td class='n'>75%</td><td class='n'>202</td></tr>
+<tr><td>Occupational Therapy</td><td class='n'>79%</td><td class='n'>yes</td><td class='n'>74%</td><td class='n'>191</td></tr>
+<tr><td>Molecular Medicine</td><td class='n'>79%</td><td class='n'>yes</td><td class='n'>92%</td><td class='n'>120</td></tr>
+<tr><td>Complementary and Manual Therapy</td><td class='n'>79%</td><td class='n'>yes</td><td class='n'>58%</td><td class='n'>192</td></tr>
+<tr><td>Mechanical Engineering</td><td class='n'>79%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>228</td></tr>
+<tr><td>Orthopedics and Sports Medicine</td><td class='n'>78%</td><td class='n'>yes</td><td class='n'>83%</td><td class='n'>176</td></tr>
+<tr><td>Human Factors and Ergonomics</td><td class='n'>78%</td><td class='n'>yes</td><td class='n'>75%</td><td class='n'>121</td></tr>
+<tr><td>Physical Therapy, Sports Therapy and Rehabilitation</td><td class='n'>78%</td><td class='n'>yes</td><td class='n'>62%</td><td class='n'>211</td></tr>
+<tr><td>Electrochemistry</td><td class='n'>78%</td><td class='n'>yes</td><td class='n'>55%</td><td class='n'>198</td></tr>
+<tr><td>Gender Studies</td><td class='n'>77%</td><td class='n'>yes</td><td class='n'>73%</td><td class='n'>216</td></tr>
+<tr><td>Biophysics</td><td class='n'>77%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>199</td></tr>
+<tr><td>Critical Care and Intensive Care Medicine</td><td class='n'>77%</td><td class='n'>yes</td><td class='n'>59%</td><td class='n'>218</td></tr>
+<tr><td>Library and Information Sciences</td><td class='n'>76%</td><td class='n'>yes</td><td class='n'>63%</td><td class='n'>193</td></tr>
+<tr><td>Biomaterials</td><td class='n'>76%</td><td class='n'>yes</td><td class='n'>75%</td><td class='n'>202</td></tr>
+<tr><td>Clinical Psychology</td><td class='n'>76%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>229</td></tr>
+<tr><td>Oral Surgery</td><td class='n'>75%</td><td class='n'>yes</td><td class='n'>80%</td><td class='n'>200</td></tr>
+<tr><td>Family Practice</td><td class='n'>75%</td><td class='n'>yes</td><td class='n'>67%</td><td class='n'>153</td></tr>
+<tr><td>Water Science and Technology</td><td class='n'>75%</td><td class='n'>yes</td><td class='n'>84%</td><td class='n'>189</td></tr>
+<tr><td>Polymers and Plastics</td><td class='n'>75%</td><td class='n'>yes</td><td class='n'>72%</td><td class='n'>179</td></tr>
+<tr><td>Radiation</td><td class='n'>75%</td><td class='n'>yes</td><td class='n'>68%</td><td class='n'>189</td></tr>
+<tr><td>Pharmaceutical Science</td><td class='n'>74%</td><td class='n'>yes</td><td class='n'>74%</td><td class='n'>194</td></tr>
+<tr><td>Soil Science</td><td class='n'>74%</td><td class='n'>yes</td><td class='n'>84%</td><td class='n'>186</td></tr>
+<tr><td>Applied Psychology</td><td class='n'>74%</td><td class='n'>yes</td><td class='n'>64%</td><td class='n'>145</td></tr>
+<tr><td>Modeling and Simulation</td><td class='n'>74%</td><td class='n'>yes</td><td class='n'>62%</td><td class='n'>164</td></tr>
+<tr><td>Cultural Studies</td><td class='n'>74%</td><td class='n'>yes</td><td class='n'>74%</td><td class='n'>229</td></tr>
+<tr><td>Paleontology</td><td class='n'>74%</td><td class='n'>yes</td><td class='n'>48%</td><td class='n'>214</td></tr>
+<tr><td>Toxicology</td><td class='n'>73%</td><td class='n'>yes</td><td class='n'>71%</td><td class='n'>173</td></tr>
+<tr><td>Applied Mathematics</td><td class='n'>73%</td><td class='n'>yes</td><td class='n'>74%</td><td class='n'>187</td></tr>
+<tr><td>Management Science and Operations Research</td><td class='n'>72%</td><td class='n'>yes</td><td class='n'>74%</td><td class='n'>191</td></tr>
+<tr><td>Animal Science and Zoology</td><td class='n'>72%</td><td class='n'>yes</td><td class='n'>80%</td><td class='n'>202</td></tr>
+<tr><td>Building and Construction</td><td class='n'>71%</td><td class='n'>yes</td><td class='n'>80%</td><td class='n'>199</td></tr>
+<tr><td>General Health Professions</td><td class='n'>71%</td><td class='n'>yes</td><td class='n'>56%</td><td class='n'>251</td></tr>
+<tr><td>General Agricultural and Biological Sciences</td><td class='n'>70%</td><td class='n'>yes</td><td class='n'>55%</td><td class='n'>215</td></tr>
+<tr><td>Surgery</td><td class='n'>70%</td><td class='n'>yes</td><td class='n'>79%</td><td class='n'>245</td></tr>
+<tr><td>Obstetrics and Gynecology</td><td class='n'>70%</td><td class='n'>yes</td><td class='n'>91%</td><td class='n'>215</td></tr>
+<tr><td>Safety Research</td><td class='n'>70%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>204</td></tr>
+<tr><td>Genetics (Medicine)</td><td class='n'>69%</td><td class='n'>yes</td><td class='n'>79%</td><td class='n'>194</td></tr>
+<tr><td>General Social Sciences</td><td class='n'>69%</td><td class='n'>yes</td><td class='n'>77%</td><td class='n'>215</td></tr>
+<tr><td>Nuclear and High Energy Physics</td><td class='n'>69%</td><td class='n'>yes</td><td class='n'>79%</td><td class='n'>190</td></tr>
+<tr><td>Food Science</td><td class='n'>69%</td><td class='n'>yes</td><td class='n'>83%</td><td class='n'>232</td></tr>
+<tr><td>Behavioral Neuroscience</td><td class='n'>69%</td><td class='n'>yes</td><td class='n'>55%</td><td class='n'>111</td></tr>
+<tr><td>Artificial Intelligence</td><td class='n'>69%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>229</td></tr>
+<tr><td>Education</td><td class='n'>68%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>229</td></tr>
+<tr><td>Biochemistry (Medicine)</td><td class='n'>67%</td><td class='n'>yes</td><td class='n'>67%</td><td class='n'>151</td></tr>
+<tr><td>Geography, Planning and Development</td><td class='n'>67%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>228</td></tr>
+<tr><td>Aquatic Science</td><td class='n'>67%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>199</td></tr>
+<tr><td>Genetics (Biochemistry, Genetics and Molecular Biology)</td><td class='n'>67%</td><td class='n'>yes</td><td class='n'>79%</td><td class='n'>236</td></tr>
+<tr><td>Cardiology and Cardiovascular Medicine</td><td class='n'>67%</td><td class='n'>yes</td><td class='n'>80%</td><td class='n'>202</td></tr>
+<tr><td>Ocean Engineering</td><td class='n'>66%</td><td class='n'>yes</td><td class='n'>87%</td><td class='n'>227</td></tr>
+<tr><td>Filtration and Separation</td><td class='n'>66%</td><td class='n'>yes</td><td class='n'>31%</td><td class='n'>160</td></tr>
+<tr><td>Geophysics</td><td class='n'>66%</td><td class='n'>yes</td><td class='n'>59%</td><td class='n'>218</td></tr>
+<tr><td>Architecture</td><td class='n'>65%</td><td class='n'>yes</td><td class='n'>70%</td><td class='n'>203</td></tr>
+<tr><td>Experimental and Cognitive Psychology</td><td class='n'>65%</td><td class='n'>yes</td><td class='n'>91%</td><td class='n'>227</td></tr>
+<tr><td>Finance</td><td class='n'>65%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>226</td></tr>
+<tr><td>Transplantation</td><td class='n'>65%</td><td class='n'>yes</td><td class='n'>54%</td><td class='n'>132</td></tr>
+<tr><td>Electronic, Optical and Magnetic Materials</td><td class='n'>65%</td><td class='n'>yes</td><td class='n'>95%</td><td class='n'>200</td></tr>
+<tr><td>Fluid Flow and Transfer Processes</td><td class='n'>65%</td><td class='n'>yes</td><td class='n'>67%</td><td class='n'>185</td></tr>
+<tr><td>Ecological Modeling</td><td class='n'>65%</td><td class='n'>yes</td><td class='n'>53%</td><td class='n'>192</td></tr>
+<tr><td>Neuropsychology and Physiological Psychology</td><td class='n'>64%</td><td class='n'>yes</td><td class='n'>88%</td><td class='n'>163</td></tr>
+<tr><td>Management of Technology and Innovation</td><td class='n'>64%</td><td class='n'>yes</td><td class='n'>73%</td><td class='n'>220</td></tr>
+<tr><td>Horticulture</td><td class='n'>64%</td><td class='n'>yes</td><td class='n'>46%</td><td class='n'>126</td></tr>
+<tr><td>Conservation</td><td class='n'>64%</td><td class='n'>yes</td><td class='n'>64%</td><td class='n'>225</td></tr>
+<tr><td>Information Systems and Management</td><td class='n'>64%</td><td class='n'>yes</td><td class='n'>72%</td><td class='n'>185</td></tr>
+<tr><td>Issues, ethics and legal aspects</td><td class='n'>63%</td><td class='n'>yes</td><td class='n'>55%</td><td class='n'>195</td></tr>
+<tr><td>Safety, Risk, Reliability and Quality</td><td class='n'>63%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>183</td></tr>
+<tr><td>General Arts and Humanities</td><td class='n'>63%</td><td class='n'>yes</td><td class='n'>52%</td><td class='n'>226</td></tr>
+<tr><td>Emergency Medicine</td><td class='n'>63%</td><td class='n'>yes</td><td class='n'>61%</td><td class='n'>226</td></tr>
+<tr><td>Civil and Structural Engineering</td><td class='n'>63%</td><td class='n'>yes</td><td class='n'>61%</td><td class='n'>229</td></tr>
+<tr><td>Public Health, Environmental and Occupational Health</td><td class='n'>62%</td><td class='n'>yes</td><td class='n'>68%</td><td class='n'>252</td></tr>
+<tr><td>Tourism, Leisure and Hospitality Management</td><td class='n'>62%</td><td class='n'>yes</td><td class='n'>44%</td><td class='n'>160</td></tr>
+<tr><td>General Decision Sciences</td><td class='n'>62%</td><td class='n'>yes</td><td class='n'>67%</td><td class='n'>181</td></tr>
+<tr><td>Museology</td><td class='n'>62%</td><td class='n'>yes</td><td class='n'>50%</td><td class='n'>263</td></tr>
+<tr><td>Developmental Neuroscience</td><td class='n'>61%</td><td class='n'>yes</td><td class='n'>80%</td><td class='n'>146</td></tr>
+<tr><td>Reproductive Medicine</td><td class='n'>61%</td><td class='n'>yes</td><td class='n'>61%</td><td class='n'>232</td></tr>
+<tr><td>Global and Planetary Change</td><td class='n'>61%</td><td class='n'>yes</td><td class='n'>83%</td><td class='n'>234</td></tr>
+<tr><td>Accounting</td><td class='n'>60%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>227</td></tr>
+<tr><td>Complementary and alternative medicine</td><td class='n'>60%</td><td class='n'>yes</td><td class='n'>71%</td><td class='n'>211</td></tr>
+<tr><td>Periodontics</td><td class='n'>60%</td><td class='n'>yes</td><td class='n'>63%</td><td class='n'>189</td></tr>
+<tr><td>Visual Arts and Performing Arts</td><td class='n'>59%</td><td class='n'>yes</td><td class='n'>50%</td><td class='n'>239</td></tr>
+<tr><td>Mathematical Physics</td><td class='n'>59%</td><td class='n'>yes</td><td class='n'>75%</td><td class='n'>199</td></tr>
+<tr><td>Ophthalmology</td><td class='n'>59%</td><td class='n'>yes</td><td class='n'>82%</td><td class='n'>215</td></tr>
+<tr><td>Nutrition and Dietetics</td><td class='n'>59%</td><td class='n'>yes</td><td class='n'>80%</td><td class='n'>203</td></tr>
+<tr><td>Classics</td><td class='n'>59%</td><td class='n'>yes</td><td class='n'>46%</td><td class='n'>241</td></tr>
+<tr><td>Biochemistry (Biochemistry, Genetics and Molecular Biology)</td><td class='n'>58%</td><td class='n'>yes</td><td class='n'>62%</td><td class='n'>212</td></tr>
+<tr><td>Developmental Biology</td><td class='n'>58%</td><td class='n'>yes</td><td class='n'>67%</td><td class='n'>175</td></tr>
+<tr><td>Urban Studies</td><td class='n'>58%</td><td class='n'>yes</td><td class='n'>86%</td><td class='n'>225</td></tr>
+<tr><td>Developmental and Educational Psychology</td><td class='n'>58%</td><td class='n'>yes</td><td class='n'>60%</td><td class='n'>201</td></tr>
+<tr><td>Organizational Behavior and Human Resource Management</td><td class='n'>58%</td><td class='n'>yes</td><td class='n'>82%</td><td class='n'>221</td></tr>
+<tr><td>Physiology (Medicine)</td><td class='n'>58%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>230</td></tr>
+<tr><td>Clinical Biochemistry</td><td class='n'>57%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>203</td></tr>
+<tr><td>Physiology (Biochemistry, Genetics and Molecular Biology)</td><td class='n'>57%</td><td class='n'>yes</td><td class='n'>47%</td><td class='n'>150</td></tr>
+<tr><td>Industrial relations</td><td class='n'>57%</td><td class='n'>yes</td><td class='n'>69%</td><td class='n'>160</td></tr>
+<tr><td>Epidemiology</td><td class='n'>57%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>229</td></tr>
+<tr><td>Geology</td><td class='n'>56%</td><td class='n'>yes</td><td class='n'>84%</td><td class='n'>193</td></tr>
+<tr><td>Electrical and Electronic Engineering</td><td class='n'>56%</td><td class='n'>yes</td><td class='n'>62%</td><td class='n'>213</td></tr>
+<tr><td>Sensory Systems</td><td class='n'>56%</td><td class='n'>yes</td><td class='n'>94%</td><td class='n'>159</td></tr>
+<tr><td>Ecology</td><td class='n'>56%</td><td class='n'>yes</td><td class='n'>80%</td><td class='n'>249</td></tr>
+<tr><td>General Psychology</td><td class='n'>55%</td><td class='n'>yes</td><td class='n'>60%</td><td class='n'>201</td></tr>
+<tr><td>Communication</td><td class='n'>55%</td><td class='n'>yes</td><td class='n'>53%</td><td class='n'>190</td></tr>
+<tr><td>Life-span and Life-course Studies</td><td class='n'>54%</td><td class='n'>yes</td><td class='n'>69%</td><td class='n'>134</td></tr>
+<tr><td>Psychiatry and Mental health</td><td class='n'>54%</td><td class='n'>yes</td><td class='n'>78%</td><td class='n'>226</td></tr>
+<tr><td>Cellular and Molecular Neuroscience</td><td class='n'>54%</td><td class='n'>yes</td><td class='n'>75%</td><td class='n'>202</td></tr>
+<tr><td>Instrumentation</td><td class='n'>54%</td><td class='n'>yes</td><td class='n'>50%</td><td class='n'>156</td></tr>
+<tr><td>Endocrinology</td><td class='n'>54%</td><td class='n'>yes</td><td class='n'>55%</td><td class='n'>219</td></tr>
+<tr><td>Industrial and Manufacturing Engineering (Engineering)</td><td class='n'>54%</td><td class='n'>yes</td><td class='n'>80%</td><td class='n'>199</td></tr>
+<tr><td>Virology</td><td class='n'>54%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>201</td></tr>
+<tr><td>Bioengineering</td><td class='n'>53%</td><td class='n'>yes</td><td class='n'>56%</td><td class='n'>158</td></tr>
+<tr><td>Neurology (Medicine)</td><td class='n'>53%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>226</td></tr>
+<tr><td>Surfaces, Coatings and Films</td><td class='n'>53%</td><td class='n'>yes</td><td class='n'>76%</td><td class='n'>168</td></tr>
+<tr><td>Software</td><td class='n'>53%</td><td class='n'>yes</td><td class='n'>83%</td><td class='n'>121</td></tr>
+<tr><td>Internal Medicine</td><td class='n'>53%</td><td class='n'>yes</td><td class='n'>59%</td><td class='n'>170</td></tr>
+<tr><td>Oncology</td><td class='n'>52%</td><td class='n'>yes</td><td class='n'>67%</td><td class='n'>207</td></tr>
+<tr><td>Fuel Technology</td><td class='n'>52%</td><td class='n'>yes</td><td class='n'>44%</td><td class='n'>182</td></tr>
+<tr><td>Control and Systems Engineering</td><td class='n'>52%</td><td class='n'>yes</td><td class='n'>65%</td><td class='n'>205</td></tr>
+<tr><td>Computational Theory and Mathematics</td><td class='n'>52%</td><td class='n'>yes</td><td class='n'>82%</td><td class='n'>217</td></tr>
+<tr><td>Statistics, Probability and Uncertainty</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>60%</td><td class='n'>201</td></tr>
+<tr><td>Ecology, Evolution, Behavior and Systematics</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>60%</td><td class='n'>250</td></tr>
+<tr><td>Aerospace Engineering</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>91%</td><td class='n'>232</td></tr>
+<tr><td>Nuclear Energy and Engineering</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>67%</td><td class='n'>94</td></tr>
+<tr><td>Geochemistry and Petrology</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>45%</td><td class='n'>205</td></tr>
+<tr><td>Pulmonary and Respiratory Medicine</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>74%</td><td class='n'>226</td></tr>
+<tr><td>Information Systems</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>82%</td><td class='n'>216</td></tr>
+<tr><td>Small Animals</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>75%</td><td class='n'>201</td></tr>
+<tr><td>Cell Biology</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>62%</td><td class='n'>207</td></tr>
+<tr><td>Microbiology (Medicine)</td><td class='n'>51%</td><td class='n'>yes</td><td class='n'>57%</td><td class='n'>145</td></tr>
+<tr><td>Music</td><td class='n'>50%</td><td class='n'>yes</td><td class='n'>74%</td><td class='n'>229</td></tr>
+<tr><td>Dermatology</td><td class='n'>50%</td><td class='n'>yes</td><td class='n'>74%</td><td class='n'>229</td></tr>
+<tr><td>Transportation</td><td class='n'>50%</td><td class='n'>yes</td><td class='n'>68%</td><td class='n'>220</td></tr>
+<tr><td>Gastroenterology</td><td class='n'>50%</td><td class='n'>no</td><td class='n'>72%</td><td class='n'>183</td></tr>
+<tr><td>Law</td><td class='n'>49%</td><td class='n'>no</td><td class='n'>73%</td><td class='n'>264</td></tr>
+<tr><td>Numerical Analysis</td><td class='n'>49%</td><td class='n'>no</td><td class='n'>72%</td><td class='n'>180</td></tr>
+<tr><td>Industrial and Manufacturing Engineering (Environmental Science)</td><td class='n'>48%</td><td class='n'>no</td><td class='n'>61%</td><td class='n'>184</td></tr>
+<tr><td>Religious studies</td><td class='n'>48%</td><td class='n'>no</td><td class='n'>60%</td><td class='n'>252</td></tr>
+<tr><td>Geometry and Topology</td><td class='n'>48%</td><td class='n'>no</td><td class='n'>70%</td><td class='n'>228</td></tr>
+<tr><td>Environmental Chemistry</td><td class='n'>47%</td><td class='n'>no</td><td class='n'>70%</td><td class='n'>201</td></tr>
+<tr><td>Pharmacology (Pharmacology, Toxicology and Pharmaceutics)</td><td class='n'>47%</td><td class='n'>no</td><td class='n'>50%</td><td class='n'>205</td></tr>
+<tr><td>Space and Planetary Science</td><td class='n'>47%</td><td class='n'>no</td><td class='n'>45%</td><td class='n'>201</td></tr>
+<tr><td>Parasitology</td><td class='n'>47%</td><td class='n'>no</td><td class='n'>60%</td><td class='n'>198</td></tr>
+<tr><td>Language and Linguistics</td><td class='n'>46%</td><td class='n'>no</td><td class='n'>58%</td><td class='n'>262</td></tr>
+<tr><td>General Materials Science</td><td class='n'>46%</td><td class='n'>no</td><td class='n'>45%</td><td class='n'>204</td></tr>
+<tr><td>Pharmacy</td><td class='n'>46%</td><td class='n'>no</td><td class='n'>68%</td><td class='n'>216</td></tr>
+<tr><td>Anesthesiology and Pain Medicine</td><td class='n'>45%</td><td class='n'>no</td><td class='n'>58%</td><td class='n'>191</td></tr>
+<tr><td>Biotechnology</td><td class='n'>45%</td><td class='n'>no</td><td class='n'>75%</td><td class='n'>200</td></tr>
+<tr><td>Applied Microbiology and Biotechnology</td><td class='n'>45%</td><td class='n'>no</td><td class='n'>64%</td><td class='n'>138</td></tr>
+<tr><td>Medical Laboratory Technology</td><td class='n'>45%</td><td class='n'>no</td><td class='n'>56%</td><td class='n'>157</td></tr>
+<tr><td>Public Administration</td><td class='n'>45%</td><td class='n'>no</td><td class='n'>83%</td><td class='n'>183</td></tr>
+<tr><td>Structural Biology</td><td class='n'>45%</td><td class='n'>no</td><td class='n'>90%</td><td class='n'>99</td></tr>
+<tr><td>Atmospheric Science</td><td class='n'>45%</td><td class='n'>no</td><td class='n'>77%</td><td class='n'>220</td></tr>
+<tr><td>Nature and Landscape Conservation</td><td class='n'>45%</td><td class='n'>no</td><td class='n'>56%</td><td class='n'>252</td></tr>
+<tr><td>Archeology (Social Sciences)</td><td class='n'>44%</td><td class='n'>no</td><td class='n'>61%</td><td class='n'>227</td></tr>
+<tr><td>Molecular Biology</td><td class='n'>43%</td><td class='n'>no</td><td class='n'>88%</td><td class='n'>239</td></tr>
+<tr><td>Development</td><td class='n'>43%</td><td class='n'>no</td><td class='n'>80%</td><td class='n'>151</td></tr>
+<tr><td>Sociology and Political Science</td><td class='n'>43%</td><td class='n'>no</td><td class='n'>83%</td><td class='n'>288</td></tr>
+<tr><td>Earth-Surface Processes</td><td class='n'>43%</td><td class='n'>no</td><td class='n'>55%</td><td class='n'>205</td></tr>
+<tr><td>General Economics, Econometrics and Finance</td><td class='n'>42%</td><td class='n'>no</td><td class='n'>64%</td><td class='n'>219</td></tr>
+<tr><td>Archeology (Arts and Humanities)</td><td class='n'>42%</td><td class='n'>no</td><td class='n'>65%</td><td class='n'>310</td></tr>
+<tr><td>Spectroscopy</td><td class='n'>42%</td><td class='n'>no</td><td class='n'>65%</td><td class='n'>226</td></tr>
+<tr><td>Computational Mechanics</td><td class='n'>41%</td><td class='n'>no</td><td class='n'>79%</td><td class='n'>244</td></tr>
+<tr><td>Radiology, Nuclear Medicine and Imaging</td><td class='n'>41%</td><td class='n'>no</td><td class='n'>78%</td><td class='n'>229</td></tr>
+<tr><td>Economics and Econometrics</td><td class='n'>41%</td><td class='n'>no</td><td class='n'>66%</td><td class='n'>325</td></tr>
+<tr><td>Rheumatology</td><td class='n'>41%</td><td class='n'>no</td><td class='n'>73%</td><td class='n'>215</td></tr>
+<tr><td>Infectious Diseases</td><td class='n'>41%</td><td class='n'>no</td><td class='n'>65%</td><td class='n'>227</td></tr>
+<tr><td>Biological Psychiatry</td><td class='n'>41%</td><td class='n'>no</td><td class='n'>73%</td><td class='n'>107</td></tr>
+<tr><td>Theoretical Computer Science</td><td class='n'>41%</td><td class='n'>no</td><td class='n'>58%</td><td class='n'>241</td></tr>
+<tr><td>Equine</td><td class='n'>41%</td><td class='n'>no</td><td class='n'>74%</td><td class='n'>188</td></tr>
+<tr><td>Condensed Matter Physics</td><td class='n'>40%</td><td class='n'>no</td><td class='n'>46%</td><td class='n'>132</td></tr>
+<tr><td>Insect Science</td><td class='n'>40%</td><td class='n'>no</td><td class='n'>57%</td><td class='n'>208</td></tr>
+<tr><td>Oceanography</td><td class='n'>40%</td><td class='n'>no</td><td class='n'>57%</td><td class='n'>228</td></tr>
+<tr><td>Atomic and Molecular Physics, and Optics</td><td class='n'>40%</td><td class='n'>no</td><td class='n'>65%</td><td class='n'>227</td></tr>
+<tr><td>Pathology and Forensic Medicine</td><td class='n'>38%</td><td class='n'>no</td><td class='n'>87%</td><td class='n'>227</td></tr>
+<tr><td>Anatomy</td><td class='n'>38%</td><td class='n'>no</td><td class='n'>43%</td><td class='n'>227</td></tr>
+<tr><td>Microbiology (Immunology and Microbiology)</td><td class='n'>38%</td><td class='n'>no</td><td class='n'>52%</td><td class='n'>213</td></tr>
+<tr><td>Anthropology</td><td class='n'>38%</td><td class='n'>no</td><td class='n'>50%</td><td class='n'>325</td></tr>
+<tr><td>Plant Science</td><td class='n'>37%</td><td class='n'>no</td><td class='n'>68%</td><td class='n'>307</td></tr>
+<tr><td>Materials Chemistry</td><td class='n'>36%</td><td class='n'>no</td><td class='n'>76%</td><td class='n'>208</td></tr>
+<tr><td>Demography</td><td class='n'>35%</td><td class='n'>no</td><td class='n'>73%</td><td class='n'>225</td></tr>
+<tr><td>Computer Networks and Communications</td><td class='n'>35%</td><td class='n'>no</td><td class='n'>62%</td><td class='n'>208</td></tr>
+<tr><td>Management Information Systems</td><td class='n'>35%</td><td class='n'>no</td><td class='n'>72%</td><td class='n'>182</td></tr>
+<tr><td>Literature and Literary Theory</td><td class='n'>34%</td><td class='n'>no</td><td class='n'>62%</td><td class='n'>325</td></tr>
+<tr><td>Immunology</td><td class='n'>33%</td><td class='n'>no</td><td class='n'>84%</td><td class='n'>194</td></tr>
+<tr><td>Statistical and Nonlinear Physics</td><td class='n'>33%</td><td class='n'>no</td><td class='n'>65%</td><td class='n'>228</td></tr>
+<tr><td>Otorhinolaryngology</td><td class='n'>32%</td><td class='n'>no</td><td class='n'>79%</td><td class='n'>188</td></tr>
+<tr><td>Computational Mathematics</td><td class='n'>32%</td><td class='n'>no</td><td class='n'>50%</td><td class='n'>63</td></tr>
+<tr><td>Pediatrics, Perinatology and Child Health</td><td class='n'>32%</td><td class='n'>no</td><td class='n'>78%</td><td class='n'>229</td></tr>
+<tr><td>Research and Theory</td><td class='n'>32%</td><td class='n'>no</td><td class='n'>67%</td><td class='n'>124</td></tr>
+<tr><td>History</td><td class='n'>31%</td><td class='n'>no</td><td class='n'>72%</td><td class='n'>325</td></tr>
+<tr><td>Computer Graphics and Computer-Aided Design</td><td class='n'>30%</td><td class='n'>no</td><td class='n'>67%</td><td class='n'>149</td></tr>
+<tr><td>Signal Processing</td><td class='n'>30%</td><td class='n'>no</td><td class='n'>56%</td><td class='n'>158</td></tr>
+<tr><td>Leadership and Management</td><td class='n'>29%</td><td class='n'>no</td><td class='n'>92%</td><td class='n'>116</td></tr>
+<tr><td>Chemical Health and Safety</td><td class='n'>29%</td><td class='n'>no</td><td class='n'>62%</td><td class='n'>156</td></tr>
+<tr><td>Cancer Research</td><td class='n'>29%</td><td class='n'>no</td><td class='n'>75%</td><td class='n'>201</td></tr>
+<tr><td>Acoustics and Ultrasonics</td><td class='n'>28%</td><td class='n'>no</td><td class='n'>100%</td><td class='n'>66</td></tr>
+<tr><td>History and Philosophy of Science</td><td class='n'>28%</td><td class='n'>no</td><td class='n'>53%</td><td class='n'>325</td></tr>
+<tr><td>Medical Terminology</td><td class='n'>28%</td><td class='n'>no</td><td class='n'>42%</td><td class='n'>189</td></tr>
+<tr><td>Hepatology</td><td class='n'>27%</td><td class='n'>no</td><td class='n'>50%</td><td class='n'>156</td></tr>
+<tr><td>Astronomy and Astrophysics</td><td class='n'>27%</td><td class='n'>no</td><td class='n'>56%</td><td class='n'>266</td></tr>
+<tr><td>Physical and Theoretical Chemistry</td><td class='n'>27%</td><td class='n'>no</td><td class='n'>43%</td><td class='n'>229</td></tr>
+<tr><td>Mechanics of Materials</td><td class='n'>27%</td><td class='n'>no</td><td class='n'>70%</td><td class='n'>199</td></tr>
+<tr><td>Immunology and Allergy</td><td class='n'>23%</td><td class='n'>no</td><td class='n'>63%</td><td class='n'>187</td></tr>
+<tr><td>Pharmacology (Medicine)</td><td class='n'>23%</td><td class='n'>no</td><td class='n'>52%</td><td class='n'>211</td></tr>
+<tr><td>Political Science and International Relations</td><td class='n'>22%</td><td class='n'>no</td><td class='n'>59%</td><td class='n'>325</td></tr>
+<tr><td>Organic Chemistry</td><td class='n'>21%</td><td class='n'>no</td><td class='n'>73%</td><td class='n'>219</td></tr>
+<tr><td>Endocrine and Autonomic Systems</td><td class='n'>21%</td><td class='n'>no</td><td class='n'>88%</td><td class='n'>156</td></tr>
+<tr><td>General Dentistry</td><td class='n'>20%</td><td class='n'>no</td><td class='n'>57%</td><td class='n'>145</td></tr>
+<tr><td>Media Technology</td><td class='n'>17%</td><td class='n'>no</td><td class='n'>61%</td><td class='n'>178</td></tr>
+<tr><td>Philosophy</td><td class='n'>15%</td><td class='n'>no</td><td class='n'>59%</td><td class='n'>325</td></tr>
+<tr><td>Statistics and Probability</td><td class='n'>14%</td><td class='n'>no</td><td class='n'>74%</td><td class='n'>190</td></tr>
+<tr><td>Aging</td><td class='n'>12%</td><td class='n'>no</td><td class='n'>50%</td><td class='n'>123</td></tr>
+<tr><td>General Engineering</td><td class='n'>6%</td><td class='n'>no</td><td class='n'>43%</td><td class='n'>71</td></tr></tbody></table></div>
+
+<h2>What this is and is not</h2>
+<p>Every number here is the output of a committed, deterministic script run behind honest walls, and
+the repository records the failures beside the wins. <b>No causal claim is made or implied.</b> The
+sky is a basis of slow, perfectly forecastable oscillators; where it has skill, the controls say
+what kind of skill it is.</p>
+<footer>ArtaQuest Foundation · code MIT, data CC0 (OpenAlex) ·
+<a href="https://github.com/ArtaQuest/artatopics">source</a> ·
+regenerated by analysis/arxivtopics/build_docs.py</footer>
+</main></body></html>
