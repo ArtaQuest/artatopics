@@ -96,11 +96,42 @@ def fit_wall(wall, ridge=0.01):
         disc = 0.0
     b2 = (C0 + np.sqrt(disc)) / 2.0
     bg = np.sqrt(max(b2, 1e-9)); ag = M / (2 * bg)
+
+    # ── stage 2b (operator, confirmed spec): y_j = |b_j + SUM_i a_i e^{i(theta_i - p_ij)}|^2 —
+    # b PER TOPIC, arrows global. The first attempt split the transit magnitudes by rank-1 SVD and
+    # collapsed (ridge-biased magnitudes are not cleanly rank-1; unit-vector scaling threw most
+    # levels far from 1 and the reconstruction exploded to -2 AUC — kept in git history). The robust
+    # closed form: hold the global arrows and the phases from stage 2 fixed; then for each topic the
+    # weighted objective is a QUARTIC in b_j alone, its derivative a CUBIC, solved exactly by
+    # np.roots — the real nonnegative root with the lowest objective. Deterministic, no scan.
+    Dm2 = TH[None, :, :] - Pji[:, None, :]
+    ReS = (np.cos(Dm2) * ag[None, None, :]).sum(2)                # (Tn, ne)
+    ImS = (np.sin(Dm2) * ag[None, None, :]).sum(2)
+    Q = ReS ** 2 + ImS ** 2
+    bj = np.zeros(Tn)
+    for j in range(Tn):
+        w = W[j]; hzs = slice(wall, hz)
+        awj = af.LAM_HORIZON / (mt[j] ** 2) / max(hz - wall, 1)
+        # objective: sum_t v_t (g_t - b^2 - 2 b R_t)^2 over train (g = y_norm - Q) and anchor rows
+        v = np.concatenate([w, np.full(hz - wall, awj)])
+        g = np.concatenate([Yn[j, :wall] - Q[j, :wall], mt[j] ** 2 - Q[j, hzs]])
+        R = np.concatenate([ReS[j, :wall], ReS[j, hzs]])
+        # d/db: sum v (g - b^2 - 2bR)(b + R) = 0  ->  cubic  c3 b^3 + c2 b^2 + c1 b + c0 = 0
+        S0 = v.sum(); S1 = (v * R).sum(); S2 = (v * R * R).sum()
+        G0 = (v * g).sum(); G1 = (v * g * R).sum()
+        c3 = -S0; c2 = -3 * S1; c1 = G0 - 2 * S2; c0 = G1
+        roots = np.roots([c3, c2, c1, c0])
+        cand = [float(r.real) for r in roots if abs(r.imag) < 1e-9 and r.real > 0]
+        if not cand: cand = [float(np.sqrt(max(np.median(g), 1e-6)))]
+        obj = lambda b: float((v * (g - b * b - 2 * b * R) ** 2).sum())
+        bj[j] = min(cand, key=obj)
+    R2 = bj[:, None] + ReS
+    P_btopic = (R2 * R2 + ImS ** 2) * lvl2[:, None]
     Dm = TH[None, :, :] - Pji[:, None, :]
     R = bg + (np.cos(Dm) * ag[None, None, :]).sum(2)
     Im = (np.sin(Dm) * ag[None, None, :]).sum(2)
     P_exact = (R * R + Im * Im) * lvl2[:, None]
-    return P_relax, P_exact, bg, ag, Pji
+    return P_relax, P_exact, P_btopic, bg, ag, bj, Pji
 
 
 def auc_at(Yh, wall):
@@ -116,8 +147,9 @@ RIDGE_GRID = [1e-3, 1e-2, 1e-1, 1.0]
 
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == "headline":
-        Pr, Pe, *_ = fit_wall(n - 30)
-        print(f"GLOBAL PHASOR headline: relaxation {auc_at(Pr, n-30):+.4f} · exact {auc_at(Pe, n-30):+.4f}", flush=True)
+        Pr, Pe, Pb, *_ = fit_wall(n - 30)
+        print(f"GLOBAL PHASOR headline: relaxation {auc_at(Pr, n-30):+.4f} · exact {auc_at(Pe, n-30):+.4f}"
+              f" · b-per-topic {auc_at(Pb, n-30):+.4f}", flush=True)
         return
     print("═══ GLOBAL PHASOR, CLOSED FORM · twelve origins ═══", flush=True)
     t0 = time.time()
@@ -129,24 +161,28 @@ def main():
         print(f"    ridge={rg:g}  early(9) exact {sel[rg]:+.4f}", flush=True)
         if best is None or sel[rg] > sel[best]: best = rg
     print(f"  CHOSEN ON EARLY ORIGINS: ridge = {best:g}", flush=True)
-    rel, exa = [], []
+    rel, exa, btp = [], [], []
     glob = None
     for w in WALLS:
-        Pr, Pe, bg, ag, Pji = fit_wall(w, best)
+        Pr, Pe, Pb, bg, ag, bj, Pji = fit_wall(w, best)
+        btp.append(auc_at(Pb, w))
         rel.append(auc_at(Pr, w)); exa.append(auc_at(Pe, w))
-        if w == WALLS[-1]: glob = (bg, ag, Pji)
-    rel, exa = np.array(rel), np.array(exa)
+        if w == WALLS[-1]: glob = (bg, ag, bj, Pji)
+    rel, exa, btp = np.array(rel), np.array(exa), np.array(btp)
     rec = np.array([auc_at(af.fit_final(Y, TH, w)[0], w) for w in WALLS])
     print(f"  [{time.time()-t0:.0f}s]", flush=True)
     print(f"  relaxation (57p/topic)        mean {rel.mean():+.4f} · 1996 {rel[-1]:+.4f}   " + " ".join(f"{v:+.3f}" for v in rel), flush=True)
     print(f"  exact global (7p/topic + 8g)  mean {exa.mean():+.4f} · 1996 {exa[-1]:+.4f}   " + " ".join(f"{v:+.3f}" for v in exa), flush=True)
+    print(f"  b-per-topic (8p/t + 7 glob)   mean {btp.mean():+.4f} · 1996 {btp[-1]:+.4f}   " + " ".join(f"{v:+.3f}" for v in btp), flush=True)
     print(f"  record (9p/topic)             mean {rec.mean():+.4f} · 1996 {rec[-1]:+.4f}   " + " ".join(f"{v:+.3f}" for v in rec), flush=True)
-    bg, ag, Pji = glob
+    bg, ag, bj, Pji = glob
     print(f"  global level b = {bg:.3f} · arrow lengths: " + " ".join(f"{bd[:3]} {v:.3f}" for bd, v in zip(af.BODIES, ag)), flush=True)
     json.dump({"walls": [labels[w] for w in WALLS],
                "relaxation": [round(float(v), 4) for v in rel],
                "exact_global": [round(float(v), 4) for v in exa],
                "record": [round(float(v), 4) for v in rec],
+               "b_per_topic": [round(float(v), 4) for v in btp],
+               "b_topic_range": [round(float(np.percentile(bj, q)), 3) for q in (5, 50, 95)],
                "global_b": round(float(bg), 4),
                "global_a": {bd: round(float(v), 4) for bd, v in zip(af.BODIES, ag)},
                "ridge": best, "ridge_selection": {str(k): round(v, 4) for k, v in sel.items()},
