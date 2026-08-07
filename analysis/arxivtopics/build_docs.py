@@ -12,7 +12,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
 DOCS = os.path.join(REPO, "docs")
 os.makedirs(os.path.join(DOCS, "figs"), exist_ok=True)
-for f in ("trend_binary_scatter.png", "trend_binary_controls.png"):
+for f in ("trend_binary_scatter.png", "trend_binary_controls.png", "fit_multiples.png"):
     shutil.copyfile(os.path.join(HERE, "figs", f), os.path.join(DOCS, "figs", f))
 
 GP = json.load(open(os.path.join(HERE, "global_phasor.json")))
