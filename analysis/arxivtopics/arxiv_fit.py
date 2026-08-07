@@ -59,7 +59,16 @@ REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 os.chdir(REPO)
 def _load(p, n):
     s = u.spec_from_file_location(n, p); m = u.module_from_spec(s); s.loader.exec_module(m); return m
-p2 = _load("analysis/adstopics/astro_phasor2.py", "p2")
+# TWO CONSTANT LISTS, inlined. This used to _load analysis/adstopics/astro_phasor2.py, whose module
+# chain (astro_phasor → trends_fit) imports requests, sklearn and the rest of the collection stack —
+# a heavyweight runtime dependency for two lists of names. CI caught it on the first clean
+# environment it ever ran in. The values are verbatim from that module; the model of record now needs
+# numpy and pandas, nothing else.
+class p2:
+    BODIES = ["sun", "moon", "mercury", "venus", "mars", "jupiter", "saturn",
+              "uranus", "neptune", "pluto", "node", "chiron"]
+    SIGNS = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo",
+             "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
 EXCLUDE = {"sun", "moon", "mercury", "venus", "chiron"}   # operator 2026-07-24: mars IN, CHIRON OUT
 # CHIRON dropped (30-yr ablation, operator "switch to 30-yr AUC"): at the 30-year wall chiron overfits —
 # leave-one-out −chiron lifts the honest 30-yr AUC +0.581→+0.641 and median skill +0.135→+0.399. The
