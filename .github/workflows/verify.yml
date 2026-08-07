@@ -1,0 +1,41 @@
+# Every push re-earns the repository's core claim: a stranger can clone this and get the exact
+# published numbers. Three gates, cheapest first. Asserts are at printed precision (4 decimals for
+# the record model, 2 for the classifier means) because bit-level equality across BLAS
+# implementations is deliberately not claimed — see the half-circle-sweep note in arxiv_fit.py.
+name: verify
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install
+        run: pip install --quiet numpy pandas scipy
+      - name: Every script compiles
+        run: |
+          set -e
+          git ls-files '*.py' | while read -r f; do python -m py_compile "$f"; done
+          echo "all $(git ls-files '*.py' | wc -l) scripts compile"
+      - name: The model of record reproduces its published numbers
+        run: |
+          set -e
+          python analysis/arxivtopics/arxiv_fit.py | tee /tmp/fit.log
+          grep -q "AUC +0.7990" /tmp/fit.log
+          grep -q "carry-forward bar +0.7344" /tmp/fit.log
+          grep -q "AUC +0.9318" /tmp/fit.log
+          grep -q "AUC +0.9737" /tmp/fit.log
+          echo "headline numbers reproduced exactly"
+      - name: The trending classifiers reproduce
+        run: |
+          set -e
+          python analysis/arxivtopics/trend_binary.py | tee /tmp/tb.log
+          grep -Eq "TEST accuracy \(shuffled\) +0\.57" /tmp/tb.log
+          grep -Eq "test \(temporal contrast\) +0\.72" /tmp/tb.log
+          echo "classifier summaries reproduced"

@@ -1,5 +1,8 @@
 # artatopics
 
+[![verify](https://github.com/ArtaQuest/artatopics/actions/workflows/verify.yml/badge.svg)](https://github.com/ArtaQuest/artatopics/actions/workflows/verify.yml)
+**Results page: [artaquest.github.io/artatopics](https://artaquest.github.io/artatopics/)**
+
 The research campaign behind **[artaquest.com/topics](https://artaquest.com/topics/)** — a forecasting
 model for 251 research fields, where the only inputs at prediction time are the positions of seven
 celestial bodies. Everything here is deterministic, leak-tested, and reproducible from this
@@ -87,7 +90,8 @@ every script runs verbatim.
 | `analysis/arxivtopics/kl_softmax.py` · `train_kl_born.py` | the KL line: the convex softmax global optimum (which loses — a provable model-class result), and true KL training on the Born forms with the anchor inside the objective — the analytic solve is the trainable optimum, and none / one / seven phases per topic span 0.0006 of test KL |
 | `analysis/arxivtopics/always_topics.py` | the same board restricted to the 192 topics valid since the 1800s — the ranking does not move, so persistence's edge was never the emergent topics |
 | `analysis/arxivtopics/trend_classifier.py` | 251-way most-trending-topic classification: a thin ranking signal (top-1 ten times chance), overconfident probabilities, 0/30 on the headline window — the honest boundary of sky features on surprise |
-| `analysis/arxivtopics/trend_binary.py` (+ `_controls`, `_figs`, `figs/`) | per-topic balanced binary trending on publication counts: 68% shuffled held-out accuracy — and the controls that name it a CLOCK, not a rhythm (fast planets at chance; a bare year beats the sky) |
+| `analysis/arxivtopics/trend_binary.py` (+ `_controls`, `_figs`, `figs/`) | per-topic trending: closed-form least squares on the raw change, classified at each field's median (balanced 50/50) — 57% shuffled / 72% latest-years held-out accuracy, and the controls that name it a CLOCK, not a rhythm (fast planets at chance; a bare year beats the sky) |
+| `analysis/arxivtopics/build_docs.py` → `docs/` | the results page, generated from the committed artifacts — live at [artaquest.github.io/artatopics](https://artaquest.github.io/artatopics/) |
 | `analysis/arxivtopics/hypernet.py` · `dict_spectrum.py` | the amortised map and the spectrum dictionary — one clean negative, one compression result |
 | `analysis/arxivtopics/build_ephemeris.py` | regenerates the ephemeris CSVs (Skyfield, sidereal Lahiri) |
 | `analysis/citations/` | the yearly citation matrices (OpenAlex, CC0) the campaign trains on |
