@@ -2,7 +2,8 @@
 numpy
 pandas
 # The comparison and competition scripts additionally use:
-scipy           # eight_nonneg.py (bounded least squares)
+scipy           # eight_nonneg.py (bounded least squares) + the competition scripts
+requests        # the adstopics module chain the record model imports (trends_fit.py)
 torch           # the superseded gradient model + the e2e/embedding experiments
 # Regenerating the ephemeris (build_ephemeris.py) needs:
 # skyfield
