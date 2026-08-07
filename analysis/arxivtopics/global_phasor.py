@@ -127,11 +127,46 @@ def fit_wall(wall, ridge=0.01):
         bj[j] = min(cand, key=obj)
     R2 = bj[:, None] + ReS
     P_btopic = (R2 * R2 + ImS ** 2) * lvl2[:, None]
+
+    # ── stage 2c (operator 2026-08-08): y_j = |b_j + A_j SUM_i a_i e^{i(theta_i - p_ij)}|^2 —
+    # a per-field GAIN A_j on the shared spectrum, beside the per-field level. For fixed arrows and
+    # phases the objective is quartic in b_j and in A_j separately, so coordinate descent with an
+    # EXACT cubic root at each step (np.roots), initialised at (b_j from stage 2b, A_j = 1).
+    # Deterministic; the arrow scale gauge is fixed by the pooled global spectrum.
+    Qs = ReS ** 2 + ImS ** 2
+    bj2 = bj.copy(); Aj = np.ones(Tn)
+    for j in range(Tn):
+        awj = af.LAM_HORIZON / (mt[j] ** 2) / max(hz - wall, 1)
+        v = np.concatenate([W[j], np.full(hz - wall, awj)])
+        gg = np.concatenate([Yn[j, :wall], np.full(hz - wall, mt[j] ** 2)])
+        R = np.concatenate([ReS[j, :wall], ReS[j, wall:hz]])
+        Q = np.concatenate([Qs[j, :wall], Qs[j, wall:hz]])
+        b, A = float(bj[j]), 1.0
+        obj = lambda b_, A_: float((v * (gg - b_ * b_ - 2 * b_ * A_ * R - A_ * A_ * Q) ** 2).sum())
+        for _ in range(8):
+            # exact b-step (A fixed): P0 = g - A^2 Q
+            P0 = gg - A * A * Q
+            S0 = v.sum(); S1 = (v * R).sum(); S2 = (v * R * R).sum()
+            SP0 = (v * P0).sum(); SP0R = (v * P0 * R).sum()
+            roots = np.roots([-S0, -3 * A * S1, SP0 - 2 * A * A * S2, A * SP0R])
+            cand = [float(r.real) for r in roots if abs(r.imag) < 1e-9 and r.real > 0] or [b]
+            b = min(cand, key=lambda x: obj(x, A))
+            # exact A-step (b fixed): h = g - b^2
+            h = gg - b * b
+            c3 = -(v * Q * Q).sum(); c2 = -3 * b * (v * R * Q).sum()
+            c1 = (v * h * Q).sum() - 2 * b * b * (v * R * R).sum()
+            c0 = b * (v * h * R).sum()
+            roots = np.roots([c3, c2, c1, c0])
+            cand = [float(r.real) for r in roots if abs(r.imag) < 1e-9 and r.real > 0] or [A]
+            A = min(cand, key=lambda x: obj(b, x))
+        bj2[j], Aj[j] = b, A
+    R3 = bj2[:, None] + Aj[:, None] * ReS
+    P_gain = (R3 * R3 + (Aj[:, None] * ImS) ** 2) * lvl2[:, None]
     Dm = TH[None, :, :] - Pji[:, None, :]
     R = bg + (np.cos(Dm) * ag[None, None, :]).sum(2)
     Im = (np.sin(Dm) * ag[None, None, :]).sum(2)
     P_exact = (R * R + Im * Im) * lvl2[:, None]
-    return P_relax, P_exact, P_btopic, bg, ag, bj, Pji
+    return P_relax, P_exact, P_btopic, P_gain, bg, ag, bj, Aj, Pji
 
 
 def auc_at(Yh, wall):
@@ -147,9 +182,9 @@ RIDGE_GRID = [1e-3, 1e-2, 1e-1, 1.0]
 
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == "headline":
-        Pr, Pe, Pb, *_ = fit_wall(n - 30)
+        Pr, Pe, Pb, Pg, *_ = fit_wall(n - 30)
         print(f"GLOBAL PHASOR headline: relaxation {auc_at(Pr, n-30):+.4f} · exact {auc_at(Pe, n-30):+.4f}"
-              f" · b-per-topic {auc_at(Pb, n-30):+.4f}", flush=True)
+              f" · b-per-topic {auc_at(Pb, n-30):+.4f} · gain {auc_at(Pg, n-30):+.4f}", flush=True)
         return
     print("═══ GLOBAL PHASOR, CLOSED FORM · twelve origins ═══", flush=True)
     t0 = time.time()
@@ -161,27 +196,30 @@ def main():
         print(f"    ridge={rg:g}  early(9) exact {sel[rg]:+.4f}", flush=True)
         if best is None or sel[rg] > sel[best]: best = rg
     print(f"  CHOSEN ON EARLY ORIGINS: ridge = {best:g}", flush=True)
-    rel, exa, btp = [], [], []
+    rel, exa, btp, gan = [], [], [], []
     glob = None
     for w in WALLS:
-        Pr, Pe, Pb, bg, ag, bj, Pji = fit_wall(w, best)
-        btp.append(auc_at(Pb, w))
+        Pr, Pe, Pb, Pg, bg, ag, bj, Aj, Pji = fit_wall(w, best)
+        btp.append(auc_at(Pb, w)); gan.append(auc_at(Pg, w))
         rel.append(auc_at(Pr, w)); exa.append(auc_at(Pe, w))
-        if w == WALLS[-1]: glob = (bg, ag, bj, Pji)
-    rel, exa, btp = np.array(rel), np.array(exa), np.array(btp)
+        if w == WALLS[-1]: glob = (bg, ag, bj, Aj, Pji)
+    rel, exa, btp, gan = np.array(rel), np.array(exa), np.array(btp), np.array(gan)
     rec = np.array([auc_at(af.fit_final(Y, TH, w)[0], w) for w in WALLS])
     print(f"  [{time.time()-t0:.0f}s]", flush=True)
     print(f"  relaxation (57p/topic)        mean {rel.mean():+.4f} · 1996 {rel[-1]:+.4f}   " + " ".join(f"{v:+.3f}" for v in rel), flush=True)
     print(f"  exact global (7p/topic + 8g)  mean {exa.mean():+.4f} · 1996 {exa[-1]:+.4f}   " + " ".join(f"{v:+.3f}" for v in exa), flush=True)
     print(f"  b-per-topic (8p/t + 7 glob)   mean {btp.mean():+.4f} · 1996 {btp[-1]:+.4f}   " + " ".join(f"{v:+.3f}" for v in btp), flush=True)
+    print(f"  + gain A_j (9p/t + 7 glob)    mean {gan.mean():+.4f} · 1996 {gan[-1]:+.4f}   " + " ".join(f"{v:+.3f}" for v in gan), flush=True)
     print(f"  record (9p/topic)             mean {rec.mean():+.4f} · 1996 {rec[-1]:+.4f}   " + " ".join(f"{v:+.3f}" for v in rec), flush=True)
-    bg, ag, bj, Pji = glob
+    bg, ag, bj, Aj, Pji = glob
     print(f"  global level b = {bg:.3f} · arrow lengths: " + " ".join(f"{bd[:3]} {v:.3f}" for bd, v in zip(af.BODIES, ag)), flush=True)
     json.dump({"walls": [labels[w] for w in WALLS],
                "relaxation": [round(float(v), 4) for v in rel],
                "exact_global": [round(float(v), 4) for v in exa],
                "record": [round(float(v), 4) for v in rec],
                "b_per_topic": [round(float(v), 4) for v in btp],
+               "gain": [round(float(v), 4) for v in gan],
+               "gain_range": [round(float(np.percentile(Aj, q)), 3) for q in (5, 50, 95)],
                "b_topic_range": [round(float(np.percentile(bj, q)), 3) for q in (5, 50, 95)],
                "global_b": round(float(bg), 4),
                "global_a": {bd: round(float(v), 4) for bd, v in zip(af.BODIES, ag)},

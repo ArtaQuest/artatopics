@@ -26,8 +26,8 @@ trow = "\n".join(
     f"<tr><td>{html.escape(k)}</td><td class='n'>{'yes' if v['call_now'] else 'no'}</td>"
     f"<td class='n'>{int(round(v['test']*100))}%</td></tr>" for k, v in rows)
 fast = CT["fast only (mars, jupiter)"]; slow = CT["slow only (ur, ne, pl)"]; year = CT["bare linear year [1, t]"]
-gp_mean = sum(GP["b_per_topic"]) / len(GP["b_per_topic"])
-gp_1996 = GP["b_per_topic"][-1]
+gp_mean = sum(GP["gain"]) / len(GP["gain"])
+gp_1996 = GP["gain"][-1]
 arrows = " · ".join(f"{k} {v:.3f}" for k, v in GP["global_a"].items())
 
 page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
@@ -69,11 +69,10 @@ better than the field's long-run average. Full code and data:
 
 <h2>1 · The deployed model — one receiver for all of science</h2>
 <p style="font-family:ui-monospace,Menlo,monospace;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;overflow-x:auto">
-y_field(t) = | b<sub>field</sub> + &Sigma;<sub>i</sub> a<sub>i</sub> · e<sup> i(&theta;<sub>i</sub>(t) − p<sub>field,i</sub>)</sup> |²</p>
+y_field(t) = | b<sub>field</sub> + A<sub>field</sub> &Sigma;<sub>i</sub> a<sub>i</sub> · e<sup> i(&theta;<sub>i</sub>(t) − p<sub>field,i</sub>)</sup> |²</p>
 <p>Each planet is an arrow spinning at its orbital rate. The seven arrow lengths
-<b>a<sub>i</sub></b> are <b>global</b> — one receiver shared by all 251 fields. A field owns its
-level b and its seven phases — its signs — and nothing else; the level sets how deeply the planets
-modulate it. Squaring the total arrow's length expands exactly into a
+<b>a<sub>i</sub></b> are <b>global</b> — one spectrum shared by all 251 fields. A field owns a level
+b, a gain A that scales how loudly it hears the shared spectrum, and its seven phases — its signs. Squaring the total arrow's length expands exactly into a
 baseline, seven <b>transit</b> terms (each planet crossing the field's phase) and twenty-one
 <b>aspect</b> terms (planet pairs) — all linear in fixed functions of the date, so the whole fit is
 closed-form least squares: no optimiser, no seed. Scale is each field's own historical level —
@@ -82,7 +81,7 @@ measured, not fitted.</p>
 <div class="tile"><div class="l">this model · 30 yr</div><div class="v">{gp_1996:.2f}</div><div class="h">fit ≤1995, graded 1996–2025</div></div>
 <div class="tile"><div class="l">twelve origins, mean</div><div class="v">{gp_mean:.2f}</div><div class="h">"no change" scores 0.85</div></div>
 <div class="tile"><div class="l">global parameters</div><div class="v">7</div><div class="h">the seven arrow lengths</div></div>
-<div class="tile"><div class="l">per field</div><div class="v">8</div><div class="h">a level + seven phases</div></div>
+<div class="tile"><div class="l">per field</div><div class="v">9</div><div class="h">level + gain + seven phases</div></div>
 </div>
 <p class="cap">The global arrows: {arrows}. Honest comparison: the best per-field model in this
 repository (each field also fitting its own arrow lengths) scores 0.88 / 0.80 on the same tests, and

@@ -37,7 +37,7 @@ jobs:
           set -e
           pip install --quiet scipy
           python analysis/arxivtopics/global_phasor.py headline | tee /tmp/gp.log
-          grep -Eq "b-per-topic \+0\.77" /tmp/gp.log
+          grep -Eq "gain \+0\.76" /tmp/gp.log
           echo "deployed-model headline reproduced"
       - name: The trending classifiers reproduce
         run: |

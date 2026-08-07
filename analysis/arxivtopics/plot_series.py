@@ -22,7 +22,7 @@ REPO = os.path.dirname(os.path.dirname(HERE))
 names, Y, labels, future = GP.names, GP.Y, GP.labels, GP.future
 n, ne = GP.n, GP.ne
 wall = n - 30
-P_exact = GP.fit_wall(wall)[2]        # the deployed model: b per field, global arrows
+P_exact = GP.fit_wall(wall)[3]        # the deployed model: level + gain per field, global arrows
 years_all = [int(y) for y in (labels + future)]
 starts = af.META["topic_valid"].argmax(1)
 
