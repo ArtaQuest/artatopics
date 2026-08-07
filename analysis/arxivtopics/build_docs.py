@@ -70,13 +70,28 @@ better than the field's long-run average. Full code and data:
 <h2>1 · The deployed model — one receiver for all of science</h2>
 <p style="font-family:ui-monospace,Menlo,monospace;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;overflow-x:auto">
 y_field(t) = | b<sub>field</sub> + A<sub>field</sub> &Sigma;<sub>i</sub> a<sub>i</sub> · e<sup> i(&theta;<sub>i</sub>(t) − p<sub>field,i</sub>)</sup> |²</p>
-<p>Each planet is an arrow spinning at its orbital rate. The seven arrow lengths
-<b>a<sub>i</sub></b> are <b>global</b> — one spectrum shared by all 251 fields. A field owns a level
-b, a gain A that scales how loudly it hears the shared spectrum, and its seven phases — its signs. Squaring the total arrow's length expands exactly into a
-baseline, seven <b>transit</b> terms (each planet crossing the field's phase) and twenty-one
-<b>aspect</b> terms (planet pairs) — all linear in fixed functions of the date, so the whole fit is
-closed-form least squares: no optimiser, no seed. Scale is each field's own historical level —
-measured, not fitted.</p>
+<p><b>What each symbol is.</b> θ<sub>i</sub>(t) is the position of planet i (Mars, Jupiter,
+Saturn, Uranus, Neptune, Pluto, lunar node) in year t — known centuries ahead, which is the only
+reason a thirty-year forecast is possible at all. Each planet contributes an arrow rotating in the
+plane at its own orbital rate. The arrow lengths a<sub>i</sub> are <b>global</b>: one spectrum,
+shared by every one of the 251 fields. A field owns exactly three personal things: a level
+<b>b</b> (its resting brightness), a gain <b>A</b> (how loudly it hears the shared spectrum), and
+seven phases <b>p<sub>i</sub></b> — where each planet must stand to push it hardest. The phases are
+the field's identity — its signs. The predicted share is the squared length of the total arrow:
+bright when the planets gang up on the field's phases, dim when they cancel.</p>
+<p><b>Why the square matters.</b> Squaring the total arrow expands exactly — not approximately —
+into a baseline, seven <b>transit</b> terms (2bA·a<sub>i</sub>·cos(θ<sub>i</sub>−p<sub>i</sub>), one
+planet crossing the field's phase) and twenty-one <b>aspect</b> terms (2A²a<sub>i</sub>a<sub>k</sub>
+times the cosine of the pair's separation against the pair's phases). Those are linear in fixed
+functions of the date, so the model fits by least squares in closed form — no optimiser, no random
+seed; refit it anywhere and the same numbers come out. The per-field level and gain then solve
+exactly too: each is the root of a cubic. Two footnotes the fit forced on us, kept in the code: the
+slowest features barely move inside a 296-year window, so a small ridge (chosen on early origins
+only) is needed to keep the coefficients identifiable; and scale is each field's own historical
+level — measured from its data, never fitted.</p>
+<p><b>How it is tested.</b> Fit on everything up to 1995; forecast 1996–2025 blind; score against
+carrying the field's average forward — and repeat from twelve different cut-off years so no single
+lucky window decides anything. The same discipline as every number on this page.</p>
 <div class="tiles">
 <div class="tile"><div class="l">this model · 30 yr</div><div class="v">{gp_1996:.2f}</div><div class="h">fit ≤1995, graded 1996–2025</div></div>
 <div class="tile"><div class="l">twelve origins, mean</div><div class="v">{gp_mean:.2f}</div><div class="h">"no change" scores 0.85</div></div>
