@@ -15,6 +15,7 @@ os.makedirs(os.path.join(DOCS, "figs"), exist_ok=True)
 for f in ("trend_binary_scatter.png", "trend_binary_controls.png"):
     shutil.copyfile(os.path.join(HERE, "figs", f), os.path.join(DOCS, "figs", f))
 
+GP = json.load(open(os.path.join(HERE, "global_phasor.json")))
 TB = json.load(open(os.path.join(HERE, "trend_binary.json")))
 CT = json.load(open(os.path.join(HERE, "trend_binary_controls.json")))
 S = TB["summary"]
@@ -25,6 +26,9 @@ trow = "\n".join(
     f"<tr><td>{html.escape(k)}</td><td class='n'>{'yes' if v['call_now'] else 'no'}</td>"
     f"<td class='n'>{int(round(v['test']*100))}%</td></tr>" for k, v in rows)
 fast = CT["fast only (mars, jupiter)"]; slow = CT["slow only (ur, ne, pl)"]; year = CT["bare linear year [1, t]"]
+gp_mean = sum(GP["exact_global"]) / len(GP["exact_global"])
+gp_1996 = GP["exact_global"][-1]
+arrows = " · ".join(f"{k} {v:.3f}" for k, v in GP["global_a"].items())
 
 page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,7 +67,28 @@ graded on 1996–2025 the model never saw, against do-nothing baselines. Scores:
 better than the field's long-run average. Full code and data:
 <a href="https://github.com/ArtaQuest/artatopics">github.com/ArtaQuest/artatopics</a>.</p>
 
-<h2>1 · Per-field 30-year forecast</h2>
+<h2>1 · The deployed model — one receiver for all of science</h2>
+<p style="font-family:ui-monospace,Menlo,monospace;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;overflow-x:auto">
+y_field(t) = | b + &Sigma;<sub>i</sub> a<sub>i</sub> · e<sup> i(&theta;<sub>i</sub>(t) − p<sub>field,i</sub>)</sup> |²</p>
+<p>Each planet is an arrow spinning at its orbital rate. The level <b>b</b> and the seven arrow
+lengths <b>a<sub>i</sub></b> are <b>global</b> — one receiver shared by all 251 fields. A field owns
+nothing but its seven phases — its signs. Squaring the total arrow's length expands exactly into a
+baseline, seven <b>transit</b> terms (each planet crossing the field's phase) and twenty-one
+<b>aspect</b> terms (planet pairs) — all linear in fixed functions of the date, so the whole fit is
+closed-form least squares: no optimiser, no seed. Scale is each field's own historical level —
+measured, not fitted.</p>
+<div class="tiles">
+<div class="tile"><div class="l">this model · 30 yr</div><div class="v">{gp_1996:.2f}</div><div class="h">fit ≤1995, graded 1996–2025</div></div>
+<div class="tile"><div class="l">twelve origins, mean</div><div class="v">{gp_mean:.2f}</div><div class="h">"no change" scores 0.85</div></div>
+<div class="tile"><div class="l">global parameters</div><div class="v">8</div><div class="h">b = {GP["global_b"]:.2f} + seven arrows</div></div>
+<div class="tile"><div class="l">per field</div><div class="v">7</div><div class="h">phases only — the field's signs</div></div>
+</div>
+<p class="cap">The global arrows: {arrows}. Honest comparison: the best per-field model in this
+repository (each field also fitting its own arrow lengths) scores 0.88 / 0.80 on the same tests —
+the price of one shared receiver is about 0.06. Both sit below "copy yesterday" on the twelve-origin
+mean; at the 30-year wall this model ties it (0.73).</p>
+
+<h2>2 · The per-field reference model, 30-year forecast</h2>
 <div class="tiles">
 <div class="tile"><div class="l">model · 30 yr</div><div class="v">0.80</div><div class="h">9 parameters per field</div></div>
 <div class="tile"><div class="l">"no change" · 30 yr</div><div class="v">0.73</div><div class="h">carry today forward</div></div>
@@ -71,7 +96,7 @@ better than the field's long-run average. Full code and data:
 <div class="tile"><div class="l">model · 4 yr</div><div class="v">0.97</div><div class="h"></div></div>
 </div>
 
-<h2>2 · The share of attention across all fields at once</h2>
+<h2>3 · The share of attention across all fields at once</h2>
 <table><tr><th>strategy</th><th>error ↓</th></tr>
 <tr><td>copy yesterday's distribution</td><td class="n"><b>0.083</b></td></tr>
 <tr><td>per-field model, renormalised</td><td class="n">0.085</td></tr>
@@ -81,7 +106,7 @@ better than the field's long-run average. Full code and data:
 signals cannot encode drift. Verified not to be a training issue: loss, model form, phase count and
 topic roster all varied — ranking unchanged.</p>
 
-<h2>3 · "Will it trend next year?" — one predictor per field, trained by least squares, called at the field's median</h2>
+<h2>4 · "Will it trend next year?" — one predictor per field, trained by least squares, called at the field's median</h2>
 <div class="tiles">
 <div class="tile"><div class="l">unseen data</div><div class="v">{S["test_mean"]*100:.0f}%</div><div class="h">balanced · coin flip = 50%</div></div>
 <div class="tile"><div class="l">fields above chance</div><div class="v">{above*100//ntop}%</div><div class="h">{above} of {ntop}</div></div>

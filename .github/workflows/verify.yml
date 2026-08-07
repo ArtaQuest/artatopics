@@ -32,6 +32,13 @@ jobs:
           grep -q "AUC +0.9318" /tmp/fit.log
           grep -q "AUC +0.9737" /tmp/fit.log
           echo "headline numbers reproduced exactly"
+      - name: The deployed global phasor reproduces
+        run: |
+          set -e
+          pip install --quiet scipy
+          python analysis/arxivtopics/global_phasor.py headline | tee /tmp/gp.log
+          grep -Eq "exact \+0\.727" /tmp/gp.log
+          echo "deployed-model headline reproduced"
       - name: The trending classifiers reproduce
         run: |
           set -e
