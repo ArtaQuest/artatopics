@@ -78,8 +78,9 @@ rec_delta = abl["without the record receiver"] - s_full
 BOARD = [
     ("damped linear trend (reference baseline)", "baseline", -2.039975, ""),
     ("THE STACK v3.1 — recent-regime selection", "the stack (this page)", -2.092730, "https://github.com/ArtaQuest/artatopics/blob/main/analysis/arxivtopics/competition/the_stack_v31.py"),
+    ("stack v5 — kernel wall members offered; shared-basis took a slice, transferred worse", "the stack", -2.121088, "https://github.com/ArtaQuest/artatopics/blob/main/analysis/arxivtopics/competition/the_stack_v5.py"),
     ("the stack v3 — six-wall selection", "the stack", -2.289728, "https://github.com/ArtaQuest/artatopics/blob/main/analysis/arxivtopics/competition/the_stack.py"),
-    ("carry today forward (reference baseline)", "baseline", -2.561381, ""),
+    ("carry today forward (= every family's round-3 shrink verdict: lam 0)", "baseline", -2.561381, ""),
     ("random sky-feature ridge swarm", "ashranet · GPU", -3.592269, "https://www.kaggle.com/code/ashranet/astro-ensemble-entry-sky-swarm"),
     ("neural shared-basis receiver", "ashraasn · GPU", -5.173915, "https://www.kaggle.com/code/ashraasn/astro-ensemble-entry-shared-basis"),
     ("deep per-field phasor", "arash0ash · GPU", -5.603512, "https://www.kaggle.com/code/arash0ash/astro-ensemble-entry-deep-phasor"),

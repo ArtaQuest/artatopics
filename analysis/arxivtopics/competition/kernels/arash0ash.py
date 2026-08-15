@@ -131,12 +131,13 @@ for wy in WALLS_Y:
     BY[wy] = Pw[:, w:w + (1996 - wy)]
     write_wall(BY[wy], wy)
 LAM = lam_star(BY)
-SEEDS = (7, 11, 23, 42, 5, 31, 13, 59, 71, 97, 101, 103)
+# round 4: budget-filling seed ensemble — seeds until the clock
 finals = []
-for sd in SEEDS:
-    if left() < 2400: break
+sd = 7
+while left() > 2400:
     finals.append(fit_phasor(nyr, best["lam"], best["lr"], best["steps"] * 2, sd))
-    print(f"final seed {sd} done · {left()/3600:.1f}h left", flush=True)
+    print(f"final seed {sd} done · {left()/3600:.1f}h left ({len(finals)} seeds)", flush=True)
+    sd += 2
 if not finals:
     finals.append(fit_phasor(nyr, best["lam"], best["lr"], 1500, 7))
 P = np.mean(finals, 0)

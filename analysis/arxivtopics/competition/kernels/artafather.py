@@ -115,9 +115,11 @@ Xi, yi, wi = rows(60, INNER, INNER)
 di = xgb.DMatrix(Xi, label=yi, weight=wi)
 print("inner pairs:", len(yi), flush=True)
 scores = []
-for depth, eta, rounds in [(4, 0.05, 400), (5, 0.05, 800), (6, 0.05, 800), (6, 0.02, 2000),
-                           (8, 0.02, 2000), (8, 0.01, 4000), (10, 0.01, 4000)]:
-    if left() < 0.4 * BUDGET_H * 3600: print("budget guard: stopping sweep"); break
+for depth, eta, rounds in [(3, 0.05, 400), (4, 0.05, 400), (4, 0.05, 800), (4, 0.02, 2000),
+                           (5, 0.05, 800), (6, 0.05, 800), (6, 0.02, 2000), (6, 0.01, 4000),
+                           (8, 0.02, 2000), (8, 0.01, 4000), (10, 0.01, 4000), (10, 0.005, 8000),
+                           (12, 0.005, 8000), (12, 0.02, 3000)]:
+    if left() < 0.3 * BUDGET_H * 3600: print("budget guard: stopping sweep"); break
     bst = xgb.train(params(depth, eta), di, rounds)
     sc = perfield_r2(preds_from(bst, INNER), INNER, INNER + 30)
     scores.append((sc, depth, eta, rounds)); print(f"depth {depth} eta {eta} rounds {rounds} inner {sc:+.4f}", flush=True)

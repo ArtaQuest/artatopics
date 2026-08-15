@@ -137,7 +137,16 @@ for wy in WALLS_Y:
     BY[wy] = Pw[:, w:w + (1996 - wy)]
     write_wall(BY[wy], wy)
 LAM = lam_star(BY)
-P, done = swarm(nyr, W_, R_, 40000, 42)
+# round 4: budget-filling convergence run — chunks until the clock, not a fixed count
+acc, total, sd = None, 0, 42
+while left() > 1500:
+    Pc, dn = swarm(nyr, W_, R_, 2500, sd)
+    if dn == 0: break
+    acc = Pc * dn if acc is None else acc + Pc * dn
+    total += dn; sd += 1
+    print(f"swarm members so far: {total} · {left()/3600:.1f}h left", flush=True)
+P = acc / max(total, 1) if acc is not None else swarm(nyr, W_, R_, 500, 42)[0]
+done = total
 print("final swarm members:", done)
 C30 = np.repeat(Yz[:, nyr - 1:nyr], 30, 1)
 P30 = np.clip(C30 + LAM * (P[:, YI[1996]:YI[1996] + 30] - C30), 0, None)
