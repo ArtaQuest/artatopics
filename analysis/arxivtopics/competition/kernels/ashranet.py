@@ -96,20 +96,52 @@ def swarm(wall, width, ridge, n, seed):
         if left() < 900: break
     if acc is None: return np.zeros((J, ne)), 0
     return (acc / done).cpu().numpy(), done
-# round 2: wider grid, 20k-member final, and the inner-wall run the stack needs
+
+# ── round 3: recent-wall fits + shrink-toward-carry, all selection pre-1996 ──
+WALLS_Y = (1981, 1986, 1991)
+def write_wall(pred, wy):
+    """RAW recent-wall predictions (year wy .. 1995) — members for the ensemble stack."""
+    H = 1996 - wy
+    rows = [{"trend": f, "date": y, "target": round(float(pred[FI[f], k]), 6)}
+            for f in FIELDS for k, y in enumerate(range(wy, 1996))]
+    pd.DataFrame(rows).to_csv(f"wall{wy}.csv", index=False)
+    print(f"wall{wy}.csv written ({len(rows)} rows)", flush=True)
+def lam_star(preds_by_wall):
+    """Shrink toward carry, chosen on the pooled recent walls: P' = carry + lam (P - carry).
+    lam=0 IS carry-forward — a family that cannot beat it on the recent regime ships as it."""
+    best = (None, None)
+    for lam in (0, .125, .25, .375, .5, .625, .75, .875, 1):
+        tot = []
+        for wy, P in preds_by_wall.items():
+            w = wy - Y0; H = 1996 - wy
+            C = np.repeat(Yz[:, w - 1:w], H, 1)
+            tot.append(perfield_r2(np.clip(C + lam * (P[:, :H] - C), 0, None), w, w + H))
+        m = float(np.mean(tot))
+        if best[0] is None or m > best[0]: best = (m, lam)
+    print(f"shrink chosen on walls {WALLS_Y}: lam={best[1]} (pooled {best[0]:+.4f})", flush=True)
+    return best[1]
+# round 3: wider grid, 40k final, recent-wall fits + shrink chosen there
 scores = []
-for width, ridge in [(48, 1e-3), (64, 1e-3), (96, 1e-3), (128, 1e-3), (192, 1e-3),
-                     (64, 1e-2), (128, 1e-2), (256, 1e-2), (384, 3e-2)]:
-    if left() < 0.45 * BUDGET_H * 3600: break
-    p, dn = swarm(INNER, width, ridge, 300, 7)
+for width, ridge in [(32, 1e-3), (48, 1e-3), (64, 1e-3), (96, 1e-3), (128, 1e-3), (192, 1e-3),
+                     (48, 3e-3), (64, 1e-2), (128, 1e-2), (256, 1e-2), (384, 3e-2)]:
+    if left() < 0.5 * BUDGET_H * 3600: break
+    p, dn = swarm(INNER, width, ridge, 400, 7)
     sc = perfield_r2(p[:, INNER:INNER + 30], INNER, INNER + 30)
     scores.append((sc, width, ridge)); print(f"width {width} ridge {ridge} ({dn} members) inner {sc:+.4f}", flush=True)
 _, W_, R_ = max(scores, key=lambda x: x[0])
 print("chosen on the inner wall: width", W_, "ridge", R_)
-P, done = swarm(nyr, W_, R_, 20000, 42)
+BY = {}
+for wy in WALLS_Y:
+    w = wy - Y0
+    Pw, dn = swarm(w, W_, R_, 12000, 43 + wy)
+    BY[wy] = Pw[:, w:w + (1996 - wy)]
+    write_wall(BY[wy], wy)
+LAM = lam_star(BY)
+P, done = swarm(nyr, W_, R_, 40000, 42)
 print("final swarm members:", done)
-write_submission(P[:, YI[1996]:YI[1996] + 30],
-                 meta={"family": "random sky-feature ridge swarm", "width": W_, "ridge": R_, "members": done})
+C30 = np.repeat(Yz[:, nyr - 1:nyr], 30, 1)
+P30 = np.clip(C30 + LAM * (P[:, YI[1996]:YI[1996] + 30] - C30), 0, None)
+write_submission(P30, meta={"family": "random sky-feature ridge swarm + carry shrink",
+                            "width": W_, "ridge": R_, "members": done, "lam": LAM})
 P_in, done_in = swarm(INNER, W_, R_, 8000, 43)
-print("inner swarm members:", done_in)
 if done_in: write_inner(P_in[:, INNER:INNER + 30])

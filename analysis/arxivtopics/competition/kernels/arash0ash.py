@@ -100,7 +100,38 @@ for ci, cfg in enumerate(CFGS):
     scores.append((sc, cfg)); print(f"cfg {ci} {cfg} inner {sc:+.4f}", flush=True)
 best = max(scores, key=lambda x: x[0])[1]
 print("chosen on the inner wall:", best)
-SEEDS = (7, 11, 23, 42, 5, 31, 13, 59, 71, 97)
+
+# ── round 3: recent-wall fits + shrink-toward-carry, all selection pre-1996 ──
+WALLS_Y = (1981, 1986, 1991)
+def write_wall(pred, wy):
+    """RAW recent-wall predictions (year wy .. 1995) — members for the ensemble stack."""
+    H = 1996 - wy
+    rows = [{"trend": f, "date": y, "target": round(float(pred[FI[f], k]), 6)}
+            for f in FIELDS for k, y in enumerate(range(wy, 1996))]
+    pd.DataFrame(rows).to_csv(f"wall{wy}.csv", index=False)
+    print(f"wall{wy}.csv written ({len(rows)} rows)", flush=True)
+def lam_star(preds_by_wall):
+    """Shrink toward carry, chosen on the pooled recent walls: P' = carry + lam (P - carry).
+    lam=0 IS carry-forward — a family that cannot beat it on the recent regime ships as it."""
+    best = (None, None)
+    for lam in (0, .125, .25, .375, .5, .625, .75, .875, 1):
+        tot = []
+        for wy, P in preds_by_wall.items():
+            w = wy - Y0; H = 1996 - wy
+            C = np.repeat(Yz[:, w - 1:w], H, 1)
+            tot.append(perfield_r2(np.clip(C + lam * (P[:, :H] - C), 0, None), w, w + H))
+        m = float(np.mean(tot))
+        if best[0] is None or m > best[0]: best = (m, lam)
+    print(f"shrink chosen on walls {WALLS_Y}: lam={best[1]} (pooled {best[0]:+.4f})", flush=True)
+    return best[1]
+BY = {}
+for wy in WALLS_Y:
+    w = wy - Y0
+    Pw = np.mean([fit_phasor(w, best["lam"], best["lr"], best["steps"] * 2, sd) for sd in (7, 11, 23, 42)], 0)
+    BY[wy] = Pw[:, w:w + (1996 - wy)]
+    write_wall(BY[wy], wy)
+LAM = lam_star(BY)
+SEEDS = (7, 11, 23, 42, 5, 31, 13, 59, 71, 97, 101, 103)
 finals = []
 for sd in SEEDS:
     if left() < 2400: break
@@ -109,11 +140,12 @@ for sd in SEEDS:
 if not finals:
     finals.append(fit_phasor(nyr, best["lam"], best["lr"], 1500, 7))
 P = np.mean(finals, 0)
-write_submission(P[:, YI[1996]:YI[1996] + 30],
-                 meta={"family": "deep per-field phasor (Adam, seed ensemble)", "cfg": best, "seeds": len(finals)})
+C30 = np.repeat(Yz[:, nyr - 1:nyr], 30, 1)
+P30 = np.clip(C30 + LAM * (P[:, YI[1996]:YI[1996] + 30] - C30), 0, None)
+write_submission(P30, meta={"family": "deep per-field phasor + carry shrink", "cfg": best,
+                            "seeds": len(finals), "lam": LAM})
 inners = []
 for sd in (7, 11, 23, 42):
     if left() < 600: break
     inners.append(fit_phasor(INNER, best["lam"], best["lr"], best["steps"] * 2, sd)[:, INNER:INNER + 30])
-    print(f"inner seed {sd} done · {left()/3600:.1f}h left", flush=True)
 if inners: write_inner(np.mean(inners, 0))
