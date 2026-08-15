@@ -194,6 +194,14 @@ The accuracy is calendar signal carried by the slow planets, not planetary rhyth
 <div class="wrap"><table id="tt"><thead><tr><th>field</th><th>call</th><th>accuracy</th></tr></thead>
 <tbody>{trow}</tbody></table></div>
 
+<h2>5 · The competition — four GPU model families vs two do-nothing baselines</h2>
+<p>The whole campaign was then run as an open benchmark: a public Kaggle dataset, four competing
+model families trained on separate GPU accounts, scored blind on the ArtaQuest platform. Best
+selected model: a stack blending a damped trend with the sky receiver above (−2.09); a plain
+damped trend scores −2.04; every single-family GPU model loses to the baselines. The full board,
+the era-shift finding behind it, and a lab that rebuilds the winner in your browser (Pyodide):
+<a href="ensemble.html"><b>the ensemble stack →</b></a></p>
+
 <footer>No causal claims. Code MIT · data CC0 (OpenAlex) ·
 <a href="https://github.com/ArtaQuest/artatopics">source</a></footer>
 </main></body></html>"""
