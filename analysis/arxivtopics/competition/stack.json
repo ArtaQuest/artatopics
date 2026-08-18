@@ -1,0 +1,27 @@
+{
+ "mix": {
+  "slow": 0.625,
+  "lean": 0.125,
+  "full": 0.25
+ },
+ "wall_mean": 0.5867,
+ "stack_benchmark": 0.546,
+ "solo": {
+  "promise": 0.5483,
+  "slow": 0.5457,
+  "lean": 0.5412,
+  "full": 0.5452,
+  "phasor": 0.4985,
+  "west": 0.5412,
+  "ved": 0.547,
+  "chi": 0.5481,
+  "may": 0.5447,
+  "num": 0.5489
+ },
+ "pure_sky_no_promise": {
+  "slow": 0.504,
+  "lean": 0.501,
+  "full": 0.5077
+ },
+ "note": "every 'sky' model in solo{} contains the promise column; with it removed the sky alone returns to chance. The 30y window lifts the PROMISE, not the sky."
+}

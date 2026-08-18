@@ -1,0 +1,13 @@
+{
+ "cfg": {
+  "window": "30",
+  "fs": "slow",
+  "form": "mult",
+  "cen": "False",
+  "lam": "1.0"
+ },
+ "wall_mean": 0.5853,
+ "promise": 0.5483,
+ "sky": 0.5457,
+ "selected": 0.5469
+}
