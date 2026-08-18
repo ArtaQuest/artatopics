@@ -234,7 +234,8 @@ data — nothing on this page is taken on faith.</p>
 
 <footer>No causal claims. Scored by the ArtaQuest platform · code and full history:
 <a href="https://github.com/ArtaQuest/artatopics">github.com/ArtaQuest/artatopics</a> ·
-<a href="index.html">main results</a></footer>
+<a href="index.html">main results</a> ·
+<a href="https://huggingface.co/spaces/artaquest/artatopics">also on Hugging Face</a></footer>
 </main>
 <script>
 (async () => {

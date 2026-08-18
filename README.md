@@ -1,7 +1,8 @@
 # artatopics
 
 [![verify](https://github.com/ArtaQuest/artatopics/actions/workflows/verify.yml/badge.svg)](https://github.com/ArtaQuest/artatopics/actions/workflows/verify.yml)
-**Results page: [artaquest.github.io/artatopics](https://artaquest.github.io/artatopics/)**
+**Results page: [artaquest.github.io/artatopics](https://artaquest.github.io/artatopics/)**  
+**Mirror: [huggingface.co/spaces/artaquest/artatopics](https://huggingface.co/spaces/artaquest/artatopics)** — same pages, same in-browser verification lab
 
 The research campaign behind **[artaquest.com/topics](https://artaquest.com/topics/)** — a forecasting
 model for 251 research fields, where the only inputs at prediction time are the positions of seven
