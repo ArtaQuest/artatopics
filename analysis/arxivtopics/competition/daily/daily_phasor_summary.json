@@ -1,0 +1,13 @@
+{
+ "auc_level_all8": 0.504,
+ "auc_rise_all8": 0.5098,
+ "auc_level_slow4": 0.4984,
+ "auc_rise_slow4": 0.4981,
+ "auc_level_sun": 0.5052,
+ "auc_rise_sun": 0.5138,
+ "auc_level_moon": 0.4976,
+ "auc_rise_moon": 0.4938,
+ "auc_level_fast4": 0.5076,
+ "auc_rise_fast4": 0.4988,
+ "r2_sqrt_all8": -5.3425
+}
