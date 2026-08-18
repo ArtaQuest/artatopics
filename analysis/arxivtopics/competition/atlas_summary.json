@@ -1,0 +1,153 @@
+{
+ "n_features": 225,
+ "null_band": [
+  0.486,
+  0.5129
+ ],
+ "age_proxies": 16,
+ "age_auc": 0.5495,
+ "non_proxy_above_band": 20,
+ "non_proxy_expected": 5.0,
+ "top_non_proxy": [
+  {
+   "feature": "return_count_Saturn",
+   "tradition": "Western transits",
+   "test_auc": 0.541,
+   "train_auc": 0.5335,
+   "age_rank_corr": 0.909
+  },
+  {
+   "feature": "natal_Mars_sign_sin",
+   "tradition": "Natal chart",
+   "test_auc": 0.54,
+   "train_auc": 0.5048,
+   "age_rank_corr": 0.179
+  },
+  {
+   "feature": "natal_Neptune_sign_cos",
+   "tradition": "Natal chart",
+   "test_auc": 0.5384,
+   "train_auc": 0.5414,
+   "age_rank_corr": 0.871
+  },
+  {
+   "feature": "natal_Neptune_sign_sin",
+   "tradition": "Natal chart",
+   "test_auc": 0.5368,
+   "train_auc": 0.5391,
+   "age_rank_corr": 0.864
+  },
+  {
+   "feature": "midpoint_Neptune_Pluto",
+   "tradition": "Midpoints (Ebertin)",
+   "test_auc": 0.5325,
+   "train_auc": 0.5161,
+   "age_rank_corr": 0.746
+  },
+  {
+   "feature": "mayan_tzolkin",
+   "tradition": "Mayan",
+   "test_auc": 0.5242,
+   "train_auc": 0.5444,
+   "age_rank_corr": 0.469
+  },
+  {
+   "feature": "natal_Uranus_sign_sin",
+   "tradition": "Natal chart",
+   "test_auc": 0.5237,
+   "train_auc": 0.5361,
+   "age_rank_corr": 0.697
+  },
+  {
+   "feature": "midpoint_Mars_Lunar Node",
+   "tradition": "Midpoints (Ebertin)",
+   "test_auc": 0.5231,
+   "train_auc": 0.5044,
+   "age_rank_corr": 0.245
+  },
+  {
+   "feature": "transit_Pluto_to_natal_Uranus",
+   "tradition": "Western transits",
+   "test_auc": 0.5217,
+   "train_auc": 0.5062,
+   "age_rank_corr": 0.71
+  },
+  {
+   "feature": "transit_Pluto_to_natal_Jupiter",
+   "tradition": "Western transits",
+   "test_auc": 0.5212,
+   "train_auc": 0.5065,
+   "age_rank_corr": 0.174
+  },
+  {
+   "feature": "vowel_count",
+   "tradition": "Numerology",
+   "test_auc": 0.5204,
+   "train_auc": 0.506,
+   "age_rank_corr": 0.027
+  },
+  {
+   "feature": "midpoint_Mars_Uranus",
+   "tradition": "Midpoints (Ebertin)",
+   "test_auc": 0.5198,
+   "train_auc": 0.5018,
+   "age_rank_corr": 0.302
+  },
+  {
+   "feature": "natal_Jupiter_sign_sin",
+   "tradition": "Natal chart",
+   "test_auc": 0.519,
+   "train_auc": 0.5189,
+   "age_rank_corr": 0.149
+  },
+  {
+   "feature": "dasha_Venus",
+   "tradition": "Vedic (Vimshottari)",
+   "test_auc": 0.519,
+   "train_auc": 0.5052,
+   "age_rank_corr": 0.149
+  },
+  {
+   "feature": "transit_Saturn_to_natal_Neptune",
+   "tradition": "Western transits",
+   "test_auc": 0.5176,
+   "train_auc": 0.5018,
+   "age_rank_corr": 0.725
+  },
+  {
+   "feature": "midpoint_Jupiter_Pluto",
+   "tradition": "Midpoints (Ebertin)",
+   "test_auc": 0.5163,
+   "train_auc": 0.5169,
+   "age_rank_corr": 0.23
+  },
+  {
+   "feature": "transit_Saturn_to_natal_Pluto",
+   "tradition": "Western transits",
+   "test_auc": 0.5159,
+   "train_auc": 0.5028,
+   "age_rank_corr": 0.87
+  },
+  {
+   "feature": "midpoint_Uranus_Lunar Node",
+   "tradition": "Midpoints (Ebertin)",
+   "test_auc": 0.5159,
+   "train_auc": 0.5083,
+   "age_rank_corr": 0.275
+  },
+  {
+   "feature": "transit_Neptune_to_natal_sin",
+   "tradition": "Western transits",
+   "test_auc": 0.5157,
+   "train_auc": 0.5455,
+   "age_rank_corr": 0.396
+  },
+  {
+   "feature": "transit_Neptune_to_natal_Uranus",
+   "tradition": "Western transits",
+   "test_auc": 0.5145,
+   "train_auc": 0.5355,
+   "age_rank_corr": 0.422
+  }
+ ]
+}
