@@ -26,11 +26,12 @@ D = os.path.expanduser("~/.artaquest-dev/artacomp/daily")
 daily = pd.read_csv(f"{D}/daily.csv", parse_dates=["date"]).set_index("date")
 rel = pd.read_csv(f"{D}/reliable_from.csv", parse_dates=["reliable_from"]).set_index("category")
 DAYS = np.array([d.date() for d in daily.index.to_pydatetime()])
-E = np.load(f"{D}/ephemeris_daily_1991_2026.npz"); e0 = dt.date.fromisoformat(str(E["d0"]))
+E = np.load(f"{D}/ephemeris_ker_1991_2026.npz"); e0 = dt.date.fromisoformat(str(E["d0"])); EB = list(E["bodies"])
 off = np.array([(d - e0).days for d in DAYS]); valid = (off >= 0) & (off < E["lon"].shape[0])
-LON = np.zeros((len(DAYS), 8)); LON[valid] = E["lon"][off[valid]]
+SEL = [EB.index(b) for b in ("sun","moon","mercury","venus","mars","jupiter","saturn","true_node")]
+LON = np.zeros((len(DAYS), 8)); LON[valid] = E["lon"][off[valid]][:, SEL]
 TH = np.deg2rad(LON)
-BOD = ["Sun","Moon","Mercury","Venus","Mars","Jupiter","Saturn","Rahu"]
+BOD = ["Sun","Moon","Mercury","Venus","Mars","Jupiter","Saturn","TrueNode"]   # kerykeion, sidereal Lahiri
 TAU = 2*np.pi
 
 def design(th):

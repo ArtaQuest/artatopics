@@ -32,13 +32,14 @@ days = daily.index.to_pydatetime(); DAYS = np.array([d.date() for d in days])
 TAU = 2*np.pi
 
 # ── the daily sky, once, for the whole span (PyJHora, sidereal Lahiri) ──────────────────────
-# the daily sky, precomputed by eph_daily.py (PyJHora, Lahiri) for 1991-01-01..2026-12-31; days before 1991
-# fall outside every category's reliable span used here, and are masked out below
-E = np.load(f"{D}/ephemeris_daily_1991_2026.npz"); e0 = dt.date.fromisoformat(str(E["d0"]))
-off = np.array([(d - e0).days for d in DAYS])
-valid_eph = (off >= 0) & (off < E["lon"].shape[0])
-LON = np.zeros((len(DAYS), 8)); TITHI = np.full(len(DAYS), -1.0); NAK = np.zeros(len(DAYS))
-LON[valid_eph] = E["lon"][off[valid_eph]]; TITHI[valid_eph] = E["tithi"][off[valid_eph]]; NAK[valid_eph] = E["nak"][off[valid_eph]]
+# the daily sky from KERYKEION / Swiss Ephemeris (sidereal Lahiri), one engine, bodies NAMED — replaces the
+# PyJHora table after a cross-check showed PyJHora's index order was not Sun,Moon,Mars,Mercury,...: indices
+# 0-8 are Sun,Moon,Mercury,Venus,Sun(dup),Jupiter,Saturn,Uranus,Neptune. Mars and Rahu were never in it.
+E = np.load(f"{D}/ephemeris_ker_1991_2026.npz"); e0 = dt.date.fromisoformat(str(E["d0"])); EB = list(E["bodies"])
+off = np.array([(d - e0).days for d in DAYS]); valid_eph = (off >= 0) & (off < E["lon"].shape[0])
+SEL = [EB.index(b) for b in ("sun","moon","mercury","venus","mars","jupiter","saturn","true_node")]
+LON = np.zeros((len(DAYS), 8)); LON[valid_eph] = E["lon"][off[valid_eph]][:, SEL]
+NAK = np.floor(LON[:,1]/(360/27)); TITHI = np.floor(((LON[:,1]-LON[:,0]) % 360)/12)      # tithi = 12° Moon-Sun steps
 L = np.deg2rad(LON)
 BOD = ["Sun","Moon","Mercury","Venus","Mars","Jupiter","Saturn","Rahu"]
 FAST = [0,1,2,3,4]
