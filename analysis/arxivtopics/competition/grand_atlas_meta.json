@@ -1,0 +1,224 @@
+{
+ "n_features": 3683,
+ "nullmax_train": 0.5241,
+ "nullmax_held": 0.5229,
+ "se_single": 0.0061,
+ "control_bar": 0.5275,
+ "beats_nullmax": 97,
+ "n_flipped": 1783,
+ "corr_train_held": 0.0242,
+ "n_train_rows": 7530,
+ "n_held_rows": 7028,
+ "top_by_train": [
+  {
+   "name": "midpoint_TMars_Uranus_to_NJupiter_Node",
+   "family": "Midpoints (Ebertin)",
+   "train": 0.5286,
+   "held": 0.5061,
+   "matched": 0.4982
+  },
+  {
+   "name": "midpoint_TMars_Saturn_to_NJupiter_Node",
+   "family": "Midpoints (Ebertin)",
+   "train": 0.5268,
+   "held": 0.487,
+   "matched": 0.4873
+  },
+  {
+   "name": "midpoint_TMars_Pluto_to_natal_Jupiter",
+   "family": "Midpoints (Ebertin)",
+   "train": 0.5241,
+   "held": 0.4959,
+   "matched": 0.4924
+  },
+  {
+   "name": "midpoint_TMars_Saturn_to_NMars_Jupiter",
+   "family": "Midpoints (Ebertin)",
+   "train": 0.5236,
+   "held": 0.5036,
+   "matched": 0.506
+  },
+  {
+   "name": "tropical_H7_cos_transit_Jupiter_natal_Node",
+   "family": "Transit grid (tropical)",
+   "train": 0.5211,
+   "held": 0.5191,
+   "matched": 0.5198
+  },
+  {
+   "name": "sidereal_H7_cos_transit_Jupiter_natal_Node",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5211,
+   "held": 0.5191,
+   "matched": 0.5198
+  },
+  {
+   "name": "midpoint_TMars_Neptune_to_NJupiter_Node",
+   "family": "Midpoints (Ebertin)",
+   "train": 0.5209,
+   "held": 0.5007,
+   "matched": 0.4949
+  },
+  {
+   "name": "antiscia_Saturn_to_natal_Jupiter",
+   "family": "Antiscia",
+   "train": 0.5209,
+   "held": 0.5111,
+   "matched": 0.5052
+  },
+  {
+   "name": "midpoint_TMars_Pluto_to_NJupiter_Node",
+   "family": "Midpoints (Ebertin)",
+   "train": 0.5208,
+   "held": 0.4883,
+   "matched": 0.4869
+  },
+  {
+   "name": "midpoint_TMars_Uranus_to_natal_Jupiter",
+   "family": "Midpoints (Ebertin)",
+   "train": 0.5205,
+   "held": 0.4954,
+   "matched": 0.4969
+  },
+  {
+   "name": "midpoint_TMars_Saturn_to_natal_Jupiter",
+   "family": "Midpoints (Ebertin)",
+   "train": 0.5205,
+   "held": 0.5115,
+   "matched": 0.508
+  },
+  {
+   "name": "tropical_H8_cos_transit_Mars_natal_Mars",
+   "family": "Transit grid (tropical)",
+   "train": 0.5203,
+   "held": 0.4843,
+   "matched": 0.4853
+  },
+  {
+   "name": "sidereal_H8_cos_transit_Mars_natal_Mars",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5203,
+   "held": 0.4843,
+   "matched": 0.4853
+  },
+  {
+   "name": "tropical_H12_cos_transit_Node_natal_Jupiter",
+   "family": "Transit grid (tropical)",
+   "train": 0.5202,
+   "held": 0.4989,
+   "matched": 0.4993
+  },
+  {
+   "name": "sidereal_H12_cos_transit_Node_natal_Jupiter",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5202,
+   "held": 0.4989,
+   "matched": 0.4993
+  },
+  {
+   "name": "tropical_H10_cos_transit_Node_natal_Pluto",
+   "family": "Transit grid (tropical)",
+   "train": 0.5192,
+   "held": 0.4934,
+   "matched": 0.4936
+  },
+  {
+   "name": "sidereal_H10_cos_transit_Node_natal_Pluto",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5192,
+   "held": 0.4934,
+   "matched": 0.4936
+  },
+  {
+   "name": "midpoint_TMars_Uranus_to_NMars_Jupiter",
+   "family": "Midpoints (Ebertin)",
+   "train": 0.519,
+   "held": 0.4972,
+   "matched": 0.4984
+  },
+  {
+   "name": "sidereal_H7_cos_transit_Jupiter_natal_Uranus",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5186,
+   "held": 0.4951,
+   "matched": 0.4956
+  },
+  {
+   "name": "tropical_H7_cos_transit_Jupiter_natal_Uranus",
+   "family": "Transit grid (tropical)",
+   "train": 0.5186,
+   "held": 0.4951,
+   "matched": 0.4956
+  },
+  {
+   "name": "tropical_H2_cos_transit_Mars_natal_Jupiter",
+   "family": "Transit grid (tropical)",
+   "train": 0.5185,
+   "held": 0.4937,
+   "matched": 0.4944
+  },
+  {
+   "name": "sidereal_H2_cos_transit_Mars_natal_Jupiter",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5185,
+   "held": 0.4937,
+   "matched": 0.4944
+  },
+  {
+   "name": "sidereal_H9_cos_transit_Uranus_natal_Saturn",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5177,
+   "held": 0.4936,
+   "matched": 0.4926
+  },
+  {
+   "name": "tropical_H9_cos_transit_Uranus_natal_Saturn",
+   "family": "Transit grid (tropical)",
+   "train": 0.5177,
+   "held": 0.4936,
+   "matched": 0.4926
+  },
+  {
+   "name": "tropical_H8_cos_transit_Jupiter_natal_Neptune",
+   "family": "Transit grid (tropical)",
+   "train": 0.5176,
+   "held": 0.5047,
+   "matched": 0.5032
+  },
+  {
+   "name": "tropical_H9_cos_transit_Saturn_natal_Node",
+   "family": "Transit grid (tropical)",
+   "train": 0.5176,
+   "held": 0.5171,
+   "matched": 0.5164
+  },
+  {
+   "name": "sidereal_H9_cos_transit_Saturn_natal_Node",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5176,
+   "held": 0.5171,
+   "matched": 0.5164
+  },
+  {
+   "name": "sidereal_H8_cos_transit_Jupiter_natal_Neptune",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5176,
+   "held": 0.5047,
+   "matched": 0.5032
+  },
+  {
+   "name": "sidereal_H2_sin_transit_Mars_natal_Saturn",
+   "family": "Transit grid (sidereal)",
+   "train": 0.5172,
+   "held": 0.484,
+   "matched": 0.4843
+  },
+  {
+   "name": "tropical_H2_sin_transit_Mars_natal_Saturn",
+   "family": "Transit grid (tropical)",
+   "train": 0.5172,
+   "held": 0.484,
+   "matched": 0.4843
+  }
+ ]
+}
