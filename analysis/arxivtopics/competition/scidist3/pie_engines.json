@@ -1,0 +1,23 @@
+{
+ "walls_lam": {
+  "vedic_lon": 0.0,
+  "vedic_pairs": 0.0,
+  "vedic_rasi": 0.0,
+  "vedic_nak": 0.0,
+  "panchanga": 0.0,
+  "ziwei_life": 0.0,
+  "ziwei_all": 0.0
+ },
+ "held_out": {
+  "trend (base)": 0.0793,
+  "climatology": 0.343,
+  "vedic_lon alone": 0.2849,
+  "vedic_pairs alone": 0.3502,
+  "vedic_rasi alone": 0.3461,
+  "vedic_nak alone": 0.3474,
+  "panchanga alone": 0.3431,
+  "ziwei_life alone": 0.343,
+  "ziwei_all alone": 0.3418,
+  "trend + all wall-chosen families": 0.0793
+ }
+}

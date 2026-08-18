@@ -1,0 +1,33 @@
+{
+ "walls": {
+  "clim": 0.2836,
+  "clim10": 0.0245,
+  "clim20": 0.0449,
+  "clim30": 0.0644,
+  "trend10_0.8": 0.0101,
+  "trend20_0.9": 0.0114,
+  "trend20_0.95": 0.0121,
+  "trend30_0.9": 0.0124,
+  "skyfull_h1_l0.01": 0.1144,
+  "skyfull_h1_l0.1": 0.1974,
+  "skyfull_h2_l0.1": 0.1992,
+  "rank1_all": 0.1352,
+  "rank1_slow": 0.1276,
+  "rank1_slow_l1e-2": 0.1308,
+  "rank1_outer": 0.142
+ },
+ "best_base": "trend10_0.8",
+ "shrink": {
+  "rank1_slow": 0.0,
+  "rank1_all": 0.0,
+  "skyfull_h1": 0.0
+ },
+ "held_out": {
+  "clim (all)": 0.343,
+  "best base": 0.0793,
+  "rank1_slow alone": 0.4724,
+  "rank1_all alone": 0.5359,
+  "skyfull_h1 alone": 0.2952,
+  "THE BLEND (wall-selected)": 0.0793
+ }
+}
