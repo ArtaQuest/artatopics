@@ -1,0 +1,10 @@
+{
+ "wall": 1991,
+ "train_rows": 25896,
+ "test_rows": 8534,
+ "fields": 251,
+ "first_year": 1858,
+ "last_year": 2024,
+ "train_balance": 0.5060627123880136,
+ "test_balance": 0.5087883759081322
+}
