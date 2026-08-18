@@ -1,0 +1,7 @@
+{
+ "n": 127,
+ "auc_sky": 0.5385,
+ "auc_calendar": 0.5477,
+ "auc_sky_plus_cal": 0.5394,
+ "auc_memory": 0.559
+}
