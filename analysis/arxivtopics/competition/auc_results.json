@@ -1,0 +1,17 @@
+{
+ "western (logistic)": 0.5021,
+ "western (boosted)": 0.5098,
+ "vedic (logistic)": 0.511,
+ "vedic (boosted)": 0.5065,
+ "chinese (logistic)": 0.4937,
+ "chinese (boosted)": 0.5049,
+ "mayan (logistic)": 0.5088,
+ "mayan (boosted)": 0.5122,
+ "numerology (logistic)": 0.4982,
+ "numerology (boosted)": 0.488,
+ "all features \u00b7 logistic": 0.5066,
+ "all features \u00b7 boosted": 0.4953,
+ "all features \u00b7 blend": 0.4999,
+ "mean of the five traditions": 0.5095,
+ "THE STACK (blend + tradition mean)": 0.5024
+}

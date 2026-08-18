@@ -1,0 +1,7 @@
+{
+ "astrology_only": 0.5037,
+ "momentum_only": 0.5753,
+ "combined": 0.5537,
+ "delta": -0.0215,
+ "best": "momentum"
+}
