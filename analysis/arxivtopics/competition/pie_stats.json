@@ -1,0 +1,9 @@
+{
+ "rows": 34430,
+ "train": 27402,
+ "test": 7028,
+ "wall": 1997,
+ "public_cut": 2006,
+ "train_balance": 0.506313407780454,
+ "test_balance": 0.5083949914627205
+}
