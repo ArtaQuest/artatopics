@@ -1,0 +1,195 @@
+{
+ "n": 225,
+ "null_band": [
+  0.4879,
+  0.5131
+ ],
+ "above": 30,
+ "expected": 5.6,
+ "calendar": [
+  {
+   "feature": "CONTROL_transiting_Neptune_position",
+   "test_auc": 0.5275
+  },
+  {
+   "feature": "CONTROL_transiting_Pluto_position",
+   "test_auc": 0.5275
+  },
+  {
+   "feature": "CONTROL_transiting_Uranus_position",
+   "test_auc": 0.5165
+  },
+  {
+   "feature": "CONTROL_transiting_Saturn_position",
+   "test_auc": 0.5157
+  },
+  {
+   "feature": "CONTROL_transiting_Mars_position",
+   "test_auc": 0.509
+  },
+  {
+   "feature": "CONTROL_transiting_Jupiter_position",
+   "test_auc": 0.4898
+  },
+  {
+   "feature": "CONTROL_transiting_Lunar Node_position",
+   "test_auc": 0.4792
+  },
+  {
+   "feature": "CONTROL_year_root",
+   "test_auc": 0.4784
+  }
+ ],
+ "top": [
+  {
+   "feature": "progressed_Neptune",
+   "tradition": "Secondary progressions",
+   "test_auc": 0.5326,
+   "train_auc": 0.4955
+  },
+  {
+   "feature": "transit_Neptune_to_natal_cos",
+   "tradition": "Western transits",
+   "test_auc": 0.5322,
+   "train_auc": 0.4954
+  },
+  {
+   "feature": "sidereal_transit_Neptune",
+   "tradition": "Vedic",
+   "test_auc": 0.5322,
+   "train_auc": 0.4954
+  },
+  {
+   "feature": "nakshatra_offset_Neptune",
+   "tradition": "Vedic",
+   "test_auc": 0.5307,
+   "train_auc": 0.4946
+  },
+  {
+   "feature": "transit_Saturn_to_natal_Pluto",
+   "tradition": "Western transits",
+   "test_auc": 0.5286,
+   "train_auc": 0.501
+  },
+  {
+   "feature": "midpoint_Saturn_Pluto",
+   "tradition": "Midpoints (Ebertin)",
+   "test_auc": 0.528,
+   "train_auc": 0.5016
+  },
+  {
+   "feature": "transit_Neptune_to_natal_Pluto",
+   "tradition": "Western transits",
+   "test_auc": 0.5279,
+   "train_auc": 0.4982
+  },
+  {
+   "feature": "return_count_Mars",
+   "tradition": "Western transits",
+   "test_auc": 0.5279,
+   "train_auc": 0.5035
+  },
+  {
+   "feature": "CONTROL_transiting_Neptune_position",
+   "tradition": "CONTROL",
+   "test_auc": 0.5275,
+   "train_auc": 0.504
+  },
+  {
+   "feature": "transit_Pluto_to_natal_sin",
+   "tradition": "Western transits",
+   "test_auc": 0.5275,
+   "train_auc": 0.5016
+  },
+  {
+   "feature": "return_phase_Pluto",
+   "tradition": "Western transits",
+   "test_auc": 0.5275,
+   "train_auc": 0.504
+  },
+  {
+   "feature": "CONTROL_transiting_Pluto_position",
+   "tradition": "CONTROL",
+   "test_auc": 0.5275,
+   "train_auc": 0.5028
+  },
+  {
+   "feature": "age",
+   "tradition": "Chart mechanics",
+   "test_auc": 0.5275,
+   "train_auc": 0.504
+  },
+  {
+   "feature": "mayan_haab",
+   "tradition": "Mayan",
+   "test_auc": 0.5275,
+   "train_auc": 0.504
+  },
+  {
+   "feature": "transit_Saturn_to_natal_Neptune",
+   "tradition": "Western transits",
+   "test_auc": 0.525,
+   "train_auc": 0.5015
+  },
+  {
+   "feature": "return_count_Jupiter",
+   "tradition": "Western transits",
+   "test_auc": 0.5218,
+   "train_auc": 0.503
+  },
+  {
+   "feature": "transit_Neptune_to_natal_Saturn",
+   "tradition": "Western transits",
+   "test_auc": 0.5217,
+   "train_auc": 0.5122
+  },
+  {
+   "feature": "return_phase_Neptune",
+   "tradition": "Western transits",
+   "test_auc": 0.5215,
+   "train_auc": 0.504
+  },
+  {
+   "feature": "midpoint_Neptune_Pluto",
+   "tradition": "Midpoints (Ebertin)",
+   "test_auc": 0.5203,
+   "train_auc": 0.5075
+  },
+  {
+   "feature": "midpoint_Saturn_Neptune",
+   "tradition": "Midpoints (Ebertin)",
+   "test_auc": 0.5191,
+   "train_auc": 0.5028
+  },
+  {
+   "feature": "transit_Mars_to_natal_Pluto",
+   "tradition": "Western transits",
+   "test_auc": 0.5181,
+   "train_auc": 0.496
+  },
+  {
+   "feature": "midpoint_Uranus_Lunar Node",
+   "tradition": "Midpoints (Ebertin)",
+   "test_auc": 0.5169,
+   "train_auc": 0.5003
+  },
+  {
+   "feature": "CONTROL_transiting_Uranus_position",
+   "tradition": "CONTROL",
+   "test_auc": 0.5165,
+   "train_auc": 0.5049
+  },
+  {
+   "feature": "transit_Uranus_to_natal_Lunar Node",
+   "tradition": "Western transits",
+   "test_auc": 0.5164,
+   "train_auc": 0.5086
+  },
+  {
+   "feature": "return_count_Lunar Node",
+   "tradition": "Western transits",
+   "test_auc": 0.516,
+   "train_auc": 0.5068
+  }
+ ]
+}
