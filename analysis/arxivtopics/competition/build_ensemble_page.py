@@ -217,8 +217,10 @@ predictive power here is mostly a slow clock.</p>
 <p>This page ships the raw share matrix, the stack's parameters and the receiver's forecast. The
 button loads Python (Pyodide + numpy, ~10&nbsp;MB, from a CDN), rebuilds the trend and carry
 members from the raw shares, reassembles the stack, checks it against the exact forecast on the
-board, and re-scores it on the held-out truth. Then the sliders re-mix the ensemble live — try
-receiver&nbsp;=&nbsp;1 to see the pure-sky score, or trend&nbsp;=&nbsp;1 to reproduce the baseline.</p>
+board, and re-scores it on the held-out truth. Then the sliders re-mix the ensemble live. Note
+that the two weight sliders only re-mix the bracketed part: yesterday is still folded in by a(h),
+so receiver&nbsp;=&nbsp;1 scores about &minus;3.21 rather than the receiver's own &minus;3.58. Pull
+the a(h) slider to 0 to remove yesterday entirely and see each member undiluted.</p>
 <div class="row"><button id="run">Run the verification</button><span id="pystat" class="cap"></span></div>
 <div id="pyout">(not run yet)</div>
 <div id="mixer" style="display:none">
