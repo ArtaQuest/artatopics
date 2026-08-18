@@ -9,5 +9,25 @@
  "phasor_relaxation_57f": 0.4945,
  "phasor_refit_to_works_r001": 0.5064,
  "phasor_refit_to_works_r01": 0.5019,
- "year_alone_confound_check": 0.5
+ "year_alone_confound_check": 0.5,
+ "BAR_frozen_momentum_10y": 0.532,
+ "bar_leaky_momentum_WITHDRAWN": 0.582,
+ "astro_max_all_techniques": 0.5116,
+ "astro_max_inner_wall_1960_84": 0.5362,
+ "astro_ranker_within_year": 0.5087,
+ "field_disposition": 0.4971,
+ "astro_by_horizon": {
+  "1985-94": 0.4983,
+  "1995-04": 0.5072,
+  "2005-14": 0.5147,
+  "2015-24": 0.5269
+ },
+ "momentum_by_horizon": {
+  "1985-94": 0.5605,
+  "1995-04": 0.5193,
+  "2005-14": 0.5173,
+  "2015-24": 0.531
+ },
+ "blend_25pct_astro": 0.5331,
+ "verdict": "astrology does not beat the honest momentum bar; 0.5331 blend is within noise of 0.5320"
 }
