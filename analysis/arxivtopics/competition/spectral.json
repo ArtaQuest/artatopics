@@ -1,0 +1,114 @@
+{
+ "fields": 244,
+ "baseline": 1.165,
+ "planetary": {
+  "Jupiter": {
+   "period": 11.86,
+   "testable": true,
+   "fields": 244,
+   "excess": 1.253,
+   "vs_baseline": 0.088
+  },
+  "Jupiter-Neptune synodic": {
+   "period": 12.78,
+   "testable": true,
+   "fields": 244,
+   "excess": 1.376,
+   "vs_baseline": 0.212
+  },
+  "Jupiter-Uranus synodic": {
+   "period": 13.81,
+   "testable": true,
+   "fields": 244,
+   "excess": 1.248,
+   "vs_baseline": 0.084
+  },
+  "Lunar node": {
+   "period": 18.61,
+   "testable": true,
+   "fields": 244,
+   "excess": 0.969,
+   "vs_baseline": -0.196
+  },
+  "Jupiter-Saturn synodic (great conjunction)": {
+   "period": 19.86,
+   "testable": true,
+   "fields": 244,
+   "excess": 0.966,
+   "vs_baseline": -0.198
+  },
+  "Saturn": {
+   "period": 29.46,
+   "testable": true,
+   "fields": 244,
+   "excess": 1.035,
+   "vs_baseline": -0.129
+  },
+  "Saturn-Neptune synodic": {
+   "period": 35.87,
+   "testable": true,
+   "fields": 244,
+   "excess": 1.036,
+   "vs_baseline": -0.129
+  },
+  "Saturn-Uranus synodic": {
+   "period": 45.36,
+   "testable": true,
+   "fields": 240,
+   "excess": 0.854,
+   "vs_baseline": -0.31
+  },
+  "Uranus": {
+   "period": 84.02,
+   "testable": false
+  },
+  "Neptune": {
+   "period": 164.8,
+   "testable": false
+  },
+  "Uranus-Neptune synodic": {
+   "period": 171.4,
+   "testable": false
+  },
+  "Pluto": {
+   "period": 248.1,
+   "testable": false
+  }
+ },
+ "planetary_mean": 1.092,
+ "p_value": 0.8556,
+ "top": [
+  {
+   "period": 4.0,
+   "excess": 1.638
+  },
+  {
+   "period": 8.01,
+   "excess": 1.606
+  },
+  {
+   "period": 7.9,
+   "excess": 1.597
+  },
+  {
+   "period": 5.04,
+   "excess": 1.582
+  },
+  {
+   "period": 8.12,
+   "excess": 1.576
+  },
+  {
+   "period": 5.11,
+   "excess": 1.558
+  },
+  {
+   "period": 4.97,
+   "excess": 1.539
+  },
+  {
+   "period": 8.23,
+   "excess": 1.527
+  }
+ ]
+}
