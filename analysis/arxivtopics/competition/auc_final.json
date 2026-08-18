@@ -3,5 +3,11 @@
  "momentum_only": 0.5753,
  "combined": 0.5537,
  "delta": -0.0215,
- "best": "momentum"
+ "best": "momentum",
+ "phasor_deployed": 0.5111,
+ "phasor_exact": 0.5107,
+ "phasor_relaxation_57f": 0.4945,
+ "phasor_refit_to_works_r001": 0.5064,
+ "phasor_refit_to_works_r01": 0.5019,
+ "year_alone_confound_check": 0.5
 }
