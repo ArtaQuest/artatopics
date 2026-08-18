@@ -1,0 +1,111 @@
+{
+ "uniform pie": {
+  "ce": 5.5255,
+  "kl": 0.7361,
+  "rho": NaN,
+  "top10": 0.006
+ },
+ "train-mean pie (climatology)": {
+  "ce": 5.1324,
+  "kl": 0.343,
+  "rho": 0.8099,
+  "top10": 0.394
+ },
+ "carry-forward (HAS MEMORY)": {
+  "ce": 4.8715,
+  "kl": 0.0821,
+  "rho": 0.9458,
+  "top10": 0.621
+ },
+ "sky softmax (harmonics 1, ridge 0.0001)": {
+  "ce": 5.6453,
+  "kl": 0.8559,
+  "rho": 0.8511,
+  "top10": 0.444,
+  "train_ce": 4.4018
+ },
+ "sky softmax (harmonics 1, ridge 0.001)": {
+  "ce": 5.3352,
+  "kl": 0.5458,
+  "rho": 0.8565,
+  "top10": 0.485,
+  "train_ce": 4.4087
+ },
+ "sky softmax (harmonics 1, ridge 0.01)": {
+  "ce": 5.0893,
+  "kl": 0.2999,
+  "rho": 0.837,
+  "top10": 0.476,
+  "train_ce": 4.4439
+ },
+ "sky softmax (harmonics 1, ridge 0.1)": {
+  "ce": 5.0845,
+  "kl": 0.2952,
+  "rho": 0.8168,
+  "top10": 0.485,
+  "train_ce": 4.5266
+ },
+ "sky softmax (harmonics 2, ridge 0.0001)": {
+  "ce": 5.4764,
+  "kl": 0.6871,
+  "rho": 0.8457,
+  "top10": 0.438,
+  "train_ce": 4.3985
+ },
+ "sky softmax (harmonics 2, ridge 0.001)": {
+  "ce": 5.2704,
+  "kl": 0.481,
+  "rho": 0.8484,
+  "top10": 0.474,
+  "train_ce": 4.4047
+ },
+ "sky softmax (harmonics 2, ridge 0.01)": {
+  "ce": 5.0923,
+  "kl": 0.3029,
+  "rho": 0.8319,
+  "top10": 0.476,
+  "train_ce": 4.4373
+ },
+ "sky softmax (harmonics 2, ridge 0.1)": {
+  "ce": 5.0893,
+  "kl": 0.2999,
+  "rho": 0.8158,
+  "top10": 0.456,
+  "train_ce": 4.5192
+ },
+ "sky softmax (harmonics 3, ridge 0.0001)": {
+  "ce": 5.3499,
+  "kl": 0.5605,
+  "rho": 0.8476,
+  "top10": 0.441,
+  "train_ce": 4.3937
+ },
+ "sky softmax (harmonics 3, ridge 0.001)": {
+  "ce": 5.2012,
+  "kl": 0.4118,
+  "rho": 0.8477,
+  "top10": 0.456,
+  "train_ce": 4.3994
+ },
+ "sky softmax (harmonics 3, ridge 0.01)": {
+  "ce": 5.0872,
+  "kl": 0.2978,
+  "rho": 0.8315,
+  "top10": 0.476,
+  "train_ce": 4.4308
+ },
+ "sky softmax (harmonics 3, ridge 0.1)": {
+  "ce": 5.0907,
+  "kl": 0.3014,
+  "rho": 0.8158,
+  "top10": 0.471,
+  "train_ce": 4.5141
+ },
+ "_selected_by_train": {
+  "model": "sky softmax (harmonics 3, ridge 0.0001)",
+  "train_ce": 4.3937,
+  "test_ce": 5.3499,
+  "climatology_test_ce": 5.1324,
+  "sky_gain_nats": -0.2175
+ }
+}
