@@ -1,0 +1,42 @@
+{
+ "auc_artamodel": 0.4964,
+ "auc_calendar": 0.5477,
+ "auc_memory": 0.5605,
+ "auc_temporal_half": 0.5037,
+ "null": 0.4962,
+ "mean_stages": 5.43,
+ "top_picks": [
+  [
+   "sep_moon_mars",
+   29
+  ],
+  [
+   "sep_moon_true_node",
+   25
+  ],
+  [
+   "sep_venus_mars",
+   25
+  ],
+  [
+   "sep_mars_jupiter",
+   25
+  ],
+  [
+   "sep_mercury_true_node",
+   25
+  ],
+  [
+   "t_true_node",
+   24
+  ],
+  [
+   "sep_sun_mercury",
+   24
+  ],
+  [
+   "sep_saturn_true_node",
+   23
+  ]
+ ]
+}

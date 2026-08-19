@@ -1,0 +1,4771 @@
+[
+ {
+  "category": "astro-ph.CO",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6344
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6384
+   },
+   {
+    "stage": 3,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6458
+   },
+   {
+    "stage": 4,
+    "phasor": "t_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6612
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.667
+   },
+   {
+    "stage": 6,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6777
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6808
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6816
+   }
+  ]
+ },
+ {
+  "category": "astro-ph.EP",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5859
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6055
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.613
+   },
+   {
+    "stage": 4,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6338
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6369
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.5,
+    "inner_auc": 0.638
+   }
+  ]
+ },
+ {
+  "category": "astro-ph.GA",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6422
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6689
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.671
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6728
+   }
+  ]
+ },
+ {
+  "category": "astro-ph.HE",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6461
+   },
+   {
+    "stage": 2,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6728
+   }
+  ]
+ },
+ {
+  "category": "astro-ph.IM",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6585
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6682
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6736
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.6885
+   },
+   {
+    "stage": 5,
+    "phasor": "t_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6987
+   },
+   {
+    "stage": 6,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.7031
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.7052
+   }
+  ]
+ },
+ {
+  "category": "astro-ph.SR",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5555
+   },
+   {
+    "stage": 2,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5693
+   }
+  ]
+ },
+ {
+  "category": "cond-mat.dis-nn",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5732
+   },
+   {
+    "stage": 2,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.582
+   },
+   {
+    "stage": 3,
+    "phasor": "t_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5892
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5937
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6015
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6049
+   },
+   {
+    "stage": 7,
+    "phasor": "t_saturn",
+    "alpha": 1.0,
+    "inner_auc": 0.6057
+   },
+   {
+    "stage": 8,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6061
+   }
+  ]
+ },
+ {
+  "category": "cond-mat.mes-hall",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5384
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5458
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5589
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5644
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5692
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5693
+   }
+  ]
+ },
+ {
+  "category": "cond-mat.mtrl-sci",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.5583
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.5857
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6012
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6111
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6145
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6182
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6243
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6279
+   }
+  ]
+ },
+ {
+  "category": "cond-mat.quant-gas",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5671
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.5784
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5944
+   },
+   {
+    "stage": 4,
+    "phasor": "t_moon",
+    "alpha": 0.5,
+    "inner_auc": 0.5977
+   },
+   {
+    "stage": 5,
+    "phasor": "t_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.5996
+   }
+  ]
+ },
+ {
+  "category": "cond-mat.soft",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5868
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6133
+   },
+   {
+    "stage": 3,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6202
+   },
+   {
+    "stage": 4,
+    "phasor": "t_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6279
+   }
+  ]
+ },
+ {
+  "category": "cond-mat.stat-mech",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5635
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5895
+   },
+   {
+    "stage": 3,
+    "phasor": "t_sun",
+    "alpha": 1.0,
+    "inner_auc": 0.605
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.6152
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6185
+   },
+   {
+    "stage": 6,
+    "phasor": "t_mercury",
+    "alpha": 1.0,
+    "inner_auc": 0.6218
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6236
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.626
+   }
+  ]
+ },
+ {
+  "category": "cond-mat.str-el",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5525
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5563
+   }
+  ]
+ },
+ {
+  "category": "cond-mat.supr-con",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5497
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.566
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.5756
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5877
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6088
+   },
+   {
+    "stage": 6,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6196
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.5,
+    "inner_auc": 0.623
+   }
+  ]
+ },
+ {
+  "category": "cs.AI",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.593
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5962
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6023
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.5,
+    "inner_auc": 0.6074
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.6207
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.6285
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6333
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6369
+   }
+  ]
+ },
+ {
+  "category": "cs.AR",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.6573
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6619
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6651
+   }
+  ]
+ },
+ {
+  "category": "cs.CC",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5942
+   }
+  ]
+ },
+ {
+  "category": "cs.CE",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6078
+   },
+   {
+    "stage": 2,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6329
+   }
+  ]
+ },
+ {
+  "category": "cs.CG",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5462
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_moon",
+    "alpha": 1.0,
+    "inner_auc": 0.5635
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.572
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5829
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5836
+   },
+   {
+    "stage": 6,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.585
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5854
+   }
+  ]
+ },
+ {
+  "category": "cs.CL",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5872
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6462
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6589
+   }
+  ]
+ },
+ {
+  "category": "cs.CR",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5573
+   }
+  ]
+ },
+ {
+  "category": "cs.CV",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6291
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6742
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6809
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6878
+   },
+   {
+    "stage": 5,
+    "phasor": "t_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6903
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6934
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6954
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6991
+   }
+  ]
+ },
+ {
+  "category": "cs.CY",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.622
+   },
+   {
+    "stage": 2,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6562
+   },
+   {
+    "stage": 3,
+    "phasor": "t_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6786
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6943
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6961
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6985
+   }
+  ]
+ },
+ {
+  "category": "cs.DB",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6145
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6293
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_mars",
+    "alpha": 1.0,
+    "inner_auc": 0.6439
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6529
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6586
+   },
+   {
+    "stage": 6,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6592
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6597
+   }
+  ]
+ },
+ {
+  "category": "cs.DC",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5806
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5961
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6044
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6102
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6173
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6197
+   }
+  ]
+ },
+ {
+  "category": "cs.DL",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.6029
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6323
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6372
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6456
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6473
+   }
+  ]
+ },
+ {
+  "category": "cs.DM",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6064
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6149
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6227
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.63
+   }
+  ]
+ },
+ {
+  "category": "cs.DS",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5958
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6153
+   },
+   {
+    "stage": 3,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6301
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6476
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6546
+   },
+   {
+    "stage": 6,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6592
+   }
+  ]
+ },
+ {
+  "category": "cs.ET",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6401
+   },
+   {
+    "stage": 2,
+    "phasor": "t_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6902
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.7041
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.7083
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.7089
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.7106
+   }
+  ]
+ },
+ {
+  "category": "cs.FL",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.604
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 1.0,
+    "inner_auc": 0.6086
+   },
+   {
+    "stage": 3,
+    "phasor": "t_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.6142
+   },
+   {
+    "stage": 4,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6163
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6172
+   },
+   {
+    "stage": 6,
+    "phasor": "t_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6176
+   }
+  ]
+ },
+ {
+  "category": "cs.GR",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5893
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.5,
+    "inner_auc": 0.6032
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6177
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6189
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6198
+   }
+  ]
+ },
+ {
+  "category": "cs.GT",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6293
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6416
+   },
+   {
+    "stage": 3,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6645
+   }
+  ]
+ },
+ {
+  "category": "cs.HC",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5909
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6508
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.675
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.678
+   }
+  ]
+ },
+ {
+  "category": "cs.IR",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5912
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6049
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6107
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.627
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6318
+   }
+  ]
+ },
+ {
+  "category": "cs.IT",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5973
+   },
+   {
+    "stage": 2,
+    "phasor": "t_moon",
+    "alpha": 1.0,
+    "inner_auc": 0.6208
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6293
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6367
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6514
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6543
+   },
+   {
+    "stage": 7,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6564
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6596
+   }
+  ]
+ },
+ {
+  "category": "cs.LG",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6065
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6313
+   },
+   {
+    "stage": 3,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6428
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6453
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6485
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_sun_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6487
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6491
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6515
+   }
+  ]
+ },
+ {
+  "category": "cs.LO",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5793
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5986
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6091
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6122
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6148
+   },
+   {
+    "stage": 6,
+    "phasor": "t_sun",
+    "alpha": 1.0,
+    "inner_auc": 0.6163
+   },
+   {
+    "stage": 7,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6168
+   },
+   {
+    "stage": 8,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6173
+   }
+  ]
+ },
+ {
+  "category": "cs.MA",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6104
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6446
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6735
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6847
+   },
+   {
+    "stage": 5,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6908
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.7046
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.7081
+   },
+   {
+    "stage": 8,
+    "phasor": "t_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.7087
+   }
+  ]
+ },
+ {
+  "category": "cs.MM",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.588
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5962
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.5966
+   },
+   {
+    "stage": 4,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.597
+   },
+   {
+    "stage": 5,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5984
+   }
+  ]
+ },
+ {
+  "category": "cs.NE",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5772
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6076
+   },
+   {
+    "stage": 3,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.6323
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6523
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6566
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.6823
+   }
+  ]
+ },
+ {
+  "category": "cs.NI",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5872
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5978
+   },
+   {
+    "stage": 3,
+    "phasor": "t_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.6072
+   },
+   {
+    "stage": 4,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6142
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mercury_mars",
+    "alpha": 1.0,
+    "inner_auc": 0.6217
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6307
+   },
+   {
+    "stage": 7,
+    "phasor": "t_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6332
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6347
+   }
+  ]
+ },
+ {
+  "category": "cs.PL",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5703
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5896
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.599
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6078
+   },
+   {
+    "stage": 5,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.6125
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6164
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6197
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6205
+   }
+  ]
+ },
+ {
+  "category": "cs.RO",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5711
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.5972
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5992
+   }
+  ]
+ },
+ {
+  "category": "cs.SD",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6058
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6209
+   },
+   {
+    "stage": 3,
+    "phasor": "t_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6356
+   }
+  ]
+ },
+ {
+  "category": "cs.SE",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5904
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6278
+   }
+  ]
+ },
+ {
+  "category": "cs.SI",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5609
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5735
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 1.0,
+    "inner_auc": 0.589
+   },
+   {
+    "stage": 4,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.5984
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6085
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6133
+   },
+   {
+    "stage": 7,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6177
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.6283
+   }
+  ]
+ },
+ {
+  "category": "econ.EM",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6137
+   },
+   {
+    "stage": 2,
+    "phasor": "t_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6526
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6569
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6577
+   },
+   {
+    "stage": 5,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6584
+   }
+  ]
+ },
+ {
+  "category": "econ.GN",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6066
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.6215
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6255
+   }
+  ]
+ },
+ {
+  "category": "econ.TH",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.683
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.7112
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.7473
+   },
+   {
+    "stage": 4,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.7558
+   }
+  ]
+ },
+ {
+  "category": "eess.AS",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6312
+   }
+  ]
+ },
+ {
+  "category": "eess.IV",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.5667
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5869
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.6039
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6381
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6547
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.6645
+   }
+  ]
+ },
+ {
+  "category": "eess.SP",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6363
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6369
+   },
+   {
+    "stage": 3,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6567
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6722
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6759
+   }
+  ]
+ },
+ {
+  "category": "eess.SY",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6008
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6178
+   },
+   {
+    "stage": 3,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6198
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6369
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6467
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6558
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6787
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6879
+   }
+  ]
+ },
+ {
+  "category": "gr-qc",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5603
+   },
+   {
+    "stage": 2,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5657
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5685
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5744
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5758
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5782
+   }
+  ]
+ },
+ {
+  "category": "hep-ex",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6139
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6248
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6321
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6417
+   },
+   {
+    "stage": 5,
+    "phasor": "t_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6502
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6523
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6542
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6549
+   }
+  ]
+ },
+ {
+  "category": "hep-lat",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.6519
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.7431
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.7475
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.752
+   },
+   {
+    "stage": 5,
+    "phasor": "t_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.7551
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.757
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.7577
+   },
+   {
+    "stage": 8,
+    "phasor": "t_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.759
+   }
+  ]
+ },
+ {
+  "category": "hep-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5677
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5722
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5739
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5853
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5872
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5879
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_sun_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5883
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5934
+   }
+  ]
+ },
+ {
+  "category": "hep-th",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5603
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5692
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5838
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5973
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6056
+   }
+  ]
+ },
+ {
+  "category": "math-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6079
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_mercury",
+    "alpha": 1.0,
+    "inner_auc": 0.6429
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.647
+   }
+  ]
+ },
+ {
+  "category": "math.AC",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.583
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5839
+   }
+  ]
+ },
+ {
+  "category": "math.AG",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5568
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5736
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.5892
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5947
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5982
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6009
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6054
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6076
+   }
+  ]
+ },
+ {
+  "category": "math.AP",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5799
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_saturn",
+    "alpha": 1.0,
+    "inner_auc": 0.6072
+   },
+   {
+    "stage": 3,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6168
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6205
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6268
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6353
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6391
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6416
+   }
+  ]
+ },
+ {
+  "category": "math.AT",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5588
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5752
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5859
+   },
+   {
+    "stage": 4,
+    "phasor": "t_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5899
+   }
+  ]
+ },
+ {
+  "category": "math.CA",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5771
+   },
+   {
+    "stage": 2,
+    "phasor": "t_mercury",
+    "alpha": 0.5,
+    "inner_auc": 0.5977
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.616
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6241
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6264
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6278
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6283
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6289
+   }
+  ]
+ },
+ {
+  "category": "math.CO",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6454
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6539
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6581
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6585
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6617
+   },
+   {
+    "stage": 6,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6628
+   },
+   {
+    "stage": 7,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6639
+   }
+  ]
+ },
+ {
+  "category": "math.CT",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5689
+   },
+   {
+    "stage": 2,
+    "phasor": "t_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5777
+   },
+   {
+    "stage": 3,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.5783
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.5799
+   }
+  ]
+ },
+ {
+  "category": "math.CV",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5766
+   }
+  ]
+ },
+ {
+  "category": "math.DG",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.563
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5698
+   },
+   {
+    "stage": 3,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5743
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6071
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6105
+   },
+   {
+    "stage": 6,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6125
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6154
+   }
+  ]
+ },
+ {
+  "category": "math.DS",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5446
+   },
+   {
+    "stage": 2,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5624
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5719
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5756
+   }
+  ]
+ },
+ {
+  "category": "math.FA",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5721
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.5993
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.6109
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6207
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6225
+   }
+  ]
+ },
+ {
+  "category": "math.GM",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5605
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5696
+   },
+   {
+    "stage": 3,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5743
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5935
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6039
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6053
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6064
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6072
+   }
+  ]
+ },
+ {
+  "category": "math.GN",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5472
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5661
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5789
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5971
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6011
+   }
+  ]
+ },
+ {
+  "category": "math.GR",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5644
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.5823
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5979
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.605
+   },
+   {
+    "stage": 5,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6074
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6128
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6134
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6156
+   }
+  ]
+ },
+ {
+  "category": "math.GT",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5325
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.5611
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.5644
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.566
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5687
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_sun_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5717
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 1.0,
+    "inner_auc": 0.5749
+   },
+   {
+    "stage": 8,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5754
+   }
+  ]
+ },
+ {
+  "category": "math.HO",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5831
+   },
+   {
+    "stage": 2,
+    "phasor": "t_sun",
+    "alpha": 1.0,
+    "inner_auc": 0.5915
+   },
+   {
+    "stage": 3,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5922
+   }
+  ]
+ },
+ {
+  "category": "math.KT",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5994
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6021
+   },
+   {
+    "stage": 3,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6158
+   },
+   {
+    "stage": 4,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6219
+   }
+  ]
+ },
+ {
+  "category": "math.LO",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5935
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6267
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6407
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6461
+   }
+  ]
+ },
+ {
+  "category": "math.MG",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5691
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5973
+   },
+   {
+    "stage": 3,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.616
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6249
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6267
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6322
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6342
+   },
+   {
+    "stage": 8,
+    "phasor": "t_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6377
+   }
+  ]
+ },
+ {
+  "category": "math.NA",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5799
+   },
+   {
+    "stage": 2,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6036
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6139
+   },
+   {
+    "stage": 4,
+    "phasor": "t_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.629
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.636
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6393
+   },
+   {
+    "stage": 7,
+    "phasor": "t_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6434
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6452
+   }
+  ]
+ },
+ {
+  "category": "math.NT",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5463
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5596
+   },
+   {
+    "stage": 3,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5687
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5699
+   },
+   {
+    "stage": 5,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5718
+   }
+  ]
+ },
+ {
+  "category": "math.OA",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5557
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5697
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5755
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5858
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5978
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6002
+   },
+   {
+    "stage": 7,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6033
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.605
+   }
+  ]
+ },
+ {
+  "category": "math.OC",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5852
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5929
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5997
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6123
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6241
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.633
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.6509
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6562
+   }
+  ]
+ },
+ {
+  "category": "math.PR",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.561
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.5661
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5681
+   },
+   {
+    "stage": 4,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5701
+   },
+   {
+    "stage": 5,
+    "phasor": "t_mercury",
+    "alpha": 0.5,
+    "inner_auc": 0.5723
+   },
+   {
+    "stage": 6,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.5799
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5815
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5853
+   }
+  ]
+ },
+ {
+  "category": "math.QA",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5447
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5465
+   },
+   {
+    "stage": 3,
+    "phasor": "t_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.5528
+   }
+  ]
+ },
+ {
+  "category": "math.RA",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5492
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5557
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5696
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.5788
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5842
+   },
+   {
+    "stage": 6,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5898
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_moon_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.5919
+   },
+   {
+    "stage": 8,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5924
+   }
+  ]
+ },
+ {
+  "category": "math.RT",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5553
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_venus",
+    "alpha": 1.0,
+    "inner_auc": 0.5784
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.5871
+   },
+   {
+    "stage": 4,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5901
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5967
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5981
+   }
+  ]
+ },
+ {
+  "category": "math.SG",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5891
+   },
+   {
+    "stage": 2,
+    "phasor": "t_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.6261
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6354
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6428
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6438
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6445
+   }
+  ]
+ },
+ {
+  "category": "math.SP",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6074
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6503
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6551
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6556
+   }
+  ]
+ },
+ {
+  "category": "math.ST",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5381
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.5447
+   },
+   {
+    "stage": 3,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5506
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5531
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5585
+   }
+  ]
+ },
+ {
+  "category": "nlin.AO",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5802
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5858
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6008
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6081
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6131
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6165
+   },
+   {
+    "stage": 7,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6172
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6197
+   }
+  ]
+ },
+ {
+  "category": "nlin.CD",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5501
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5687
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5762
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5849
+   }
+  ]
+ },
+ {
+  "category": "nlin.PS",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5545
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.5692
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5721
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5765
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mars_saturn",
+    "alpha": 1.0,
+    "inner_auc": 0.5798
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5827
+   }
+  ]
+ },
+ {
+  "category": "nlin.SI",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5369
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.551
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5636
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5671
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5713
+   },
+   {
+    "stage": 6,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5773
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5817
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5857
+   }
+  ]
+ },
+ {
+  "category": "nucl-ex",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5626
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_saturn",
+    "alpha": 1.0,
+    "inner_auc": 0.5863
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6031
+   },
+   {
+    "stage": 4,
+    "phasor": "t_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6101
+   },
+   {
+    "stage": 5,
+    "phasor": "t_moon",
+    "alpha": 0.5,
+    "inner_auc": 0.6151
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6181
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6187
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6196
+   }
+  ]
+ },
+ {
+  "category": "nucl-th",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.6416
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6554
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 1.0,
+    "inner_auc": 0.6679
+   },
+   {
+    "stage": 4,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6702
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6718
+   },
+   {
+    "stage": 6,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6735
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6741
+   },
+   {
+    "stage": 8,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.675
+   }
+  ]
+ },
+ {
+  "category": "physics.acc-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5827
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6591
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6707
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6802
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6905
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.692
+   }
+  ]
+ },
+ {
+  "category": "physics.ao-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5491
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5548
+   },
+   {
+    "stage": 3,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5665
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5808
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5885
+   }
+  ]
+ },
+ {
+  "category": "physics.app-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6768
+   }
+  ]
+ },
+ {
+  "category": "physics.atom-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5351
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5458
+   },
+   {
+    "stage": 3,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5567
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5574
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5593
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5607
+   }
+  ]
+ },
+ {
+  "category": "physics.bio-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5731
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5779
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.5788
+   }
+  ]
+ },
+ {
+  "category": "physics.chem-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5567
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5711
+   }
+  ]
+ },
+ {
+  "category": "physics.class-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5666
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_mercury",
+    "alpha": 1.0,
+    "inner_auc": 0.5933
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6007
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6011
+   },
+   {
+    "stage": 5,
+    "phasor": "t_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6016
+   }
+  ]
+ },
+ {
+  "category": "physics.comp-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5805
+   }
+  ]
+ },
+ {
+  "category": "physics.data-an",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5459
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5657
+   }
+  ]
+ },
+ {
+  "category": "physics.ed-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6037
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6299
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.659
+   },
+   {
+    "stage": 4,
+    "phasor": "t_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6663
+   },
+   {
+    "stage": 5,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.67
+   }
+  ]
+ },
+ {
+  "category": "physics.flu-dyn",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5642
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5649
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5762
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5873
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5888
+   }
+  ]
+ },
+ {
+  "category": "physics.gen-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6082
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6143
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.617
+   }
+  ]
+ },
+ {
+  "category": "physics.geo-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5986
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6197
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6459
+   },
+   {
+    "stage": 4,
+    "phasor": "t_moon",
+    "alpha": 0.5,
+    "inner_auc": 0.6487
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6544
+   }
+  ]
+ },
+ {
+  "category": "physics.hist-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5783
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6019
+   },
+   {
+    "stage": 3,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6244
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mars_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6334
+   },
+   {
+    "stage": 5,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6359
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6362
+   },
+   {
+    "stage": 7,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6364
+   }
+  ]
+ },
+ {
+  "category": "physics.ins-det",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.589
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_mars",
+    "alpha": 1.0,
+    "inner_auc": 0.6001
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6063
+   },
+   {
+    "stage": 4,
+    "phasor": "t_saturn",
+    "alpha": 1.0,
+    "inner_auc": 0.6088
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6093
+   }
+  ]
+ },
+ {
+  "category": "physics.med-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5642
+   },
+   {
+    "stage": 2,
+    "phasor": "t_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.5687
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.5,
+    "inner_auc": 0.5755
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5824
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5869
+   },
+   {
+    "stage": 6,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5903
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_saturn_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.5919
+   },
+   {
+    "stage": 8,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5965
+   }
+  ]
+ },
+ {
+  "category": "physics.optics",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5446
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5626
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_mars",
+    "alpha": 1.0,
+    "inner_auc": 0.5745
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5836
+   },
+   {
+    "stage": 5,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5891
+   },
+   {
+    "stage": 6,
+    "phasor": "t_mercury",
+    "alpha": 0.5,
+    "inner_auc": 0.5985
+   },
+   {
+    "stage": 7,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5996
+   }
+  ]
+ },
+ {
+  "category": "physics.plasm-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5814
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6085
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6173
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.624
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6267
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6315
+   },
+   {
+    "stage": 7,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6333
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6352
+   }
+  ]
+ },
+ {
+  "category": "physics.soc-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5858
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5994
+   },
+   {
+    "stage": 3,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6074
+   },
+   {
+    "stage": 4,
+    "phasor": "t_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6132
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6164
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6174
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 1.0,
+    "inner_auc": 0.6196
+   }
+  ]
+ },
+ {
+  "category": "physics.space-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5548
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5618
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mercury_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5769
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5803
+   },
+   {
+    "stage": 5,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.591
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mercury_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5947
+   },
+   {
+    "stage": 7,
+    "phasor": "t_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5991
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6061
+   }
+  ]
+ },
+ {
+  "category": "q-bio.BM",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5576
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5729
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5843
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.5,
+    "inner_auc": 0.5927
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5964
+   }
+  ]
+ },
+ {
+  "category": "q-bio.GN",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6475
+   },
+   {
+    "stage": 2,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.6983
+   }
+  ]
+ },
+ {
+  "category": "q-bio.MN",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_sun_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6205
+   },
+   {
+    "stage": 2,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6449
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6495
+   }
+  ]
+ },
+ {
+  "category": "q-bio.NC",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5872
+   },
+   {
+    "stage": 2,
+    "phasor": "t_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6205
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_mars_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6291
+   },
+   {
+    "stage": 4,
+    "phasor": "t_mercury",
+    "alpha": 0.5,
+    "inner_auc": 0.6388
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.6464
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6548
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_sun_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.657
+   },
+   {
+    "stage": 8,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6627
+   }
+  ]
+ },
+ {
+  "category": "q-bio.PE",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.588
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.623
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.6435
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.5,
+    "inner_auc": 0.6593
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6651
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mars_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6746
+   },
+   {
+    "stage": 7,
+    "phasor": "t_mars",
+    "alpha": 0.5,
+    "inner_auc": 0.6823
+   },
+   {
+    "stage": 8,
+    "phasor": "t_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6877
+   }
+  ]
+ },
+ {
+  "category": "q-bio.QM",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.5843
+   }
+  ]
+ },
+ {
+  "category": "q-fin.ST",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5633
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_moon_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5765
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5858
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6032
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.6126
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_jupiter_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6196
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_sun_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6258
+   },
+   {
+    "stage": 8,
+    "phasor": "sep_sun_moon",
+    "alpha": 0.25,
+    "inner_auc": 0.6268
+   }
+  ]
+ },
+ {
+  "category": "quant-ph",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_venus_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5758
+   },
+   {
+    "stage": 2,
+    "phasor": "t_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.6021
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_sun_true_node",
+    "alpha": 0.5,
+    "inner_auc": 0.6169
+   }
+  ]
+ },
+ {
+  "category": "stat.AP",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_venus",
+    "alpha": 0.25,
+    "inner_auc": 0.5722
+   }
+  ]
+ },
+ {
+  "category": "stat.CO",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5742
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_venus_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5959
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_mars",
+    "alpha": 0.25,
+    "inner_auc": 0.5979
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6052
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_venus_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6155
+   },
+   {
+    "stage": 6,
+    "phasor": "sep_mercury_true_node",
+    "alpha": 1.0,
+    "inner_auc": 0.6231
+   },
+   {
+    "stage": 7,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.6249
+   }
+  ]
+ },
+ {
+  "category": "stat.ME",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "sep_mercury_jupiter",
+    "alpha": 0.25,
+    "inner_auc": 0.5501
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_sun_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5658
+   },
+   {
+    "stage": 3,
+    "phasor": "sep_moon_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.5759
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_mercury",
+    "alpha": 0.25,
+    "inner_auc": 0.5834
+   },
+   {
+    "stage": 5,
+    "phasor": "sep_jupiter_saturn",
+    "alpha": 0.25,
+    "inner_auc": 0.5861
+   }
+  ]
+ },
+ {
+  "category": "stat.ML",
+  "stages": [
+   {
+    "stage": 1,
+    "phasor": "t_sun",
+    "alpha": 0.25,
+    "inner_auc": 0.6085
+   },
+   {
+    "stage": 2,
+    "phasor": "sep_mars_jupiter",
+    "alpha": 1.0,
+    "inner_auc": 0.6275
+   },
+   {
+    "stage": 3,
+    "phasor": "t_true_node",
+    "alpha": 0.25,
+    "inner_auc": 0.6281
+   },
+   {
+    "stage": 4,
+    "phasor": "sep_moon_saturn",
+    "alpha": 0.5,
+    "inner_auc": 0.6291
+   }
+  ]
+ }
+]
