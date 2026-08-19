@@ -202,6 +202,15 @@ damped trend scores −2.04; every single-family GPU model loses to the baseline
 the era-shift finding behind it, and a lab that rebuilds the winner in your browser (Pyodide):
 <a href="ensemble.html"><b>the ensemble stack →</b></a></p>
 
+<h2>6 · The exact phasor, solved analytically, on the daily record</h2>
+<p>The model above, |b + Σaᵢe<sup>i(θᵢ−pᵢ)</sup>|², solved in closed form for b, aᵢ, pᵢ from the sky
+alone (kerykeion sidereal, cross-checked against three engines) and tested day by day on every
+arXiv submission since 1991: peak-detection AUC 0.49–0.50 across 127 categories, infeasible in 78%
+unregularised, and under L2 the inner walls shrink the arrows to nothing in 118 of 127. On the yearly
+share task the exact form scores −8.25 where the record's √-linear approximation scores −3.58 — the
+approximation was carrying it. A lab runs the closed-form solve in your browser:
+<a href="phasor.html"><b>the exact phasor →</b></a></p>
+
 <footer>No causal claims. Code MIT · data CC0 (OpenAlex) ·
 <a href="https://github.com/ArtaQuest/artatopics">source</a></footer>
 </main></body></html>"""

@@ -43,12 +43,20 @@ def basis(TH):
         for k in range(i+1, B): d = TH[:,i]-TH[:,k]; C += [np.cos(d), np.sin(d)]
     return np.stack(C, 1)
 
-def solve_phasor(TH, y, w=None, ridge=0.0):
-    """Analytic solution of y = |b + Σ aᵢ e^{i(θᵢ−pᵢ)}|² for b, aᵢ, pᵢ. Returns params + diagnostics."""
+def solve_phasor(TH, y, w=None, ridge=0.0, TH_anchor=None, anchor_level=None, anchor_w=0.0):
+    """Analytic solution of y = |b + Σ aᵢ e^{i(θᵢ−pᵢ)}|² for b, aᵢ, pᵢ. Returns params + diagnostics.
+
+    Optional HORIZON ANCHOR (the campaign's, +0.17 on the shares task): extra rows Φ(θ over the
+    forecast horizon) whose target is the recent level, weighted anchor_w — still one closed-form
+    least-squares solve. It holds the forecast near where the series IS, so the arrows carry
+    modulation and not a runaway level."""
     T, B = TH.shape; Phi = basis(TH)
     W = np.ones(T) if w is None else np.asarray(w, float)
     R = np.eye(Phi.shape[1]); R[0,0] = 0.0
-    c = np.linalg.solve(Phi.T @ (Phi*W[:,None]) + ridge*R + 1e-12*np.eye(Phi.shape[1]), Phi.T @ (W*y))
+    A = Phi.T @ (Phi*W[:,None]); rhs = Phi.T @ (W*y)
+    if TH_anchor is not None and anchor_w > 0:
+        Pa = basis(TH_anchor); A = A + anchor_w * (Pa.T @ Pa); rhs = rhs + anchor_w * Pa.sum(0) * anchor_level
+    c = np.linalg.solve(A + ridge*R + 1e-12*np.eye(Phi.shape[1]), rhs)
     c0 = c[0]; alpha = c[1:1+2*B:2]; beta = c[2:2+2*B:2]
     p = np.arctan2(beta, alpha)                          # exact phases
     M = np.sqrt(alpha**2 + beta**2)                      # = 2 b aᵢ
